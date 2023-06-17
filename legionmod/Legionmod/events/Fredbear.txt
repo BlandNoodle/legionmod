@@ -1,0 +1,98 @@
+country_event = {
+	id = 19000087
+	title = "EVTNAME19000087"
+	desc = "EVTDESC19000087"
+	picture = "fredbear"
+	
+	
+	trigger = {
+		civilised = yes
+		is_independent = yes
+		year = 1887
+		NOT = {
+			has_country_flag = fredbear
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 800
+		
+		modifier = {
+			factor = 0.95
+			tag = FRA
+		}
+		modifier = {
+			factor = 0.5
+			average_militancy = 4
+		}
+		modifier = {
+			factor = 0.75
+			average_militancy = 5
+		}
+	}
+		
+		option = {
+			name = "EVTOPTA19000087"
+			add_country_modifier = {
+				name = fredbear
+				duration = 480
+			}
+			set_country_flag = fredbear
+		}
+	
+}
+
+
+country_event = {
+	id = 19000093
+	title = "EVTNAME19000093"
+	desc = "EVTDESC19000093"
+	picture = "cats"
+	
+	
+	trigger = {
+		civilised = yes
+		is_independent = yes
+		year = 1836
+		ai = no
+		NOT = {
+			has_country_flag = chosen
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+		
+	}
+		
+		option = {
+			name = "EVTOPTA19000093"
+			set_country_flag = chosen
+			define_general = {
+				name = Son-Goku
+				personality = goku
+				background = supersaiyan
+			}
+			prestige = 6
+			years_of_research = 0.5
+		}
+		
+		option = {
+			name = "EVTOPTB19000093"
+				define_general = {
+					name = Prince-Vegeta
+					personality = vegeta
+					background = supersaiyan
+				}
+			prestige = 5
+			any_pop = {
+				dominant_issue = {
+					value = jingoism
+					factor = 0.15
+				}
+				
+			}
+			set_country_flag = chosen
+		}
+	}
+}
