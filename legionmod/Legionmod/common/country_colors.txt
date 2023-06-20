@@ -1,5 +1,12 @@
 # Country unit colors.
 
+# Peru-Bolivia
+PBV = {
+    color1= { 255, 0, 30  }
+    color2= { 255 255 255  }
+    color3= { 193 26 14  }
+}
+
 # Sweden
 SWE = {
     color1= { 62 122 189  }
@@ -531,7 +538,7 @@ SIC = {
     color3= { 131 101 85  }
 }
 
-# Siebenbürgen
+# SiebenbÃ¼rgen
 SIE = {
     color1= { 75 111 205  }
     color2= { 124 140 162  }
