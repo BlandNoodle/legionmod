@@ -76,17 +76,17 @@ integrate_bul_title;Integrate Bulgaria;;;;x
 integrate_bul_desc;With the cultural and political centers of Bulgaria dominated, we can declare hegemony over the Bulgars!;;;;;;x
 integrate_greek_title;Integrate Greece;;;;x
 integrate_greek_desc;Greece! Greece! Greece! Greece!;;;;;;x
-CHI_99907;MEOW;;;;;x
-CHI_99906;MEOWAGAIN;;;;;x
-CHI_99905;MEOWTHRICE;;;;;x
-CHI_99904;MEOWQUAD;;;;x
-CHI_99903;MEOWPENTA;;;;;x
-CHI_99902;MEOWSEX;;;;;x
-CHI_99901;MEOWSEPTA;;;;;;x
-CHI_99900;MEOWOCTAL;;;;;x
-SPA_517;MAOI;;;;;;x
-BRZ_2540;EMOAI;;;;x
-FRA_1097;LEMEOW;;;;;;x
+CHI_99907;Port Arthur;;;;;x
+CHI_99906;Qingdao;;;;;x
+CHI_99905;Shanghai;;;;;x
+CHI_99904;Ningbo;;;;x
+CHI_99903;Fuzhou;;;;;x
+CHI_99902;Hong Kong;;;;;x
+CHI_99901;Macau;;;;;;x
+CHI_99900;Guangdong;;;;;x
+SPA_517;The Rock;;;;;;x
+BRZ_2540;Hi Josh;;;;x
+FRA_1097;LeMeow;;;;;;x
 reelin_in_the_spuds_title;Reeling in the Spuds;;;;x
 reelin_in_the_spuds_desc;Never meet your heroes, cause they usually are bastards from southern Ireland. Spudguns from Scotland though, so he lives for now.;;;;x
 southaf_title;Cockwhip the Boers;;;;x
@@ -196,3 +196,13 @@ mayan_miner;Mayan Miners;;;;;x
 mayan_miner_desc;DIGGY DIGGY HOLE;;;;x
 pay_government_title;Pay the Shadow Government;;;;x
 pay_government_desc;They dont do it for free;;;;x
+need_more_trade;Need More;;;;;x
+need_more_trade_desc;Get some more colonies on your dick;;;;x
+need_even_more_trade;Need Even More;;;;x
+need_even_more_desc;Just a little more colonies bro, just one more i promise;;;;x
+century_humiliate;Century of Humiliation;;;;x
+century_humiliate_desc;It never even began. . .;;;;x
+EVTDESC19000098;The barbarian outsiders have laid waste to our mighty armies, and ruined our once rich ports.;;;;x
+EVTNAME19000099;Defeat of the Qing;;;;;x
+EVTDESC19000099;Despite the efforts of the Canton ministers and the emperor himself, the Qing were unable prevent free trade from spreading to the Heavenly Mandate. The peoples of Britain may now freely buy tea and silk as they wish.;;;;;;x
+EVTOPTA19000099;Talley-ho!;;;;;x

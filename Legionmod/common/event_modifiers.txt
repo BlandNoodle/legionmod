@@ -886,7 +886,7 @@ opium_market_lar = {
 
 free_china_trade = {
 	icon = 6
-	import_cost = -0.15
+	import_cost = -0.1
 	prestige = 0.001
 }
 
@@ -894,6 +894,13 @@ large_opium = {
 	icon = 9
 	tariff_efficiency_modifier = 0.1
 	max_tariff = -0.2
+}
+
+century_humiliate = {
+	icon = 8
+	prestige = -0.02
+	org_regain = -0.25
+	ruling_party_support = -0.2
 }
 
 #### FRA - France ####

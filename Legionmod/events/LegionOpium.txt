@@ -225,3 +225,84 @@ country_event = {
 		}
     }
 }
+
+country_event = {
+    id = 19000098
+    title = "Century of Humiliation"
+    desc = "EVTDESC19000098"
+
+	trigger = {
+		tag = CHI
+		AND = {
+			year = 1839
+			war = no
+			has_recently_lost_war = yes
+			NOT = { owns = 1496 }
+		}
+		NOT =  {has_global_flag = the_century}
+	}
+	
+	major = yes
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+    option = {
+	name = "We Stand Defeated"
+	ai_chance = { factor = 1 }
+	set_global_flag = the_century
+	add_country_modifier = {
+		name = century_humiliate
+		duration = -1
+	}
+	ENG = {
+		country_event = { id=19000099 days=30 }
+		}
+	1496 = { 
+		remove_core = CHI 
+		add_core = ENG
+		}
+    }
+}
+
+country_event = {
+    id = 19000099
+    title = "EVTNAME19000099"
+    desc = "EVTDESC19000099"
+	picture = "qing_defeat"
+
+	is_triggered_only = yes
+
+    option = {
+	name = "EVTOPTA19000099"
+	ai_chance = { factor = 1 }
+	
+		remove_country_modifier = med_opium
+		remove_country_modifier = mild_china_trade
+		add_country_modifier = { name = large_opium duration = -1 }
+		add_country_modifier = { name = free_china_trade duration = -1 }
+			1251 = {
+				remove_province_modifier = opium_market_med
+				add_province_modifier = {
+				name = opium_market_lar
+				duration = -1
+				}
+			}
+			1253 = {
+				remove_province_modifier = opium_market_med
+				add_province_modifier = {
+				name = opium_market_lar
+				duration = -1
+				}
+			}
+			1256 = {
+				remove_province_modifier = opium_market_med
+				add_province_modifier = {
+				name = opium_market_lar
+				duration = -1
+				}
+			}
+    }
+}
