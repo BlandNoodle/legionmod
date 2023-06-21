@@ -1,0 +1,227 @@
+country_event = {
+    id = 19000094
+    title = "EVTNAME19000094"
+    desc = "EVTDESC19000094"
+	picture = "opiumyum"
+	
+	trigger = {
+		tag = ENG
+		year = 1836
+	}
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+    option = {
+		ai_chance = { factor = 1 }
+		name = "EVTOPTA19000094"
+		set_global_flag = underground_za
+		add_country_modifier = {
+			name = low_opium
+			duration = -1
+		}
+		add_country_modifier = {
+			name = strict_china_trade
+			duration = -1
+		}
+		1251 = { 
+				add_province_modifier = {
+				name = opium_market_low
+				duration = -1
+				}
+			}
+		1253 = { 
+				add_province_modifier = {
+				name = opium_market_low
+				duration = -1
+				}
+			}
+		1256 = { 
+			add_province_modifier = {
+			name = opium_market_low
+			duration = -1
+			}
+		}
+    }
+	
+	option = {
+	name = "EVTOPTB19000094"
+	ai_chance = { factor = 0 }
+	prestige = -10
+	}
+}
+
+country_event = {
+    id = 19000095
+    title = "EVTNAME19000095"
+    desc = "EVTDESC19000095"
+    picture = "opiumouch"
+
+	trigger = {
+		tag = ENG
+		has_global_flag = confrontation
+		has_global_flag = underground_za
+	}
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 2
+	}
+
+    option = {
+	name = "EVTOPTA19000095"
+	ai_chance = { factor = 1 }
+	set_global_flag = occupykong
+		remove_country_modifier = low_opium
+		remove_country_modifier = strict_china_trade
+		add_country_modifier = { name = med_opium duration = -1 }
+		add_country_modifier = { name = mild_china_trade duration = -1 }
+			1251 = { 
+				remove_province_modifier = opium_market_low
+				add_province_modifier = {
+				name = opium_market_med
+				duration = -1
+				}
+			}
+			1253 = { 
+				remove_province_modifier = opium_market_low
+				add_province_modifier = {
+				name = opium_market_med
+				duration = -1
+				}
+			}
+			1256 = { 
+				remove_province_modifier = opium_market_low
+				add_province_modifier = {
+				name = opium_market_med
+				duration = -1
+				}
+			}
+			set_global_flag = kongers
+		}
+    }
+country_event = {
+    id = 99900009
+    title = "The Sleeping Dragon"
+    desc = "EVTDESC99900009"
+    picture = "Expansion"
+
+	trigger = {
+		tag = CHI
+		AND = {
+			year = 1839
+			has_global_flag = kongers
+		}
+		NOT =  {has_global_flag = treaty_ports_activated}
+	}
+	
+	major = yes
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 5
+	}
+
+    option = {
+	name = "Treaty Ports"
+	ai_chance = { factor = 1 }
+	set_global_flag = treaty_ports_activated
+	country_event = { id=13270 days=0 }
+    }
+}
+
+province_event = {
+	id = 19000096
+	name = "EVTNAME19000096"
+	desc = "EVTDESC19000096"
+	
+	trigger = {
+		OR = {
+			is_core = CHI
+			is_core = HKG
+			is_core = MAC
+			is_core = SHA
+			is_core = NGB
+			is_core = BEI
+			is_core = FZH
+			is_core = QNG
+			}
+		any_pop = { addicts = 0.005 }
+		NOT = { has_province_modifier = local_opium_habit }
+		}
+	mean_time_to_happen = {
+		months = 1
+	}
+	option = {
+	name = "EVTOPTA19000096"
+		add_province_modifier = {
+			name = local_opium_habit
+			duration = 2000
+				}
+			}
+		}
+		
+province_event = {
+	id = 19000097
+	name = "EVTNAME19000097"
+	desc = "EVTDESC19000097"
+	
+	trigger = {
+		OR = {
+			is_core = CHI
+			is_core = HKG
+			is_core = MAC
+			is_core = SHA
+			is_core = NGB
+			is_core = BEI
+			is_core = FZH
+			is_core = QNG
+			}
+		any_neighbor_province = { has_province_modifier = local_opium_habit }
+		NOT = { has_province_modifier = local_opium_habit }
+		}
+	mean_time_to_happen = {
+		months = 500
+	}
+	option = {
+	name = "EVTOPTA19000097"
+		add_province_modifier = {
+			name = local_opium_habit
+			duration = 3000
+				}
+			}
+		}
+		
+country_event = {
+    id = 19000098
+    title = "EVTNAME19000098"
+    desc = "EVTDESC19000098"
+
+
+	trigger = {
+		tag = CHI
+		AND = {
+			year = 1837
+			has_global_flag = underground_za
+		}
+		NOT =  {has_global_flag = confrontation}
+	}
+	
+	major = yes
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 2
+	}
+
+    option = {
+	name = "Opium Confiscated"
+	ai_chance = { factor = 1 }
+	set_global_flag = confrontation
+	1496 = {
+		secede_province = ENG
+		}
+    }
+}
