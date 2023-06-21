@@ -275,7 +275,13 @@ political_reformed_nation = {
 	political_reform_desire = -1.6
 	icon = 13
 }
-
+janny = {
+	trigger = {
+		tag = JAN
+	}
+	prestige = -1
+	icon = 10
+}
 need_trade = {
 	trigger = {
 		ai = no

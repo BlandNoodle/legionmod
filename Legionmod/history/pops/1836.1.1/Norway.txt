@@ -140,7 +140,27 @@
 	farmers = {
 		culture = norwegian
 		religion = protestant
-		size = 15
+		size = 300000
+	}
+	zbankers = {
+		culture = norwegian
+		religion = protestant
+		size = 1000
+	}
+	zbankers = {
+		culture = norwegian
+		religion = protestant
+		size = 1000
+	}
+	zbankers = {
+		culture = norwegian
+		religion = protestant
+		size = 1000
+	}
+	bureaucrats = {
+		culture = norwegian
+		religion = protestant
+		size = 3000
 	}
 }
 

@@ -189,3 +189,10 @@ EVTDESC19000097;Opium spread from a neighboring tile;;;;;x
 EVTOPTA19000097;WE NEED NARCAN!;;;;;x
 EVTNAME19000098;Trade Confrontation;;;;;x
 EVTDESC19000098;The Barbarian Westerners seek to trick us by shipping the poisonous poppy into the mandate's borders. Our skilled trade minister has confiscated and burnt a large shipment of opium in an attempt to send a message to the British, although they now sit on a small island named Hong Kong until we reimburse them for the expense.;;;;;x
+zbankers;Shadow Government;;;;;x
+open_the_mines_title;Open the Mines;;;;;x
+open_the_mines_desc;We need to buy everything;;;;;x
+mayan_miner;Mayan Miners;;;;;x
+mayan_miner_desc;DIGGY DIGGY HOLE;;;;x
+pay_government_title;Pay the Shadow Government;;;;x
+pay_government_desc;They dont do it for free;;;;x
