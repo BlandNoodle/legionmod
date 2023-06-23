@@ -1,0 +1,76 @@
+political_decisions = {
+	lm_accept_croats_slovenes_ita = {
+		picture = croatia
+		news = yes
+		
+		potential = {
+			tag = ITA
+			NOT = { have_country_flag = croats_slovenes_accepted }
+		}
+		
+		allow = {
+			war = no
+			owns = 781
+			owns = 736
+			owns = 729
+			state_n_government = 1
+		}
+		
+		effect = {
+			set_country_flag = croats_slovenes_accepted
+			prestige = 5
+			add_accepted_culture = croatian
+			add_accepted_culture = slovenian
+			add_core = 774
+			add_core = 773
+			add_core = 768
+		}
+	}
+	
+	lm_accept_albanians_ita = {
+		picture = albania
+		news = yes
+		
+		potential = {
+			tag = ITA
+			NOT = { have_country_flag = albanian_accepted }
+		}
+		
+		allow = {
+			war = no
+			owns = 851
+			nationalism_n_imperialism = 1
+			prestige = 50
+		}
+		
+		effect = {
+			set_country_flag = albanian_accepted
+			ALB = { all_core = { add_core = THIS } }
+			prestige = -20
+			add_accepted_culture = albanian
+		}
+	}
+	
+	lm_accept_catalonian_ita = {
+		picture = catalonia
+		news = yes
+		
+		potential = {
+			tag = ITA
+			NOT = { have_country_flag = catalan_accepted }
+		}
+		
+		allow = {
+			war = no
+			owns = 498
+			nationalism_n_imperialism = 1
+		}
+		
+		effect = {
+			set_country_flag = catalan_accepted
+			CAT = { all_core = { add_core = THIS } }
+			prestige = 5
+			add_accepted_culture = catalan
+		}
+	}
+}
