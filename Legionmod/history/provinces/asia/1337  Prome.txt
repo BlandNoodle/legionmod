@@ -7,3 +7,5 @@ life_rating = 30
 	owner = ENG
 	controller = ENG
 }
+
+add_core = HND

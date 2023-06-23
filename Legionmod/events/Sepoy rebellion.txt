@@ -15,12 +15,13 @@ country_event = {
 		tag = ENG
 		breech_loaded_rifles = 1
 		any_owned_province = { is_core = HND }
+		NOT = { has_global_flag = sepoy_rebellion }
 	}
 	
 	fire_only_once = yes
 
 	mean_time_to_happen = {
-		months = 60
+		months = 5000
 	}
 
 	option = {

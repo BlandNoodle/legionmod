@@ -314,15 +314,22 @@ country_event = {
 	picture = "Expansion"
 	
 	trigger = {
+	OR = {
+		is_greater_power = yes
+		is_secondary_power = yes
+	}
 	NOT = { has_country_modifier = african_colony }
-	ai = no
-	any_owned_province = {
-		continent = africa
+	any_owned = {
+		limit = {
+			OR = {
+				trade_goods = rubber
+				trade_goods = precious_metal
+			}
 		}
 	}
 	
 	mean_time_to_happen = {
-		months = 2
+		months = 1
 	}
 	
 	effect = {
@@ -341,11 +348,19 @@ country_event = {
 	desc = "EVTDESC19000101"
 	
 	trigger = {
+	OR = {
+		is_greater_power = yes
+		is_secondary_power = yes
+	}
 	has_country_modifier = african_colony
-	ai = no
 	NOT = {
-		any_owned_province = {
-			continent = africa
+		any_owned = {
+		limit = {
+			OR = {
+				trade_goods = rubber
+				trade_goods = precious_metal
+					}
+				}
 			}
 		}
 	}
