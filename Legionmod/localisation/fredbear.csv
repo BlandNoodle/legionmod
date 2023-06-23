@@ -76,17 +76,17 @@ integrate_bul_title;Integrate Bulgaria;;;;x
 integrate_bul_desc;With the cultural and political centers of Bulgaria dominated, we can declare hegemony over the Bulgars!;;;;;;x
 integrate_greek_title;Integrate Greece;;;;x
 integrate_greek_desc;Greece! Greece! Greece! Greece!;;;;;;x
-CHI_99907;MEOW;;;;;x
-CHI_99906;MEOWAGAIN;;;;;x
-CHI_99905;MEOWTHRICE;;;;;x
-CHI_99904;MEOWQUAD;;;;x
-CHI_99903;MEOWPENTA;;;;;x
-CHI_99902;MEOWSEX;;;;;x
-CHI_99901;MEOWSEPTA;;;;;;x
-CHI_99900;MEOWOCTAL;;;;;x
-SPA_517;MAOI;;;;;;x
-BRZ_2540;EMOAI;;;;x
-FRA_1097;LEMEOW;;;;;;x
+CHI_99907;Port Arthur;;;;;x
+CHI_99906;Qingdao;;;;;x
+CHI_99905;Shanghai;;;;;x
+CHI_99904;Ningbo;;;;x
+CHI_99903;Fuzhou;;;;;x
+CHI_99902;Hong Kong;;;;;x
+CHI_99901;Macau;;;;;;x
+CHI_99900;Guangdong;;;;;x
+SPA_517;The Rock;;;;;;x
+BRZ_2540;Hi Josh;;;;x
+FRA_1097;LeMeow;;;;;;x
 reelin_in_the_spuds_title;Reeling in the Spuds;;;;x
 reelin_in_the_spuds_desc;Never meet your heroes, cause they usually are bastards from southern Ireland. Spudguns from Scotland though, so he lives for now.;;;;x
 southaf_title;Cockwhip the Boers;;;;x
@@ -189,8 +189,6 @@ EVTDESC19000097;Opium spread from a neighboring tile;;;;;x
 EVTOPTA19000097;WE NEED NARCAN!;;;;;x
 EVTNAME19000098;Trade Confrontation;;;;;x
 EVTDESC19000098;The Barbarian Westerners seek to trick us by shipping the poisonous poppy into the mandate's borders. Our skilled trade minister has confiscated and burnt a large shipment of opium in an attempt to send a message to the British, although they now sit on a small island named Hong Kong until we reimburse them for the expense.;;;;;x
-<<<<<<< Updated upstream
-=======
 zbankers;Shadow Government;;;;;x
 open_the_mines_title;Open the Mines;;;;;x
 open_the_mines_desc;We need to buy everything;;;;;x
@@ -232,4 +230,3 @@ treaty_port_macau;Macau;;;;;x
 treaty_port_macau_desc;We own Macau;;;;;x
 treaty_port_nanning;Nanning;;;;x
 treaty_port_nanning_desc;We own Nanning;;;;x
->>>>>>> Stashed changes

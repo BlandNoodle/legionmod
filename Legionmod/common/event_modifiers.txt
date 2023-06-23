@@ -893,7 +893,7 @@ opium_market_lar = {
 
 free_china_trade = {
 	icon = 6
-	import_cost = -0.15
+	import_cost = -0.1
 	prestige = 0.001
 }
 
@@ -903,8 +903,6 @@ large_opium = {
 	max_tariff = -0.2
 }
 
-<<<<<<< Updated upstream
-=======
 century_humiliate = {
 	icon = 8
 	prestige = -0.02
@@ -918,7 +916,6 @@ african_colony = {
 	import_cost = -0.05
 }
 
->>>>>>> Stashed changes
 #### FRA - France ####
 the_french_foreign_legion = {	
 	prestige = 0.01
@@ -1234,6 +1231,27 @@ fredbear = {
 	education_efficiency_modifier = 3.00
 	soldiers = 0.12
 	tax_efficiency = 2.0
+}
+
+mayan_miner = {
+	mine_rgo_eff = 8
+	mine_rgo_size = 5
+	icon = 11
+}
+
+atacama_boom = {
+	mine_rgo_eff = 2
+	population_growth = 0.015
+	life_rating = 0.2
+	icon = 11
+}
+
+bolivian_port_of_the_new_world = {
+	life_rating = 0.25
+	immigrant_attract = 1
+	local_repair = 0.5
+	local_ship_build = -0.5
+	icon = 15
 }
 
 ##### RGO Spread Events (modified to become national modifiers) #####

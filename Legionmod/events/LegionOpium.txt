@@ -224,8 +224,6 @@ country_event = {
 		secede_province = ENG
 		}
     }
-<<<<<<< Updated upstream
-=======
 }
 
 country_event = {
@@ -360,5 +358,4 @@ country_event = {
 		remove_country_modifier = { african_colony }
 		prestige = -5
 	}
->>>>>>> Stashed changes
 }

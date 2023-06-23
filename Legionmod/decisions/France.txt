@@ -481,6 +481,7 @@ trash = {
 				tag = BOL
 				tag = SAU
 				tag = SPA
+				tag = PBV
 			}
 			NOT = { has_country_flag = haiintegrate }
 		}
@@ -514,6 +515,7 @@ ybarra = {
 				tag = BOL
 				tag = SAU
 				tag = SPA
+				tag = PBV
 			}
 			NOT = { has_country_flag = mexintegrate }
 			}

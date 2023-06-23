@@ -276,10 +276,23 @@ political_reformed_nation = {
 	political_reform_desire = -1.6
 	icon = 13
 }
-
+janny = {
+	trigger = {
+		tag = JAN
+	}
+	prestige = -1
+	icon = 10
+}
 need_trade = {
 	trigger = {
 		ai = no
+		NOT = {
+			tag = AUS
+			tag = KUK
+			tag = TUR
+			tag = SPA
+			year = 1845
+		}
 		OR = {
 			is_greater_power = yes
 			is_secondary_power = yes
@@ -287,9 +300,52 @@ need_trade = {
 		}
 		icon = 10
 		max_tariff = -0.25
-		tariff_efficiency_modifier = -0.1
+		tariff_efficiency_modifier = -0.15
 	}
 	
+need_more_trade = {
+	trigger = {
+		ai = no
+		year = 1845
+		NOT = {
+			tag = AUS
+			tag = KUK
+			tag = TUR
+			tag = SPA
+			year = 1855
+		}
+		OR = {
+			is_greater_power = yes
+			is_secondary_power = yes
+			}
+		}
+		icon = 10
+		max_tariff = -0.15
+		tariff_efficiency_modifier = -0.25
+	}
+	
+need_even_more_trade = {
+	trigger = {
+		year = 1855
+		ai = no
+		NOT = {
+			tag = AUS
+			tag = KUK
+			tag = TUR
+			tag = SPA
+			year = 1870
+		}
+		OR = {
+			is_greater_power = yes
+			is_secondary_power = yes
+			}
+		}
+		icon = 10
+		max_tariff = -0.1
+		tariff_efficiency_modifier = -0.35
+	}
+	
+
 bread_basket = {
     trigger = {
         958 = { #Kyiv

@@ -116,6 +116,7 @@ integrate_poles = {
 			tag = SGF
 			tag = RUS
 			tag = KUK
+			tag = GER
 		}
 		NOT = { has_country_flag = pintegrate }
 	}
