@@ -307,6 +307,7 @@ integrate_nitaly = {
 			tag = FRA
 			tag = SPA
 		}
+		NOT = { year = 1870 }
 		NOT = { has_country_flag = nintegrate }
 	}
 	allow = {
@@ -533,7 +534,34 @@ integrate_bul = {
 			set_country_flag = bintegrate
 		}
 	}
-
+integrate_central_america = {
+		picture = claim_central_america
+		
+		potential = {
+			OR = {
+				tag = SPA
+				tag = IBE
+				tag = PBV
+				tag = FRA
+				tag = ENG
+			}
+			NOT = {
+				has_country_flag = caintegrate
+			}
+		}
+		
+		allow = {
+			state_n_government = 1
+			is_greater_power = 1
+			UCA = { all_core = { owned_by = THIS } }
+		}
+		
+		effect = {
+			add_accepted_culture = central_american
+			UCA = { all_core = { add_core = THIS } }
+			set_country_flag = caintegrate
+		}
+	}
 
 }
 
