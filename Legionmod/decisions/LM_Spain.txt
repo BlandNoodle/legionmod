@@ -1,7 +1,6 @@
 political_decisions = {
 	lm_ten_year_siesta = {
 		picture = siesta
-		news = yes
 		
 		potential = {
 			OR = {
@@ -28,7 +27,6 @@ political_decisions = {
 	
 	lm_all_the_kings_men_spa = {
 		picture = kings_men
-		news = yes
 		
 		potential = {
 			OR = {
@@ -58,7 +56,6 @@ political_decisions = {
 	
 	lm_buy_gibraltar = {
 		picture = gibraltar
-		news = yes
 		
 		potential = {
 			OR = {
@@ -96,7 +93,6 @@ political_decisions = {
 	
 	lm_core_spain_colonies = {
 		picture = cuba
-		news = yes
 		
 		potential = {
 			tag = IBE
@@ -124,7 +120,6 @@ political_decisions = {
 	
 	lm_core_morocco_spa = {
 		picture = morocco
-		news = yes
 		
 		potential = {
 			tag = IBE
