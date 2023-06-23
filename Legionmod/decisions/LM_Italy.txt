@@ -1,7 +1,6 @@
 political_decisions = {
 	lm_accept_croats_slovenes_ita = {
 		picture = croatia
-		news = yes
 		
 		potential = {
 			tag = ITA
@@ -29,7 +28,6 @@ political_decisions = {
 	
 	lm_accept_albanians_ita = {
 		picture = albania
-		news = yes
 		
 		potential = {
 			tag = ITA
@@ -53,7 +51,6 @@ political_decisions = {
 	
 	lm_accept_catalonian_ita = {
 		picture = catalonia
-		news = yes
 		
 		potential = {
 			tag = ITA
