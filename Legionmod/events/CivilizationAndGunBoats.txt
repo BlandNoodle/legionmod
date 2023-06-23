@@ -1490,8 +1490,9 @@ country_event = {
 				target = ENG
 				attacker_goal = { casus_belli = acquire_core_state state_province_id = 1496 }
 				defender_goal = { casus_belli = humiliate }
+				call_ally = yes
 				}
-			call_ally = yes
+			
 			}
 		}
 

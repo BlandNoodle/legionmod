@@ -65,6 +65,7 @@ political_decisions = {
 			}
 		}	
 		allow = {
+			market_structure = 1
 			war = no
 			GER = {
 				all_core = {
@@ -171,6 +172,8 @@ political_decisions = {
 		news_desc_medium = "form_germany_NEWS_MEDIUM"
 		news_desc_short = "form_germany_NEWS_SHORT"
 		potential = {
+			has_country_flag = ems_dispatch_sent
+			state_n_government = 1
 			is_culture_group = germanic
 			NOT = {
 				exists = GER

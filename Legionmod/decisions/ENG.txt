@@ -54,12 +54,7 @@ political_decisions = {
 		diplomatic_influence = {
 			who = HND
 			value = 300    }
-			any_state = {
-				limit = {
-					is_core = HND
-				}
-				secede_province = HND
-			}
+			release = PAN
 			HND = {	
 			inherit = NAG
 			inherit = ORI
@@ -80,6 +75,7 @@ political_decisions = {
 			inherit = MYS
 			inherit = TRA
 			inherit = KUT
+			inherit = PAN
 			government = absolute_monarchy
 				}
 			prestige = 20
@@ -265,7 +261,7 @@ southaf = {
 		
 		effect = {
 			set_country_flag = safintegrate
-			any_state = {
+			any_owned_province = {
 				is_core = SAF
 				any_owned = {
 					add_core = ENG
@@ -286,7 +282,7 @@ southaf = {
 			money = 1000000
 			}
 		effect = {
-			any_state = {
+			any_owned_province = {
 				is_core = IRE
 				any_owned = {
 					add_core = ENG

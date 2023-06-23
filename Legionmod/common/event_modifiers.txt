@@ -65,6 +65,13 @@ treaty_port_beijing = {
 	icon = 9
 }
 
+theraj = {
+	icon = 1
+	pop_militancy_modifier = -0.1
+	pop_consciousness_modifier = 0.05
+	local_ruling_party_support = 0.2
+}
+	
 #### RUSSIAN MANIFESTO ON UNSHAKABLE AUTOCRACY ####
 unshakable_autocracy = {
 	suppression_points_modifier = 0.8
@@ -896,6 +903,22 @@ large_opium = {
 	max_tariff = -0.2
 }
 
+<<<<<<< Updated upstream
+=======
+century_humiliate = {
+	icon = 8
+	prestige = -0.02
+	org_regain = -0.25
+	ruling_party_support = -0.2
+}
+
+african_colony = {
+	icon = 9
+	tariff_efficiency_modifier = 0.05
+	import_cost = -0.05
+}
+
+>>>>>>> Stashed changes
 #### FRA - France ####
 the_french_foreign_legion = {	
 	prestige = 0.01

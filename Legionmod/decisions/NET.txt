@@ -23,10 +23,7 @@ political_decisions = {
 				ideological_thought = 1
 			}		
 		}
-		effect = {		376 = { add_province_modifier = {
-					name = Rebuild_our_Fleet
-					duration = -1
-			}		}
+		effect = {		
 			set_country_flag = benelux_formed
 			add_country_modifier = {
 				name = treaty_of_london
