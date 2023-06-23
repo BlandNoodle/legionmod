@@ -50,10 +50,6 @@ political_decisions = {
 		}
 		
 		effect = {	
-			376 = { add_province_modifier = {
-					name = Rebuild_our_Fleet
-					duration = -1
-			}		}
 			add_country_modifier = {
 				name = academic_confusion
 				duration = 1825

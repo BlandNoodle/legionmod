@@ -1,0 +1,430 @@
+country_event = {
+
+	id = 19000102 # Sepoy Rebellion warning
+
+	title = "EVTNAME19000102"
+	desc = "EVTDESC19000102"
+
+	trigger = {
+		tag = ENG
+		OR = {
+			breech_loaded_rifles = 1
+			year = 1855
+		}
+		is_our_vassal = HND
+	}
+	
+	major = yes
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 30
+	}
+
+	option = {
+		name = "EVTOPTA19000102"
+		set_country_flag = sepoy_rebellion
+		HND = { country_event = {id = 19000103 days = 30} }
+		set_global_flag = preparing
+	}
+}
+
+country_event = {
+	id = 19000103
+	name = "EVTNAME19000103"
+	desc = "EVTDESC19000103"
+	picture = "gurkha"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000103"
+		release = SEP
+		war = {
+				target = SEP
+				attacker_goal = { casus_belli = annex_core_country }
+				defender_goal = { casus_belli = status_quo }
+				call_ally = yes
+				}
+		SEP = { country_event = { id = 19000104 days = 0 }
+			}
+		remove_global_flag = preparing
+		}
+	}
+	
+country_event = {
+	id = 19000104
+	name = "EVTNAME19000104"
+	desc = "EVTDESC19000104"
+	picture = "gurkha"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000104"
+		define_general = {
+			name = Mangel-Pandey
+			personality = defence_2.1
+			background = attack_2.1
+		}
+		define_general = {
+			name = Amongus
+			personality = defence_3.1
+			background = attack_3.1
+		}
+		define_general = {
+			name = The-Shah
+			personality = defence_2.1
+			background = attack_4.1
+		}
+		define_general = {
+			name = The-Shogun
+			personality = defence_1.1
+			background = attack_5.1
+		}
+		define_general = {
+			name = Herr-Mayo
+			personality = defence_3.1
+			background = attack_1.1
+		}
+		define_general = {
+			name = Herr-Sadchovy
+			personality = defence_4.1
+			background = attack_2.1
+		}
+		1236 = {
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = hussar
+				value = current
+			}
+			sub_unit = {
+				type = artillery
+				value = current
+			}
+			sub_unit = {
+				type = artillery
+				value = current
+			}
+			fort = 4
+		}
+		1240 = {
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = hussar
+				value = current
+			}
+			sub_unit = {
+				type = artillery
+				value = current
+			}
+			sub_unit = {
+				type = artillery
+				value = current
+			}
+			fort = 4
+		}
+		1244 = {
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = hussar
+				value = current
+			}
+			sub_unit = {
+				type = artillery
+				value = current
+			}
+			sub_unit = {
+				type = artillery
+				value = current
+			}
+			fort = 4
+		}
+		1243 = {
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = hussar
+				value = current
+			}
+			sub_unit = {
+				type = artillery
+				value = current
+			}
+			sub_unit = {
+				type = artillery
+				value = current
+			}
+			fort = 4
+		}
+		1250 = {
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = hussar
+				value = current
+			}
+			sub_unit = {
+				type = artillery
+				value = current
+			}
+			sub_unit = {
+				type = artillery
+				value = current
+			}
+			fort = 4
+		}
+		1264 = {
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = hussar
+				value = current
+			}
+			sub_unit = {
+				type = artillery
+				value = current
+			}
+			sub_unit = {
+				type = artillery
+				value = current
+			}
+			fort = 4
+		}
+	}
+}
+
+country_event = {
+	id = 19000105
+	title = "EVTNAME19000105"
+	desc = "EVTDESC19000105"
+	
+	trigger = {
+		tag = HND
+		war_with = SEP
+		any_owned_province = {
+			AND = {
+				controlled_by = SEP
+				province_control_days = 15
+				NOT = { is_core = SEP }
+				}
+			}
+		}
+	mean_time_to_happen = {
+		months = 1
+	}
+	option = {
+		name = "EVTOPTA19000105"
+		any_owned_province = {
+			limit = {
+				controlled_by = SEP
+				province_control_days = 15
+			}
+			secede_province = SEP
+			add_core = SEP
+			}
+		}
+	}
+	
+country_event = {
+	id = 19000106
+	name = "EVTNAME19000106"
+	desc = "EVTDESC19000106"
+	major = yes
+	
+	trigger = {
+		war = no
+		tag = ENG
+		NOT = { exists = SEP }
+		has_country_flag = sepoy_rebellion
+		NOT = { has_global_flag = preparing }
+		exists = HND
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	option = {
+		name = "EVTOPTA19000106"
+		inherit = HND
+		any_owned_province = {
+			limit = {
+				is_core = SEP
+			}
+			any_owned = {
+				remove_core = SEP
+			}
+		}
+		any_owned_province = {
+			limit = {
+				is_core = HND
+				is_colonial = yes
+			}
+			any_owned = {
+				add_province_modifier = {
+					name = theraj
+					duration = -1
+				}
+			}
+		}
+	}
+}
+	

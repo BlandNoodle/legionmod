@@ -2234,7 +2234,9 @@ conquest_low = {
 		# this = { NOT = { badboy = 1 } }
 		NOT = {	total_pops = 601000 }
 
-
+		NOT = {
+			tag = JAN
+			}
 		
 		# only one state or unciv
 		NOT = { number_of_states = 5 }

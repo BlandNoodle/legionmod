@@ -202,7 +202,31 @@ need_even_more_trade;Need Even More;;;;x
 need_even_more_desc;Just a little more colonies bro, just one more i promise;;;;x
 century_humiliate;Century of Humiliation;;;;x
 century_humiliate_desc;It never even began. . .;;;;x
-EVTDESC19000098;The barbarian outsiders have laid waste to our mighty armies, and ruined our once rich ports.;;;;x
+EVTDESC19000086;The barbarian outsiders have laid waste to our mighty armies, and ruined our once rich ports.;;;;x
 EVTNAME19000099;Defeat of the Qing;;;;;x
 EVTDESC19000099;Despite the efforts of the Canton ministers and the emperor himself, the Qing were unable prevent free trade from spreading to the Heavenly Mandate. The peoples of Britain may now freely buy tea and silk as they wish.;;;;;;x
 EVTOPTA19000099;Talley-ho!;;;;;x
+EVTNAME19000100;African Colonies;;;;x
+EVTDESC19000100;Chachinga;;;;;x
+EVTOPTA19000100;SO MUCH WIN!;;;;;x
+EVTNAME19000101;YOU LOST;;;;;x
+EVTDESC19000101;How;;;;;x
+EVTOPTA19000101;Its so over;;;;;x
+african_colony;African Colony;;;;x
+african_colony_desc;you did it!;;;;x
+treaty_port_beijing;Port Arthur;;;x
+treaty_port_beijing_desc;We own Port Arthur;;;x
+treaty_port_shanghai;Shanghai;;;;x
+treaty_port_shanghai_desc;We own shanghai;;;;x
+treaty_port_ningbo;Ningbo;;;;x
+treaty_port_ningbo_desc;We own ningbo;;;;x
+treaty_port_qingdao;Qingdao;;;;x
+treaty_port_qingdao_desc;We own Qingdao;;;;x
+treaty_port_fuzhou;Fuzhou;;;;;x
+treaty_port_fuzhou_desc;We own fuzhou;;;;x
+treaty_port_hongkong;Hongkong;;;;x
+treaty_port_hongkong_desc;We own Hong Kong;;;;x
+treaty_port_macau;Macau;;;;;x
+treaty_port_macau_desc;We own Macau;;;;;x
+treaty_port_nanning;Nanning;;;;x
+treaty_port_nanning_desc;We own Nanning;;;;x

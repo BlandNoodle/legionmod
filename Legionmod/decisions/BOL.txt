@@ -3,7 +3,6 @@ political_decisions = {
 #####chummy with peru#####
 	lm_befriend_peru = {
 		picture = puppet_peru_bolivia
-		news = yes
 		
 		potential = {
 			tag = BOL
@@ -27,7 +26,6 @@ political_decisions = {
 	
 	lm_integrate_peru = {
 		picture = integrate_peru
-		news = yes
 		
 		potential = {
 			tag = BOL
@@ -54,7 +52,6 @@ political_decisions = {
 	
 	lm_form_peru_bolivia = {
 		picture = form_peru_bolivia
-		news = yes
 		
 		potential = {
 			tag = BOL
@@ -88,7 +85,6 @@ political_decisions = {
 #####Peru-Bolivia Decisions#####
 	lm_atacama_boom = {
 		picture = atacama_boom
-		news = yea
 		
 		potential = {
 			tag = PBV
@@ -108,42 +104,42 @@ political_decisions = {
 		effect = {
 			prestige = 5
 			2305 = {
-				railroad = 5
+				infrastructure = 5
 				add_province_modifier = {
 				name = atacama_boom
 				duration = 3650
 				}
 			}
 			2307 = {
-				railroad = 5
+				infrastructure = 5
 				add_province_modifier = {
 				name = atacama_boom
 				duration = 3650
 				}
 			}
 			2308 = {
-				railroad = 5
+				infrastructure = 5
 				add_province_modifier = {
 				name = atacama_boom
 				duration = 3650
 				}
 			}
 			2309 = {
-				railroad = 5
+				infrastructure = 5
 				add_province_modifier = {
 				name = atacama_boom
 				duration = 3650
 				}
 			}
 			2312 = {
-				railroad = 5
+				infrastructure = 5
 				add_province_modifier = {
 				name = atacama_boom
 				duration = 3650
 				}
 			}
 			2314 = {
-				railroad = 5
+				infrastructure = 5
 				add_province_modifier = {
 				name = atacama_boom
 				duration = 3650
@@ -154,7 +150,6 @@ political_decisions = {
 	}
 	lm_claim_ecuador = {
 		picture = claim_ecuador
-		news = yes
 		potential = {
 			tag = PBV
 			NOT = {
@@ -182,7 +177,6 @@ political_decisions = {
 	}
 	lm_claim_chile = {
 		picture = claim_chile
-		news = yes
 		
 		potential = {
 			tag = PBV
@@ -215,7 +209,6 @@ political_decisions = {
 #####Post Lichdom Decisions#####
 	lm_claim_natural_borders = {
 		picture = bol_claim_sa
-		news = yes
 		
 		potential = {
 			tag = PBV
@@ -274,7 +267,6 @@ political_decisions = {
 	}
 	lm_claim_brazil = {
 		picture = claim_brazil
-		news = yes
 		
 		potential = {
 			tag = PBV
@@ -302,7 +294,6 @@ political_decisions = {
 #####Pop acceptance decisions#####
 	lm_accept_north_andean = {
 		picture = simon_bolivar
-		news = yes
 		
 		potential = {
 			tag = PBV
@@ -339,7 +330,6 @@ political_decisions = {
 	}	
 	lm_accept_platinean = {
 		picture = messi
-		news = yes
 		
 		potential = {
 			tag = PBV
@@ -376,7 +366,6 @@ political_decisions = {
 	}
 	lm_accept_brazilian = {
 		picture = pele
-		news = yes
 		
 		potential = {
 			tag = PBV
@@ -404,7 +393,6 @@ political_decisions = {
 #####Final Decision#####
 	lm_bolivian_domination = {
 		picture = josh
-		news = yes
 		
 		potential = {
 			tag = PBV
@@ -448,7 +436,7 @@ political_decisions = {
 				naval_base = 5
 				add_province_modifier = {
 					name = bolivian_port_of_the_new_world
-					days = -1
+					duration = -1
 				}
 			}
 		}

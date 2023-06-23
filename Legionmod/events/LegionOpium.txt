@@ -227,9 +227,9 @@ country_event = {
 }
 
 country_event = {
-    id = 19000098
+    id = 19000086
     title = "Century of Humiliation"
-    desc = "EVTDESC19000098"
+    desc = "EVTDESC19000086"
 
 	trigger = {
 		tag = CHI
@@ -305,4 +305,57 @@ country_event = {
 				}
 			}
     }
+}
+
+country_event = {
+	id = 19000100
+	name = "EVTNAME19000100"
+	desc = "EVTDESC19000100"
+	picture = "Expansion"
+	
+	trigger = {
+	NOT = { has_country_modifier = african_colony }
+	ai = no
+	any_owned_province = {
+		continent = africa
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 2
+	}
+	
+	effect = {
+		name = "EVTOPTA19000100"
+		add_country_modifier = {
+			name = african_colony
+			duration = -1
+		}
+		prestige = 5
+	}
+}
+
+country_event = {
+	id = 19000101
+	name = "EVTNAME19000101"
+	desc = "EVTDESC19000101"
+	
+	trigger = {
+	has_country_modifier = african_colony
+	ai = no
+	NOT = {
+		any_owned_province = {
+			continent = africa
+			}
+		}
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	effect = {
+		name = "EVTOPTA19000101"
+		remove_country_modifier = { african_colony }
+		prestige = -5
+	}
 }

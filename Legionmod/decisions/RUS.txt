@@ -138,9 +138,7 @@ political_decisions = {
 				has_country_flag = eastern_christians_up_in_here_yall
 			}
 			exists = TUR
-			TUR = {
-				is_greater_power = no
-			}
+			year = 1850
 		}
 		
 		allow = {
@@ -151,7 +149,7 @@ political_decisions = {
 				}
 			}
 			TUR = {
-				average_militancy = 3
+				average_militancy = 2
 			}
 		}
 		
