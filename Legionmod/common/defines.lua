@@ -7,10 +7,10 @@ country = {
 	YEARS_OF_NATIONALISM 	= 20,   -- Years of Nationalism
 	MONTHS_UNTIL_BROKEN 		= 3,    -- OBSOLETE! (Months until rebel held capital results in broken country.)
 	REBEL_ACCEPTANCE_MONTHS = 60,
-	BASE_COUNTRY_TAX_EFFICIENCY = 0.15, -- Basic efficiency for taxes without 'crats and tech
+	BASE_COUNTRY_TAX_EFFICIENCY = 0.20, -- Basic efficiency for taxes without 'crats and tech
 	BASE_COUNTRY_ADMIN_EFFICIENCY = 0.01,
 	GOLD_TO_CASH_RATE = 3, -- Amount of money generated per gold unit
-	GOLD_TO_WORKER_PAY_RATE = .8, -- Multiplier for how much money gold pays to pops
+	GOLD_TO_WORKER_PAY_RATE = 1, -- Multiplier for how much money gold pays to pops
 	GREAT_NATIONS_COUNT = 8,
 	GREATNESS_DAYS = 365, 	   -- how many days until country risks losing status as great nation
 	BADBOY_LIMIT = 25,
@@ -639,7 +639,7 @@ pops = {
 	MIL_LACK_EVERYDAY_NEED = 0.1,
 	MIL_HAS_EVERYDAY_NEED = -0.1,
 	MIL_HAS_LUXURY_NEED = -0.2,
-	MIL_NO_LIFE_NEED = 0.3,
+	MIL_NO_LIFE_NEED = 0.2,
 	MIL_REQUIRE_REFORM = 0.2,
 	MIL_IDEOLOGY = -0.1,
 	MIL_RULING_PARTY = -0.1,
@@ -663,20 +663,20 @@ pops = {
 	POP_SAVINGS = 0.03,
 	
 	STATE_CREATION_ADMIN_LIMIT = 0.01,
-	MIL_TO_JOIN_REBEL = 8, -- Rebels over this will join a faction
-	MIL_TO_JOIN_RISING = 9, -- Rebels over this will join a general rising
+	MIL_TO_JOIN_REBEL = 7, -- Rebels over this will join a faction
+	MIL_TO_JOIN_RISING = 8, -- Rebels over this will join a general rising
 	MIL_TO_AUTORISE = 9, -- Rebels over this rise no matter what
 	REDUCTION_AFTER_RISEING = 0.0, -- After a pop spawns a rebellion, its militancy will be reduced this much
-	REDUCTION_AFTER_DEFEAT = 7, -- After a rebellion is being defeated in combat, its pop militancy will be divided by this number.
+	REDUCTION_AFTER_DEFEAT = 8, -- After a rebellion is being defeated in combat, its pop militancy will be divided by this number.
 																-- (if value < 1.0, the MIL will be increased) (Beware! value must be > 0)
 	
 	POP_TO_LEADERSHIP = 0.0001, -- how much leadership every 1000 officers gives each day.
 	ARTISAN_MIN_PRODUCTIVITY = 2, -- Minimum efficieny of an artisan
 	SLAVE_GROWTH_DIVISOR = 2, -- Slaves have N times lower growth
 	
-	MIL_HIT_FROM_CONQUEST = 4, -- how much militancy grows in a province if taken without being core.
+	MIL_HIT_FROM_CONQUEST = 2, -- how much militancy grows in a province if taken without being core.
 	LUXURY_CON_CHANGE = 0.001, -- con boost from over-buying luxuary goods
-	INVENTION_IMPACT_ON_DEMAND = 0.01, -- how much each invention in a country increases demand for a product in percent
+	INVENTION_IMPACT_ON_DEMAND = 0.005, -- how much each invention in a country increases demand for a product in percent
 	ARTISAN_SUPPRESSED_COLONIAL_GOODS_CATEGORY = 0, -- Goods category index not produced in colonies
 	ISSUE_MOVEMENT_JOIN_LIMIT = 8,
 	ISSUE_MOVEMENT_LEAVE_LIMIT = 7,
@@ -687,7 +687,7 @@ pops = {
 	POPULATION_MOVEMENT_RADICAL_FACTOR = 300,
 	NATIONALIST_MOVEMENT_MIL_CAP = 3.0,
 	MOVEMENT_SUPPORT_UH_FACTOR = 3, --  3x means 30% country support equals full UH support
-	REBEL_OCCUPATION_STRENGTH_BONUS = 0.02, -- the amount of strength given to rebel movements when they occupy a province
+	REBEL_OCCUPATION_STRENGTH_BONUS = 0.01, -- the amount of strength given to rebel movements when they occupy a province
 	LARGE_POPULATION_LIMIT = 9000000,
 	LARGE_POPULATION_INFLUENCE_PENALTY_CHUNK = 250000,
 },

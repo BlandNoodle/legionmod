@@ -16,12 +16,6 @@ political_decisions = {
 					owner = { in_sphere = THIS }
 				}
 			}
-			1157 = { 
-				OR = {
-					owned_by = THIS 
-					owner = { in_sphere = THIS }
-				}
-			}
 			1412 = { 
 				OR = {
 					owned_by = THIS 
@@ -65,7 +59,7 @@ political_decisions = {
 				all_core  = { add_core = OTC }
 				annex_to = THIS 
 			}
-
+			add_accepted_culture = azerbaijani
 			add_accepted_culture = mashriqi
 			any_country = { 
 				limit = { 

@@ -6,8 +6,7 @@ political_decisions = {
 		}
 		
 		allow = {
-			is_greater_power = yes
-			market_structure = 1
+			NOT = {in_default = yes}
 		}
 		
 		effect = {
@@ -40,11 +39,9 @@ political_decisions = {
 		}
 	
 		allow = {
-			freedom_of_trade = 1
 		}
 
 		effect = {
-			prestige = -1
 			any_country = {
 				limit = {
 					has_country_flag = offer_grants

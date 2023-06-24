@@ -3,7 +3,6 @@ political_decisions = {
 		potential = {
 			tag = RUS
 			has_country_flag = serfdom_not_abolished
-			#government = imperial
 		}
 		allow = {
 			OR = {
@@ -12,7 +11,7 @@ political_decisions = {
 						ideology = liberal
 						value = 0.3
 					}
-					average_consciousness = 3
+					
 				}	
 				AND = {
 					ruling_party_ideology = liberal
@@ -76,7 +75,7 @@ political_decisions = {
 			NOT = {
 				has_country_flag = the_manifesto
 			}
-			nationalism_n_imperialism = 1
+			state_n_government = 1
 		}
 		
 		allow = {
@@ -88,11 +87,11 @@ political_decisions = {
 			badboy = 3
 			any_pop = {
 				consciousness = -0.5
-				militancy = -0.5
+				militancy = -1
 			}
 			add_country_modifier = {
 				name = unshakable_autocracy 
-				duration = 3650
+				duration = 7300
 			}
 			set_country_flag = the_manifesto
 		}
@@ -118,12 +117,17 @@ political_decisions = {
 		}
 		
 		effect = {	
-			literacy = 3		
+			any_pop = {
+				limit = {
+					has_pop_culture = russian
+				}
+				literacy = 0.25
+			}
 			any_pop = {
 				limit = {
 					has_pop_culture = ukrainian
 				}
-				militancy = 6
+				militancy = 5
 				consciousness = -2
 			}
 			set_country_flag = ems_ukaz_dispatched
@@ -149,7 +153,7 @@ political_decisions = {
 				}
 			}
 			TUR = {
-				average_militancy = 2
+				owns = 917
 			}
 		}
 		

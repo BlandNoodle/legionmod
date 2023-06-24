@@ -170,6 +170,7 @@ political_decisions = {
 	}
 	annals_of_the_fulani_jihad = {
 		potential = {
+			ai = no
 			tag = SOK
 			NOT = {
 				has_country_flag = that_book_written
