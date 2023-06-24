@@ -53,8 +53,7 @@ country_event = {
 		SEP = { country_event = { id = 19000104 days = 0 }
 		}
 	}
-}
-	
+}	
 country_event = {
 	id = 19000104
 	name = "EVTNAME19000104"

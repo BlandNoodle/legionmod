@@ -286,18 +286,16 @@ janny = {
 need_trade = {
 	trigger = {
 		ai = no
-		NOT = {
-			tag = AUS
-			tag = KUK
-			tag = TUR
-			tag = SPA
-			year = 1845
-		}
-		OR = {
-			is_greater_power = yes
-			is_secondary_power = yes
+		AND = {
+			NOT = {
+				year = 1855
+			}
+			OR = {
+				is_greater_power = yes
+				is_secondary_power = yes
 			}
 		}
+	}
 		icon = 10
 		max_tariff = -0.25
 		tariff_efficiency_modifier = -0.15
@@ -307,18 +305,16 @@ need_more_trade = {
 	trigger = {
 		ai = no
 		year = 1845
-		NOT = {
-			tag = AUS
-			tag = KUK
-			tag = TUR
-			tag = SPA
-			year = 1855
-		}
-		OR = {
-			is_greater_power = yes
-			is_secondary_power = yes
+		AND = {
+			NOT = {
+				year = 1855
+			}
+			OR = {
+				is_greater_power = yes
+				is_secondary_power = yes
 			}
 		}
+	}
 		icon = 10
 		max_tariff = -0.15
 		tariff_efficiency_modifier = -0.25
@@ -328,18 +324,16 @@ need_even_more_trade = {
 	trigger = {
 		year = 1855
 		ai = no
-		NOT = {
-			tag = AUS
-			tag = KUK
-			tag = TUR
-			tag = SPA
-			year = 1870
-		}
-		OR = {
-			is_greater_power = yes
-			is_secondary_power = yes
+		AND = {
+			NOT = {
+				year = 1855
+			}
+			OR = {
+				is_greater_power = yes
+				is_secondary_power = yes
 			}
 		}
+	}
 		icon = 10
 		max_tariff = -0.1
 		tariff_efficiency_modifier = -0.35
@@ -411,6 +405,26 @@ greater_germany = {
     icon = 19
 }
 
+fuck_usa = {
+	trigger = {
+		tag = USA
+		ai = yes
+	}
+	icon = 19
+	prestige -1
+	global_immigrant_attract = -1
+}
+
+indiacountry = {
+	trigger = {
+		tag = HND
+		ai = yes
+	}
+	icon = 19
+	research_points = -1
+	research_points_on_conquer = -1
+}
+
 the_british_raj = {
     trigger = {
         exists = yes
@@ -444,7 +458,7 @@ the_british_raj = {
     }
     research_points = 0.5
     core_pop_militancy_modifier = -0.05
-    supply_consumption = 0.1
+    supply_consumption = 0.15
     influence_modifier = 0.05
     administrative_efficiency_modifier = -0.2
 	mobilisation_size = 0.02

@@ -20,7 +20,7 @@ political_decisions = {
 			EGY = { 
 				all_core = {
 					add_core = OTC
-					remove_Core = EGY
+					remove_core = EGY
 				}
 			}
 
