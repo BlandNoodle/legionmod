@@ -18,14 +18,23 @@ country_event = {
 	fire_only_once = yes
 
 	mean_time_to_happen = {
-		months = 30
+		months = 5
+			
+	modifier = {
+			factor = 0.8 #increase likelihood to happen
+			year = 1856
+		}
+	modifier = {
+			factor = 0.9 #increase likelihood to happen
+			year = 1857
+		}
 	}
 
 	option = {
 		name = "EVTOPTA19000102"
 		set_country_flag = sepoy_rebellion
 		HND = { country_event = {id = 19000103 days = 30} }
-		set_global_flag = preparing
+		set_country_flag = prepared
 	}
 }
 
@@ -40,18 +49,11 @@ country_event = {
 	option = {
 		name = "EVTOPTA19000103"
 		release = SEP
-		war = {
-				target = SEP
-				attacker_goal = { casus_belli = annex_core_country }
-				defender_goal = { casus_belli = status_quo }
-				call_ally = yes
-				}
+		country_event = { id = 19000107 days = 60 }
 		SEP = { country_event = { id = 19000104 days = 0 }
-			}
-		remove_global_flag = preparing
 		}
 	}
-	
+}	
 country_event = {
 	id = 19000104
 	name = "EVTNAME19000104"
@@ -325,18 +327,6 @@ country_event = {
 				value = current
 			}
 			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
 				type = hussar
 				value = current
 			}
@@ -350,8 +340,31 @@ country_event = {
 			}
 			fort = 4
 		}
+		ENG = {
+			remove_country_flag = prepared
+		}
 	}
 }
+
+country_event = {
+	id = 19000107
+	name = "EVTNAME19000107"
+	desc = "EVTDESC19000107"
+	picture = "gurkha"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000107"
+		war = {
+				target = SEP
+				attacker_goal = { casus_belli = annex_core_country }
+				defender_goal = { casus_belli = status_quo }
+				call_ally = yes
+			}
+		}
+	}
+
 
 country_event = {
 	id = 19000105
@@ -374,10 +387,10 @@ country_event = {
 	}
 	option = {
 		name = "EVTOPTA19000105"
-		any_owned_province = {
+		any_owned = {
 			limit = {
 				controlled_by = SEP
-				province_control_days = 15
+				province_control_days = 10
 			}
 			secede_province = SEP
 			add_core = SEP
@@ -392,37 +405,66 @@ country_event = {
 	major = yes
 	
 	trigger = {
-		war = no
 		tag = ENG
 		NOT = { exists = SEP }
 		has_country_flag = sepoy_rebellion
-		NOT = { has_global_flag = preparing }
-		exists = HND
 	}
 	mean_time_to_happen = {
-		months = 1
+		months = 15
+		modifier = {
+			factor = 0.8 #increase likelihood to happen
+			year = 1859
+		}
+		modifier = {
+			factor = 0.9 #increase likelihood to happen
+			year = 1860
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1861
+		}
 	}
 	option = {
 		name = "EVTOPTA19000106"
 		inherit = HND
-		any_owned_province = {
-			limit = {
-				is_core = SEP
-			}
-			any_owned = {
-				remove_core = SEP
-			}
-		}
-		any_owned_province = {
+		country_event = { id = 19000085 days = 30 }
+	}
+	option = {
+		name = "EVTOPTB19000106"
+		any_owned = {
 			limit = {
 				is_core = HND
 				is_colonial = yes
 			}
-			any_owned = {
-				add_province_modifier = {
+			secede_province = HND
+		}
+	}
+}
+
+country_event = {
+	id = 19000085
+	name = "EVTNAME19000085"
+	desc = "EVTDESC19000085"
+	picture = "india"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA19000085"
+		any_owned = {
+			limit = {
+				is_core = SEP
+			}
+			remove_core = SEP
+		}
+		any_owned = {
+			limit = {
+				is_core = HND
+				is_colonial = yes
+			}
+			add_province_modifier = {
 					name = theraj
 					duration = -1
-				}
 			}
 		}
 	}

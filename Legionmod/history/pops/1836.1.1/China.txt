@@ -2558,8 +2558,94 @@
 		size = 449750
 	}
 }
-#Gaozhou (3788000/947000 POPS)
+#retard
 1495 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = mahayana
+		size = 350
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = mahayana
+		size = 200
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = mahayana
+		size = 950
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = mahayana
+		size = 200
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = mahayana
+		size = 6300
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = mahayana
+		size = 800
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = mahayana
+		size = 250
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = mahayana
+		size = 1000
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = mahayana
+		size = 1000
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = mahayana
+		size = 1000
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = mahayana
+		size = 1000
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = mahayana
+		size = 500
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = mahayana
+		size = 300
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = mahayana
+		size = 4950
+	}
+}
+#Gaozhou (3788000/947000 POPS)
+3250 = {
 	aristocrats = {
 		culture = asian_minor
 		religion = mahayana
@@ -12053,73 +12139,73 @@
 #Chengde (6420000/1605000 POPS)
 1613 = {
 	aristocrats = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 31750
 	}
 
 	clergymen = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 16000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 9550
 	}
 
 	soldiers = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 15900
 	}
 
 	farmers = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 1447800
 	}

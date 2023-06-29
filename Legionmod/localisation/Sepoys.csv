@@ -15,9 +15,6 @@ EVTDESC19000106;The Indian mutiny has failed, and many princes either stood by o
 EVTOPTA19000106;YOOOOUUUUUURRR, FIRED!;;;;;x
 theraj;The Raj;;;;x
 theraj_desc;The Raj and its consequences have been devestating for Indian society;;;;;x
-<<<<<<< Updated upstream
-SEP_ADJ;Sepoy;;;x
-=======
 SEP_ADJ;Sepoy;;;x
 EVTOPTB19000106;Restructure them into a self-governing body;;;;;x
 EVTNAME19000085;Restructuring Finished;;;;;x
@@ -29,4 +26,3 @@ EVTOPTA19000107;KILL SQUIGZ!;;;;;;x
 imperial;Imperial;;;;x
 shogunate;Shogunate;;;;x
 directorate;Colonial Directorate;;;;;x
->>>>>>> Stashed changes

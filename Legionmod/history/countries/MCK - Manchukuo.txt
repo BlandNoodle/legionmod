@@ -1,4 +1,4 @@
-capital = 1465
+capital = 1555
 primary_culture = manchu
 religion = mahayana
 government = absolute_monarchy

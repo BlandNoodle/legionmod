@@ -1,5 +1,6 @@
-owner = NAN
-controller = NAN
-add_core = NAN
+owner = CHI
+controller = CHI
+add_core = CHI
+add_core = MAC
 trade_goods = tea
 life_rating = 32

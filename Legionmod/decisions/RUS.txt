@@ -165,19 +165,15 @@ political_decisions = {
 			}
 		}
 	}
-}
 	peking_convention = {
 		potential = {
 			tag = RUS
+			has_global_flag = taiping_has_happened
 			MCK = {
 					owns = 1082 }
 			NOT = {
 				has_country_flag = peking_convention
 				war_with = MCK
-			}
-			OR = {
-				is_sphere_leader_of = MCK
-				has_global_flag = summer_palace_torched
 			}
 		}
 		
@@ -392,3 +388,4 @@ political_decisions = {
 		}
 		ai_will_do = { factor = 1 }
 	}
+}

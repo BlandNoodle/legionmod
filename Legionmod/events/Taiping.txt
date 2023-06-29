@@ -13,7 +13,7 @@ country_event = {
 	trigger = {
 		tag = CHI
 		NOT = { has_global_flag = taiping_has_happened }
-		average_consciousness = 3
+		has_global_flag = the_century
 	}
 	
 	mean_time_to_happen = {

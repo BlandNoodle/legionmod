@@ -1,5 +1,4 @@
-owner = 
-controller = 
+
 add_core = TUR
 trade_goods = fruit
 life_rating = 15

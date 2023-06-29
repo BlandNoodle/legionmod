@@ -9,4 +9,3 @@ life_rating = 32
 	controller = ENG
 	colonial = 2
 }
-add_core = SEP

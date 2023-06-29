@@ -1,4 +1,4 @@
-capital = 1502
+capital = 1499
 primary_culture = asian_minor 
 culture = zhuang
 religion = animist

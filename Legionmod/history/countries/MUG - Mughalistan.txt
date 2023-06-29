@@ -1,10 +1,10 @@
 capital = 1236
-primary_culture = asian_minor  panjabi
+primary_culture = asian_minor
 culture = telegu
 culture = marathi
 culture = rajput
 culture = gujarati
-religion = animist  sunni
+religion = animist
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order

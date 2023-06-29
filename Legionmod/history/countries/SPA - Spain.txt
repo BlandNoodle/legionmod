@@ -75,6 +75,8 @@ medicine = 1
 #Inventions
 #corvettes = yes
 
+schools = naval_tech_school
+
 # Starting Consciousness
 consciousness = 3
 nonstate_consciousness = 1

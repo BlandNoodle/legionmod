@@ -8,3 +8,4 @@ life_rating = 30
 	controller = ENG
 	colonial = 2
 }
+add_core = HND

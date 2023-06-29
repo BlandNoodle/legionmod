@@ -75,7 +75,7 @@
 1420;1438;sea;2811;0;Bali Strait
 1438;1442;sea;2811;0;Lombok Strait
 1442;1440;sea;2811;0;Sumbawa Strait
-1495;1499;sea;2823;0;Hainan Strait
+3250;1499;sea;2823;0;Hainan Strait
 1457;1461;sea;2849;0;Tacloban Strait
 1640;1660;sea;2843;0;Fukuoka Strait
 1642;1672;sea;2841;0;Hakodate Strait
@@ -180,7 +180,7 @@
 2576;1385;sea;2814;0;Modstrait2 
 2576;1394;sea;2816;0;Modstrait3
 1411;1409;sea;2803;0;Modstrait4
-1405;1320;sea;2802;2799;Modstrait5
+1405;1320;sea;2802;0;Modstrait5
 1414;2244;sea;2806;0;Modstrait6
 2124;2121;sea;2902;0;Modstrait7
 2123;2063;sea;2902;0;Modstrait8
@@ -203,7 +203,7 @@
 2226;2222;sea;2976;0;Modstrait25
 2223;2222;sea;2976;0;Modstrait26
 2218;2217;sea;2971;0;Modstrait27
-2220;2219;sea;2977;2978;Modstrait28
+2220;2219;sea;2977;0;Modstrait28
 77;74;sea;2944;0;Modstrait29
 1177;1872;sea;2899;0;Modstrait30
 2128;1325;sea;3072;0;Modstrait31
