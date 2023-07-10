@@ -333,6 +333,7 @@ country_event = {
 	NOT = { has_country_modifier = african_colony }
 	any_state = {
 		trade_goods = precious_metal
+		is_colonial = yes
 		}
 	}
 	mean_time_to_happen = {
@@ -363,6 +364,7 @@ country_event = {
 	NOT = {
 		any_state = {
 			trade_goods = precious_metal
+			is_colonial = yes
 			}
 		}
 	}

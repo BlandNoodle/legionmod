@@ -1,4 +1,4 @@
 
 add_core = EGY
-trade_goods = wool
+trade_goods = rubber
 life_rating = 15

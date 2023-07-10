@@ -38,6 +38,7 @@ ironclad = {
 		steamer_convoy = 0.32
 		artillery = 0.192
 		canned_food = 0.4
+		ammunition = 0.065
 	}
 	
 	#Naval Abilties

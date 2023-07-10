@@ -2358,6 +2358,12 @@
 		religion = sunni
 		size = 10000
 	}
+	
+	craftsmen = {
+		culture = ukrainian
+		religion = orthodox
+		size = 7479
+	}
 
 	farmers = {
 		culture = tatar
@@ -3418,6 +3424,7 @@
 		religion = orthodox
 		size = 550
 	}
+	
 
 	farmers = {
 		culture = ukrainian

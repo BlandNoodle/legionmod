@@ -2474,7 +2474,7 @@
 	craftsmen = {
 		culture = french
 		religion = catholic
-		size = 6500
+		size = 11500
 	}
 
 	clergymen = {
@@ -3269,7 +3269,13 @@
 		religion = catholic
 		size = 1100
 	}
-
+	
+	craftsmen = {
+		culture = french
+		religion = catholic
+		size = 4780
+	}
+	
 	farmers = {
 		culture = french
 		religion = catholic

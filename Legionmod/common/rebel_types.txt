@@ -653,8 +653,8 @@ anarcho_liberal_rebels = {
 	allow_all_religions = yes
 	allow_all_ideologies = yes
 	
-	resilient = yes					# Disbands on retreat
-	reinforcing = yes				# Does not receive reinforcements
+	resilient = no					# Disbands on retreat
+	reinforcing = no				# Does not receive reinforcements
 	general = no					# Does use generals
 	smart = yes						# Does not assault forts, tactically withdraw from battle, etc.
 	unit_transfer = no				# Units do not remain after enforcing demands.
@@ -1472,11 +1472,11 @@ boxer_rebels = {
 	
 	resilient = yes					
 	reinforcing = yes				
-	general = no					
+	general = yes					
 	smart = yes
 	unit_transfer = no				# Units do not remain after enforcing demands.
 	
-	occupation_mult = 1.0			# The amount of strength this rebel gains from taking provinces	
+	occupation_mult = 3.0			# The amount of strength this rebel gains from taking provinces	
 
 	# triggers a general rising, modifier will be multiplied with the countrys army strength and compared to the factions strenght
 	will_rise = 

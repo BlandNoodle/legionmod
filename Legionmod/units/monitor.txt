@@ -35,6 +35,7 @@ monitor = {
 		steamer_convoy = 0.32
 		artillery = 0.096
 		canned_food = 0.8
+		ammunition = 0.065
 	}
 	
 	#Naval Abilties

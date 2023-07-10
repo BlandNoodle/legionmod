@@ -281,6 +281,7 @@ province_event = {
 		or = {
 			province_id = 2097			# Graaf Reinet
 			province_id = 1849			# Massawa
+			province_id = 1323
 		}
 		not = { trade_goods = precious_metal }
 	}
@@ -331,8 +332,10 @@ province_event = {
 			province_id = 1891
 			province_id = 1923
 			province_id = 1321
+			province_id = 1322
+			province_id = 1324
 			province_id = 1398
-			province_id = 1421
+			province_id = 1438
 			province_id = 1985
 			province_id = 1406
 			province_id = 1318
@@ -413,6 +416,11 @@ province_event = {
 			province_id = 2549
 			province_id = 2550
 			province_id = 2600
+			province_id = 1395
+			province_id = 1394
+			province_id = 1376
+			province_id = 1375
+			province_id = 1377
 		}
 		not = { trade_goods = rubber }
 		OR = {
@@ -1175,6 +1183,8 @@ province_event = {
 		or = {
 			province_id = 129		# Oklahoma City
 			province_id = 1680		# Fez
+			province_id = 1735		# Ghazi
+			province_id = 1731		# Tripoli
 		}
 		not = { trade_goods = oil }
 		OR = {
@@ -1266,6 +1276,12 @@ province_event = {
 			province_id = 2162		# Veracruz
 			province_id = 2163		# Tampico
 			province_id = 702		# Lvov
+			province_id = 1893		# gold coast
+			province_id = 1892
+			province_id = 1908
+			province_id = 1914
+			province_id = 1919
+			province_id = 1923
 		}
 		not = { trade_goods = oil }
 		OR = {
@@ -1531,7 +1547,12 @@ province_event = {
 
 	trigger = {
 		year = 1912
-		province_id = 1132		# Abadan
+		OR = {
+			province_id = 1132		# Abadan
+			province_id = 1136
+			province_id = 1146
+			province_id = 1145
+		}
 		not = { trade_goods = oil }
 		OR = {
 			owner = {
@@ -1746,7 +1767,7 @@ province_event = {
 
 	trigger = {
 		year = 1927
-		province_id = 923		# Mosul
+		province_id = 932		# Not jkuwait
 		not = { trade_goods = oil }
 		OR = {
 			owner = {

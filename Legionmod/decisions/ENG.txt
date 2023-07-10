@@ -283,9 +283,10 @@ southaf = {
 			}
 		effect = {
 			any_owned_province = {
-				is_core = IRE
-				any_owned = {
-					add_core = ENG
+				IRE = {
+					any_core = {
+						add_core = ENG
+					}
 				}
 			}
 			treasury = -1000000

@@ -455,6 +455,9 @@ country_event = {
 			country_event = {id=19000113 days=25}
 			}
 		}
+		USA = {
+			country_event = {id=19000115 days=25}
+		}
 		any_country = {
 			limit = {
 				is_greater_power = yes
@@ -551,6 +554,22 @@ country_event = {
 		prestige = 5
 		}
 	}
+	
+country_event = {
+	id = 19000115
+	title = "EVTNAME19000108"
+	desc = "EVTDESC19000108"
+	picture = "germany"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000108"
+		SHA = { 1538 = {secede_province = THIS} }
+		prestige = 5
+		}
+	}
+	
 country_event = {
 	id = 19000114
 	name = "EVTNAME19000114"

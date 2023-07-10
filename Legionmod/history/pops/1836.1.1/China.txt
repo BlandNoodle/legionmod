@@ -11957,139 +11957,139 @@
 #Beijing (4956000/1239000 POPS)
 1612 = {
 	aristocrats = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 24050
 	}
 
 	bureaucrats = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 9100
 	}
 
 	officers = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 6000
 	}
 
 	clergymen = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 12050
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 4000
 	}
 
 	soldiers = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 11550
 	}
 
 	farmers = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 998650
 	}
 
 	aristocrats = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 850
 	}
 
 	clergymen = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 450
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 1100
 	}
 
 	soldiers = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 450
 	}
 
 	farmers = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 31250
 	}
@@ -12211,31 +12211,31 @@
 	}
 
 	aristocrats = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 250
 	}
 
 	clergymen = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 150
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 700
 	}
 
 	soldiers = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 150
 	}
 
 	farmers = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 12750
 	}
@@ -12243,55 +12243,55 @@
 #Daming (3364000/841000 POPS)
 1614 = {
 	aristocrats = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 16800
 	}
 
 	clergymen = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 8400
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 2050
 	}
 
 	soldiers = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 8425
 	}
 
 	farmers = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 765325
 	}
@@ -12299,61 +12299,61 @@
 #Jizhou (4496000/1124000 POPS)
 1615 = {
 	aristocrats = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 22450
 	}
 
 	clergymen = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 11250
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 6200
 	}
 
 	soldiers = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 11250
 	}
 
 	farmers = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 1022850
 	}
@@ -12361,61 +12361,61 @@
 #Shuntian (4428000/1107000 POPS)
 1616 = {
 	aristocrats = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 22075
 	}
 
 	clergymen = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 11075
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 5350
 	}
 
 	soldiers = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 11075
 	}
 
 	farmers = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 1007425
 	}
@@ -12423,103 +12423,103 @@
 #Tianjin (5964000/1491000 POPS)
 1617 = {
 	aristocrats = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 29025
 	}
 
 	clergymen = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 14525
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 2600
 	}
 
 	soldiers = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 14525
 	}
 
 	farmers = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 1321325
 	}
 
 	aristocrats = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 750
 	}
 
 	clergymen = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 400
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 1950
 	}
 
 	soldiers = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 400
 	}
 
 	farmers = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 35500
 	}
@@ -12527,67 +12527,67 @@
 #Zhongding (5240000/1310000 POPS)
 1618 = {
 	aristocrats = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 26150
 	}
 
 	clergymen = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 13125
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 5500
 	}
 
 	soldiers = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 13100
 	}
 
 	farmers = {
-		culture = asian_minor
+		culture = manchu
 		religion = mahayana
 		size = 1192125
 	}
