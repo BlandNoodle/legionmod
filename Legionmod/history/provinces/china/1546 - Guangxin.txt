@@ -1,5 +1,7 @@
-owner = FZH
-controller = FZH
+owner = CHI
+controller = CHI
+add_core = CHI
 add_core = FZH
-trade_goods = tea
+add_core = TPG
+trade_goods = wool
 life_rating = 32

@@ -374,10 +374,10 @@ country_event = {
     option = {
 	name = "A good day for our Empire"
 	#Remove Sphere from existing Sphere Owner
-	BEI= {
+	MCK = {
 		sphere_owner = {
 			diplomatic_influence = {
-				who = BEI
+				who = MCK
 				value = -900
 			}
 			clr_country_flag = treatyport_beijing 
@@ -387,7 +387,7 @@ country_event = {
 	#Add to Sphere & Modifier
 	THIS = {
 		diplomatic_influence = {
-			who = BEI
+			who = MCK
 			value = 900
 		}
 		set_country_flag = treatyport_beijing 
@@ -397,7 +397,7 @@ country_event = {
 		}
 	}
 	#Add Modifier to Treaty Port
-	BEI = {
+	MCK = {
 		add_country_modifier = {
 			name = unequal_treaty
 			duration = -1

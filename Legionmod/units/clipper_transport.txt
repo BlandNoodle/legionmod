@@ -9,6 +9,7 @@ clipper_transport = {
 	unit_type = transport
 	transport = yes
 	floating_flag = yes
+	colonial_points = 1
 
 	#Core Abilities
 	priority = 5

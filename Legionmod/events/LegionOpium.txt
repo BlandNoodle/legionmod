@@ -264,6 +264,18 @@ country_event = {
 		remove_core = CHI 
 		add_core = ENG
 		}
+	1550 = {
+		secede_province = HKG
+	}
+	1530 = {
+		secede_province = HKG
+	}
+	1547 = {
+		secede_province = HKG
+	}
+	1527 = {
+		secede_province = HKG
+	}
     }
 }
 
@@ -319,15 +331,11 @@ country_event = {
 		is_secondary_power = yes
 	}
 	NOT = { has_country_modifier = african_colony }
-	any_owned = {
-		limit = {
-			OR = {
-				trade_goods = rubber
-				trade_goods = precious_metal
-			}
+	any_state = {
+		trade_goods = precious_metal
+		is_colonial = yes
 		}
 	}
-	
 	mean_time_to_happen = {
 		months = 1
 	}
@@ -354,13 +362,9 @@ country_event = {
 	}
 	has_country_modifier = african_colony
 	NOT = {
-		any_owned = {
-		limit = {
-			OR = {
-				trade_goods = rubber
-				trade_goods = precious_metal
-					}
-				}
+		any_state = {
+			trade_goods = precious_metal
+			is_colonial = yes
 			}
 		}
 	}

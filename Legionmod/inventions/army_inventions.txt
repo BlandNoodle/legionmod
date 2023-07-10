@@ -507,7 +507,7 @@ tank_exploits = {
 	}
 	effect = {
 		tank = {
-			attack = 2
+			attack = 4
 			defence = 4
 			supply_consumption = 1
 			siege = 1				

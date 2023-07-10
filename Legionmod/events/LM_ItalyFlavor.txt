@@ -1,3 +1,4 @@
+
 ####Actual Flavor
 country_event = {
 	id = 790020

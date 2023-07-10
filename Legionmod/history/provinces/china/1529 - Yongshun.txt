@@ -1,6 +1,8 @@
-add_core = MAC
-trade_goods = silk
+owner = CHI
+controller = CHI
+add_core = CHI
+add_core = HKG
+add_core = TPG
+trade_goods = tea
 life_rating = 32
 
-owner = MAC
-controller = MAC

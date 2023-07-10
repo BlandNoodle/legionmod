@@ -715,6 +715,7 @@ acquire_state = {
 				tag = SHA
 				tag = QNG
 				tag = BEI
+				tag = CHI
 			}
 		}
 		NOT = { is_our_vassal = THIS }

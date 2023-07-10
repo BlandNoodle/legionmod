@@ -241,6 +241,9 @@ silver_standard = {
 	}
 	effect = {
 		tax_eff = 3 
+		rgo_goods_output = {
+			precious_metal = 0.25
+		}
 	}
 }
 decimal_monetary_system = {
@@ -259,6 +262,7 @@ decimal_monetary_system = {
 	}
 	effect = {
 		tax_eff = 3 
+		
 	}
 }
 #private_bank_money_bill_printing
@@ -278,6 +282,9 @@ double_standard = {
 	}
 	effect = {
 		tax_eff = 2 
+		rgo_goods_output = {
+			precious_metal = 0.25
+		}
 	}
 }
 fixed_intramonetary_exchange_rates = {
@@ -319,6 +326,9 @@ gold_standard = {
 	}
 	effect = {
 		tax_eff = 3 
+		rgo_goods_output = {
+			precious_metal = 0.50
+		}
 	}
 }
 international_monetary_exchange_rates = {
@@ -360,6 +370,9 @@ state_bond_monetary_mechanism = {
 	}
 	effect = {
 		tax_eff = 2 
+		rgo_goods_output = {
+			precious_metal = 0.25
+		}
 	}
 }
 interest_inflation_weapon = {
@@ -401,7 +414,10 @@ hyperinflation = {
 	}
 	core_pop_consciousness_modifier = 0.01
 	effect = {
-		factory_cost = 0.1
+		factory_cost = -0.1
+		rgo_goods_output = {
+			precious_metal = -1
+		}
 	}
 }
 #eary_classical_theory
@@ -1339,7 +1355,7 @@ working_board_of_directors = {
 		}
 	}
 	effect = {
-		factory_cost = -0.01
+		factory_cost = -0.03
 	}
 }
 bankruptcy_proceedings = {
@@ -1357,7 +1373,7 @@ bankruptcy_proceedings = {
 		}
 	}
 	effect = {
-		factory_cost = -0.01 
+		factory_cost = -0.02
 	}
 }
 annual_report_proceedings = {
@@ -1430,7 +1446,7 @@ centralized_economic_planning = {
 		}
 	}
 	effect = {
-		factory_cost = -0.01
+		factory_cost = -0.02
 	}
 }
 autarky = {
@@ -1497,7 +1513,7 @@ work_classification = {
 		}
 	}
 	effect = {
-		factory_output = 0.01
+		factory_output = 0.02
 	}
 }
 work_specialization = {
@@ -1519,7 +1535,7 @@ work_specialization = {
 		}
 	}
 	effect = {
-		factory_output = 0.01
+		factory_output = 0.02
 	}
 }
 work_control_and_hierarchy = {
@@ -1541,7 +1557,7 @@ work_control_and_hierarchy = {
 		}
 	}
 	effect = {
-		factory_output = 0.01
+		factory_output = 0.02
 	}
 }
 #scientific_management
@@ -1560,7 +1576,7 @@ sequence_planning = {
 		}
 	}
 	effect = {
-		factory_output = 0.01
+		factory_output = 0.03
 	}
 }
 inventory_planning = {
@@ -1578,7 +1594,7 @@ inventory_planning = {
 		}
 	}
 	effect = {
-		factory_output = 0.01
+		factory_output = 0.03
 	}
 }
 quality_assurance_procedure = {
@@ -1596,7 +1612,7 @@ quality_assurance_procedure = {
 		}
 	}
 	effect = {
-		factory_output = 0.01
+		factory_output = 0.02
 	}
 }
 #time_saving_measures
@@ -1615,7 +1631,7 @@ time_studies = {
 		}
 	}
 	effect = {
-		factory_output = 0.01
+		factory_output = 0.02
 	}
 }
 naval_maintenance1 = {
@@ -1688,7 +1704,7 @@ old_style_family_business = {
 		}
 	}
 	effect = {
-		factory_input = -0.01
+		factory_input = -0.03
 	}
 }
 naval_maintenance2 = {
@@ -1722,7 +1738,7 @@ anynomous_investor_business = {
 		}
 	}
 	effect = {
-		factory_input = -0.01 
+		factory_input = -0.02
 	}
 }
 marketized_smallholder_business = {
@@ -1740,7 +1756,7 @@ marketized_smallholder_business = {
 		}
 	}
 	effect = {
-		factory_input = -0.01
+		factory_input = -0.02
 	}
 }
 #organizational_development
@@ -1759,7 +1775,7 @@ i_scientific_management = {
 		}
 	}
 	effect = {
-		factory_output = 0.01
+		factory_output = 0.02
 	}
 }
 naval_maintenance3 = {
@@ -1793,6 +1809,6 @@ human_resource_development = {
 		}
 	}
 	effect = {
-		factory_output = 0.01
+		factory_output = 0.02
 	}
 }

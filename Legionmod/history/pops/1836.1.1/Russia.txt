@@ -1360,25 +1360,25 @@
 	clergymen = {
 		culture = russian
 		religion = orthodox
-		size = 10
+		size = 100
 	}
 
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 490
+		size = 5090
 	}
 
 	clergymen = {
 		culture = ugrian
 		religion = animist
-		size = 10
+		size = 100
 	}
 
 	farmers = {
 		culture = ugrian
 		religion = animist
-		size = 490
+		size = 890
 	}
 }
 #Anderma (2800/700 POPS)
@@ -5606,49 +5606,49 @@
 	aristocrats = {
 		culture = ugrian
 		religion = animist
-		size = 25
+		size = 250
 	}
 
 	clergymen = {
 		culture = ugrian
 		religion = animist
-		size = 25
+		size = 250
 	}
 
 	artisans = {
 		culture = ugrian
 		religion = animist
-		size = 50
+		size = 500
 	}
 
 	soldiers = {
 		culture = ugrian
 		religion = animist
-		size = 25
+		size = 250
 	}
 
 	farmers = {
 		culture = ugrian
 		religion = animist
-		size = 1250
+		size = 7250
 	}
 
 	clergymen = {
 		culture = russian
 		religion = orthodox
-		size = 5
+		size = 50
 	}
 
 	artisans = {
 		culture = russian
 		religion = orthodox
-		size = 10
+		size = 100
 	}
 
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 110
+		size = 1100
 	}
 }
 #Verkniy Ufaley (1200/300 POPS)

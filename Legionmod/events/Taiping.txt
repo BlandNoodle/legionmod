@@ -13,25 +13,12 @@ country_event = {
 	trigger = {
 		tag = CHI
 		NOT = { has_global_flag = taiping_has_happened }
-		average_consciousness = 3
+		has_global_flag = the_century
+		year = 1855
 	}
 	
 	mean_time_to_happen = {
-		months = 12
-		modifier = {
-			factor = 10
-			year = 1845
-			NOT = { year = 1850 }
-		}
-		modifier = {
-			factor = 0.5
-			year = 1855
-			NOT = { year = 1860 }
-		}
-		modifier = {
-			factor = 0.1
-			year = 1860
-		}
+		months = 2
 	}
 	
 	option = {
@@ -59,11 +46,19 @@ country_event = {
 					has_pop_religion = sunni
 					has_pop_culture = nanfaren
 					has_pop_culture = zhuang
-					has_pop_culture = yue
+					has_pop_culture = asian_minor
 				}
 			}
 			militancy = 5
 		}
+		activate_technology = bronze_muzzle_loaded_artillery = 1
+		activate_technology = military_staff_system = 1
+		activate_technology = private_banks = 1
+		activate_technology = no_standard = 1
+		activate_technology = freedom_of_trade = 1
+		activate_technology = water_wheel_power = 1
+		activate_technology = basic_chemistry = 1
+		activate_technology = iron_muzzle_loaded_artillery = 1
 		war = {
 			target = TPG
 			attacker_goal = {
@@ -73,6 +68,11 @@ country_event = {
 			defender_goal = {
 				casus_belli = civil_war
 			}
+		}
+		TPG = {
+			wool = 100
+			artillery = 25
+			ammunition = 30
 		}
 		set_global_flag = taiping_has_happened
 	}
@@ -102,7 +102,7 @@ country_event = {
 					has_pop_religion = sunni
 					has_pop_culture = nanfaren
 					has_pop_culture = zhuang
-					has_pop_culture = yue
+					has_pop_culture = asian_minor
 				}
 			}
 			militancy = 5
@@ -116,6 +116,11 @@ country_event = {
 			defender_goal = {
 				casus_belli = civil_war
 			}
+		}
+		TPG = {
+			wool = 100
+			artillery = 25
+			ammunition = 30
 		}
 		set_global_flag = taiping_has_happened
 		change_tag_no_core_switch = TPG
@@ -194,3 +199,35 @@ province_event = {
 		}
 	}
 }
+
+country_event = {
+	id = 19000116
+	title = "EVTNAME19000105"
+	desc = "EVTDESC19000105"
+	
+	trigger = {
+		tag = CHI
+		war_with = TPG
+		any_owned_province = {
+			AND = {
+				controlled_by = TPG
+				province_control_days = 15
+				NOT = { is_core = TPG }
+				}
+			}
+		}
+	mean_time_to_happen = {
+		months = 1
+	}
+	option = {
+		name = "EVTOPTA19000105"
+		any_owned = {
+			limit = {
+				controlled_by = TPG
+				province_control_days = 15
+			}
+			secede_province = TPG
+			add_core = TPG
+			}
+		}
+	}

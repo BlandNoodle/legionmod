@@ -1,3 +1,4 @@
+
 country_event = {
 	id = 790000
 	title = "EVTTITLE790000"
@@ -92,4 +93,5 @@ country_event = {
 		name = "Shoutout Darkstudio, my favorite Portugeuse speaker."
 		prestige = 1
 	}
+
 }

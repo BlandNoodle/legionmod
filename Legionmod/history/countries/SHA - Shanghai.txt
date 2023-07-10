@@ -1,4 +1,4 @@
-capital = 2221
+capital = 1539
 primary_culture = asian_minor
 culture = beifaren
 religion = animist

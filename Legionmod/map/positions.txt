@@ -63501,18 +63501,23 @@
 
 # Zhanjiang
 1495 = {
-    unit = {
-        x = 4532.000000
-        y = 1115.000000
-    }
-
     text_position = {
-        x = 4532.799805
-        y = 1109.400024
+        x = 4531.100000
+        y = 1107.250000
     }
 
-    text_rotation = 6.283185
-    text_scale = 3.399999
+    text_rotation = 0.400950
+    text_scale = 1.5
+    unit = {
+        x = 4531.200000
+        y = 1106.050000
+    }
+
+    factory = {
+        x = 4539.000000
+        y = 1122.000000
+    }
+
     building_construction = {
         x = 4540.000000
         y = 1117.000000
@@ -63523,33 +63528,73 @@
         y = 1107.000000
     }
 
+    building_position = {
+        fort = {
+            x = 4529.900000
+            y = 1105.650000
+        }
+
+        railroad = {
+            x = 4530.800000
+            y = 1108.300000
+        }
+
+        naval_base = {
+            x = 4532.300000
+            y = 1104.850000
+        }
+
+    }
+
+    building_rotation = {
+        naval_base = 4.188790
+    }
+
+}
+
+# gaozhou
+3250 = {
+    text_position = {
+        x = 4536.795000
+        y = 1115.358333
+    }
+
+    text_rotation = 6.283185
+    text_scale = 3.399999
+    unit = {
+        x = 4537.413333
+        y = 1119.686667
+    }
+
     factory = {
         x = 4539.000000
         y = 1122.000000
     }
 
+    building_construction = {
+        x = 4538.826667
+        y = 1115.093333
+    }
+
+    military_construction = {
+        x = 4535.911667
+        y = 1114.563333
+    }
+
     building_position = {
         fort = {
-            x = 4526.000000
-            y = 1092.000000
-        }
-
-        naval_base = {
-            x = 4535.100098
-            y = 1105.000000
+            x = 4538.031667
+            y = 1113.326667
         }
 
         railroad = {
-            x = 4526.000000
-            y = 1110.000000
+            x = 4541.830000
+            y = 1113.415000
         }
 
-    }
-
-    spawn_railway_track = {
-        {
-            x = 4504.000000
-            y = 1118.000000
+        naval_base = {
+            x = 4542.006667
+            y = 1109.263333
         }
 
     }

@@ -433,28 +433,159 @@ country_event = {
 		CHI_1082 = {
 			secede_province = RUS
 		}
+		1481 = {
+			secede_province = RUS
+		}
+		FRA = { country_event = {id=19000108 days=10}
+		}
+		ENG = { country_event = {id=19000109 days=15}
+		}
+		749 = { owner = {country_event = {id=19000112 days=20}
+			}
+		}
+		1498 = { owner = {
+			country_event = {id=19000111 days=20}
+			}
+		}
+		549 = { owner = {
+			country_event = {id=19000110 days=25}
+			}
+		}
+		619 = { owner = {
+			country_event = {id=19000113 days=25}
+			}
+		}
+		USA = {
+			country_event = {id=19000115 days=25}
+		}
+		any_country = {
+			limit = {
+				is_greater_power = yes
+				}
+			country_event = {id=19000114 days=60}
+		}
 		ai_chance = {
 			factor = 100
 		}
 	}
 }
 
-# China refuses
+# France sees this
 country_event = {
-	id = 80001
-	title = "EVTNAME80001"
-	desc = "EVTDESC80000"
-	picture = "expansion"
+	id = 19000108
+	title = "EVTNAME19000108"
+	desc = "EVTDESC19000108"
+	picture = "france"
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPTA80001"
-		relation = { who = CHI value = -200 }
-		release_vassal = CHI
-		diplomatic_influence = {
-			who = CHI
-			value = -200
+		name = "EVTOPTA19000108"
+		NAN = { 1495 = {secede_province = THIS}
+		}
+		prestige = 5
 		}
 	}
+country_event = {
+	id = 19000109
+	title = "EVTNAME19000108"
+	desc = "EVTDESC19000108"
+	picture = "england"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000108"
+		prestige = 8
+		}
+	}
+country_event = {
+	id = 19000110
+	title = "EVTNAME19000108"
+	desc = "EVTDESC19000108"
+	picture = "germany"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000108"
+		QNG = { 1566 = {secede_province = THIS} }
+		prestige = 5
+		}
+	}
+country_event = {
+	id = 19000111
+	title = "EVTNAME19000108"
+	desc = "EVTDESC19000108"
+	picture = "spain"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000108"
+		prestige = 8
+		}
+	}
+country_event = {
+	id = 19000112
+	title = "EVTNAME19000108"
+	desc = "EVTDESC19000108"
+	picture = "italy"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000108"
+		FZH = { 1482 = {secede_province = THIS} }
+		prestige = 5
+		}
+	}
+country_event = {
+	id = 19000113
+	title = "EVTNAME19000108"
+	desc = "EVTDESC19000108"
+	picture = "austria"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000108"
+		NGB = { 1608 = {secede_province = THIS} }
+		prestige = 5
+		}
+	}
+	
+country_event = {
+	id = 19000115
+	title = "EVTNAME19000108"
+	desc = "EVTDESC19000108"
+	picture = "germany"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000108"
+		SHA = { 1538 = {secede_province = THIS} }
+		prestige = 5
+		}
+	}
+	
+country_event = {
+	id = 19000114
+	name = "EVTNAME19000114"
+	desc = "EVTDESC19000114"
+	picture = "thecrew"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000114"
+        casus_belli = {
+            target = CHI
+            type = free_peoples
+            months = 360
+        }
+	}
 }
+
+			

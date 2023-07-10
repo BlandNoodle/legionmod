@@ -20,6 +20,11 @@ help_ai = {
     trigger = {
         ai = yes
 		NOT = { tag = JAN }
+		NOT = { OR = {
+			culture = asian_minor
+			culture = manchu
+			}
+		}
     }
     icon = 10
 	min_tax = 0.48
@@ -27,7 +32,7 @@ help_ai = {
 	supply_consumption = -0.4
     	min_military_spending = 0.61
 	mobilisation_economy_impact = -1
-	org_regain = 0.5
+	org_regain = 0.25
 	land_organisation = 0.1
 	land_unit_start_experience = 5.0
 	leadership_modifier = -0.2
@@ -35,9 +40,8 @@ help_ai = {
 	farm_rgo_eff = 0.1
 	administrative_efficiency_modifier = 0.5
 	factory_output = 0.1
-	army_tech_research_bonus = 0.3
-	import_cost = -0.5
-	min_tariff = 2
+	army_tech_research_bonus = 0.25
+	import_cost = -0.25
   	tariff_efficiency_modifier = 0.2
 }
 help_CSA = {
@@ -45,7 +49,7 @@ help_CSA = {
 	tag = CSA
     }
     icon = 10
-	mobilisation_size = 0.05
+	mobilisation_size = 0.075
 }
 
 save_the_nation0.5  = {
@@ -288,7 +292,7 @@ need_trade = {
 		ai = no
 		AND = {
 			NOT = {
-				year = 1855
+				year = 1845
 			}
 			OR = {
 				is_greater_power = yes
@@ -326,7 +330,7 @@ need_even_more_trade = {
 		ai = no
 		AND = {
 			NOT = {
-				year = 1855
+				year = 1865
 			}
 			OR = {
 				is_greater_power = yes
@@ -339,38 +343,6 @@ need_even_more_trade = {
 		tariff_efficiency_modifier = -0.35
 	}
 	
-
-bread_basket = {
-    trigger = {
-        958 = { #Kyiv
-            OR = {
-                owned_by = THIS
-                owner = { in_sphere = THIS vassal_of = THIS is_greater_power = no }
-            }
-        }
-        961 = { #Cherkassy
-            OR = {
-                owned_by = THIS
-                owner = { in_sphere = THIS vassal_of = THIS is_greater_power = no }
-            }
-        }
-        977 = { #Kursk
-            OR = {
-                owned_by = THIS
-                owner = { in_sphere = THIS vassal_of = THIS is_greater_power = no }
-            }
-        }
-        968 = { #Odessa
-            OR = {
-                owned_by = THIS
-                owner = { in_sphere = THIS vassal_of = THIS is_greater_power = no }
-            }
-        }
-    }
-    icon = 10
-    war_exhaustion = -0.1
-}
-
 vassal_nation = {
     trigger = {
         exists = yes

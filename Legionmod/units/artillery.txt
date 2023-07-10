@@ -28,6 +28,7 @@ artillery = {
 	supply_cost = {
 		artillery = 0.1 #0.008
 		canned_food = 0.06 #0.004
+		ammunition = 0.075
 	}
 	
 

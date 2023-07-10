@@ -1,5 +1,7 @@
-owner = FZH
-controller = FZH
+owner = CHI
+controller = CHI
+add_core = CHI
 add_core = FZH
+add_core = TPG
 trade_goods = iron
 life_rating = 32
