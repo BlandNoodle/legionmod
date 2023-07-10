@@ -1,0 +1,30 @@
+
+country_event = {
+	id = 19000091
+	title = "EVTNAME19000091"
+	desc = "EVTDESC19000091"
+	picture = "confederate"
+	
+	trigger = {
+		AND = {
+			tag = CSA
+			war = yes
+			NOT = {has_country_flag = robert}
+		}
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	option = {
+		name = "EVTOPTA19000091"
+		add_country_modifier = {
+			name = antiunion
+			duration = -1
+		}
+		prestige = 15
+		set_country_flag = robert
+		ai_chance = {
+			factor = 100
+		}
+	}
+		

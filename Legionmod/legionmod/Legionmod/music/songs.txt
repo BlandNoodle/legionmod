@@ -1,0 +1,580 @@
+song = {
+	name = "goldbear.mp3"
+		chance = {
+			modifer = {
+				factor = -1
+				NOT = { year = 1887 }
+		}
+			modifier = {
+				factor = 1
+				year = 1887 
+		}
+			modifier = {
+				factor = 3
+				has_country_modifier = fredbear
+		}
+		
+	}
+}
+
+song = {
+	name = "piano1.mp3"
+		chance = {
+			modifier = {
+				factor = 1
+				NOT = {year = 1937} 
+		}
+			
+	}
+}
+song = {
+	name = "vic2.mp3"
+		chance = {
+			modifier = {
+				factor = 1
+				NOT = {year = 1937} 
+		}
+			
+	}
+}
+song = {
+	name = "soy2.mp3"
+		chance = {
+			modifier = {
+				factor = -1
+				NOT = {year = 1937} 
+				}
+			modifier = {
+				factor = 2
+				year = 1837
+		}
+			
+	}
+}
+
+song = {
+	name = "disney.mp3"
+		chance = {
+			modifier = {
+				factor = 1
+				NOT = {year = 1937}
+		}
+			
+	}
+}
+song = {
+	name = "soy3.mp3"
+		chance = {
+			modifier = {
+				factor = 1
+				NOT = {year = 1937}
+		}
+			
+	}
+}
+song = {
+	name = "violin.mp3"
+		chance = {
+			modifier = {
+				factor = 1
+				NOT = {year = 1937} 
+		}
+			
+	}
+}
+
+song = {
+	name = "soy4.mp3"
+		chance = {
+			modifier = {
+				factor = 1
+				NOT = {year = 1937} 
+		}
+			
+	}
+}
+song = {
+	name = "classic1.mp3"
+		chance = {
+			modifier = {
+				factor = 1
+				NOT = {year = 1937} 
+		}
+			
+	}
+}
+
+song = {
+	name = "something.mp3"
+		chance = {
+			modifier = {
+				factor = 1
+				NOT = {year = 1937} 
+		}
+			
+	}
+}
+song = {
+	name = "poor.mp3"
+		chance = {
+			modifier = {
+				factor = -1
+				NOT = {year = 1937}
+		}
+			modifier = {
+				factor = 2
+				OR = {
+					AND = {
+						tag = ENG
+						owns = 1213
+					}
+					AND = {
+						tag = RUS
+						owns = 1213
+					}
+				}
+			}
+	}
+}
+song = {
+	name = "baby.mp3"
+		chance = {
+			modifier = {
+				factor = -1
+				NOT = {year = 1937} 
+				}
+			modifier = {
+				factor = 3
+				badboy = 1.0
+			}
+		}
+	}
+
+
+song = {
+	name = "thecoronation_titletheme.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			NOT = {year = 1937}
+			}
+		}
+	}
+song = {
+	name = "shit1.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			NOT = {year = 1937}
+			}
+		}
+	}
+song = {
+	name = "gremlins.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			NOT = {year = 1937}
+			}
+		}
+	}
+song = {
+	name = "gremlins2.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			NOT = {year = 1937}
+			}
+		}
+	}
+song = {
+	name = "gremlins2.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			NOT = {year = 1937}
+			}
+		}
+	}
+
+song = {
+	name = "tunis.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			NOT = {year = 1937}
+			}
+		modifier = {
+			factor = 1
+			owns = 1725
+		}
+	}
+song = {
+	name = "latino.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			NOT = {year = 1937}
+			}
+		}
+	}
+song = {
+	name = "gremlins3.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			NOT = {year = 1937}
+			}
+		}
+	}
+song = {
+	name = "gremlins4.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			NOT = {year = 1937}
+			}
+		modifier = {
+			factor = 2
+			NOT = [ war = no }
+		}
+	}
+song = {
+	name = "gremlins5.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			NOT = {year = 1937}
+			}
+		modifier = {
+			factor = 2
+			NOT = [ war = yes }
+		}
+	}
+song = {
+	name = "peking.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			NOT = {year = 1937}
+			}
+	}
+}
+song = {
+	name = "gremlins3.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			NOT = {year = 1937}
+			}
+		}
+	}
+song = {
+	name = "sun.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			NOT = {year = 1937}
+			}
+		modifier = {
+			factor = 2
+			AND = {
+				war = yes
+				is_mobilised = yes
+			}
+		}
+	}
+}
+song = {
+	name = "broke.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			NOT = {year = 1937}
+			}
+		modifier = {
+			factor = 4
+			in_default = yes
+			}
+		}
+	}
+song = {
+	name = "guitar1.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			NOT = {year = 1937}
+			}
+			modifier = {
+				factor = 2
+				is_mobilised = yes
+			}
+		}
+	}
+song = {
+	name = "guitar2.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			NOT = {year = 1937}
+			}
+			modifier = {
+				factor = 2
+				is_mobilised = yes
+			}
+		}
+	}
+
+song = {
+	name = "turk.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			NOT = {year = 1937}
+			}
+		}
+	}
+song = {
+	name = "boer.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			NOT = {year = 1937}
+			}
+	}
+}
+song = {
+	name = "france.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			NOT = {year = 1937}
+			}
+	}
+}
+song = {
+	name = "germany.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			NOT = {year = 1937}
+			}
+		}
+	}
+
+song = {
+	name = "russia.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			NOT = {year = 1937}
+			}
+	}
+}
+song = {
+	name = "soge.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			NOT = {year = 1937}
+			}
+		}
+	}
+song = {
+	name = "america.mp3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			NOT = {year = 1937}
+			}
+		}
+	}
+	
+song = {
+	name = "zolo.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			NOT = {year = 1937}
+			}
+			modifier = {
+				factor = 2
+				is_mobilised = yes
+			}
+		}
+	}
+	
+song = {
+	name = "strongest.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			NOT = {year = 1937}
+			}
+			modifier = {
+				factor = 2
+				AND = {
+					war = yes
+					is_mobilised = yes
+				}
+			}
+		}
+	}
+	
+song = {
+	name = "swordsman.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			NOT = {year = 1937}
+			}
+			modifier = {
+				factor = 2
+				AND = {
+					is_mobilised = yes
+					war = yes
+				}
+			}
+		}
+	}
+
+song = {
+	name = "hyperborea2.mp3"
+		chance = {
+			modifier = {
+				factor = -1
+				NOT = {year = 1937} 
+		}
+			modifier = {
+				factor = 2
+				exists = HYP
+		}
+	}
+}
+
+song = {
+	name = "nuke1.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			NOT = {year = 1937}
+			}
+			modifier = {
+				factor = 3
+				AND = {
+					war = yes
+				}
+			}
+		}
+	}
+
+song = {
+	name = "nuke2.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			NOT = {year = 1937}
+			}
+			modifier = {
+				factor = 3
+				AND = {
+					war = yes
+				}
+			}
+		}
+	}
+	
+song = {
+	name = "death2.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			NOT = {year = 1937}
+			}
+			modifier = {
+				factor = 2
+				AND = {
+					is_mobilised = yes
+					war = yes
+				}
+			}
+		}
+	}
+	
+song = {
+	name = "death1.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			NOT = {year = 1937}
+			}
+			modifier = {
+				factor = 2
+				AND = {
+					war = yes
+					is_mobilised = yes
+				}
+			}
+		}
+	}
+	
+song = {
+	name = "death3.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			NOT = {year = 1937}
+			}
+			modifier = {
+				factor = 2
+				AND = {
+					is_mobilised = yes
+					war = yes
+				}
+			}
+		}
+	}
+song = {
+	name = "kalinnikov1.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			NOT = {year = 1937}
+			}
+		modifier = {
+			factor = 2
+			NOT = [ war = no }
+		}
+	}

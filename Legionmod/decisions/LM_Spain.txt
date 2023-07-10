@@ -1,3 +1,4 @@
+
 political_decisions = {
 	lm_ten_year_siesta = {
 		picture = siesta
