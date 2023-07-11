@@ -496,12 +496,7 @@ trash = {
 		
 		effect = {
 			set_country_flag = haiintegrate
-			any_state = {
-				is_core = HAI
-				any_owned = {
-					add_core = THIS
-				}
-			}
+			HAI = { all_core = { add_core = THIS } }
 			add_accepted_culture = afro_antillean
 			treasury = -250000
 		}
@@ -533,12 +528,7 @@ ybarra = {
 		
 		effect = {
 			set_country_flag = mexintegrate
-			any_state = {
-				is_core = MEX
-				any_owned = {
-					add_core = THIS
-				}
-			}
+			MEX = { all_core = { add_core = THIS } }
 			inherit = MEX
 			add_accepted_culture = mexican
 			treasury = -500000
