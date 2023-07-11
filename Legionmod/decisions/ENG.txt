@@ -261,12 +261,7 @@ southaf = {
 		
 		effect = {
 			set_country_flag = safintegrate
-			any_owned_province = {
-				is_core = SAF
-				any_owned = {
-					add_core = ENG
-				}
-			}
+			SAF = { all_core = { add_core = ENG } }
 			add_accepted_culture = boer
 			treasury = -500000
 		}
