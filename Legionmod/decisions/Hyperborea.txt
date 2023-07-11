@@ -148,13 +148,7 @@ integrate_poles = {
 				annex_to = THIS
 			}
 			add_accepted_culture = polish
-			any_state = {
-				limit = {
-					is_core = POL
-				}
-				add_core = THIS
-				
-			}
+			POL = { all_core = { add_core = THIS } }
 			set_country_flag = pintegrate
 		}
 	}
@@ -190,13 +184,7 @@ integrate_walloons = {
 				annex_to = THIS
 			}
 			add_accepted_culture = wallonian
-			any_owned = {
-				limit = {
-					is_core = WLL
-				}
-				add_core = THIS
-				
-			}
+			WLL = { all_core = { add_core = THIS } }
 			set_country_flag = wintegrate
 		}
 	}
@@ -234,13 +222,7 @@ integrate_flems = {
 				annex_to = THIS
 			}
 			add_accepted_culture = flemish
-			any_owned = {
-				limit = {
-					is_core = FLA
-				}
-				add_core = THIS
-				
-			}
+			FLA = { all_core = { add_core = THIS } }
 			set_country_flag = fintegrate
 		}
 	}
@@ -288,12 +270,7 @@ integrate_dutch = {
 				annex_to = THIS
 			}
 			add_accepted_culture = dutch
-			any_owned = {
-				limit = {
-					is_core = NET
-				}
-				add_core = THIS
-			}
+			NET = { all_core = { add_core = THIS } }
 			set_country_flag = dintegrate
 		}
 	}
@@ -332,12 +309,7 @@ integrate_nitaly = {
 				annex_to = THIS
 			}
 			add_accepted_culture = north_italian
-			any_owned = {
-				limit = {
-					is_core = ITA
-				}
-				add_core = THIS
-			}
+			ITA = { any_core = { add_core = THIS } }
 			set_country_flag = nintegrate
 		}
 	}
@@ -351,6 +323,7 @@ integrate_shitaly = {
 			tag = FRA
 			tag = KUK
 		}
+		NOT = { year = 1870 }
 		NOT = { has_country_flag = sintegrate }
 	}
 	allow = {
@@ -374,12 +347,7 @@ integrate_shitaly = {
 				annex_to = THIS
 			}
 			add_accepted_culture = south_italian
-			any_owned = {
-				limit = {
-					is_core = SIC
-				}
-				add_core = THIS
-			}
+			SIC = { all_core = { add_core = THIS } }
 			set_country_flag = sintegrate
 		}
 	}
@@ -424,12 +392,7 @@ integrate_rom = {
 				annex_to = THIS
 			}
 			add_accepted_culture = romanian
-			any_owned = {
-				limit = {
-					is_core = ROM
-				}
-				add_core = THIS
-			}
+			ROM = { all_core = { add_core = THIS } }
 			set_country_flag = rintegrate
 		}
 	}
@@ -475,12 +438,7 @@ integrate_greek = {
 				annex_to = THIS
 			}
 			add_accepted_culture = greek
-			any_owned = {
-				limit = {
-					is_core = GRE
-				}
-				add_core = THIS
-			}
+			GRE = { all_core = { add_core = THIS } }
 			set_country_flag = gintegrate
 		}
 	}
@@ -525,12 +483,7 @@ integrate_bul = {
 				annex_to = THIS
 			}
 			add_accepted_culture = bulgarian
-			any_owned = {
-				limit = {
-					is_core = BUL
-				}
-				add_core = THIS
-			}
+			BUL = { all_core = { add_core = THIS } }
 			set_country_flag = bintegrate
 		}
 	}

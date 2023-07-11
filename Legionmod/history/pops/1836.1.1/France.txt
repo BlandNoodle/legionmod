@@ -41,13 +41,13 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 2100
+		size = 2700
 	}
 
 	labourers = {
 		culture = french
 		religion = catholic
-		size = 130000
+		size = 155000
 	}
 }
 #Dunkirk (396000/99000 POPS)
@@ -355,7 +355,7 @@
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 55700
+		size = 57700
 	}
 }
 #Chaumont (256000/64000 POPS)
@@ -419,7 +419,7 @@
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 78500
+		size = 79500
 	}
 
 }
@@ -705,7 +705,7 @@
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 94400
+		size = 97400
 	}
 
 	bureaucrats = {
@@ -877,7 +877,7 @@
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 93025
+		size = 95025
 	}
 
 	clergymen = {
@@ -1009,13 +1009,13 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 2000
+		size = 2500
 	}
 
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 146350
+		size = 147350
 	}
 }
 #Evreux (424000/106000 POPS)
@@ -1041,7 +1041,7 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 1100
+		size = 1800
 	}
 
 	farmers = {
@@ -1073,7 +1073,7 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 1200
+		size = 1800
 	}
 
 	farmers = {
@@ -1111,7 +1111,7 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 2750
+		size = 2950
 	}
 
 	farmers = {
@@ -1163,7 +1163,7 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 1400
+		size = 1900
 	}
 
 	farmers = {
@@ -1195,7 +1195,7 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 1500
+		size = 1900
 	}
 
 	farmers = {
@@ -1227,7 +1227,7 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 1100
+		size = 1900
 	}
 
 	farmers = {
@@ -1265,7 +1265,7 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 1250
+		size = 1750
 	}
 
 	labourers = {
@@ -1297,7 +1297,7 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 1400
+		size = 1900
 	}
 
 	farmers = {

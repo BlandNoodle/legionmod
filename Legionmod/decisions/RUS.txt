@@ -301,9 +301,10 @@ political_decisions = {
 
 	colonize_uriankhai = {
 		picture = uriankhai_colony
-		potential = { year = 1850
+		potential = {
 			tag = RUS
 			NOT = { has_country_flag = colonize_uriankhai }
+			has_global_flag = the_century
 		}
 		
 		allow = {
@@ -317,7 +318,7 @@ political_decisions = {
 			set_country_flag = colonize_uriankhai
 			prestige = 2
 			1469 = { add_core = RUS }
-     	   1469 = {
+     	    1469 = {
       	      secede_province = RUS
       		  }
 			
@@ -345,6 +346,7 @@ political_decisions = {
 				owns = 702
 			}
 			NOT = { has_global_flag = poles_expelled }
+			NOT = { has_country_flag = pintegrate }
 		}
 		
 		allow = {
@@ -387,5 +389,30 @@ political_decisions = {
 			951 = { any_pop = { limit = { has_pop_culture = polish } move_pop = 708 } }
 		}
 		ai_will_do = { factor = 1 }
+	}
+	ukraine_slava = {
+		potential = {
+			AND = {
+				accepted_culture = ukrainian
+				owns = 958
+			}
+		NOT = { has_country_flag = get_to_work }
+		}
+		allow = {
+			mechanical_production = 1
+			money = 200001
+		}
+		effect = {
+			money = -200000
+			any_owned = {
+				limit = {
+					culture = ukrainian
+				}
+				add_province_modifier = {
+				name = bread_basketm
+				duration = -1 }
+			}
+		set_country_flag = get_to_work
+		}
 	}
 }

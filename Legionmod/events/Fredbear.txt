@@ -15,19 +15,31 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 800
+		months = 1500
 		
 		modifier = {
-			factor = 0.95
+			factor = 0.66
 			tag = FRA
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.90
 			average_militancy = 4
 		}
 		modifier = {
-			factor = 0.75
+			factor = 0.80
 			average_militancy = 5
+		}
+		modifier = {
+			factor = 0.70
+			average_militancy = 6
+		}
+		modifier = {
+			factor = 0.50
+			average_militancy = 7
+		}
+		modifier = {
+			factor = 0.01
+			average_militancy = 8
 		}
 	}
 		

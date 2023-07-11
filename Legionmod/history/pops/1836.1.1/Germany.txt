@@ -4803,13 +4803,13 @@
 	}
 
 	clergymen = {
-		culture = polish
+		culture = north_german
 		religion = protestant
 		size = 75  
 	}
 
 	artisans = {
-		culture = polish
+		culture = north_german
 		religion = protestant
 		size = 250
 	}
@@ -4821,7 +4821,7 @@
 	}
 
 	farmers = {
-		culture = polish
+		culture = north_german
 		religion = protestant
 		size = 4625 
 	}
@@ -4901,7 +4901,7 @@
 	}
 
 	farmers = {
-		culture = polish
+		culture = north_german
 		religion = protestant
 		size = 1850 
 	}
