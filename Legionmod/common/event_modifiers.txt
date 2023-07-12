@@ -1302,6 +1302,23 @@ assimilate_morocco = {
 	assimilation_rate = 1
 }
 
+reformed_ottoman_army = {
+   	org_regain = 0.15
+  	land_organisation = 0.1
+  	mobilisation_economy_impact = -0.2
+	land_unit_start_experience = 5.0
+	supply_consumption = -0.1
+	leadership_modifier = 0.15
+	icon = 15
+}
+
+reformed_ottoman_administration = {
+	tariff_efficiency_modifier = 0.1
+	tax_efficiency = 0.05
+	political_reform_desire = 0.1
+	social_reform_desire = 0.05
+}
+
 ##### RGO Spread Events (modified to become national modifiers) #####
 country_tractors = {
 	rgo_output = 0.3
