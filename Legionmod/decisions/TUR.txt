@@ -6,21 +6,21 @@ political_decisions = {
 				tag = OTC
 			}
 			NOT = {
-				has_country_flag = tanzimat_reforms_enacted
+				has_country_flag = tanzimat_reforms_economic_enacted
 			}
-			government = absolute_monarchy
 		}
 		
 		allow = {
-			average_militancy = 3
-			average_consciousness = 4
+			idealism = 1
+			functionalism = 1
+			ad_hoc_money_bill_printing = 1
 		}
 		
 		effect = {	
 		money = 100000
 			add_country_modifier = {
-				name = forced_assimilation
-				duration = 1825
+				name = reformed_ottoman_administration
+				duration = -1
 			}
 			any_pop = {
 				limit = {
@@ -28,10 +28,41 @@ political_decisions = {
 						has_pop_culture = turkish
 					}
 				}
-				militancy = -3
-				consciousness = 1
+				militancy = -2
 			}
-			set_country_flag = tanzimat_reforms_enacted
+			set_country_flag = tanzimat_reforms_economic_enacted
+		}
+	}
+	
+	tanzimat_reforms_army = {
+		potential = {
+			OR = {
+				tag = TUR
+				tag = OTC
+			}
+			NOT = {
+				has_country_flag = tanzimat_reforms_army_enacted
+			}
+		}
+		
+		allow = {
+			muzzle_loaded_rifles = 1
+			army_professionalism = 1
+		}
+		
+		effect = {	
+			add_country_modifier = {
+				name = reformed_ottoman_army
+				duration = 3650
+			}
+			any_pop = {
+				limit = {
+					NOT = {
+						has_pop_culture = turkish
+					}
+				}
+			}
+			set_country_flag = tanzimat_reforms_army_enacted
 		}
 	}
 	
