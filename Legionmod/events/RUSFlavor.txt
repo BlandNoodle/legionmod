@@ -589,9 +589,9 @@ country_event = {
 }
 
 country_event = {
-	id = 19000115
-	name = "EVTNAME19000115"
-	desc = "EVTDESC19000115"
+	id = 19000117
+	title = "EVTNAME19000117"
+	desc = "EVTDESC19000117"
 	picture = "assassinated"
 	
 	trigger = {
@@ -624,9 +624,9 @@ country_event = {
 }
 
 country_event = {
-	id = 19000116
-	name = "EVTNAME19000116"
-	desc = "EVTDESC19000116"
+	id = 19000118
+	title = "EVTNAME19000118"
+	desc = "EVTDESC19000118"
 	picture = "alexanderbro"
 	
 	trigger = {
@@ -641,7 +641,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA19000116"
+		name = "EVTOPTA19000118"
 		prestige = 5
 		add_country_modifier = {
 			name = alexanderii
