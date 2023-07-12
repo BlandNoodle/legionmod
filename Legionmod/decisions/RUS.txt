@@ -3,6 +3,7 @@ political_decisions = {
 		potential = {
 			tag = RUS
 			has_country_flag = serfdom_not_abolished
+			has_country_flag = alexander_ii
 		}
 		allow = {
 			OR = {
@@ -15,9 +16,7 @@ political_decisions = {
 				}	
 				AND = {
 					ruling_party_ideology = liberal
-					average_consciousness = 4
 				}
-				average_militancy = 4
 			}
 		}
 		effect = {
@@ -158,6 +157,7 @@ political_decisions = {
 		}
 		
 		effect = {
+			badboy = 3
 			set_country_flag = eastern_christians_up_in_here_yall
 			add_country_modifier = {
 				name = protector_of_eastern_christendom

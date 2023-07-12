@@ -114,28 +114,7 @@ song = {
 			
 	}
 }
-song = {
-	name = "poor.mp3"
-		chance = {
-			modifier = {
-				factor = -1
-				NOT = {year = 1937}
-		}
-			modifier = {
-				factor = 2
-				OR = {
-					AND = {
-						tag = ENG
-						owns = 1213
-					}
-					AND = {
-						tag = RUS
-						owns = 1213
-					}
-				}
-			}
-	}
-}
+
 song = {
 	name = "baby.mp3"
 		chance = {
@@ -575,6 +554,7 @@ song = {
 			}
 		modifier = {
 			factor = 2
-			NOT = [ war = no }
+			NOT = { war = no }
 		}
 	}
+}

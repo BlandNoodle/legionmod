@@ -756,11 +756,13 @@ political_decisions = {
 		}
 		
 		allow = {
+			money = 500001
 			NOT = {
 				average_militancy = 4
 			}
 		}
 		effect = {
+			money = -500000
 			war_exhaustion = -3
 			any_pop = {
 				limit = {

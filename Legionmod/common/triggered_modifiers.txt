@@ -292,25 +292,6 @@ need_trade = {
 		ai = no
 		AND = {
 			NOT = {
-				year = 1845
-			}
-			OR = {
-				is_greater_power = yes
-				is_secondary_power = yes
-			}
-		}
-	}
-		icon = 10
-		max_tariff = -0.25
-		tariff_efficiency_modifier = -0.15
-	}
-	
-need_more_trade = {
-	trigger = {
-		ai = no
-		year = 1845
-		AND = {
-			NOT = {
 				year = 1855
 			}
 			OR = {
@@ -320,14 +301,13 @@ need_more_trade = {
 		}
 	}
 		icon = 10
-		max_tariff = -0.15
-		tariff_efficiency_modifier = -0.25
+		tariff_efficiency_modifier = -0.2
 	}
 	
-need_even_more_trade = {
+need_more_trade = {
 	trigger = {
-		year = 1855
 		ai = no
+		year = 1855
 		AND = {
 			NOT = {
 				year = 1865
@@ -339,8 +319,25 @@ need_even_more_trade = {
 		}
 	}
 		icon = 10
-		max_tariff = -0.1
-		tariff_efficiency_modifier = -0.35
+		tariff_efficiency_modifier = -0.25
+	}
+	
+need_even_more_trade = {
+	trigger = {
+		year = 1865
+		ai = no
+		AND = {
+			NOT = {
+				year = 1875
+			}
+			OR = {
+				is_greater_power = yes
+				is_secondary_power = yes
+			}
+		}
+	}
+		icon = 10
+		tariff_efficiency_modifier = -0.3
 	}
 	
 vassal_nation = {

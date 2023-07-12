@@ -588,4 +588,73 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = 19000115
+	name = "EVTNAME19000115"
+	desc = "EVTDESC19000115"
+	picture = "assassinated"
+	
+	trigger = {
+		tag = RUS
+		goverment = absolute_monarchy
+		OR = {
+			revolution_n_counterrevolution = 1
+			year = 1881
+		}
+		has_country_flag = alexander_ii
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = "EVTOPTA19000115"
+		government = imperial
+		prestige = -5
+		any_pop = {
+			consciousness = 1
+			ideology = {
+				value = reactionary
+				factor = 0.05
+			}
+		}
+		remove_country_modifier = alexanderii
+		clr_country_flag = alexander_ii
+	}
+}
+
+country_event = {
+	id = 19000116
+	name = "EVTNAME19000116"
+	desc = "EVTDESC19000116"
+	picture = "alexanderbro"
+	
+	trigger = {
+		tag = RUS
+		year = 1854
+		NOT = { OR = { has_country_flag = alexander_ii 
+						year = 1880 }
+		}
+	}
+	mean_time_to_happen = {
+		months = 4
+	}
+	
+	option = {
+		name = "EVTOPTA19000116"
+		prestige = 5
+		add_country_modifier = {
+			name = alexanderii
+			duration = -1
+		}
+		any_pop = {
+			consciousness = 1
+			ideology = {
+				value = liberal
+				factor = 0.05
+			}
+		}
+		set_country_flag = alexander_ii
+	}
+}
 			
