@@ -437,6 +437,9 @@ country_event = {
 				is_colonial = yes
 			}
 			secede_province = HND
+			HND = {
+				add_accepted_culture = asian_minor
+			}
 		}
 	}
 }

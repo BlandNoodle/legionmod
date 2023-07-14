@@ -432,4 +432,82 @@ southaf = {
             }
         }
     }
+	
+	greatgame = {
+		potential = {
+			OR = {
+				tag = RUS
+				tag = ENG
+			}
+			NOT = { has_global_flag = we_have_a_winner }
+		}
+		allow = {
+			AFG = { in_sphere = THIS }
+			nationalism_n_imperialism = 1
+			}
+		effect = {
+			THIS = {
+				create_vassal = AFG
+			}
+			set_country_flag = greatgamer
+			set_global_flag = we_have_a_winner
+			prestige = 5
+		}
+	}
+	
+	britishpersia = {
+		potential = {
+			tag = ENG
+			has_global_flag = we_have_a_winner
+			PER = {
+				owns = 1132
+			}
+			NOT = {has_country_flag = engpersia}
+		}
+		allow = {
+			OR = {
+				AND = {
+						OR = {
+							935 = {
+								owner = { in_sphere = THIS }
+							}
+							935 = {
+								owner = { alliance_with = THIS }
+							}
+							year = 1870
+							owns = 935
+						}
+						is_our_vassal = AFG
+					}
+				AND = {
+					OR = {
+							935 = {
+								owner = { in_sphere = THIS }
+							}
+							935 = {
+								owner = { alliance_with = THIS }
+							}
+							owns = 935
+						}
+						year = 1880
+						owns = 860
+						PER = { in_sphere = THIS }
+					}
+				}
+			}
+		effect = {
+			PER = {
+				1132 = {secede_province = ENG}
+				1131 = {secede_province = ENG}
+				1138 = {secede_province = ENG}
+				1141 = {secede_province = ENG}
+				1142 = {secede_province = ENG}
+				1145 = {secede_province = ENG}
+				1146 = {secede_province = ENG}
+				1136 = {secede_province = ENG}
+			}
+			ENG = { create_vassal = PER }
+			set_country_flag = engpersia
+		}
+	}
 }

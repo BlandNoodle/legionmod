@@ -608,7 +608,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA19000115"
+		name = "EVTOPTA19000117"
 		government = imperial
 		prestige = -5
 		any_pop = {
@@ -655,6 +655,143 @@ country_event = {
 			}
 		}
 		set_country_flag = alexander_ii
+	}
+}
+country_event = {
+	id = 19000120
+	title = "EVTNAME19000120"
+	desc = "EVTDESC19000120"
+	picture = "persiangulf"
+	
+	trigger = {
+		NOT = { has_country_flag = persiangulf }
+		OR = {
+			tag = ENG
+			tag = RUS
+			tag = OTC
+		}
+		owns = 1132
+	}
+	
+	mean_time_to_happen = {
+		months = 2
+	}
+	
+	option = {
+		name = "EVTOPTA19000120"
+		add_country_modifier = {
+			name = persian_gulf
+			duration = -1
+		}
+		prestige = 5
+		set_country_flag = persiangulf
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+
+country_event = {
+	id = 19000119
+	title = "EVTNAME19000119"
+	desc = "EVTDESC19000119"
+	picture = "lost"
+	
+	trigger = {
+		has_country_flag = persiangulf
+		OR = {
+			tag = RUS
+			tag = ENG
+			tag = OTC
+		}
+		NOT = { owns = 1132 }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA19000119"
+		remove_country_modifier = {
+			name = persian_gulf
+		}
+		prestige = -10
+		remove_country_flag = persiangulf
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = {
+	id = 19000121
+	title = "EVTNAME19000121"
+	desc = "EVTDESC19000121"
+	picture = "maoi"
+	
+	trigger = {
+		NOT = { has_country_flag = mimosa }
+		OR = {
+			tag = ENG
+			tag = RUS
+			tag = USA
+			tag = JAP
+		}
+		owns = 658
+	}
+	
+	mean_time_to_happen = {
+		months = 2
+	}
+	
+	option = {
+		name = "EVTOPTA19000120"
+		add_country_modifier = {
+			name = mimosas
+			duration = -1
+		}
+		prestige = 5
+		set_country_flag = mimosa
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+
+country_event = {
+	id = 19000122
+	title = "EVTNAME19000122"
+	desc = "EVTDESC19000122"
+	picture = "lost"
+	
+	trigger = {
+		has_country_flag = mimosa
+		OR = {
+			tag = RUS
+			tag = ENG
+			tag = USA
+			tag = JAP
+		}
+		NOT = { owns = 658 }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA19000122"
+		remove_country_modifier = {
+			name = mimosas
+		}
+		prestige = -10
+		remove_country_flag = mimosa
+		ai_chance = {
+			factor = 100
+		}
 	}
 }
 			

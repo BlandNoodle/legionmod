@@ -414,9 +414,9 @@ hyperinflation = {
 	}
 	core_pop_consciousness_modifier = 0.01
 	effect = {
-		factory_cost = -0.1
+		factory_cost = -0.15
 		rgo_goods_output = {
-			precious_metal = -1
+			precious_metal = -2
 		}
 	}
 }

@@ -388,10 +388,12 @@ indiacountry = {
 	trigger = {
 		tag = HND
 		ai = yes
+		NOT = { year = 1900 }
 	}
 	icon = 19
-	research_points = -1
-	research_points_on_conquer = -1
+	research_points_modifier = -2
+	research_points_on_conquer = -5
+	factory_cost = 4
 }
 
 the_british_raj = {
@@ -433,6 +435,7 @@ the_british_raj = {
 	mobilisation_size = 0.02
 	land_organisation = 0.1
     prestige = 0.03
+	badboy = 0.05
     icon = 19
 }
 

@@ -38,8 +38,8 @@ hussar = {
 
 	#Land Abilties
 	reconnaissance = 2
-	attack = 3
-	defence = 3
+	attack = 4
+	defence = 4
 	discipline = 1.0
 	support = 0.0
 	maneuver = 4

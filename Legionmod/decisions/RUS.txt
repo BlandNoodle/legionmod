@@ -415,4 +415,67 @@ political_decisions = {
 		set_country_flag = get_to_work
 		}
 	}
+	
+	russianpersia = {
+		potential = {
+			tag = RUS
+			has_global_flag = we_have_a_winner
+			PER = {
+				owns = 1132
+			}
+			NOT = { has_country_flag = ruspersia }
+		}
+		allow = {
+			OR = {
+				AND = {
+						OR = {
+							935 = {
+								owner = { in_sphere = THIS }
+							}
+							935 = {
+								owner = { alliance_with = THIS }
+							}
+							year = 1870
+							owns = 935
+						}
+						is_our_vassal = AFG
+					}
+				AND = {
+					OR = {
+							935 = {
+								owner = { in_sphere = THIS }
+							}
+							935 = {
+								owner = { alliance_with = THIS }
+							}
+							owns = 935
+						}
+						year = 1880
+						owns = 1168
+						PER = { in_sphere = THIS }
+					}
+				}
+			}
+		effect = {
+			PER = {
+				1132 = {secede_province = RUS}
+				1131 = {secede_province = RUS}
+				1133 = {secede_province = RUS}
+				1120 = {secede_province = RUS}
+				1119 = {secede_province = RUS}
+				1128 = {secede_province = RUS}
+				1122 = {secede_province = RUS}
+				1118 = {secede_province = RUS}
+				1117 = {secede_province = RUS}
+				1123 = {secede_province = RUS}
+				1111 = {secede_province = RUS}
+				1112 = {secede_province = RUS}
+				1109 = {secede_province = RUS}
+				1110 = {secede_province = RUS}
+				1108 = {secede_province = RUS}
+			}
+			RUS = { create_vassal = PER }
+			set_country_flag = ruspersia
+		}
+	}
 }

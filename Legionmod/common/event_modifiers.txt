@@ -79,7 +79,7 @@ alexanderii = {
 	social_reform_desire = 0.2
 	core_pop_consciousness_modifier = 0.01
 	administrative_efficiency_modifier = 0.05
-	mobilisation_size = 0.01
+	industry_tech_research_bonus = 0.05
 }
 
 unshakable_autocracy = {
@@ -88,6 +88,7 @@ unshakable_autocracy = {
 	core_pop_militancy_modifier = -0.2
 	core_pop_consciousness_modifier = -0.1
 	administrative_efficiency_modifier = 0.2
+	badboy = 0.05
 }
 
 ##### POLITICAL EVENTS ######
@@ -644,7 +645,7 @@ organic_work = {
 ##### GREAT POWERS #####
 protector_of_eastern_christendom = {
 	prestige = 0.1
-	badboy = -0.05
+	badboy = 0.05
 	mobilisation_size = 0.01
 	icon = 17
 }
@@ -1051,6 +1052,26 @@ liberian_research_boost = {
 }
 
 ##Mod
+persian_gulf = {
+	icon = 7
+	naval_organisation = 0.1
+	naval_unit_start_experience = 10
+	navy_tech_research_bonus = 0.1
+	navy_base = {
+		supply_consumption = -0.15
+		}
+}
+
+mimosas = {
+	icon = 7
+	naval_organisation = 0.1
+	naval_unit_start_experience = 10
+	navy_tech_research_bonus = 0.1
+	navy_base = {
+		supply_consumption = -0.15
+		}
+}
+
 reform_our_empire = {
 	education_efficiency_modifier = 0.25
 	mobilisation_size = 0.02
@@ -1371,5 +1392,7 @@ crimea = {
 		supply_consumption = -0.25
 		}
 }
+
+
 
 
