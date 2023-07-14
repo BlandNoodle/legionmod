@@ -1051,34 +1051,12 @@ liberian_research_boost = {
 	icon = 5
 }
 
-##Mod
-persian_gulf = {
-	icon = 7
-	naval_organisation = 0.1
-	naval_unit_start_experience = 10
-	navy_tech_research_bonus = 0.1
-	navy_base = {
-		supply_consumption = -0.15
-		}
-}
-
-mimosas = {
-	icon = 7
-	naval_organisation = 0.1
-	naval_unit_start_experience = 10
-	navy_tech_research_bonus = 0.1
-	navy_base = {
-		supply_consumption = -0.15
-		}
-}
-
 reform_our_empire = {
 	education_efficiency_modifier = 0.25
 	mobilisation_size = 0.02
 	research_points_modifier = 0.15
 	tax_efficiency = 0.05
 	administrative_efficiency_modifier = 0.05
-	factory_throughput = 0.05
 	icon = 5
 }
 new_crops = {
@@ -1393,6 +1371,39 @@ crimea = {
 		}
 }
 
+fakemodifier = {
+	prestige = 1
+	icon = 3
+}
 
+persian_gulf = {
+	icon = 7
+	naval_organisation = 0.1
+	naval_unit_start_experience = 10
+	navy_tech_research_bonus = 0.1
+	navy_base = {
+		supply_consumption = -0.15
+		}
+}
+
+fakemodifier = {
+	prestige = 1
+	icon = 3
+}
+
+mimosas = {
+	icon = 7
+	naval_organisation = 0.1
+	naval_unit_start_experience = 10
+	navy_tech_research_bonus = 0.1
+	navy_base = {
+		supply_consumption = -0.15
+		}
+}
+
+fakemodifier = {
+	prestige = 1
+	icon = 3
+}
 
 
