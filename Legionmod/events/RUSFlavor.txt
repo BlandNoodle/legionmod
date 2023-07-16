@@ -669,6 +669,7 @@ country_event = {
 			tag = ENG
 			tag = RUS
 			tag = OTC
+			tag = FRA
 		}
 		owns = 1132
 	}
@@ -704,6 +705,7 @@ country_event = {
 			tag = RUS
 			tag = ENG
 			tag = OTC
+			tag = FRA
 		}
 		NOT = { owns = 1132 }
 	}
@@ -738,6 +740,8 @@ country_event = {
 			tag = RUS
 			tag = USA
 			tag = JAP
+			tag = FRA
+			tag = GER
 		}
 		owns = 658
 	}
@@ -774,6 +778,8 @@ country_event = {
 			tag = ENG
 			tag = USA
 			tag = JAP
+			tag = FRA
+			tag = GER
 		}
 		NOT = { owns = 658 }
 	}

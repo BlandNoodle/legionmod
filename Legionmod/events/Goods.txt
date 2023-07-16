@@ -32,6 +32,7 @@ province_event = {
 			province_id = 1659			# Kobe
 			province_id = 2142			# Chihuahua
 			province_id = 2255			# Barranquilla
+			province_id = 1157
 		}
 		not = { trade_goods = precious_metal }
 	}
@@ -1552,6 +1553,7 @@ province_event = {
 			province_id = 1136
 			province_id = 1146
 			province_id = 1145
+			province_id = 2562		# taiwan
 		}
 		not = { trade_goods = oil }
 		OR = {

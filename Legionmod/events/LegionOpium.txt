@@ -44,6 +44,12 @@ country_event = {
 			duration = -1
 			}
 		}
+		HND = {
+			add_country_modifier = {
+				name = indiacountry
+				duration = -1
+			}
+		}
     }
 	
 	option = {

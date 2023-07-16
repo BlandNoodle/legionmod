@@ -17,16 +17,15 @@ political_decisions = {
 					value = jingoism
 				}
 			}
-            		set_country_flag = prussia_mobilizes
+            set_country_flag = prussia_mobilizes
 			money = 500000
 			leadership = 80
-		add_country_modifier = {
-
+			add_country_modifier = {
 					name = An_mein_Volk
 					duration = 730
-					}
 			}
-				}
+		}
+	}
 
 #Luderitz Expedition
 luderitz_expedition = {

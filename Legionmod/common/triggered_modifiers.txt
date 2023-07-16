@@ -384,18 +384,6 @@ fuck_usa = {
 	global_immigrant_attract = -1
 }
 
-indiacountry = {
-	trigger = {
-		tag = HND
-		ai = yes
-		NOT = { year = 1900 }
-	}
-	icon = 19
-	research_points_modifier = -2
-	research_points_on_conquer = -5
-	factory_cost = 4
-}
-
 the_british_raj = {
     trigger = {
         exists = yes

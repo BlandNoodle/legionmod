@@ -322,9 +322,9 @@ enact_liquor_prohibition = {
 			part_of_sphere = no
 		}
 		effect = {
-			money = 500000
+			money = 600000
 			years_of_research = 10
-			prestige = 60
+			prestige = 50
 			add_country_modifier = {
 				name = meiji_restoration_boost
 				duration = 10950
@@ -362,10 +362,12 @@ enact_liquor_prohibition = {
 			prestige = 10
 			2562 = {
 				change_province_name = "Karenko"
+				add_core = JAP
 			}
 			1485 = {
 				change_province_name = "Tainan Cho"
 				state_scope = { change_region_name = "Takasago" }
+				add_core = JAP
 			}
 			set_country_flag = taiwan_administration
 		}	
@@ -493,7 +495,7 @@ enact_liquor_prohibition = {
 		effect = {
 			set_country_flag = han_system_abolished
 			years_of_research = 1
-			money = 500000
+			money = 300000
 			prestige = 5
 			any_pop = {
 				limit = { is_primary_culture = yes }
@@ -529,6 +531,7 @@ enact_liquor_prohibition = {
 			prestige = 10
 			1654 = {
 				change_province_name = "Iwo Jima"
+				add_core = JAP
 			}
 			2525 = {
 				life_rating = 5

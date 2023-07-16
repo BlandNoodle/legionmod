@@ -478,4 +478,30 @@ political_decisions = {
 			set_country_flag = ruspersia
 		}
 	}
+	
+	develop_moscow = {
+		potential = {
+			year = 1850
+			owns = 1008
+			NOT = {has_country_flag = bigmoscow}
+		}
+		allow = {
+			interchangeable_parts = 1
+			cheap_steel = 1
+			money = 1000000
+		}
+		effect = {
+			1008 = {
+				infrastructure = 3
+				add_province_modifier = {
+					name = moscow_big
+					duration = -1
+				}
+				fort = 3
+				money = -1000000
+				trade_goods = iron
+				set_country_flag = bigmoscow
+			}
+		}
+	}
 }

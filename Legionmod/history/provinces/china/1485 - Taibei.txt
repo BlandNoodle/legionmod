@@ -1,5 +1,5 @@
-owner = CHI
-controller = CHI
+owner = MCK
+controller = MCK
 add_core = CHI
-trade_goods = tea
+trade_goods = coal
 life_rating = 32

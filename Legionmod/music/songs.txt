@@ -116,21 +116,6 @@ song = {
 }
 
 song = {
-	name = "baby.mp3"
-		chance = {
-			modifier = {
-				factor = -1
-				NOT = {year = 1937} 
-				}
-			modifier = {
-				factor = 3
-				badboy = 1.0
-			}
-		}
-	}
-
-
-song = {
 	name = "thecoronation_titletheme.mp3"
 	
 	chance = {
@@ -152,16 +137,6 @@ song = {
 	}
 song = {
 	name = "gremlins.mp3"
-	
-	chance = {
-		modifier = {
-			factor = 1
-			NOT = {year = 1937}
-			}
-		}
-	}
-song = {
-	name = "gremlins2.mp3"
 	
 	chance = {
 		modifier = {
@@ -224,7 +199,7 @@ song = {
 			}
 		modifier = {
 			factor = 2
-			NOT = [ war = no }
+			NOT = { war = yes }
 		}
 	}
 song = {
@@ -237,7 +212,7 @@ song = {
 			}
 		modifier = {
 			factor = 2
-			NOT = [ war = yes }
+			NOT = { war = yes }
 		}
 	}
 song = {
@@ -457,22 +432,6 @@ song = {
 	}
 }
 
-song = {
-	name = "nuke1.mp3"
-	
-	chance = {
-		modifier = {
-			factor = -1
-			NOT = {year = 1937}
-			}
-			modifier = {
-				factor = 3
-				AND = {
-					war = yes
-				}
-			}
-		}
-	}
 
 song = {
 	name = "nuke2.mp3"
@@ -554,7 +513,22 @@ song = {
 			}
 		modifier = {
 			factor = 2
-			NOT = { war = no }
+			NOT = { war = yes }
+		}
+	}
+}
+
+song = {
+	name = "sibelius.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			NOT = {year = 1937}
+			}
+		modifier = {
+			factor = 2
+			NOT = { war = yes }
 		}
 	}
 }

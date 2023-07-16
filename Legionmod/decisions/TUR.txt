@@ -55,13 +55,6 @@ political_decisions = {
 				name = reformed_ottoman_army
 				duration = 3650
 			}
-			any_pop = {
-				limit = {
-					NOT = {
-						has_pop_culture = turkish
-					}
-				}
-			}
 			set_country_flag = tanzimat_reforms_army_enacted
 		}
 	}
