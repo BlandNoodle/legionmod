@@ -588,4 +588,218 @@ country_event = {
 	}
 }
 
+<<<<<<< Updated upstream
+=======
+country_event = {
+	id = 19000117
+	title = "EVTNAME19000117"
+	desc = "EVTDESC19000117"
+	picture = "assassinated"
+	
+	trigger = {
+		tag = RUS
+		goverment = imperial
+		OR = {
+			revolution_n_counterrevolution = 1
+			year = 1881
+		}
+		has_country_flag = alexander_ii
+	}
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = "EVTOPTA19000117"
+		prestige = -5
+		any_pop = {
+			consciousness = 1
+			ideology = {
+				value = reactionary
+				factor = 0.05
+			}
+		}
+		remove_country_modifier = alexanderii
+		clr_country_flag = alexander_ii
+	}
+}
+
+country_event = {
+	id = 19000118
+	title = "EVTNAME19000118"
+	desc = "EVTDESC19000118"
+	picture = "alexanderbro"
+	
+	trigger = {
+		tag = RUS
+		year = 1854
+		NOT = { OR = { has_country_flag = alexander_ii 
+						year = 1880 }
+		}
+	}
+	mean_time_to_happen = {
+		months = 4
+	}
+	
+	option = {
+		name = "EVTOPTA19000118"
+		prestige = 5
+		add_country_modifier = {
+			name = alexanderii
+			duration = -1
+		}
+		any_pop = {
+			consciousness = 1
+			ideology = {
+				value = liberal
+				factor = 0.05
+			}
+		}
+		set_country_flag = alexander_ii
+	}
+}
+country_event = {
+	id = 19000120
+	title = "EVTNAME19000120"
+	desc = "EVTDESC19000120"
+	picture = "persiangulf"
+	
+	trigger = {
+		NOT = { has_country_flag = persiangulf }
+		OR = {
+			tag = ENG
+			tag = RUS
+			tag = OTC
+			tag = FRA
+		}
+		owns = 1132
+	}
+	
+	mean_time_to_happen = {
+		months = 2
+	}
+	
+	option = {
+		name = "EVTOPTA19000120"
+		add_country_modifier = {
+			name = persian_gulf
+			duration = -1
+		}
+		prestige = 5
+		set_country_flag = persiangulf
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+
+country_event = {
+	id = 19000119
+	title = "EVTNAME19000119"
+	desc = "EVTDESC19000119"
+	picture = "lost"
+	
+	trigger = {
+		has_country_flag = persiangulf
+		OR = {
+			tag = RUS
+			tag = ENG
+			tag = OTC
+			tag = FRA
+		}
+		NOT = { owns = 1132 }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA19000119"
+		remove_country_modifier = {
+			name = persian_gulf
+		}
+		prestige = -10
+		remove_country_flag = persiangulf
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = {
+	id = 19000121
+	title = "EVTNAME19000121"
+	desc = "EVTDESC19000121"
+	picture = "maoi"
+	
+	trigger = {
+		NOT = { has_country_flag = mimosa }
+		OR = {
+			tag = ENG
+			tag = RUS
+			tag = USA
+			tag = JAP
+			tag = FRA
+			tag = GER
+		}
+		owns = 658
+	}
+	
+	mean_time_to_happen = {
+		months = 2
+	}
+	
+	option = {
+		name = "EVTOPTA19000120"
+		add_country_modifier = {
+			name = mimosas
+			duration = -1
+		}
+		prestige = 5
+		set_country_flag = mimosa
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+
+country_event = {
+	id = 19000122
+	title = "EVTNAME19000122"
+	desc = "EVTDESC19000122"
+	picture = "lost"
+	
+	trigger = {
+		has_country_flag = mimosa
+		OR = {
+			tag = RUS
+			tag = ENG
+			tag = USA
+			tag = JAP
+			tag = FRA
+			tag = GER
+		}
+		NOT = { owns = 658 }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA19000122"
+		remove_country_modifier = {
+			name = mimosas
+		}
+		prestige = -10
+		remove_country_flag = mimosa
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+>>>>>>> Stashed changes
 			

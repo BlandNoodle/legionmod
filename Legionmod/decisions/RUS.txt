@@ -6,6 +6,7 @@ political_decisions = {
 		}
 		allow = {
 			OR = {
+<<<<<<< Updated upstream
 				AND = {
 					upper_house = {
 						ideology = liberal
@@ -18,10 +19,17 @@ political_decisions = {
 					average_consciousness = 4
 				}
 				average_militancy = 4
+=======
+				upper_house = {
+					ideology = liberal
+					value = 0.25
+				}
+				ruling_party_ideology = liberal
+>>>>>>> Stashed changes
 			}
 		}
 		effect = {
-			government = absolute_monarchy
+			government = imperial
 			farmers = {
 				militancy = -2
 				consciousness = 1
@@ -59,8 +67,8 @@ political_decisions = {
 				militancy = -1
 				consciousness = -1
 				ideology = {
-					value = socialist
-					factor = 0.05
+					value = communist
+					factor = 0.2
 				}
 			}
 			prestige = 5
@@ -74,8 +82,8 @@ political_decisions = {
 			government = imperial
 			NOT = {
 				has_country_flag = the_manifesto
+				has_country_flag = alexander_ii
 			}
-			state_n_government = 1
 		}
 		
 		allow = {
@@ -91,8 +99,12 @@ political_decisions = {
 			}
 			add_country_modifier = {
 				name = unshakable_autocracy 
-				duration = 7300
+				duration = 3650
 			}
+			political_reform = landed_voting
+			political_reform = state_press
+			political_reform = underground_parties
+			social_reform = acceptable_schools
 			set_country_flag = the_manifesto
 		}
 	}
@@ -142,7 +154,7 @@ political_decisions = {
 				has_country_flag = eastern_christians_up_in_here_yall
 			}
 			exists = TUR
-			year = 1850
+			year = 1845
 		}
 		
 		allow = {
@@ -158,11 +170,16 @@ political_decisions = {
 		}
 		
 		effect = {
+<<<<<<< Updated upstream
+=======
+			badboy = 8
+>>>>>>> Stashed changes
 			set_country_flag = eastern_christians_up_in_here_yall
 			add_country_modifier = {
 				name = protector_of_eastern_christendom
 				duration = -1
 			}
+			TUR_886 = { add_core = RUS }
 		}
 	}
 	peking_convention = {
@@ -388,4 +405,146 @@ political_decisions = {
 		}
 		ai_will_do = { factor = 1 }
 	}
+<<<<<<< Updated upstream
+=======
+	ukraine_slava = {
+		potential = {
+			AND = {
+				accepted_culture = ukrainian
+				owns = 958
+			}
+		NOT = { has_country_flag = get_to_work }
+		}
+		allow = {
+			mechanical_production = 1
+			money = 200001
+		}
+		effect = {
+			money = -200000
+			any_owned = {
+				limit = {
+					culture = ukrainian
+				}
+				add_province_modifier = {
+				name = bread_basketm
+				duration = -1 }
+			}
+		set_country_flag = get_to_work
+		}
+	}
+	
+	russianpersia = {
+		potential = {
+			tag = RUS
+			has_global_flag = we_have_a_winner
+			PER = {
+				owns = 1132
+			}
+			NOT = { has_country_flag = ruspersia }
+		}
+		allow = {
+			OR = {
+				AND = {
+						OR = {
+							935 = {
+								owner = { in_sphere = THIS }
+							}
+							935 = {
+								owner = { alliance_with = THIS }
+							}
+							year = 1870
+							owns = 935
+						}
+						is_our_vassal = AFG
+					}
+				AND = {
+					OR = {
+							935 = {
+								owner = { in_sphere = THIS }
+							}
+							935 = {
+								owner = { alliance_with = THIS }
+							}
+							owns = 935
+						}
+						year = 1880
+						owns = 1168
+						PER = { in_sphere = THIS }
+					}
+				}
+			}
+		effect = {
+			PER = {
+				1132 = {secede_province = RUS}
+				1131 = {secede_province = RUS}
+				1133 = {secede_province = RUS}
+				1120 = {secede_province = RUS}
+				1119 = {secede_province = RUS}
+				1128 = {secede_province = RUS}
+				1122 = {secede_province = RUS}
+				1118 = {secede_province = RUS}
+				1117 = {secede_province = RUS}
+				1123 = {secede_province = RUS}
+				1111 = {secede_province = RUS}
+				1112 = {secede_province = RUS}
+				1109 = {secede_province = RUS}
+				1110 = {secede_province = RUS}
+				1108 = {secede_province = RUS}
+			}
+			RUS = { create_vassal = PER }
+			set_country_flag = ruspersia
+		}
+	}
+	
+	develop_moscow = {
+		potential = {
+			year = 1850
+			owns = 1008
+			NOT = {has_country_flag = bigmoscow}
+		}
+		allow = {
+			interchangeable_parts = 1
+			cheap_steel = 1
+			money = 1000000
+		}
+		effect = {
+			1008 = {
+				infrastructure = 3
+				add_province_modifier = {
+					name = moscow_big
+					duration = -1
+				}
+				fort = 3
+				money = -1000000
+				trade_goods = iron
+				set_country_flag = bigmoscow
+			}
+		}
+	}
+	
+	modernize_russia = {
+		potential = {
+			government = imperial
+			tag = RUS
+			has_country_flag = alexander_ii
+			NOT = { has_country_flag = modernized_rus }
+		}
+		allow = {
+			idealism = 1
+			clean_coal = 1
+			army_professionalism = 1
+			money = 2000000
+		}
+		effect = {
+			money = -2000000
+			political_reform = wealth_weighted_voting
+			political_reform = gerrymandering
+			political_reform = free_press
+			social_reform = trinket_subsidies
+			activate_technology = steamers
+			years_of_research = 1
+			set_country_flag = modernized_rus
+		}
+	}
+>>>>>>> Stashed changes
 }
