@@ -588,6 +588,8 @@ country_event = {
 	}
 }
 
+<<<<<<< Updated upstream
+=======
 country_event = {
 	id = 19000117
 	title = "EVTNAME19000117"
@@ -596,7 +598,7 @@ country_event = {
 	
 	trigger = {
 		tag = RUS
-		goverment = absolute_monarchy
+		goverment = imperial
 		OR = {
 			revolution_n_counterrevolution = 1
 			year = 1881
@@ -609,7 +611,6 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA19000117"
-		government = imperial
 		prestige = -5
 		any_pop = {
 			consciousness = 1
@@ -800,4 +801,5 @@ country_event = {
 		}
 	}
 }
+>>>>>>> Stashed changes
 			

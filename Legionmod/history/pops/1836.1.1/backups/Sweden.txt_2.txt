@@ -105,7 +105,7 @@
     labourers = {
         culture = norwegian
         religion = protestant
-        size = 1925
+        size = 1100
     }
 }
 #Umea (56000/14000 POPS)

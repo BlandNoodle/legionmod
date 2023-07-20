@@ -57,6 +57,7 @@ political_decisions = {
 	
 	form_north_german_confederation = {
 		potential = {
+			NOT = { tag = HYP }
 			is_greater_power = yes
 			primary_culture = north_german
 			NOT = {

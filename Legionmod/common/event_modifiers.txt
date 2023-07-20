@@ -74,21 +74,28 @@ theraj = {
 }
 	
 #### RUSSIAN MANIFESTO ON UNSHAKABLE AUTOCRACY ####
+<<<<<<< Updated upstream
+=======
 alexanderii = {
 	icon = 5
-	social_reform_desire = 0.2
+	social_reform_desire = 0.25
 	core_pop_consciousness_modifier = 0.01
 	administrative_efficiency_modifier = 0.05
 	industry_tech_research_bonus = 0.05
 }
 
+>>>>>>> Stashed changes
 unshakable_autocracy = {
-	icon = 5
 	global_assimilation_rate = 0.50
 	core_pop_militancy_modifier = -0.2
+<<<<<<< Updated upstream
 	core_pop_consciousness_modifier = -0.1
+=======
+	core_pop_consciousness_modifier = -0.05
 	administrative_efficiency_modifier = 0.2
+	military_tech_research_bonus = 0.1
 	badboy = 0.05
+>>>>>>> Stashed changes
 }
 
 ##### POLITICAL EVENTS ######
@@ -400,10 +407,13 @@ beer_hall_putsch = {
 local_opium_habit = {
 	mine_rgo_eff = -0.25
 	farm_rgo_eff = -0.25
+	soldiers = -0.15
 	pop_consciousness_modifier = -0.01
-	addicts = 0.7
+	addicts = 0.75
+	artisans = -0.5
+	labourers = -0.5
+	farmers = -0.5
 	pop_militancy_modifier = 0.02
-	goods_demand = 0.15
 	icon = 20
 }
 
@@ -500,7 +510,6 @@ anaconda_plan = {
 the_homestead_act = {
 	global_immigrant_attract = 0.5	#50%
 	global_assimilation_rate = 0.5
-	badboy = 0.1
 	icon = 9
 }
 
@@ -625,7 +634,7 @@ dryzymalas_wagon = {
 
 discriminatory_school_system = {
 	research_points_modifier = -0.02
-	assimilation_rate = 0.1
+	assimilation_rate = 0.05
 	icon = 8
 }
 
@@ -645,7 +654,7 @@ organic_work = {
 ##### GREAT POWERS #####
 protector_of_eastern_christendom = {
 	prestige = 0.1
-	badboy = 0.05
+	badboy = -0.05
 	mobilisation_size = 0.01
 	icon = 17
 }
@@ -663,7 +672,12 @@ international_negotiations = {
 }
 
 the_statue_of_liberty = {
+<<<<<<< Updated upstream
+	prestige = 0.3
 	global_immigrant_attract = .75	#200%
+=======
+	global_immigrant_attract = 1	#200%
+>>>>>>> Stashed changes
 	global_assimilation_rate = 1
 	badboy = 0.1
 	icon = 15
@@ -716,13 +730,16 @@ hyperboreaexodus = {
 	
 }
 
+<<<<<<< Updated upstream
+=======
 indiacountry = {
-	research_points_modifier = -1
+	research_points_modifier = -0.2
 	research_points_on_conquer = -5
 	factory_cost = 4
 	icon = 19
 }
 
+>>>>>>> Stashed changes
 ##### Boer War #####
 trek_boers = {
 	immigrant_attract = 2		#200%
@@ -872,8 +889,12 @@ low_opium = {
 strict_china_trade = {
 	icon = 6
 	import_cost = 0.1
-	badboy = -0.1
+<<<<<<< Updated upstream
 	tariff_efficiency_modifier = -0.15
+=======
+	badboy = -0.1
+	tariff_efficiency_modifier = -0.2
+>>>>>>> Stashed changes
 }
 
 opium_market_low = {
@@ -893,12 +914,13 @@ opium_market_med = {
 mild_china_trade = {
 	icon = 6
 	import_cost = 0.05
-	tariff_efficiency_modifier = -0.1
+	badboy = -0.05
+	tariff_efficiency_modifier = -0.2
 }
 
 med_opium = {
 	icon = 9
-	tariff_efficiency_modifier = 0.1
+	tariff_efficiency_modifier = 0.05
 	max_tariff = -0.15
 }
 
@@ -911,38 +933,36 @@ opium_market_lar = {
 
 free_china_trade = {
 	icon = 6
+<<<<<<< Updated upstream
 	import_cost = -0.1
+	prestige = 0.001
+=======
+	import_cost = -0.2
 	badboy = 0.05
 	prestige = 0.002
+	tariff_efficiency_modifier = -0.25
+>>>>>>> Stashed changes
 }
 
 large_opium = {
 	icon = 9
-	tariff_efficiency_modifier = 0.15
-	max_tariff = -0.25
+	tariff_efficiency_modifier = 0.1
+	max_tariff = -0.2
 }
 
 century_humiliate = {
 	icon = 8
 	prestige = -0.02
-	org_regain = -0.5
+	org_regain = -0.33
 	ruling_party_support = -0.2
 	supply_consumption = 0.5
 	research_points_modifier = -0.50
-	research_points_on_conquer = -1
 }
 
 african_colony = {
 	icon = 9
 	tariff_efficiency_modifier = 0.05
 	import_cost = -0.05
-}
-
-bread_basketm = {
-	icon = 11
-	farm_rgo_eff = 2
-	life_rating = 0.5
-	assimilation_rate = -0.5
 }
 
 #### FRA - France ####
@@ -958,14 +978,6 @@ the_eiffel_tower = {
 	prestige = 0.05
 	core_pop_militancy_modifier = -0.01
 	icon = 15
-}
-
-#### SWI - Switzerland ####
-signed_the_geneva_convention = {
-	war_exhaustion = -0.02
-	org_regain = 0.15
-	badboy = -0.05
-	icon = 7
 }
 
 #### SWE - Sweden ####
@@ -1060,12 +1072,18 @@ liberian_research_boost = {
 	icon = 5
 }
 
+##Mod
 reform_our_empire = {
+<<<<<<< Updated upstream
+	education_efficiency_modifier = 0.20
+	mobilisation_size = 0.01
+=======
 	education_efficiency_modifier = 0.25
-	mobilisation_size = 0.02
+>>>>>>> Stashed changes
 	research_points_modifier = 0.15
 	tax_efficiency = 0.05
 	administrative_efficiency_modifier = 0.05
+	factory_throughput = 0.05
 	icon = 5
 }
 new_crops = {
@@ -1088,16 +1106,21 @@ created_a_national_language = {
 }
 algeria_boom= {
 	immigrant_attract = 1
-	assimilation_rate = 0.25
 	icon = 5
 }
 An_mein_Volk = {
+<<<<<<< Updated upstream
 	mobilisation_size = 0.06
+	core_pop_militancy_modifier = -0.01
+	land_unit_start_experience = 5.0
+=======
+	mobilisation_size = 0.04
 	core_pop_militancy_modifier = -0.02
 	land_unit_start_experience = 10.0
 	org_regain = 0.2
 	supply_consumption = -0.25
-	badboy = 0.05
+	badboy = 0.1
+>>>>>>> Stashed changes
 	icon = 15
 }
 schlieffens_plan = {
@@ -1120,37 +1143,28 @@ Royal_Navy = {
 	land_organisation = -0.1
 	naval_organisation = 0.1
 	naval_unit_start_experience = 10
-	navy_tech_research_bonus = 0.05
+	navy_tech_research_bonus = 0.025
 	navy_base = {
 		supply_consumption = -0.15
 		}
-	icon = 7
 }
 
-fakemodifier = {
-	prestige = 1
-	icon = 3
-}
 
-levee_en_masse = {
+Levee_en_masse = {
 	land_organisation = 0.1
 	org_regain = 0.15
-	supply_consumption = -0.2
+	supply_consumption = -0.1
 	core_pop_militancy_modifier = -0.01
-	mobilisation_size = 0.01
-	badboy = 0.1
-	icon = 15
 }
-
 otto_von_bismarck = {
 	prestige = 0.1
 	core_pop_militancy_modifier = -0.01
 	core_pop_consciousness_modifier = -0.01
 	diplomatic_points_modifier = 0.25
 	ruling_party_support = 0.5
-	badboy = 0.05
+	badboy = -0.01
 	tax_efficiency = 0.05
-	administrative_efficiency_modifier = 0.15
+	administrative_efficiency_modifier = 0.05
 	icon = 17
 }
 louis_napoleon_iii = {
@@ -1158,14 +1172,15 @@ louis_napoleon_iii = {
 	ruling_party_support = 1.0
 	core_pop_militancy_modifier = -0.02
 	core_pop_consciousness_modifier = -0.05
-	research_points_modifier = 0.12
-	cb_generation_speed_modifier = 0.25
+	research_points_modifier = 0.1
+	cb_generation_speed_modifier = 0.2
+	badboy = 0.01
 	icon = 17
 }
 german_colonial_society = {	
 	prestige = 0.05
 	leadership_modifier = 0.05
-	global_immigrant_attract = 0.15
+	global_immigrant_attract = 0.1
 	icon = 17
 }
 commodore_perry = {	
@@ -1190,18 +1205,12 @@ country_reforms = {
 bigger_Navy = {
 	naval_unit_start_experience = 5
 	naval_organisation = 0.1
-	navy_tech_research_bonus = 0.05
+	navy_tech_research_bonus = 0.025
 	navy_base = {
-		supply_consumption = -0.10
+		supply_consumption = -0.1
 	}
 	icon = 7
 }
-
-fakemodifier = {
-	prestige = 1
-	icon = 3
-}
-
 totalitarian_system = {
 	suppression_points_modifier = 2
 	ruling_party_support = 2
@@ -1230,15 +1239,15 @@ forced_assimilation = {
 kinda_bad_badboy = {
 	import_cost = 2
 	loan_interest = 2
-	tariff_efficiency_modifier = -0.5
+	tariff_efficiency_modifier = -0.33
 	mobilisation_economy_impact = 1
-	diplomatic_points_modifier = -1
-	factory_owner_cost = .55
+	diplomatic_points_modifier = -0.3
+	factory_owner_cost = .5
 	global_immigrant_attract = -2.0
 	global_pop_consciousness_modifier = 0.025
 	non_accepted_pop_consciousness_modifier = 0.4
 	non_accepted_pop_militancy_modifier = 0.2
-	org_regain = -0.25
+	org_regain = -0.1
 	land_organisation = -0.1
 	naval_organisation = -0.1
 	factory_throughput = -0.25
@@ -1253,23 +1262,23 @@ kinda_bad_badboy = {
 bad_badboy = {
 	import_cost = 4
 	loan_interest = 4
-	tariff_efficiency_modifier = -1
+	tariff_efficiency_modifier = -0.80
 	mobilisation_economy_impact = 2
-	diplomatic_points_modifier = -2
+	diplomatic_points_modifier = -0.6
 	factory_owner_cost = 1
 	global_immigrant_attract = -4.0
 	global_pop_consciousness_modifier = 0.05
 	non_accepted_pop_consciousness_modifier = 0.8
 	non_accepted_pop_militancy_modifier = 0.4
-	org_regain = -0.5
+	org_regain = -0.2
 	land_organisation = -0.2
 	naval_organisation = -0.2
 	factory_throughput = -0.5
 	RGO_throughput = -0.5
 	prestige = -0.2
 	war_exhaustion = 2
-	research_points_modifier = -0.33
-	cb_generation_speed_modifier = -0.75
+	research_points_modifier = -0.3
+	cb_generation_speed_modifier = -0.3
 	icon = 8
 }
 
@@ -1277,9 +1286,9 @@ fredbear = {
 	icon = 18
 	non_accepted_pop_militancy_modifier = 0.33
 	non_accepted_pop_consciousness_modifier = 0.33
-	war_exhaustion = 1.2
+	war_exhaustion = 1.5
 	mobilisation_size = 0.35
-	global_population_growth = -0.0075
+	global_population_growth = -0.011
 	badboy = 0.5
 	education_efficiency_modifier = 3.00
 	soldiers = 0.12
@@ -1328,23 +1337,6 @@ assimilate_morocco = {
 	assimilation_rate = 1
 }
 
-reformed_ottoman_army = {
-   	org_regain = 0.15
-  	land_organisation = 0.1
-  	mobilisation_economy_impact = -0.2
-	land_unit_start_experience = 5.0
-	supply_consumption = -0.1
-	leadership_modifier = 0.15
-	icon = 15
-}
-
-reformed_ottoman_administration = {
-	tariff_efficiency_modifier = 0.1
-	tax_efficiency = 0.05
-	political_reform_desire = 0.1
-	social_reform_desire = 0.05
-}
-
 ##### RGO Spread Events (modified to become national modifiers) #####
 country_tractors = {
 	rgo_output = 0.3
@@ -1375,19 +1367,20 @@ country_machine_tools = {
 
 baldieffect = {
 	war_exhaustion = 2.5
-	global_population_growth = 0.03
+	global_population_growth = 0.02
 	core_pop_militancy_modifier = 0.25
 	icon = 16
 }
 
 sweep = {
-	global_population_growth = 0.03
+	global_population_growth = 0.02
 	core_pop_consciousness_modifier = 0.005
 	soldiers = 0.05
 	icon = 17
 }
 
 crimea = {
+	icon = 7
 	naval_organisation = 0.1
 	naval_unit_start_experience = 15
 	navy_tech_research_bonus = 0.15
@@ -1395,14 +1388,11 @@ crimea = {
 	navy_base = {
 		supply_consumption = -0.25
 		}
-	icon = 7
 }
 
-fakemodifier = {
-	prestige = 1
-	icon = 3
-}
 
+<<<<<<< Updated upstream
+=======
 persian_gulf = {
 	naval_organisation = 0.1
 	naval_unit_start_experience = 10
@@ -1440,3 +1430,46 @@ moscow_big = {
 	immigrant_attract = 0.5
 	icon = 11
 }
+
+drain1 = {
+	life_rating = 0.15
+	local_factory_throughput = 0.05
+	farm_rgo_eff = 0.15
+	icon = 11
+}
+
+drain2 = {
+	life_rating = 0.5
+	local_factory_throughput = 0.15
+	farm_rgo_eff = 0.5
+	farm_rgo_size = 0.5
+	immigrant_attract = 0.25
+	local_ship_build = -0.25
+	icon = 11
+}
+
+drain3 = {
+	life_rating = 1
+	local_factory_throughput = 0.25
+	farm_rgo_eff = 2
+	farm_rgo_size = 2
+	immigrant_attract = 0.5
+	local_ship_build = -0.5
+	icon = 11
+}
+
+zuiderzee_werkz = {
+	population_growth = 0.003
+	farm_rgo_eff = 0.5
+	immigrant_attract = 0.25
+	icon = 11
+}
+
+batavian_education = {
+	education_efficiency_modifier = 0.33
+	administrative_efficiency_modifier = 0.2
+	research_points = 1
+	mobilisation_size = 0.02
+	icon = 7
+}
+>>>>>>> Stashed changes

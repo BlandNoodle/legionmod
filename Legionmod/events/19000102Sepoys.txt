@@ -6,6 +6,7 @@ country_event = {
 	desc = "EVTDESC19000102"
 
 	trigger = {
+		has_country_flag = empress_of_india
 		tag = ENG
 		OR = {
 			breech_loaded_rifles = 1
@@ -403,6 +404,7 @@ country_event = {
 	name = "EVTNAME19000106"
 	desc = "EVTDESC19000106"
 	major = yes
+	fire_only_once = yes
 	
 	trigger = {
 		tag = ENG
@@ -441,6 +443,7 @@ country_event = {
 				add_accepted_culture = asian_minor
 			}
 		}
+		clr_country_flag = sepoy_rebellion
 	}
 }
 
@@ -470,6 +473,7 @@ country_event = {
 					duration = -1
 			}
 		}
+		clr_country_flag = sepoy_rebellion
 	}
 }
 	

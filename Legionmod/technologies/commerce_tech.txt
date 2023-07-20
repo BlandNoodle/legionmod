@@ -182,6 +182,8 @@ no_standard = {
 	area = monetary_system
 	year = 1836
 	cost = 3600
+	
+	activate_building = luxury_clothes_factory 
 
 	administrative_efficiency = 0.05
 	ai_chance = {
@@ -505,10 +507,7 @@ keynesian_economics = {
 freedom_of_trade = {
 	area = market_functionality
 	year = 1836
-	cost = 3600
-
-
-	activate_building = luxury_clothes_factory  
+	cost = 3600 
 	activate_building = woolfabric_factory
 	
 	influence = 0.1

@@ -1725,7 +1725,7 @@ country_event = {
 	trigger = {
 		civilized = yes
 		vote_franschise = none_voting
-		average_militancy = 8
+		average_militancy = 3
 		political_reform_want = 0.2
 	}
 	
@@ -1733,7 +1733,7 @@ country_event = {
 		months = 600
 		modifier = {
 			factor = 0.8
-			average_militancy = 10
+			average_militancy = 4
 		}
 		modifier = {
 			factor = 0.8
