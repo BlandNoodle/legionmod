@@ -65,6 +65,7 @@ political_decisions = {
 			}
 			NOT = {
 				has_country_flag = offer_to_buy_gibratlar
+				own = 517
 			}
 		}
 		
@@ -104,7 +105,8 @@ political_decisions = {
 		
 		allow = {
 			war = no
-			nationalism_n_imperialism = 1
+			state_n_government = 1
+			breech_loaded_rifles = 1
 		}
 		
 		effect = {
@@ -133,7 +135,7 @@ political_decisions = {
 		allow = {
 			war = no
 			MOR = { all_core = { owned_by = THIS } }
-			breech_loaded_rifles = 1
+			nationalism_n_imperialism = 1
 			empiricism = 1
 			inorganic_chemistry = 1
 		}
