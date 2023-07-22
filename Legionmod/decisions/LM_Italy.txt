@@ -70,5 +70,52 @@ political_decisions = {
 			add_accepted_culture = catalan
 		}
 	}
+	
+	lm_relize_roman_ambitions = {
+		
+		
+		potential = {
+			tag = ITA
+			NOT = { have_country_flag = roman_ambitions }
+		}
+		
+		allow = {
+			war = no
+			owns = 736
+			empiricism = 1
+			is_greater_power = yes
+		}
+		
+		effect = {
+			set_country_flag = roman_ambitions
+			prestige = 5
+			badboy = 17
+			464 = { add_core = THIS }
+			FRA_451 = { add_core = THIS }
+			FRA_461 = { add_core = THIS }
+		}
+	}
+	
+	lm_ita_accept_occitan = {
+		potential = {
+			tag = ITA
+			NOT = { have_country_flag = occitan_accepted }
+			is_greater_power = yes
+		}
+		
+		allow = {
+			war = no
+			owns = 461
+			owns = 467
+			revolution_n_counterrevolution = 1
+			prestige = 50
+		}
+		
+		effect = {
+			add_accepted_culture = occitan
+			badboy = 5
+			set_country_flag = occitan_accepted
+		}
+	}
 }
 
