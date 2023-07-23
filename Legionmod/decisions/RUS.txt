@@ -92,6 +92,7 @@ political_decisions = {
 			political_reform = underground_parties
 			social_reform = acceptable_schools
 			set_country_flag = the_manifesto
+			government = absolute_monarchy
 		}
 	}
 	
@@ -500,8 +501,8 @@ political_decisions = {
 				fort = 3
 				money = -1000000
 				trade_goods = iron
-				set_country_flag = bigmoscow
 			}
+			set_country_flag = bigmoscow
 		}
 	}
 	

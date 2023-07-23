@@ -108,7 +108,7 @@ imperial = {
 	reactionary = yes
 	
 	
-	election = no
+	election = yes
 	appoint_ruling_party = yes
 
 }

@@ -597,10 +597,7 @@ country_event = {
 	trigger = {
 		tag = RUS
 		goverment = imperial
-		OR = {
-			revolution_n_counterrevolution = 1
-			year = 1881
-		}
+		year = 1880
 		has_country_flag = alexander_ii
 	}
 	mean_time_to_happen = {
@@ -632,7 +629,7 @@ country_event = {
 		tag = RUS
 		year = 1854
 		NOT = { OR = { has_country_flag = alexander_ii 
-						year = 1880 }
+						year = 1870 }
 		}
 	}
 	mean_time_to_happen = {
