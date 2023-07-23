@@ -16,6 +16,12 @@ lm_accept_catalonian_ita_title;Integrate Catalonia;;;;x
 lm_accept_catalonian_ita_desc;I mean, they don't even wanna be with spain you know what I'm sayin my man, like they should be Italian and shit fr fr.  Link up for real, for my legions and shit, ROME TILL I DIE!!!;;;;x
 tanzimat_reforms_army_title;Oh Mein Moltke Pasha;;;;x
 tanzimat_reforms_army_desc;Moltke shows us the way of the killing people.  Very interesting. . .;;;x
+get_stockpile_title;Get National Stockpile;;;;x
+get_stockpile_desc;Get ez monies and goods.;;;;x
+lm_relize_roman_ambitions_title;Realize Roman Ambitions;;;;x
+lm_relize_roman_ambitions_desc;We wuz Rome and shit!  We gotta get back to the glory days and FUCK on these Frenchies.  ITALY #1!!!!!!!;;;;x
+lm_ita_accept_occitan_title;Accept the Occitans;;;;x
+lm_ita_accept_occitan_desc;We have conquered Occitan lands, and we must integrate them into Italian society.;;;;x
 EVTTITLE790000;Spain Offers to Buy Gibraltar;;;;x
 EVTDESC790000;Do we let these silly little guys do it?;;;;x
 790000.A;Awww look at the little guy, of course he can have it!;;;;x
@@ -52,3 +58,4 @@ ten_years_siesta;The Ten Year Siesta;;;;x
 assimilate_morocco;Moroccan Assimilation;;;;x
 reformed_ottoman_administration;Tanzimat Administrative Reform;;;;x
 reformed_ottoman_army;Tanzimat Military Reform;;;;x
+occitan;Occitan;;;;x
