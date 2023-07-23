@@ -32,7 +32,12 @@ province_event = {
 			province_id = 1659			# Kobe
 			province_id = 2142			# Chihuahua
 			province_id = 2255			# Barranquilla
+<<<<<<< Updated upstream
+=======
 			province_id = 1157
+			province_id = 4
+			province_id = 313
+>>>>>>> Stashed changes
 		}
 		not = { trade_goods = precious_metal }
 	}
@@ -1052,6 +1057,9 @@ province_event = {
 			province_id = 1335		# Kyaukse
 			province_id = 134		# Dallas
 			province_id = 705		# Przemysl
+			province_id = 309
+			province_id = 307
+			province_id = 982
 		}
 		not = { trade_goods = oil }
 		OR = {
@@ -1085,7 +1093,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA1109"
 		trade_goods = oil
-		# life_rate = 5
+		life_rate = 5
 	}
 }
 
@@ -1186,6 +1194,13 @@ province_event = {
 			province_id = 1680		# Fez
 			province_id = 1735		# Ghazi
 			province_id = 1731		# Tripoli
+			province_id = 1694
+			province_id = 1695
+			province_id = 1720
+			province_id = 1729
+			province_id = 3
+			province_id = 5
+			province_id = 2599
 		}
 		not = { trade_goods = oil }
 		OR = {
@@ -1219,7 +1234,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA1109"
 		trade_goods = oil
-		# life_rate = 5
+		life_rate = 5
 	}
 }
 
@@ -1412,7 +1427,12 @@ province_event = {
 
 	trigger = {
 		year = 1907
-		province_id = 2396		# Rawson
+		OR = {
+			province_id = 2396		# Rawson
+			province_id = 23
+			province_id = 31
+			province_id = 43
+		}
 		not = { trade_goods = oil }
 		OR = {
 			owner = {
@@ -1445,7 +1465,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA1109"
 		trade_goods = oil
-		# life_rate = 5
+		life_rate = 5
 	}
 }
 
@@ -1553,7 +1573,6 @@ province_event = {
 			province_id = 1136
 			province_id = 1146
 			province_id = 1145
-			province_id = 2562		# taiwan
 		}
 		not = { trade_goods = oil }
 		OR = {

@@ -90,9 +90,9 @@ FRA_1097;Joker Islands;;;;;;x
 reelin_in_the_spuds_title;Reeling in the Spuds;;;;x
 reelin_in_the_spuds_desc;Never meet your heroes, cause they usually are bastards from southern Ireland. Spudguns from Scotland though, so he lives for now.;;;;x
 southaf_title;Cockwhip the Boers;;;;x
-southaf_desc;We gotta cockwhip em so we can run it down on the lesser folk, you know. like the germans. what? you thought i was talking about them [fine gentlemen]? we already killed them.;;;;;x
+southaf_desc;We gotta cockwhip em so we can run it down on the lesser folk, you know. like the germans. what? you thought i was talking about them darkies? we already killed them.;;;;;x
 trash_title;Better Than Napoleon;;;;;x
-trash_desc;Nappy couldn't contain the [well-groomed] fellows across the sea, but they dont know how to run a state so they still fighting, ripe for taking!;;;;;;x
+trash_desc;Nappy couldn't contain the nappy-headed fellows across the sea, but they dont know how to run a state so they still fighting, ripe for taking!;;;;;;x
 ybarra_title;Crown of Ybarras;;;;x
 ybarra_desc;Claim crown of Ybarra's! Cinco de Mayo but win! SO MUCH WIN!;;;;;x
 low_opium;Low Opium Trade;;;;x
@@ -136,10 +136,8 @@ save_the_nation5;Ultra Instinct Goku;;;;x
 save_the_nation5_desc;STOP! He's not black. . .;;;;x
 craftsmen_fix_cooldown;Craftsmen Cooldown;;;;x
 craftsmen_fix_cooldown_desc;wait;;;;x
-ukraine_slava_title;UKRAINI SLAVA;;;;;x
-ukraine_slava_desc;They are really good at farming, unless you take away their farms and pig pens, they will never be russian;;;;x
-bread_basketm;Get to Work;;;;x
-bread_basketm;Janitator!;;;;x
+bread_basket;UKRAINI;;;;;x
+bread_basket_desc;SLAVA;;;;x
 vassal_nation;stay on my dick;;;;x
 vassal_nation_desc;you were born to stay on it;;;;x
 greater_germany;get fucked on;;;;;x
@@ -162,7 +160,7 @@ money_hoarder_7;fat fuck BROLY;;;;x
 money_hoarder_7_desc;start burning it;;;;x
 war_propaganda;Propaganda;;;x
 war_propaganda_desc;fight, my legions;;;;x
-healthcare_poorly_funded_a;broke [fellow] alert;;;;x
+healthcare_poorly_funded_a;broke nigga alert;;;;x
 healthcare_poorly_funded_b;broke!;;;;x
 healthcare_poorly_funded_c;brokie;;;;x
 healthcare_poorly_funded_d;ur still broke;;;;x
@@ -170,7 +168,7 @@ low_schools_fully_funded;der garten;;;;x
 acceptable_schools_fully_funded;der kinder garten;;;;;x
 good_schools_fully_funded;der highschoolen;;;;;x
 education_fully_funded;der universalis;;;;x
-neglected_education;broke [fellow] alarm;;;;x
+neglected_education;broke nigga alarm;;;;x
 EVTNAME19000094;State of Asia;;;x
 EVTDESC19000094;With the loss of our New World holdings and consolidation of India, we have large deficits left to fill and yet we were unable to prevent the wealth we had left from spilling into Qing coffers. The growing demand for chinese goods in Europe has far outscaled any efforts to wrestle their monopoly away on tea and silk. However, the climate in India is suitable for poppy production, allowing us to exchange opium for tea at an unprecedented scale. Unfortunately, the Qing have begun to notice this activity and while undoubtedly clamp down on the trade.;;;;x
 EVTOPTA19000094;Utilise the Opium;;;;x
@@ -233,6 +231,9 @@ treaty_port_macau_desc;We own Macau;;;;;x
 treaty_port_nanning;Nanning;;;;x
 treaty_port_nanning_desc;We own Nanning;;;;x
 PROV3250;Gaozhu;;;;x
+<<<<<<< Updated upstream
+PROV1495;Zhangjiang;;;;x
+=======
 PROV1495;Zhangjiang;;;;x
 organize_colonial_armies_title;Organize Colonial Armies;;;;x
 organize_colonial_armies_desc;If you do this decision you can promote more soldier pops in colonies, sorry I don't remember what the percentage increase is but it is worth the meager payment, I know you got cash;;;;;x
@@ -241,3 +242,16 @@ minor_conquest;Tiny Conquest;;;;x
 minor_conquest_desc;4 foot 11 activities, or 149cm for Euros;;;;;x
 acquire_capital;Acquire Capital;;;;x
 acquire_capital_desc;Snatch der foams!;;;;;x
+EVTNAME19000125;Disaster at Annual;;;;x
+EVTDESC19000125;The overstretched Spanish military build-up in the Eastern Spanish Protectorate in Morocco crumbled. After the battle, the Rifians advanced eastward and overran more than 130 Spanish blockhouses. The Spanish garrisons were destroyed without mounting a coordinated response to the attacks. By the end of August, Spain had lost all the territories that it had gained in the area since 1909. General Silvestre disappeared and his remains were never found. According to one report, Spanish sergeant Francisco Basallo Becerra from the Kandussi garrison, an outpost east of Annual, identified the remains of Silvestre by his general's sash.[20] A Moorish courier from Kaddur Namar said that eight days after the battle, he saw the corpse of the general lying face down on the battlefield and still recognizable by his sash and epaulettes.;;;;;x
+EVTOPTA19000125;Chicken meat is cheap (war will be declared);;;;x
+EVTOPTB19000125;Its jover. . .(let em go);;;;x
+EVTNAME19000126;Prepare for War;;;;x
+EVTDESC19000126;Thug on em;;;x
+EVTOPTA19000126;WAAAAAHH;;;;;x
+EVTNAME19000127;War in Al-Rif;;;;x
+EVTDESC19000127;In July 1909, Spanish workers constructing a rail-bridge providing access to iron mines near Melilla were attacked by Rifian tribesmen. This incident led to the summoning of reinforcements from Spain itself. A series of skirmishes over the following weeks cost the Spanish over a thousand casualties. By September, the Spanish Army had 40,000 troops in northern Morocco and had occupied the tribal regions to the south and southeast of Melilla. The military operations in Jebala, in the Moroccan west, began in 1911 with the Larache landing. Spain worked to pacify a large part of the most violent areas until 1914, a slow process of consolidation of frontiers that lasted until 1919, due to World War I. The following year, after the signing of the Treaty of Fez, the northern Moroccan area was adjudicated to Spain as a protectorate. The Riffian populations strongly resisted the Spanish, unleashing a conflict that would last for several years.;;;;;x
+EVTOPTA19000127;Let them come;;;;x
+freedomfighters;Freedom Fighters;;;;x
+freedomfighters_desc;SONIC THE HEDGEHOG ANIMATED SHOW;;;;;x
+>>>>>>> Stashed changes
