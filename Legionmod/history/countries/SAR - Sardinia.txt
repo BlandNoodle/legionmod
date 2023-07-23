@@ -2,7 +2,7 @@ capital = 720
 primary_culture = north_italian
 religion = catholic
 government = absolute_monarchy
-plurality = 30.0
+plurality = 25.0
 nationalvalue = nv_order
 literacy = 0.45
 civilized = yes
@@ -66,8 +66,6 @@ basic_chemistry = 1
 medicine = 1
 
 #Inventions
-
-schools = naval_tech_school
 
 # Starting Consciousness
 consciousness = 3
