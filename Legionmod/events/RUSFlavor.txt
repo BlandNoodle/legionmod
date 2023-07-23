@@ -588,8 +588,6 @@ country_event = {
 	}
 }
 
-<<<<<<< Updated upstream
-=======
 country_event = {
 	id = 19000117
 	title = "EVTNAME19000117"
@@ -801,5 +799,4 @@ country_event = {
 		}
 	}
 }
->>>>>>> Stashed changes
 			

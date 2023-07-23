@@ -64,7 +64,7 @@ political_decisions = {
 			average_consciousness = 3
 		}
 		effect = {
-			years_of_research = 0.1
+			years_of_research = 0.5
 			any_pop = {
 				limit = {
 					has_pop_culture = manchu

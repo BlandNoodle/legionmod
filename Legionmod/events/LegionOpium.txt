@@ -150,6 +150,7 @@ province_event = {
 			}
 		any_pop = { addicts = 0.005 }
 		NOT = { has_province_modifier = local_opium_habit }
+		NOT = {year = 1900}
 		}
 	mean_time_to_happen = {
 		months = 1
@@ -181,6 +182,7 @@ province_event = {
 			}
 		any_neighbor_province = { has_province_modifier = local_opium_habit }
 		NOT = { has_province_modifier = local_opium_habit }
+		NOT = {year = 1900}
 		}
 	mean_time_to_happen = {
 		months = 500
