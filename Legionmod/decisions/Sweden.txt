@@ -137,6 +137,7 @@ political_decisions = {
 			inherit = SCH
 			prestige = 5
 			set_country_flag = schleswig_bye
+			SCH = {all_core = {remove_core = GER}}
 		}
 	}
 	
@@ -154,6 +155,7 @@ political_decisions = {
 			inherit = HOL
 			prestige = 5
 			set_country_flag = holstein_bye
+			HOL = {all_core = {remove_core = GER}}
 		}
 	}
 	
