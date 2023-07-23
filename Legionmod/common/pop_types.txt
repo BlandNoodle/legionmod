@@ -557,8 +557,6 @@ emigration_chance =
 		OR = { 
 			continent = north_america
 			continent = south_america
-			tag = SWE
-			tag = SCA
 		}
 		government = democracy
 	}

@@ -6,11 +6,12 @@
 democratic_nation = {
     trigger = {
         exists = yes
-		government = democracy
+	government = democracy
         slavery = no_slavery
     }
     global_immigrant_attract = 0.1
-    core_pop_militancy_modifier = -0.02
+    ruling_party_support = 0.3
+    core_pop_militancy_modifier = -0.01
     global_pop_consciousness_modifier = 0.01
     research_points_modifier = 0.05
 }
@@ -29,7 +30,7 @@ help_ai = {
 	min_tax = 0.48
    	tax_efficiency = 0.15
 	supply_consumption = -0.4
-    min_military_spending = 0.61
+    	min_military_spending = 0.61
 	mobilisation_economy_impact = -1
 	org_regain = 0.25
 	land_organisation = 0.1
@@ -291,25 +292,6 @@ need_trade = {
 		ai = no
 		AND = {
 			NOT = {
-				year = 1845
-			}
-			OR = {
-				is_greater_power = yes
-				is_secondary_power = yes
-			}
-		}
-	}
-		icon = 10
-		max_tariff = -0.25
-		tariff_efficiency_modifier = -0.15
-	}
-	
-need_more_trade = {
-	trigger = {
-		ai = no
-		year = 1845
-		AND = {
-			NOT = {
 				year = 1855
 			}
 			OR = {
@@ -319,14 +301,13 @@ need_more_trade = {
 		}
 	}
 		icon = 10
-		max_tariff = -0.15
-		tariff_efficiency_modifier = -0.25
+		tariff_efficiency_modifier = -0.2
 	}
 	
-need_even_more_trade = {
+need_more_trade = {
 	trigger = {
-		year = 1855
 		ai = no
+		year = 1855
 		AND = {
 			NOT = {
 				year = 1865
@@ -338,9 +319,6 @@ need_even_more_trade = {
 		}
 	}
 		icon = 10
-<<<<<<< Updated upstream
-		max_tariff = -0.1
-=======
 		tariff_efficiency_modifier = -0.25
 	}
 	
@@ -350,7 +328,7 @@ need_even_more_trade = {
 		ai = no
 		AND = {
 			NOT = {
-				year = 1900
+				year = 1875
 			}
 			OR = {
 				is_greater_power = yes
@@ -359,8 +337,7 @@ need_even_more_trade = {
 		}
 	}
 		icon = 10
->>>>>>> Stashed changes
-		tariff_efficiency_modifier = -0.35
+		tariff_efficiency_modifier = -0.3
 	}
 	
 vassal_nation = {
@@ -391,8 +368,8 @@ greater_germany = {
         }
     }
     supply_consumption = 0.35
-    tax_efficiency = -0.15
-    administrative_efficiency_modifier = -0.25
+    tax_efficiency = -0.05
+    administrative_efficiency_modifier = -0.2
     prestige = 0.03
     icon = 19
 }
@@ -405,16 +382,6 @@ fuck_usa = {
 	icon = 19
 	prestige -1
 	global_immigrant_attract = -1
-}
-
-indiacountry = {
-	trigger = {
-		tag = HND
-		ai = yes
-	}
-	icon = 19
-	research_points = -1
-	research_points_on_conquer = -1
 }
 
 the_british_raj = {
@@ -453,9 +420,10 @@ the_british_raj = {
     supply_consumption = 0.15
     influence_modifier = 0.05
     administrative_efficiency_modifier = -0.2
-	mobilisation_size = 0.01
+	mobilisation_size = 0.02
 	land_organisation = 0.1
     prestige = 0.03
+	badboy = 0.05
     icon = 19
 }
 

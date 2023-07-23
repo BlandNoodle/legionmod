@@ -15,7 +15,6 @@ country_event = {
 		NOT = { has_global_flag = taiping_has_happened }
 		has_global_flag = the_century
 		year = 1855
-		NOT = {year = 1880}
 	}
 	
 	mean_time_to_happen = {

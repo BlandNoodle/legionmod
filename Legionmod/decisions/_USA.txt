@@ -12,21 +12,12 @@ political_decisions = {
 			government = democracy
 			war = no
 			mass_culture_n_the_avant_garde = 1
-<<<<<<< Updated upstream
-			money = 2000000
-=======
-			money = 6000000
->>>>>>> Stashed changes
+			money = 5000000
 			owns = 425
 		}
 		
 		effect = {
-			money = -2000000
-<<<<<<< Updated upstream
-=======
-			money = -2000000
-			money = -2000000
->>>>>>> Stashed changes
+			money = -5000000
 			USA = {
 				country_event = { id=19300 days=0 }
 			}

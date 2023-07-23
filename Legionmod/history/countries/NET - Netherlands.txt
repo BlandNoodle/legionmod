@@ -68,8 +68,6 @@ mechanized_mining = 1
 basic_chemistry = 1
 practical_steam_engine = 1
 medicine = 1
-battleship_column_doctrine = 1
-steamers = 1
 
 #Inventions
 

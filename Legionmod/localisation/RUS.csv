@@ -3,6 +3,9 @@ EVTDESC19000108;Russia is getting the slop in China without us!;;;;;x
 EVTOPTA19000108;We gotta get some too!;;;;;x
 EVTNAME19000114;Legion;;;;;x
 EVTDESC19000114;Thug on em!;;;;x
+<<<<<<< Updated upstream
+EVTOPTA19000114;Shoulda seen the look on that pricks face!;;;;;x
+=======
 EVTOPTA19000114;Shoulda seen the look on that pricks face!;;;;;x
 EVTNAME19000117;Czar Alexander II Assassinated!;;;;;x
 EVTDESC19000117;After multiple attempts on his life, the Czar was finally killed by a bomb thrower in the streets of St. Petersburg, the fate of all Russians lie in the hands of Alexander III.;;;;;x
@@ -71,7 +74,4 @@ batavian_education;Batavian Reforms;;;;;x
 batavian_education_desc;Without reforms, we will stand no chance in our return journey to Europe;;;;x
 batavian_reform_title;Batavian Reforms;;;;x
 batavian_reform_desc;this will help us run it back;;;;x
-dnd_burgundy_title;DND Burgundy;;;;;x
-dnd_burgundy_desc;How;;;;x
-william_and_mary_title;Personal Union The British;;;;x
-william_and_mary_desc;This will release their colonies that weren't dutch, fair warning.;;;;;x
+>>>>>>> Stashed changes

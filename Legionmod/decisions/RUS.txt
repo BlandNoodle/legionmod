@@ -3,15 +3,29 @@ political_decisions = {
 		potential = {
 			tag = RUS
 			has_country_flag = serfdom_not_abolished
-			has_country_flag = alexander_ii
 		}
 		allow = {
 			OR = {
+<<<<<<< Updated upstream
+				AND = {
+					upper_house = {
+						ideology = liberal
+						value = 0.3
+					}
+					
+				}	
+				AND = {
+					ruling_party_ideology = liberal
+					average_consciousness = 4
+				}
+				average_militancy = 4
+=======
 				upper_house = {
 					ideology = liberal
 					value = 0.25
 				}
 				ruling_party_ideology = liberal
+>>>>>>> Stashed changes
 			}
 		}
 		effect = {
@@ -156,7 +170,10 @@ political_decisions = {
 		}
 		
 		effect = {
+<<<<<<< Updated upstream
+=======
 			badboy = 8
+>>>>>>> Stashed changes
 			set_country_flag = eastern_christians_up_in_here_yall
 			add_country_modifier = {
 				name = protector_of_eastern_christendom
@@ -301,10 +318,9 @@ political_decisions = {
 
 	colonize_uriankhai = {
 		picture = uriankhai_colony
-		potential = {
+		potential = { year = 1850
 			tag = RUS
 			NOT = { has_country_flag = colonize_uriankhai }
-			has_global_flag = the_century
 		}
 		
 		allow = {
@@ -318,7 +334,7 @@ political_decisions = {
 			set_country_flag = colonize_uriankhai
 			prestige = 2
 			1469 = { add_core = RUS }
-     	    1469 = {
+     	   1469 = {
       	      secede_province = RUS
       		  }
 			
@@ -346,7 +362,6 @@ political_decisions = {
 				owns = 702
 			}
 			NOT = { has_global_flag = poles_expelled }
-			NOT = { has_country_flag = pintegrate }
 		}
 		
 		allow = {
@@ -390,6 +405,8 @@ political_decisions = {
 		}
 		ai_will_do = { factor = 1 }
 	}
+<<<<<<< Updated upstream
+=======
 	ukraine_slava = {
 		potential = {
 			AND = {
@@ -529,4 +546,5 @@ political_decisions = {
 			set_country_flag = modernized_rus
 		}
 	}
+>>>>>>> Stashed changes
 }

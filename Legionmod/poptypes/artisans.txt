@@ -106,7 +106,6 @@ country_migration_target =
 			continent = oceania
 		}
 	}
-	
 		modifier = {
 		factor = 0.1
 		NOT = {

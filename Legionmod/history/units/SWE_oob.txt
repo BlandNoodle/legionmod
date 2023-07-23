@@ -82,55 +82,55 @@ army = {
 
 	regiment = {
 		name= "Södermanlands Regemente"
-		type = guard
+		type = infantry
 		home = 326
 	}
 
 	regiment = {
 		name= "Första Livgrenadjärregementet"
-		type = guard
+		type = infantry
 		home = 325
 	}
 
 	regiment = {
 		name= "Upplands Regemente"
-		type = guard
+		type = infantry
 		home = 324
 	}
 
 	regiment = {
 		name= "Västgöta Regemente"
-		type = hussar
+		type = infantry
 		home = 330
 	}
 
 	regiment = {
 		name= "Kalmar Regemente"
-		type = artillery
+		type = infantry
 		home = 332
 	}
 
 	regiment = {
 		name= "Jönköpings Regemente"
-		type = artillery
+		type = infantry
 		home = 333
 	}
 
 	regiment = {
 		name= "Södra Skånska Infanteriregementet"
-		type = artillery
+		type = infantry
 		home = 334
 	}
 
 	regiment = {
 		name= "Kronprinsens Husarregemente"
-		type = artillery
+		type = hussar
 		home = 335
 	}
 
 	regiment = {
 		name= "Norrlands Dragonregemente"
-		type = artillery
+		type = dragoon
 		home = 321
 	}
 
@@ -183,17 +183,17 @@ navy = {
 
 	ship = {
 		name= "1st Transport Flotilla"
-		type = frigate
+		type = clipper_transport
 	}
 
 	ship = {
 		name= "2nd Transport Flotilla"
-		type = frigate
+		type = clipper_transport
 	}
 
 	ship = {
 		name= "3rd Transport Flotilla"
-		type = frigate
+		type = clipper_transport
 	}
 
 }

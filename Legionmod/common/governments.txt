@@ -98,7 +98,6 @@ democracy = {
 	election = yes
 	duration = 48
 	appoint_ruling_party = no
-	flagType = republic
 }
  
 
