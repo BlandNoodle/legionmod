@@ -67,6 +67,8 @@ medicine = 1
 
 #Inventions
 
+schools = naval_tech_school
+
 # Starting Consciousness
 consciousness = 3
 nonstate_consciousness = 1

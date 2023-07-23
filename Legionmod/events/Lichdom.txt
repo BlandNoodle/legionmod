@@ -32,7 +32,7 @@ country_event = {
 	
 	option = {
 		name = "HE IS HIM!!!!!"
-		prestige = 20
+		prestige = 10
 		set_country_flag = evo_morales_lichdom
 	}
 }
