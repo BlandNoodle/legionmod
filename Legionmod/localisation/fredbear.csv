@@ -233,7 +233,6 @@ treaty_port_macau_desc;We own Macau;;;;;x
 treaty_port_nanning;Nanning;;;;x
 treaty_port_nanning_desc;We own Nanning;;;;x
 PROV3250;Gaozhu;;;;x
-<<<<<<< HEAD
 PROV1495;Zhangjiang;;;;x
 organize_colonial_armies_title;Organize Colonial Armies;;;;x
 organize_colonial_armies_desc;If you do this decision you can promote more soldier pops in colonies, sorry I don't remember what the percentage increase is but it is worth the meager payment, I know you got cash;;;;;x
@@ -242,6 +241,4 @@ minor_conquest;Tiny Conquest;;;;x
 minor_conquest_desc;4 foot 11 activities, or 149cm for Euros;;;;;x
 acquire_capital;Acquire Capital;;;;x
 acquire_capital_desc;Snatch der foams!;;;;;x
-=======
 PROV1495;Zhangjiang;;;;x
->>>>>>> parent of 93164d4 (slop)

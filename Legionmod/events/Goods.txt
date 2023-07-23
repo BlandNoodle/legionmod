@@ -32,10 +32,7 @@ province_event = {
 			province_id = 1659			# Kobe
 			province_id = 2142			# Chihuahua
 			province_id = 2255			# Barranquilla
-<<<<<<< HEAD
 			province_id = 1157
-=======
->>>>>>> parent of 93164d4 (slop)
 		}
 		not = { trade_goods = precious_metal }
 	}

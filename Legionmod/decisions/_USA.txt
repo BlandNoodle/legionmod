@@ -12,20 +12,12 @@ political_decisions = {
 			government = democracy
 			war = no
 			mass_culture_n_the_avant_garde = 1
-<<<<<<< HEAD
-			money = 5000000
-=======
 			money = 2000000
->>>>>>> parent of 93164d4 (slop)
 			owns = 425
 		}
 		
 		effect = {
-<<<<<<< HEAD
-			money = -5000000
-=======
 			money = -2000000
->>>>>>> parent of 93164d4 (slop)
 			USA = {
 				country_event = { id=19300 days=0 }
 			}
