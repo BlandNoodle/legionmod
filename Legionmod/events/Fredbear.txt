@@ -15,7 +15,11 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
+<<<<<<< HEAD
 		months = 2000
+=======
+		months = 800
+>>>>>>> parent of 93164d4 (slop)
 		
 		modifier = {
 			factor = 0.9

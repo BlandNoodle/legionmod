@@ -319,6 +319,7 @@ need_more_trade = {
 		}
 	}
 		icon = 10
+<<<<<<< HEAD
 		tariff_efficiency_modifier = -0.25
 	}
 	
@@ -338,6 +339,10 @@ need_even_more_trade = {
 	}
 		icon = 10
 		tariff_efficiency_modifier = -0.3
+=======
+		max_tariff = -0.1
+		tariff_efficiency_modifier = -0.35
+>>>>>>> parent of 93164d4 (slop)
 	}
 	
 vassal_nation = {
