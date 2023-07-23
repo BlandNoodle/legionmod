@@ -127,7 +127,7 @@ political_decisions = {
 		potential = {
 			tag = SWE
 			SWE = {is_our_vassal = SCH}
-			NOT = has_country_flag = schleswig_bye
+			NOT = {has_country_flag = schleswig_bye}
 		}
 		allow = {
 			state_n_government = 1
@@ -144,7 +144,7 @@ political_decisions = {
 		potential = {
 			tag = SWE
 			SWE = {is_our_vassal = HOL}
-			NOT = has_country_flag = holstein_bye
+			NOT = {has_country_flag = holstein_bye}
 		}
 		allow = {
 			state_n_government = 1
