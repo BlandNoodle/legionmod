@@ -241,3 +241,15 @@ minor_conquest;Tiny Conquest;;;;x
 minor_conquest_desc;4 foot 11 activities, or 149cm for Euros;;;;;x
 acquire_capital;Acquire Capital;;;;x
 acquire_capital_desc;Snatch der foams!;;;;;x
+EVTNAME19000125;Disaster at Annual;;;;x
+EVTDESC19000125;The overstretched Spanish military build-up in the Eastern Spanish Protectorate in Morocco crumbled. After the battle, the Rifians advanced eastward and overran more than 130 Spanish blockhouses. The Spanish garrisons were destroyed without mounting a coordinated response to the attacks. By the end of August, Spain had lost all the territories that it had gained in the area since 1909. General Silvestre disappeared and his remains were never found. According to one report, Spanish sergeant Francisco Basallo Becerra from the Kandussi garrison, an outpost east of Annual, identified the remains of Silvestre by his general's sash.[20] A Moorish courier from Kaddur Namar said that eight days after the battle, he saw the corpse of the general lying face down on the battlefield and still recognizable by his sash and epaulettes.;;;;;x
+EVTOPTA19000125;Chicken meat is cheap (war will be declared);;;;x
+EVTOPTB19000125;Its jover. . .(let em go);;;;x
+EVTNAME19000126;Prepare for War;;;;x
+EVTDESC19000126;Thug on em;;;x
+EVTOPTA19000126;WAAAAAHH;;;;;x
+EVTNAME19000127;War in Al-Rif;;;;x
+EVTDESC19000127;In July 1909, Spanish workers constructing a rail-bridge providing access to iron mines near Melilla were attacked by Rifian tribesmen. This incident led to the summoning of reinforcements from Spain itself. A series of skirmishes over the following weeks cost the Spanish over a thousand casualties. By September, the Spanish Army had 40,000 troops in northern Morocco and had occupied the tribal regions to the south and southeast of Melilla. The military operations in Jebala, in the Moroccan west, began in 1911 with the Larache landing. Spain worked to pacify a large part of the most violent areas until 1914, a slow process of consolidation of frontiers that lasted until 1919, due to World War I. The following year, after the signing of the Treaty of Fez, the northern Moroccan area was adjudicated to Spain as a protectorate. The Riffian populations strongly resisted the Spanish, unleashing a conflict that would last for several years.;;;;;x
+EVTOPTA19000127;Let them come;;;;x
+freedomfighters;Freedom Fighters;;;;x
+freedomfighters_desc;SONIC THE HEDGEHOG ANIMATED SHOW;;;;;x

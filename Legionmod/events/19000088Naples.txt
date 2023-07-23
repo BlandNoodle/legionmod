@@ -6,7 +6,7 @@ country_event = {
 	picture = "baldi"
 	
 	trigger = {
-		tag = SAR
+		tag = SIC
 		war = no
 		NOT = { has_country_flag = baldi }
 	}
@@ -15,17 +15,17 @@ country_event = {
 		months = 2
 	}
 	
-	#option = {
-	#	name = "EVTOPTA19000088"
-	#	add_country_modifier = {
-	#		name = baldieffect
-	#		duration = 120000
-	#	}
-	#	set_country_flag = baldi
-	#	ai_chance = {
-	#		factor = 100
-	#	}
-	#}
+	option = {
+		name = "EVTOPTA19000088"
+		add_country_modifier = {
+			name = baldieffect
+			duration = 120000
+		}
+		set_country_flag = baldi
+		ai_chance = {
+			factor = 100
+		}
+	}
 	
 	option = {
 		name = "EVTOPTB19000088"
