@@ -50,4 +50,26 @@ political_decisions = {
 			}
 		}
 	}
+	
+	
+	get_stockpile = {
+		potential = {
+			ai = no
+			NOT = { year = 1837 }
+			NOT = { has_country_flag = got_stockpile }
+		}
+		
+		allow = {}
+		
+		effect = {
+			set_country_flag = got_stockpile
+			money = 50000
+			clipper_convoy = 25
+			small_arms = 30
+			canned_food = 40
+			artillery = 30
+			ammunition = 35
+			luxury_clothes = 10
+		}
+	}
 }
