@@ -148,7 +148,12 @@ luderitz_expedition = {
 		potential = {
 			tag = NGF
 			tag = PRU
-			has_country_flag = ems_dispatch_sent
+			tag = SGF
+			OR = {
+				has_country_flag = ems_dispatch_sent
+				owns = 412
+				owns = 619
+			}
 		}
 		
 		allow = {
@@ -159,7 +164,6 @@ luderitz_expedition = {
 		
 		effect = {
 			change_tag = GER
-			prestige = -50
 			add_accepted_culture = north_german
 			add_accepted_culture = south_german			
 			any_country = {

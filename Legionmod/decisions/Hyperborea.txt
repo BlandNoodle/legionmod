@@ -528,7 +528,7 @@ integrate_central_america = {
 		
 		allow = {
 			state_n_government = 1
-			is_greater_power = 1
+			is_greater_power = yes
 			UCA = { all_core = { owned_by = THIS } }
 		}
 		

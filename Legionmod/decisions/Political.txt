@@ -366,8 +366,8 @@ enact_liquor_prohibition = {
 			}
 			1485 = {
 				change_province_name = "Tainan Cho"
-				state_scope = { change_region_name = "Takasago" }
 				add_core = JAP
+				state_scope = { change_region_name = "Takasago" }
 			}
 			set_country_flag = taiwan_administration
 		}	

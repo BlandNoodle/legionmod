@@ -221,8 +221,6 @@ country_event = {
 		FZH = {all_core = {remove_core = FZH}}
 		NAN = {all_core = {remove_core = NAN}}
 		MAC = {all_core = {remove_core = MAC}}
-		CHI_1600 = {remove_core = MCK}
-		CHI_2608 = {remove_core = MCK}
 		CHI_1600 = {add_core = XIN}
 		CHI_1600 = {add_core = CHI}
 		release = XIN

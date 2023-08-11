@@ -15,34 +15,7 @@ democratic_nation = {
     research_points_modifier = 0.05
 }
 
-help_ai = {
-    trigger = {
-        ai = yes
-		NOT = { tag = JAN }
-		NOT = { OR = {
-			culture = asian_minor
-			culture = manchu
-			}
-		}
-    }
-    icon = 10
-	min_tax = 0.48
-   	tax_efficiency = 0.15
-	supply_consumption = -0.4
-    min_military_spending = 0.61
-	mobilisation_economy_impact = -1
-	org_regain = 0.25
-	land_organisation = 0.1
-	land_unit_start_experience = 5.0
-	leadership_modifier = -0.2
-	mine_rgo_eff = 0.1
-	farm_rgo_eff = 0.1
-	administrative_efficiency_modifier = 0.5
-	factory_output = 0.1
-	army_tech_research_bonus = 0.25
-	import_cost = -0.25
-  	tariff_efficiency_modifier = 0.2
-}
+
 help_CSA = {
     trigger = {
 	tag = CSA

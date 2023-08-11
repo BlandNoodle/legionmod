@@ -135,6 +135,8 @@ country_event = {
 	ai_chance = { factor = 1 }
 	set_global_flag = treaty_ports_activated
 	country_event = { id=13270 days=0 }
+	CHI_1600 = {remove_core = MCK}
+	CHI_2608 = {remove_core = MCK}
     }
 }
 

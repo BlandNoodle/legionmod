@@ -4,7 +4,7 @@ political_decisions = {
 		
 		potential = {
 			tag = ITA
-			NOT = { have_country_flag = croats_slovenes_accepted }
+			NOT = { has_country_flag = croatsslovenesaccepted }
 		}
 		
 		allow = {
@@ -16,10 +16,10 @@ political_decisions = {
 		}
 		
 		effect = {
-			set_country_flag = croats_slovenes_accepted
+			set_country_flag = croatsslovenesaccepted
 			prestige = 5
-			add_accepted_culture = croatian
-			add_accepted_culture = slovenian
+			add_accepted_culture = croat
+			add_accepted_culture = slovene
 			add_core = 774
 			add_core = 773
 			add_core = 768
@@ -31,7 +31,7 @@ political_decisions = {
 		
 		potential = {
 			tag = ITA
-			NOT = { have_country_flag = albanian_accepted }
+			NOT = { has_country_flag = albanianaccepted }
 		}
 		
 		allow = {
@@ -42,7 +42,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			set_country_flag = albanian_accepted
+			set_country_flag = albanianaccepted
 			ALB = { all_core = { add_core = THIS } }
 			prestige = -20
 			add_accepted_culture = albanian
@@ -54,7 +54,7 @@ political_decisions = {
 		
 		potential = {
 			tag = ITA
-			NOT = { have_country_flag = catalan_accepted }
+			NOT = { has_country_flag = catalanaccepted }
 		}
 		
 		allow = {
@@ -64,7 +64,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			set_country_flag = catalan_accepted
+			set_country_flag = catalanaccepted
 			CAT = { all_core = { add_core = THIS } }
 			prestige = 5
 			add_accepted_culture = catalan
@@ -76,7 +76,7 @@ political_decisions = {
 		
 		potential = {
 			tag = ITA
-			NOT = { have_country_flag = roman_ambitions }
+			NOT = { has_country_flag = romanambitions }
 		}
 		
 		allow = {
@@ -87,7 +87,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			set_country_flag = roman_ambitions
+			set_country_flag = romanambitions
 			prestige = 5
 			badboy = 17
 			464 = { add_core = THIS }
@@ -99,7 +99,7 @@ political_decisions = {
 	lm_ita_accept_occitan = {
 		potential = {
 			tag = ITA
-			NOT = { have_country_flag = occitan_accepted }
+			NOT = { has_country_flag = occitanaccepted }
 			is_greater_power = yes
 		}
 		
@@ -114,7 +114,7 @@ political_decisions = {
 		effect = {
 			add_accepted_culture = occitan
 			badboy = 5
-			set_country_flag = occitan_accepted
+			set_country_flag = occitanaccepted
 		}
 	}
 }
