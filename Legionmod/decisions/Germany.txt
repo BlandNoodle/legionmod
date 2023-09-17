@@ -199,13 +199,13 @@ luderitz_expedition = {
 		
 		allow = {
 			steel_steamers = 1
-			money = 51000
+			money = 1000001
 		}
 		
 		effect = {
 			set_global_flag = germania_werft_has_been_built
-			prestige = 10
-			treasury = -50000
+			prestige = 15
+			treasury = -1000000
 			369 = {
 				naval_base = 6
 				add_province_modifier = { name = germania_werft duration = -1 }

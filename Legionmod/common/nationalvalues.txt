@@ -2,8 +2,7 @@ nv_order = {
 	mobilisation_size = 0.02
 	mobilisation_economy_impact = 1.0
 	land_organisation = 0.2
-	org_regain = 0.05
-	land_unit_start_experience = 25
+	org_regain = 0.1
 	mobilization_impact = 1
 }
 
@@ -12,7 +11,6 @@ nv_liberty = {
 	mobilisation_economy_impact = 1.0
 	global_immigrant_attract = 0.3
 	political_reform_desire = 0.25
-	commerce_tech_research_bonus = 0.05
 	mobilization_impact = 1
 }
 
@@ -21,6 +19,5 @@ nv_equality = {
 	global_immigrant_attract = 0.25
 	mobilisation_economy_impact = 1.0
 	non_accepted_pop_militancy_modifier = -0.02
-	culture_tech_research_bonus = 0.05
 	mobilization_impact = 1
 }

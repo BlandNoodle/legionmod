@@ -45,7 +45,6 @@ school_reforms = no_schools
 # Technologies
 bronze_muzzle_loaded_artillery = 1
 military_staff_system = 1
-army_command_principle = 1
 classicism_n_early_romanticism = 1
 private_banks = 1
 no_standard = 1
@@ -54,7 +53,6 @@ water_wheel_power = 1
 basic_chemistry = 1
 mechanical_production = 1
 medicine = 1
-iron_muzzle_loaded_artillery = 1
 late_enlightenment_philosophy = 1
 post_napoleonic_thought = 1
 

@@ -87,7 +87,6 @@ political_decisions = {
 				name = unshakable_autocracy 
 				duration = 3650
 			}
-			political_reform = landed_voting
 			political_reform = state_press
 			political_reform = underground_parties
 			social_reform = acceptable_schools

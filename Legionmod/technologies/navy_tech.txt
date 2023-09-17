@@ -166,7 +166,7 @@ raider_group_doctrine = {
 	unciv_military = yes
 	max_naval_base = 1
 	navy_base = {
-		supply_consumption = 0.10
+		supply_consumption = 0.15
 	}
 	ai_chance = {
 		factor = 1
@@ -243,7 +243,7 @@ blue_and_brown_water_schools = {
 	unciv_military = yes
 	max_naval_base = 1
 	navy_base = {
-		supply_consumption = 0.10
+		supply_consumption = 0.15
 	}
 	ai_chance = {
 		factor = 1
@@ -321,7 +321,7 @@ high_sea_battle_fleet = {
 	unciv_military = yes
 	max_naval_base = 1
 	navy_base = {
-		supply_consumption = 0.10
+		supply_consumption = 0.20
 	}
 
 	ai_chance = {
@@ -399,7 +399,7 @@ modern_naval_doctrine = {
 	unciv_military = yes
 	max_naval_base = 1
 	navy_base = {
-		supply_consumption = 0.15
+		supply_consumption = 0.25
 	}
 	ai_chance = {
 		factor = 1
@@ -1465,7 +1465,7 @@ alphabetic_flag_signaling = {
 	cost = 3600
 	unciv_military = yes
 	navy_base = {
-		supply_consumption = -0.10
+		supply_consumption = -0.15
 	}
 	supply_range = 0.10
 	
@@ -1511,7 +1511,7 @@ naval_plans = {
 	cost = 7200
 	unciv_military = yes
 	navy_base = {
-		supply_consumption = -0.10
+		supply_consumption = -0.15
 	}
 	supply_range = 0.10
 	
@@ -1557,7 +1557,7 @@ naval_statistics = {
 	cost = 10800
 	unciv_military = yes
 	navy_base = {
-		supply_consumption = -0.10
+		supply_consumption = -0.05
 	}
 	supply_range = 0.10
 		ai_chance = {
@@ -1602,7 +1602,7 @@ naval_logistics = {
 	cost = 14400
 	unciv_military = yes
 	navy_base = {
-		supply_consumption = -0.10
+		supply_consumption = -0.05
 	}
 	supply_range = 0.10
 		ai_chance = {
@@ -1647,7 +1647,7 @@ naval_directionism = {
 	cost = 18000
 	unciv_military = yes
 	navy_base = {
-		supply_consumption = -0.15
+		supply_consumption = -0.05
 	}
 	supply_range = 0.10
 		ai_chance = {
@@ -1692,7 +1692,7 @@ naval_integration = {
 	cost = 21600
 	unciv_military = yes
 	navy_base = {
-		supply_consumption = -0.15
+		supply_consumption = -0.05
 	}
 	supply_range = 0.10
 		ai_chance = {

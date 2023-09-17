@@ -711,7 +711,7 @@ steel_breech_loaded_artillery = {
 	artillery = {
 		attack = 0.5
 		support = 0.5
-		supply_consumption = 0.3
+		supply_consumption = 0.35
 	}
 	
 	ai_chance = {
@@ -756,7 +756,7 @@ indirect_artillery_fire = {
 		attack = 0.5
 		defence = 2
 		support = 1
-		supply_consumption = 0.3
+		supply_consumption = 0.35
 	}
 	
 	ai_chance = {
@@ -801,7 +801,7 @@ heavy_armament_dunno = {
 		attack = 0.5
 		defence = 2
 		support = 1
-		supply_consumption = 0.3
+		supply_consumption = 0.35
 	}
 	
 	ai_chance = {
@@ -848,7 +848,7 @@ military_staff_system = {
 	
 	army_base = {
 		default_organisation = 5
-		supply_consumption = -0.10
+		supply_consumption = -0.15
 	}
 	
 	ai_chance = {
@@ -892,7 +892,7 @@ military_plans = {
 	
 	army_base = {
 		default_organisation = 5
-		supply_consumption = -0.10
+		supply_consumption = -0.15
 	}
 	
 	ai_chance = {
@@ -936,7 +936,7 @@ military_statistics = {
 	
 	army_base = {
 		default_organisation = 5
-		supply_consumption = -0.20
+		supply_consumption = -0.05
 	}
 	
 	ai_chance = {
@@ -980,7 +980,7 @@ military_logistics = {
 	
 	army_base = {
 		default_organisation = 5
-		supply_consumption = -0.20
+		supply_consumption = -0.05
 	}
 	mobilisation_size = 0.05
 	
@@ -1025,7 +1025,7 @@ military_directionism = {
 	
 	army_base = {
 		default_organisation = 10
-		supply_consumption = -0.20
+		supply_consumption = -0.05
 	}
 	ai_chance = {
 		factor = 1.5
@@ -1070,7 +1070,7 @@ aeronautics = {
 	cost = 21600
 	army_base = {
 		default_organisation = 10
-		supply_consumption = 0.20
+		supply_consumption = 0.10
 	}
 	
 	unciv_military = yes

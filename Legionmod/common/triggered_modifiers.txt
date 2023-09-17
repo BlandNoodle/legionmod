@@ -273,7 +273,7 @@ need_trade = {
 		}
 	}
 		icon = 10
-		tariff_efficiency_modifier = -0.2
+		tariff_efficiency_modifier = -0.15
 	}
 	
 need_more_trade = {
@@ -291,7 +291,7 @@ need_more_trade = {
 		}
 	}
 		icon = 10
-		tariff_efficiency_modifier = -0.25
+		tariff_efficiency_modifier = -0.2
 	}
 	
 need_even_more_trade = {

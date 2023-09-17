@@ -535,6 +535,7 @@ ybarra = {
 				tag = SAU
 				tag = SPA
 				tag = PBV
+				tag = IBE
 			}
 			NOT = { has_country_flag = mexintegrate }
 			}
