@@ -9,6 +9,10 @@ country_event = {
 		tag = SAR
 		war = no
 		NOT = { has_country_flag = baldi }
+		OR = {
+			year = 1850
+			exists = NGF
+		}
 	}
 	
 	mean_time_to_happen = {

@@ -1312,7 +1312,7 @@ expansionism = {
 }
 mission_to_civilize = {
 	limit = { 
-		year = 1850 
+		year = 1860 
 		state_n_government = 1
 	}
 	news = no

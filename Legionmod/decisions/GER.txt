@@ -1,0 +1,189 @@
+political_decisions = {
+	integrate_north = {
+		potential = {
+			owns = 549
+			NOT = {has_country_flag = intenorth}
+		}
+		allow = {
+			is_greater_power = yes
+			MEC = {all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			HOL = {all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			HAN = {all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			owns = 370
+			owns = 371
+		}
+		effect = {
+			set_country_flag = intenorth
+			inherit = MEC
+			inherit = HOL
+			inherit = HAN
+		}
+	}
+	
+	integrate_center = {
+		potential = {
+			owns = 549
+			NOT = {has_country_flag = intecenter}
+			has_country_flag = intenorth
+		}
+		allow = {
+			is_greater_power = yes
+			HEK = {all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			HES = {all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			SAX = {all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			state_n_government = 1
+			early_railroad = 1
+			breech_loaded_rifles = 1
+		}
+		effect = {
+			set_country_flag = intecenter
+			inherit = HEK
+			inherit = HES
+			inherit = SAX
+		}
+	}
+	
+	integrate_south = {
+		potential = {
+			owns = 549
+			NOT = {has_country_flag = intesouth}
+			has_country_flag = intecenter
+		}
+		allow = {
+			is_greater_power = yes
+			BAD = {all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			WUR = {all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			nationalism_n_imperialism = 1
+			iron_railroad = 1
+			empiricism = 1
+		}
+		effect = {
+			set_country_flag = intesouth
+			inherit = BAD
+			inherit = WUR
+		}
+	}
+	
+	form_german_federation = {
+		potential = {
+			tag = NGF
+			tag = SGF
+			owns = 590
+			OR = {
+				owns = 412
+				owns = 619
+			}
+			NOT = { exists = GER }
+		}
+		
+		allow = {
+			is_greater_power = yes
+			war = no
+			has_country_modifier = {otto_von_bismarck}
+		}
+		
+		effect = {
+			change_tag = GER
+			add_accepted_culture = north_german
+			add_accepted_culture = south_german			
+			any_country = {
+				limit = {
+					is_culture_group = germanic
+					in_sphere = THIS
+					NOT = BAV
+				}
+				country_event = { id=11101 days=0 }
+			}
+		}
+	}
+	
+	integratebava = {
+		potential = {
+			owns = 549
+			has_country_flag = intesouth
+			NOT = {has_country_flag = intebav}
+		}
+		allow = {
+			is_greater_power = yes
+			BAV = {all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			revolution_n_counterrevolution = 1
+			steel_railroad = 1
+		}
+		effect = {
+			set_country_flag = {intebav}
+			inherit = BAV
+		}
+	}
+}

@@ -1,5 +1,5 @@
 owner = AUS
 controller = AUS
-trade_goods = precious_metal
+trade_goods = dye
 life_rating = 30
 colonial = 2

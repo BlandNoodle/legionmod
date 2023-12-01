@@ -355,7 +355,8 @@ late_classical_theory = {
 	area = economic_thought_and_critique
 	year = 1836
 	cost = 7200
-
+	
+	
 	factory_input = -0.02
 	ai_chance = {
 		factor = 1.01
@@ -386,6 +387,7 @@ collectivist_theory = {
 	year = 1836
 	cost = 10800
 
+	
 	factory_input = -0.02
 	ai_chance = {
 		factor = 1.01
@@ -416,6 +418,7 @@ the_historical_theory = {
 	year = 1850
 	cost = 14400
 
+	
 	factory_input = -0.02
 	ai_chance = {
 		factor = 1.01
@@ -446,6 +449,7 @@ neoclassical_theory = {
 	year = 1870
 	cost = 18000
 
+	
 	factory_input = -0.02
 	ai_chance = {
 		factor = 1
@@ -476,6 +480,7 @@ keynesian_economics = {
 	year = 1900
 	cost = 21600
 
+	
 	factory_input = -0.02
 	ai_chance = {
 		factor = 1.01
@@ -726,6 +731,7 @@ organized_factories = {
 	year = 1836
 	cost = 7200
 
+	
 	factory_output = 0.01
 		ai_chance = {
 		factor = 1.05
@@ -764,6 +770,7 @@ scientific_management = {
 	year = 1836
 	cost = 10800
 
+	
 	factory_output = 0.01
 	ai_chance = {
 		factor = 1.05
@@ -802,6 +809,7 @@ time_saving_measures = {
 	year = 1850
 	cost = 14400
 
+	
 	factory_output = 0.01
 	ai_chance = {
 		factor = 1.05
@@ -828,6 +836,7 @@ management_strategy = {
 	year = 1870
 	cost = 18000
 
+	
 	factory_output = 0.01
 	ai_chance = {
 		factor = 1.05
@@ -854,6 +863,7 @@ organizational_development = {
 	year = 1900
 	cost = 21600
 
+	factory_cost = 0.1
 	factory_output = 0.01
 	ai_chance = {
 		factor = 1.05

@@ -1,5 +1,5 @@
-owner = CHI
-controller = CHI
+owner = FZH
+controller = FZH
 add_core = CHI
 add_core = FZH
 add_core = TPG

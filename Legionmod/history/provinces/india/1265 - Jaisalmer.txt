@@ -1,6 +1,6 @@
-owner = JAS
-controller = JAS
-add_core = JAS
+owner = BHO
+controller = BHO
+add_core = BHO
 add_core = HND
 trade_goods = wool
 life_rating = 32

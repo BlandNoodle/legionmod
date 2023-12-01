@@ -1,5 +1,5 @@
-owner = CHI
-controller = CHI
+owner = SHA
+controller = SHA
 add_core = CHI
 add_core = SHA
 add_core = TPG

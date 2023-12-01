@@ -222,7 +222,6 @@ country_event = {
 		NAN = {all_core = {remove_core = NAN}}
 		MAC = {all_core = {remove_core = MAC}}
 		CHI_1600 = {add_core = XIN}
-		CHI_1600 = {add_core = CHI}
 		release = XIN
 		CHI_2608 = {add_core = MGL}
 		release = MGL
@@ -241,19 +240,7 @@ country_event = {
 		CHI_1504 = {add_core = GXI}
 		CHI_1499 = {add_core = GXI}
 		CHI_1494 = {add_core = GXI}
-		CHI_1504 = {add_core = CHI}
-		CHI_1499 = {add_core = CHI}
-		CHI_1494 = {add_core = CHI}
 		release = GXI
-		1495 = {add_core = CHI}
-		1498 = {add_core = CHI}
-		1496 = {add_core = CHI}
-		1485 = {add_core = CHI}
-		2562 = {add_core = CHI}
-		1608 = {add_core = CHI}
-		1538 = {add_core = CHI}
-		1566 = {add_core = CHI}
-		1481 = {add_core = CHI}
 		activate_technology = enlightenment_thought
 		activate_technology = ideological_thought
 		activate_technology = state_n_government
@@ -265,6 +252,86 @@ country_event = {
 }
 		
 		
+country_event = {
+	id = 19000128
+	title = "EVTNAME19000128"
+	desc = "EVTDESC19000128"
+	major = yes
 	
+	trigger = {
+		tag = CHI
+		year = 1900
+		has_country_flag = lubuawake
+		NOT = {has_country_flag = heavenlywar}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA19000128"
+		any_neighbor_country = {
+			random_country = {
+				war = {
+					target = THIS
+					attacker_goal = { casus_belli = conquest }
+					defender_goal = { casus_belli = status_quo }
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 19000129
+	title = "EVTNAME19000129"
+	desc = "EVTDESC19000129"
+	major = yes
+	
+	trigger = {
+		tag = CHI
+		year = 1900
+		has_country_flag = heavenlywar
+		has_recently_lost_war = no
+		war = no
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA19000129"
+		remove_country_flag = heavenlywar
+		prestige = 50
+	}
+}
+
+country_event = {
+	id = 19000130
+	title = "EVTNAME19000130"
+	desc = "EVTDESC19000130"
+	major = yes
+	
+	trigger = {
+		tag = CHI
+		year = 1900
+		has_country_flag = heavenlywar
+		has_recently_lost_war = yes
+		war = no
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA19000130"
+		remove_country_modifier = lubu
+		remove_country_flag = lubuawake
+		prestige = -1000
+	}
+}
 	
 

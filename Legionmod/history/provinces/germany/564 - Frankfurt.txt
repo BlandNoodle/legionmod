@@ -1,8 +1,8 @@
-owner = FRM
-controller = FRM
-add_core = FRM
+owner = HES
+controller = HES
+add_core = HES
 add_core = GER
 trade_goods = fruit
-life_rating = 40
+life_rating = 36
 fort = 2
 1861.1.1 = { railroad = 3 }

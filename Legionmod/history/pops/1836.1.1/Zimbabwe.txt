@@ -1,5 +1,4 @@
 #Mashonaland Region (296000)  
-#Mashonaland Region (296000)  
 #uncolonized in 1836/dominated by Mutapa in 1836
 #Harare (68000/17000 POPS) 
 2068 = {

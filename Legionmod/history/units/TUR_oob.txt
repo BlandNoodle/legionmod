@@ -18,6 +18,12 @@ EGY = {
 	influence_value = 100
 }
 
+JAN = {
+	value = -200		#relation
+	level = 0		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+
 GRE = {
 	value = -25		#relation
 	level = 0		#3=cordial, 4 = friendly, 5 sphere
@@ -32,7 +38,7 @@ TUN = {
 
 SER = {
 	value = -100		#relation
-	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
 	influence_value = 25
 }
 
@@ -54,12 +60,24 @@ WAL = {
 	influence_value = 100
 }
 
+BOS = {
+	value = 125
+	level = 4
+	influence_value = 100
+}
+
+BUL = {
+	value = 125
+	level = 4
+	influence_value = 100
+}
+
 leader = {
 	name = "Resid Mehmed Pasha"
 	date = 1809.1.1
 	type = land
-	personality = inefficient
-	background = elderly
+	personality = defence_3.1
+	background = attack_3.1
 	prestige = 0.2
 }
 
@@ -76,8 +94,8 @@ leader = {
 	name = "Helmuth von Moltke"
 	date = 1833.1.1
 	type = land
-	personality = calm
-	background = debutante
+	personality = defence_4.1
+	background = attack_4.1
 	prestige = 0.0
 }
 
@@ -132,60 +150,60 @@ army = {
 	regiment = {
 		name= "1. Bostancy-yy Hassa"
 		type = infantry
-		home = 860
+		home = 862
 	}
 
 	regiment = {
 		name= "2. Bostancy-yy Hassa"
 		type = infantry
-		home = 828
+		home = 868
 	}
 
 	regiment = {
 		name= "3. Bostancy-yy Hassa"
 		type = infantry
-		home = 859
+		home = 853
 	}
 
 	regiment = {
 		name= "4. Bostancy-yy Hassa"
 		type = infantry
-		home = 861
+		home = 849
 	}
 	regiment = {
 		name= "1. Sipahis"
 		type = hussar
-		home = 798
+		home = 850
 	}
 
 	regiment = {
 		name= "2. Sipahis"
 		type = artillery
-		home = 799
+		home = 823
 	}
 
 	regiment = {
 		name= "3. Sipahis"
 		type = artillery
-		home = 802
+		home = 896
 	}
 
 	regiment = {
 		name= "1. Piyade Tümeni"
 		type = artillery
-		home = 802
+		home = 894
 	}
 
 	regiment = {
 		name= "2. Piyade Tümeni"
 		type = artillery
-		home = 803
+		home = 849
 	}
 
 	regiment = {
 		name= "3. Piyade Tümeni"
 		type = artillery
-		home = 803
+		home = 851
 	}
 
 	
@@ -194,7 +212,7 @@ army = {
 
 army = {
 	name = "Redif Bursa"
-	location = 849
+	location = 822
 	
 
 	regiment = {
@@ -206,36 +224,36 @@ army = {
 	regiment = {
 		name= "2. Redif Bursa"
 		type = infantry
-		home = 850
+		home = 870
 	}
 
 	regiment = {
 		name= "3. Redif Bursa"
 		type = infantry
-		home = 851
+		home = 866
 	}
 	regiment = {
 		name= "4. Piyade Tümeni"
 		type = infantry
-		home = 804
+		home = 883
 	}
 
 	regiment = {
 		name= "1. Redif Izmir"
 		type = hussar
-		home = 806
+		home = 868
 	}
 
 	regiment = {
 		name= "2. Redif Izmir"
 		type = artillery
-		home = 807
+		home = 869
 	}
 
 	regiment = {
 		name= "3. Redif Izmir"
 		type = artillery
-		home = 807
+		home = 872
 	}
 	regiment = {
 		name= "1. Askäris"
@@ -319,59 +337,59 @@ army = {
 
 army = {
 	name = "Army of Silistria"
-	location = 818
+	location = 895
 	regiment = {
 		name= "4. Sipahis"
 		type = hussar
-		home = 810
+		home = 881
 	}
 
 	regiment = {
 		name= "5. Sipahis"
 		type = artillery
-		home = 811
+		home = 875
 	}
 
 	regiment = {
 		name= "6. Sipahis"
 		type = artillery
-		home = 812
+		home = 859
 	}
 
 	regiment = {
 		name= "9. Piyade Tümeni"
 		type = artillery
-		home = 813
+		home = 895
 	}
 
 	regiment = {
 		name= "10. Piyade Tümeni"
 		type = artillery
-		home = 818
+		home = 879
 	}
 
 	regiment = {
 		name= "11. Piyade Tümeni"
 		type = infantry
-		home = 674
+		home = 880
 	}
 
 	regiment = {
 		name= "1. Redif Diyarbakir"
 		type = infantry
-		home = 675
+		home = 855
 	}
 
 	regiment = {
 		name= "2. Redif Diyarbakir"
 		type = infantry
-		home = 809
+		home = 856
 	}
 
 	regiment = {
 		name= "3. Redif Diyarbakir"
 		type = infantry
-		home = 814
+		home = 857
 	}
 
 }

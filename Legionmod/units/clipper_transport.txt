@@ -9,7 +9,6 @@ clipper_transport = {
 	unit_type = transport
 	transport = yes
 	floating_flag = yes
-	colonial_points = 1
 
 	#Core Abilities
 	priority = 5
@@ -23,7 +22,7 @@ clipper_transport = {
 	#Building Costs
 	build_time = 90
 	build_cost = {
-		clipper_convoy = 2
+		clipper_convoy = 8
 	}
 	min_port_level = 0
 	limit_per_port = -1
@@ -31,7 +30,7 @@ clipper_transport = {
 
 	supply_consumption = 1.0
 	supply_cost = {
-		clipper_convoy = 0.064
+		clipper_convoy = 0.15
 	}
 	
 	#Naval Abilties

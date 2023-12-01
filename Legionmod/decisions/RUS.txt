@@ -15,7 +15,6 @@ political_decisions = {
 			}
 		}
 		effect = {
-			government = imperial
 			farmers = {
 				militancy = -2
 				consciousness = 1
@@ -65,7 +64,6 @@ political_decisions = {
 	manifesto_on_unshakable_autocracy = {
 		potential = {
 			tag = RUS
-			government = imperial
 			NOT = {
 				has_country_flag = the_manifesto
 				has_country_flag = alexander_ii
@@ -91,7 +89,6 @@ political_decisions = {
 			political_reform = underground_parties
 			social_reform = acceptable_schools
 			set_country_flag = the_manifesto
-			government = absolute_monarchy
 		}
 	}
 	
@@ -101,7 +98,6 @@ political_decisions = {
 			NOT = {
 				has_country_flag = ems_ukaz_dispatched
 			}
-			government = imperial
 			owns = 958
 			exists = GER
 			GER = {
@@ -507,7 +503,6 @@ political_decisions = {
 	
 	modernize_russia = {
 		potential = {
-			government = imperial
 			tag = RUS
 			has_country_flag = alexander_ii
 			NOT = { has_country_flag = modernized_rus }

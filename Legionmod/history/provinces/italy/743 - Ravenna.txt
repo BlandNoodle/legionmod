@@ -1,6 +1,6 @@
-owner = PAP
-controller = PAP
-add_core = PAP
+owner = MOD
+controller = MOD
+add_core = MOD
 add_core = ITA
 trade_goods = wool
 life_rating = 39

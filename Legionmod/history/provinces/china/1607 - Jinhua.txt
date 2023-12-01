@@ -8,3 +8,5 @@ life_rating = 32
 	controller = TPG
 	owner = TPG
 }
+
+add_core = CHI

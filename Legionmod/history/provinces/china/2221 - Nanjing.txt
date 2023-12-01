@@ -9,3 +9,5 @@ life_rating = 32
 	owner = TPG
 	
 }
+
+add_core = CHI

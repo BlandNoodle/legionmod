@@ -6,10 +6,6 @@ post_nelsonian_thought = {
 	unciv_military = yes
 	activate_building = naval_base
 	colonial_points = 100
-	navy_base = {
-		supply_consumption = 0.10
-	}
-
 
 	ai_chance = {
 		factor = 1
@@ -85,11 +81,7 @@ battleship_column_doctrine = {
 	cost = 7200
 	unciv_military = yes
 	max_naval_base = 1
-	colonial_points = 200 
-	navy_base = {
-		supply_consumption = 0.10
-	}
-
+	colonial_points = 200
 
 	ai_chance = {
 		factor = 1
@@ -165,9 +157,7 @@ raider_group_doctrine = {
 	cost = 10800
 	unciv_military = yes
 	max_naval_base = 1
-	navy_base = {
-		supply_consumption = 0.15
-	}
+
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -242,9 +232,7 @@ blue_and_brown_water_schools = {
 	cost = 14400
 	unciv_military = yes
 	max_naval_base = 1
-	navy_base = {
-		supply_consumption = 0.15
-	}
+
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -320,10 +308,7 @@ high_sea_battle_fleet = {
 	cost = 18000
 	unciv_military = yes
 	max_naval_base = 1
-	navy_base = {
-		supply_consumption = 0.20
-	}
-
+	
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -398,9 +383,7 @@ modern_naval_doctrine = {
 	cost = 21600
 	unciv_military = yes
 	max_naval_base = 1
-	navy_base = {
-		supply_consumption = 0.25
-	}
+
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -640,6 +623,12 @@ iron_steamers = {
 	cost = 10800
 	unciv_military = yes
 	navy_base = { maximum_speed = 2 }
+	clipper_transport = { maximum_speed = -2
+						  supply_consumption = 0.2 }
+	frigate = { maximum_speed = -2 }
+	manowar = { maximum_speed = -2 }
+	steam_transport = { maximum_speed = 1
+						supply_consumption = 0.2 }
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -716,6 +705,12 @@ steel_steamers = {
 	cost = 14400
 	unciv_military = yes
 	navy_base = { maximum_speed = 2 } 
+	clipper_transport = { maximum_speed = -2
+						supply_consumption = 0.2 }
+	frigate = { maximum_speed = -2 }
+	manowar = { maximum_speed = -2 }
+	steam_transport = { maximum_speed = 1
+						supply_consumption = 0.2 }
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -792,6 +787,12 @@ steam_turbine_ships = {
 	cost = 18000
 	unciv_military = yes
 	navy_base = { maximum_speed = 2 } 
+	clipper_transport = { maximum_speed = -2 
+						  supply_consumption = 0.2 }
+	frigate = { maximum_speed = -2 }
+	manowar = { maximum_speed = -2 }
+	steam_transport = { maximum_speed = 1
+						supply_consumption = 0.2 }
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -868,6 +869,12 @@ oil_driven_ships = {
 	cost = 21600
 	unciv_military = yes
 	navy_base = { maximum_speed = 2 } 
+	clipper_transport = { maximum_speed = -2
+						  supply_consumption = 0.2 }
+	frigate = { maximum_speed = -2 }
+	manowar = { maximum_speed = -2 }
+	steam_transport = { maximum_speed = 1
+						supply_consumption = 0.2 }
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -1465,7 +1472,7 @@ alphabetic_flag_signaling = {
 	cost = 3600
 	unciv_military = yes
 	navy_base = {
-		supply_consumption = -0.15
+		supply_consumption = -0.20
 	}
 	supply_range = 0.10
 	
@@ -1511,7 +1518,7 @@ naval_plans = {
 	cost = 7200
 	unciv_military = yes
 	navy_base = {
-		supply_consumption = -0.15
+		supply_consumption = -0.10
 	}
 	supply_range = 0.10
 	
@@ -1557,7 +1564,7 @@ naval_statistics = {
 	cost = 10800
 	unciv_military = yes
 	navy_base = {
-		supply_consumption = -0.05
+		supply_consumption = 0.10
 	}
 	supply_range = 0.10
 		ai_chance = {
@@ -1602,7 +1609,7 @@ naval_logistics = {
 	cost = 14400
 	unciv_military = yes
 	navy_base = {
-		supply_consumption = -0.05
+		supply_consumption = 0.20
 	}
 	supply_range = 0.10
 		ai_chance = {
@@ -1647,7 +1654,7 @@ naval_directionism = {
 	cost = 18000
 	unciv_military = yes
 	navy_base = {
-		supply_consumption = -0.05
+		supply_consumption = 0.20
 	}
 	supply_range = 0.10
 		ai_chance = {
@@ -1692,7 +1699,7 @@ naval_integration = {
 	cost = 21600
 	unciv_military = yes
 	navy_base = {
-		supply_consumption = -0.05
+		supply_consumption = 0.20
 	}
 	supply_range = 0.10
 		ai_chance = {

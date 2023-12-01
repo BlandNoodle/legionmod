@@ -3,5 +3,5 @@ controller = BAD
 add_core = BAD
 add_core = GER
 trade_goods = timber
-life_rating = 39
+life_rating = 36
 fort = 1

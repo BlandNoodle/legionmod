@@ -146,12 +146,9 @@ political_decisions = {
 			MOR = { 
 				all_core = { 
 					add_core = THIS 
-					add_province_modifier = {
-						name = assimilate_morocco
-						duration = 3650
-					}
 				}
 			}
+			add_accepted_culture = maghrebi
 		}
 	}
 }

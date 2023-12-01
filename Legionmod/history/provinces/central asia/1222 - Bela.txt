@@ -1,7 +1,8 @@
 owner = KAL
 controller = KAL
-add_core = MAK
+add_core = KAL
 add_core = HND
+add_core = PER
 trade_goods = tea
 life_rating = 35
 terrain = hills

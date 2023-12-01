@@ -1900,7 +1900,7 @@ red_shirts = {
 					has_country_flag = does_not_want_to_be_unified
 				}
 			}
-			country_event = { id=11103 days=0 }
+		prestige = 2
 		}
 	}
 }

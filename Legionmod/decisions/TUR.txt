@@ -171,7 +171,6 @@ political_decisions = {
 	}
 
 	annex_romania = {
-	picture = create_romania
 		potential = {
 			tag = OTC
 			AND = { exists = WAL
@@ -197,7 +196,7 @@ political_decisions = {
 			prestige = 10
 			WAL = { annex_to = THIS }
 			MOL = { annex_to = THIS }
-
+			add_accepted_culture = romanian
 			RUS = {
 			relation = { who = THIS value = -100 }
 			casus_belli = {
@@ -217,7 +216,7 @@ political_decisions = {
 		}
 	}
 
-
+	
 
 
 

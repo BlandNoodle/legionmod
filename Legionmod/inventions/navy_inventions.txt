@@ -970,6 +970,12 @@ bomb_guns = {
 		clipper_transport = {
 			gun_power = -1
 		}
+		frigate = {
+			gun_power = -1
+		}
+		manowar = {
+			gun_power = -1
+		}
 		steam_transport = {
 			gun_power = -1
 		}		
@@ -997,6 +1003,12 @@ rifled_guns = {
 		}
 		steam_transport = {
 			gun_power = -1
+		}
+		frigate = {
+			gun_power = -1
+		}
+		manowar = {
+			gun_power = -1
 		}		
 	}
 }
@@ -1018,6 +1030,12 @@ quick_firing_guns = {
 			gun_power = 1
 		}
 		clipper_transport = {
+			gun_power = -1
+		}
+		frigate = {
+			gun_power = -1
+		}
+		manowar = {
 			gun_power = -1
 		}
 		steam_transport = {

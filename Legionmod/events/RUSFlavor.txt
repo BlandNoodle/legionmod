@@ -596,9 +596,11 @@ country_event = {
 	
 	trigger = {
 		tag = RUS
-		goverment = imperial
 		year = 1880
-		has_country_flag = alexander_ii
+		AND = {
+			has_country_flag = alexander_ii
+			has_country_flag = modernized_rus
+		}
 	}
 	mean_time_to_happen = {
 		months = 6
@@ -661,12 +663,6 @@ country_event = {
 	
 	trigger = {
 		NOT = { has_country_flag = persiangulf }
-		OR = {
-			tag = ENG
-			tag = RUS
-			tag = OTC
-			tag = FRA
-		}
 		owns = 1132
 	}
 	
@@ -697,12 +693,6 @@ country_event = {
 	
 	trigger = {
 		has_country_flag = persiangulf
-		OR = {
-			tag = RUS
-			tag = ENG
-			tag = OTC
-			tag = FRA
-		}
 		NOT = { owns = 1132 }
 	}
 	
@@ -731,14 +721,6 @@ country_event = {
 	
 	trigger = {
 		NOT = { has_country_flag = mimosa }
-		OR = {
-			tag = ENG
-			tag = RUS
-			tag = USA
-			tag = JAP
-			tag = FRA
-			tag = GER
-		}
 		owns = 658
 	}
 	
@@ -769,14 +751,6 @@ country_event = {
 	
 	trigger = {
 		has_country_flag = mimosa
-		OR = {
-			tag = RUS
-			tag = ENG
-			tag = USA
-			tag = JAP
-			tag = FRA
-			tag = GER
-		}
 		NOT = { owns = 658 }
 	}
 	

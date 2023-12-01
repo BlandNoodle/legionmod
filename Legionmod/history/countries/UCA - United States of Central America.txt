@@ -1,12 +1,13 @@
 capital = 2186
-primary_culture = central_american
+primary_culture = afro_caribeno
+culture = central_american
 religion = catholic
 government = democracy
-plurality = 25.0
+plurality = 33.0
 nationalvalue = nv_equality
-literacy = 0.09
+literacy = 0.12
 civilized = yes
-prestige = 1
+prestige = 3
 
 
 # Political reforms
@@ -55,6 +56,7 @@ late_enlightenment_philosophy = 1
 enlightenment_thought = 1
 water_wheel_power = 1
 publishing_industry = 1
+medicine = 1
 
 # Inventions
 

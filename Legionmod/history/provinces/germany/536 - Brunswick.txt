@@ -1,7 +1,7 @@
-owner = BRA
-controller = BRA
-add_core = BRA
+owner = HEK
+controller = HEK
+add_core = HEK
 add_core = GER
 trade_goods = fruit
-life_rating = 39
+life_rating = 36
 1861.1.1 = { railroad = 3 }

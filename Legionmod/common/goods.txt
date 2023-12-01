@@ -2,7 +2,7 @@
 
 military_goods = {
 	ammunition = { 
-		cost = 17.50
+		cost = 18.00
 		color = { 208 202 127 } 
 		available_from_start = no
 	}
@@ -12,7 +12,7 @@ military_goods = {
 		available_from_start = no
 	}
 	artillery = { 
-		cost = 50.00 
+		cost = 60.00 
 		color = { 145 130 86 }
 		available_from_start = no
 	}
@@ -119,13 +119,13 @@ industrial_goods = {
 		available_from_start = no
 	}
 	clipper_convoy = { 
-		cost = 40.00 
+		cost = 42.00 
 		overseas_penalty = yes
 		available_from_start = no
 		color = { 21 65 30 }
 	}
 	steamer_convoy = { 
-		cost = 60.00
+		cost = 65.00
 		available_from_start = no
 		overseas_penalty = yes
 		color = { 76 18 0 }
@@ -136,7 +136,7 @@ industrial_goods = {
 		color = { 255 255 0 }
 	}
 	fabric = { 
-		cost = 1.8
+		cost = 1.08
 		color = { 186 50 40 }
 	}
 	lumber = { 
@@ -159,7 +159,7 @@ consumer_goods = {
 		color = { 128 98 73 }
 	}
 	fruit = {
-		cost = 1.8
+		cost = 1.5
 		color = { 255 0 0 }
 	}
 	grain = { 
@@ -167,7 +167,7 @@ consumer_goods = {
 		color = { 219 157 36 }
 	}
 	tobacco = {	
-		cost = 1.2
+		cost = 1.1
 		color = { 100 69 30 }
 	}
 	tea = {	
@@ -197,7 +197,7 @@ consumer_goods = {
 		color = { 123 0 54 }
 	}
 	liquor = { 
-		cost = 6.4
+		cost = 4.4
 		color = { 76 5 0 }
 	}
 	regular_clothes = { 

@@ -1,8 +1,8 @@
-owner = LIP
-controller = LIP
-add_core = LIP
+owner = HAN
+controller = HAN
+add_core = HAN
 add_core = GER
 trade_goods = coal
-life_rating = 39
+life_rating = 32
 fort = 1
 1861.1.1 = { railroad = 3 }

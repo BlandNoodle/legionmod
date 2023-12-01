@@ -6052,7 +6052,7 @@
 	clergymen = {
 		culture = russian
 		religion = orthodox
-		size = 2000
+		size = 2001
 	}
 
 	artisans = {

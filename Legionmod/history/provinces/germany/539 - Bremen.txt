@@ -1,8 +1,8 @@
-owner = BRE
-controller = BRE
-add_core = BRE
+owner = PRU
+controller = PRU
+add_core = PRU
 add_core = GER
 trade_goods = fish
-life_rating = 40
+life_rating = 36
 naval_base = 1
 1861.1.1 = { railroad = 3 }

@@ -1,6 +1,6 @@
-owner = IND
-controller = IND
-add_core = IND
+owner = BHO
+controller = BHO
+add_core = BHO
 add_core = HND
 trade_goods = cotton
 life_rating = 32

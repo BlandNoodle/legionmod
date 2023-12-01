@@ -3,7 +3,7 @@ controller = PRU
 add_core = PRU
 add_core = GER
 trade_goods = fruit
-life_rating = 42
+life_rating = 40
 railroad = 1
 fort = 2
 state_building = {
@@ -23,9 +23,10 @@ state_building = {
 }
 state_building = {
 	level = 1
-	building = paper_mill
+	building = liquor_distillery
 	upgrade = yes
 }
+
 1861.1.1 = {
 	state_building = {
 		level = 2

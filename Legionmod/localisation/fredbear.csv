@@ -52,17 +52,17 @@ hollowearthp_desc;The foundations have been laid;;;;;;x
 EVTNAME19000092;Quest for Hollow Earth;;;;;;x
 EVTDESC19000092;There be treasure beneath the crust of the Earth;;;;;;x
 EVTOPTA19000092;WE ARE LEGION;;;;;;;x
-hollowearthp;Hollow Earth Site;;;;;x
-hyperboreaexodus;The Exodus;;;;;x
-EVTNAME19000093;The Decision;;;;;x
-EVTDESC19000093;Time to Chose. in the Beginning, there was. . .;;;;;x
-EVTOPTA19000093;Peace!;;;;;;;;x
-EVTOPTB19000093;War!;;;;;;;x
-integrate_poles_title;Integrate Poland;;;;x
+hollowearthp;Hollow Earth Site;;;;;;x
+hyperboreaexodus;The Exodus;;;;;;x
+EVTNAME19000093;The Decision;;;;;;x
+EVTDESC19000093;Time to Chose. in the Beginning, there was. . .;;;;;;x
+EVTOPTA19000093;Saiyans United!;;;;;;;;x
+EVTOPTB19000093;I will rule this world. . .;;;;;;;x
+integrate_poles_title;Integrate Poland;;;;;;x
 integrate_poles_desc;With the cultural and political centers of Poland dominated, we can declare hegemony over the Poles!;;;;;;x
-integrate_flems_title;Integrate Flanders;;;x
+integrate_flems_title;Integrate Flanders;;;;;;x
 integrate_flems_desc;With the cultural and political centers of the Flemish dominated, we can declare hegemony over the Flemish!;;;;;;x
-integrate_walloons_title;Integrate Walloonia;;;;x
+integrate_walloons_title;Integrate Walloonia;;;;;;x
 integrate_walloons_desc;With the cultural and political centers of the Walloons dominated, we can declare hegemony over the Walloons!;;;;;;x
 integrate_dutch_title;Integrate Holland;;;;;;x
 integrate_dutch_desc;With the cultural and political centers of the Dutch dominated, we can declare hegemony over the Dutch!;;;;;;x
@@ -70,188 +70,211 @@ integrate_nitaly_title;Integrate Northern Italy;;;;;;x
 integrate_nitaly_desc;With the cultural and political centers of Northern Italy dominated, we can declare hegemony over the Northern Italians!;;;;;;x
 integrate_shitaly_title;Integrate Southern Italy;;;;;;x
 integrate_shitaly_desc;With the cultural and political centers of Southern Italy dominated, we can declare hegemony over the Southern Italians!;;;;;;x
-integrate_rom_title;Integrate Them;;;;x
+integrate_rom_title;Integrate Them;;;;;;x
 integrate_rom_desc;With the cultural and political centers of, Them, dominated, we can declare hegemony over, them!;;;;;;x
-integrate_bul_title;Integrate Bulgaria;;;;x
+integrate_bul_title;Integrate Bulgaria;;;;;;x
 integrate_bul_desc;With the cultural and political centers of Bulgaria dominated, we can declare hegemony over the Bulgars!;;;;;;x
-integrate_greek_title;Integrate Greece;;;;x
+integrate_greek_title;Integrate Greece;;;;;;x
 integrate_greek_desc;Greece! Greece! Greece! Greece!;;;;;;x
-CHI_99907;Port Arthur;;;;;x
-CHI_99906;Qingdao;;;;;x
-CHI_99905;Shanghai;;;;;x
-CHI_99904;Ningbo;;;;x
-CHI_99903;Fuzhou;;;;;x
-CHI_99902;Hong Kong;;;;;x
-CHI_99901;Macau;;;;;;x
-CHI_99900;Guangdong;;;;;x
+CHI_99907;Port Arthur;;;;;;x
+CHI_99906;Qingdao;;;;;;x
+CHI_99905;Shanghai;;;;;;x
+CHI_99904;Ningbo;;;;;;x
+CHI_99903;Fuzhou;;;;;;x
+CHI_99902;Hong Kong;;;;;;x
+CHI_99901;Macau;;;;;;;x
+CHI_99900;Guangdong;;;;;;;x
 SPA_517;The Rock;;;;;;x
-BRZ_2540;Micronesia;;;;x
+BRZ_2540;Micronesia;;;;;;x
 FRA_1097;Joker Islands;;;;;;x
-reelin_in_the_spuds_title;Reeling in the Spuds;;;;x
-reelin_in_the_spuds_desc;Never meet your heroes, cause they usually are bastards from southern Ireland. Spudguns from Scotland though, so he lives for now.;;;;x
-southaf_title;Cockwhip the Boers;;;;x
-southaf_desc;We gotta cockwhip em so we can run it down on the lesser folk, you know. like the germans. what? you thought i was talking about them [fine gentlemen]? we already killed them.;;;;;x
-trash_title;Better Than Napoleon;;;;;x
-trash_desc;Nappy couldn't contain the [well-groomed] fellows across the sea, but they dont know how to run a state so they still fighting, ripe for taking!;;;;;;x
-ybarra_title;Crown of Ybarras;;;;x
-ybarra_desc;Claim crown of Ybarra's! Cinco de Mayo but win! SO MUCH WIN!;;;;;x
-low_opium;Low Opium Trade;;;;x
-low_opium_desc;We are slowly introducing China to Indian opium;;;;;x
-opium_market_low;Small Opium Market;;;;x
-opium_market_low_desc;The market has just begun;;;;;x
-strict_china_trade;Strict Qing Regulation;;;;;x
-strict_china_trade_desc;The Qing impose many restrictions and tariffs on our goods, especially the tea.;;;;;;x
-mild_china_trade;Mild Qing Regulation;;;;;x
-mild_china_trade_desc;We were able to convince them to lighten the Canton system, although this could be further improved.;;;;;x
-med_opium;Considerable Opium Market;;;;;;x
-med_opium_desc;The Chinese believe Indian opium is better quality;;;;x
-opium_market_med;Medium Opium Market;;;;;x
-opium_market_med_desc;The operation is approaching hundreds of tons of opium;;;;;x
-opium_market_lar;Large Opium Consortium;;;;;x
-opium_market_lar_desc;Entire segments of Chinese society are influenced by the purchases here;;;;x
-large_opium;Massive Opium Market;;;;;x
-large_opium_desc;The trade deficit between Europe and China has not only been nullifiedm but reversed.;;;;x
-free_china_trade;Free China Trade;;;;;x
-free_china_trade_desc;Trade with the Qing is finally free!;;;;;x
-political_reformed_nation;REFORMED!;;;;;x
-save_the_nation0.5;Goku;;;;;x
-save_the_nation0.5_desc;Hi im Goku!;;;;;x
-save_the_nation1;Vegeta;;;;;x
-save_the_nation1_desc;Hello, I am Vegeta, Prince of Saiyans;;;;x
-save_the_nation1.5;Freiza;;;;x
-save_the_nation1.5_desc;KILL ALL MONKEYS;;;;x
-save_the_nation2;Imperfect Cell;;;;;;x
-save_the_nation2_desc;To me, you all are just food;;;;x
-save_the_nation2.5;Android 18;;;;;x
-save_the_nation2.5_desc;I lost. . .;;;;x
-save_the_nation3;Majin Buu;;;;x
-save_the_nation3_desc;baby go berzerk;;;;x
-save_the_nation3.5;Vegeta Blue;;;;x
-save_the_nation3.5_desc;Why are you, blue?;;;;;x
-save_the_nation4;Perfect Cell;;;;x
-save_the_nation4_desc;Mayo if he stopped eating;;;;x
-save_the_nation4.5;Goku Black;;;;x
-save_the_nation4.5_desc;Evil Goku;;;;x
-save_the_nation5;Ultra Instinct Goku;;;;x
-save_the_nation5_desc;STOP! He's not black. . .;;;;x
-craftsmen_fix_cooldown;Craftsmen Cooldown;;;;x
-craftsmen_fix_cooldown_desc;wait;;;;x
-ukraine_slava_title;UKRAINI SLAVA;;;;;x
-ukraine_slava_desc;They are really good at farming, unless you take away their farms and pig pens, they will never be russian;;;;x
-bread_basketm;Get to Work;;;;x
-bread_basketm;Janitator!;;;;x
-vassal_nation;stay on my dick;;;;x
-vassal_nation_desc;you were born to stay on it;;;;x
-greater_germany;get fucked on;;;;;x
-greater_germany_desc;you wont get away with it for free;;;;x
-the_british_raj;The Raj;;;;x
-the_british_raj_desc;Owning all of India isn't cheap, but you control the scammers;;;;x
-money_hoarder_1;fat fuck;;;;x
-money_hoarder_1_desc;share a little;;;;x
-money_hoarder_2;fut fuck super saiyan;;;;x
-money_hoarder_2_desc;share a little more;;;;x
-money_hoarder_3;fat fuck golden freiza;;;;x
-money_hoarder_3_desc;share a lot more;;;;x
-money_hoarder_4;fat fuck goku black;;;;x
-money_hoarder_4_desc;share it all;;;;x
-money_hoarder_5;fat fuck perfect cell;;;;x
-money_hoarder_5_desc;give it away;;;;x
-money_hoarder_6;fat fuck vegeta blue;;;;x
-money_hoarder_6_desc;throw it away;;;;x
-money_hoarder_7;fat fuck BROLY;;;;x
-money_hoarder_7_desc;start burning it;;;;x
-war_propaganda;Propaganda;;;x
-war_propaganda_desc;fight, my legions;;;;x
-healthcare_poorly_funded_a;broke [fellow] alert;;;;x
-healthcare_poorly_funded_b;broke!;;;;x
-healthcare_poorly_funded_c;brokie;;;;x
-healthcare_poorly_funded_d;ur still broke;;;;x
-low_schools_fully_funded;der garten;;;;x
-acceptable_schools_fully_funded;der kinder garten;;;;;x
-good_schools_fully_funded;der highschoolen;;;;;x
-education_fully_funded;der universalis;;;;x
-neglected_education;broke [fellow] alarm;;;;x
-EVTNAME19000094;State of Asia;;;x
-EVTDESC19000094;With the loss of our New World holdings and consolidation of India, we have large deficits left to fill and yet we were unable to prevent the wealth we had left from spilling into Qing coffers. The growing demand for chinese goods in Europe has far outscaled any efforts to wrestle their monopoly away on tea and silk. However, the climate in India is suitable for poppy production, allowing us to exchange opium for tea at an unprecedented scale. Unfortunately, the Qing have begun to notice this activity and while undoubtedly clamp down on the trade.;;;;x
-EVTOPTA19000094;Utilise the Opium;;;;x
-EVTOPTB19000094;Administer Copium;;;;x
-EVTNAME19000095;Confrontation;;;;x
-EVTDESC19000095;After the Qing officials at the Canton port confiscated and destroyed a sizable reserve of opium, many demand compensation.;;;;;x
-need_trade;Trade Deficit;;;;x
-need_trade_desc;Get some China/Africa on your cock;;;;x
-EVTNAME99900009;Der Schleppen Dragun;;;;x
-EVTDESC99900009;China has always been one of the most powerful empires the world has ever seen. They are however weak and fragmented and failed to civilize properly.;;;;;x
-EVTOPTA19000095;A new opportunity. . .;;;;;x
-addicts;Opium Addict;;;;x
-EVTNAME19000096;Opium Addiction;;;;;x
-EVTDESC19000096;Opium addiction has spread to another tile. . .;;;;x
-EVTOPTA19000096;Lethal Doses of Copium;;;;;x
-EVTNAME19000097;Opium Spreads;;;;;x
-EVTDESC19000097;Opium spread from a neighboring tile;;;;;x
-EVTOPTA19000097;WE NEED NARCAN!;;;;;x
-EVTNAME19000098;Trade Confrontation;;;;;x
-EVTDESC19000098;The Barbarian Westerners seek to trick us by shipping the poisonous poppy into the mandate's borders. Our skilled trade minister has confiscated and burnt a large shipment of opium in an attempt to send a message to the British, although they now sit on a small island named Hong Kong until we reimburse them for the expense.;;;;;x
-zbankers;Shadow Government;;;;;x
-open_the_mines_title;Open the Mines;;;;;x
-open_the_mines_desc;We need to buy everything;;;;;x
-mayan_miner;Mayan Miners;;;;;x
-mayan_miner_desc;DIGGY DIGGY HOLE;;;;x
-pay_government_title;Pay the Shadow Government;;;;x
-pay_government_desc;They dont do it for free;;;;x
-need_more_trade;Need More;;;;;x
-need_more_trade_desc;Get some more colonies on your dick;;;;x
-need_even_more_trade;Need Even More;;;;x
-need_even_more_desc;Just a little more colonies bro, just one more i promise;;;;x
-century_humiliate;Century of Humiliation;;;;x
-century_humiliate_desc;It never even began. . .;;;;x
-EVTDESC19000086;The barbarian outsiders have laid waste to our mighty armies, and ruined our once rich ports.;;;;x
-EVTNAME19000099;Defeat of the Qing;;;;;x
+reelin_in_the_spuds_title;Reeling in the Spuds;;;;;;x
+reelin_in_the_spuds_desc;Never meet your heroes, cause they usually are bastards from southern Ireland. Spudguns from Scotland though, so he lives for now.;;;;;;x
+southaf_title;Cockwhip the Boers;;;;;;;x
+southaf_desc;We gotta cockwhip em so we can run it down on the lesser folk, you know. like the germans. what? you thought i was talking about them [fine gentlemen]? we already killed them.;;;;;;;x
+trash_title;Better Than Napoleon;;;;;;x
+trash_desc;Nappy couldn't contain the [well-groomed] fellows across the sea, but they dont know how to run a state so they still fighting, ripe for taking!;;;;;;;x
+ybarra_title;Crown of Ybarras;;;;;;;x
+ybarra_desc;Claim crown of Ybarra's! Cinco de Mayo but win! SO MUCH WIN!;;;;;;;;x
+low_opium;Low Opium Trade;;;;;;;;x
+low_opium_desc;We are slowly introducing China to Indian opium;;;;;;;;;x
+opium_market_low;Small Opium Market;;;;;;;;x
+opium_market_low_desc;The market has just begun;;;;;;;x
+strict_china_trade;Strict Qing Regulation;;;;;;;;x
+strict_china_trade_desc;The Qing impose many restrictions and tariffs on our goods, especially the tea.;;;;;;;x
+mild_china_trade;Mild Qing Regulation;;;;;;;x
+mild_china_trade_desc;We were able to convince them to lighten the Canton system, although this could be further improved.;;;;;;;;x
+med_opium;Considerable Opium Market;;;;;;;x
+med_opium_desc;The Chinese believe Indian opium is better quality;;;;;;;x
+opium_market_med;Medium Opium Market;;;;;;;x
+opium_market_med_desc;The operation is approaching hundreds of tons of opium;;;;;;;x
+opium_market_lar;Large Opium Consortium;;;;;;;x
+opium_market_lar_desc;Entire segments of Chinese society are influenced by the purchases here;;;;;;;x
+large_opium;Massive Opium Market;;;;;;;x
+large_opium_desc;The trade deficit between Europe and China has not only been nullifiedm but reversed.;;;;;;;;x
+free_china_trade;Free China Trade;;;;;;;x
+free_china_trade_desc;Trade with the Qing is finally free!;;;;;;;x
+political_reformed_nation;REFORMED!;;;;;;;x
+save_the_nation0.5;Goku;;;;;;;;x
+save_the_nation0.5_desc;Hi im Goku!;;;;;;;x
+save_the_nation1;Vegeta;;;;;;x
+save_the_nation1_desc;Hello, I am Vegeta, Prince of Saiyans;;;;;;x
+save_the_nation1.5;Freiza;;;;;;x
+save_the_nation1.5_desc;KILL ALL MONKEYS;;;;;;x
+save_the_nation2;Imperfect Cell;;;;;;;x
+save_the_nation2_desc;To me, you all are just food;;;;;;x
+save_the_nation2.5;Android 18;;;;;;;x
+save_the_nation2.5_desc;I lost. . .;;;;;;x
+save_the_nation3;Majin Buu;;;;;;x
+save_the_nation3_desc;baby go berzerk;;;;;;x
+save_the_nation3.5;Vegeta Blue;;;;;;;x
+save_the_nation3.5_desc;Why are you, blue?;;;;;;;x
+save_the_nation4;Perfect Cell;;;;;;x
+save_the_nation4_desc;Mayo if he stopped eating;;;;;;x
+save_the_nation4.5;Goku Black;;;;;;x
+save_the_nation4.5_desc;Evil Goku;;;;;;x
+save_the_nation5;Ultra Instinct Goku;;;;;;x
+save_the_nation5_desc;STOP! He's not black. . .;;;;;;x
+craftsmen_fix_cooldown;Craftsmen Cooldown;;;;;;x
+craftsmen_fix_cooldown_desc;wait;;;;;;x
+ukraine_slava_title;UKRAINI SLAVA;;;;;;;x
+ukraine_slava_desc;They are really good at farming, unless you take away their farms and pig pens, they will never be russian;;;;;;x
+bread_basketm;Get to Work;;;;;;x
+bread_basketm;Janitator!;;;;;;x
+vassal_nation;stay on my dick;;;;;;x
+vassal_nation_desc;you were born to stay on it;;;;;;x
+greater_germany;get fucked on;;;;;;;x
+greater_germany_desc;you wont get away with it for free;;;;;;x
+the_british_raj;The Raj;;;;;;x
+the_british_raj_desc;Owning all of India isn't cheap, but you control the scammers;;;;;;x
+money_hoarder_1;fat fuck;;;;;;x
+money_hoarder_1_desc;share a little;;;;;;x
+money_hoarder_2;fut fuck super saiyan;;;;;;x
+money_hoarder_2_desc;share a little more;;;;;;x
+money_hoarder_3;fat fuck golden freiza;;;;;;x
+money_hoarder_3_desc;share a lot more;;;;;;x
+money_hoarder_4;fat fuck goku black;;;;;;x
+money_hoarder_4_desc;share it all;;;;;;x
+money_hoarder_5;fat fuck perfect cell;;;;;;x
+money_hoarder_5_desc;give it away;;;;;;x
+money_hoarder_6;fat fuck vegeta blue;;;;;;x
+money_hoarder_6_desc;throw it away;;;;;;x
+money_hoarder_7;fat fuck BROLY;;;;;;x
+money_hoarder_7_desc;start burning it;;;;;;x
+war_propaganda;Propaganda;;;;;;;;x
+war_propaganda_desc;fight, my legions;;;;;;x
+healthcare_poorly_funded_a;broke [fellow] alert;;;;;;x
+healthcare_poorly_funded_b;broke!;;;;;;x
+healthcare_poorly_funded_c;brokie;;;;;;x
+healthcare_poorly_funded_d;ur still broke;;;;;;x
+low_schools_fully_funded;der garten;;;;;;x
+acceptable_schools_fully_funded;der kinder garten;;;;;;;x
+good_schools_fully_funded;der highschoolen;;;;;;;x
+education_fully_funded;der universalis;;;;;;x
+neglected_education;broke [fellow] alarm;;;;;;;x
+EVTNAME19000094;State of Asia;;;;;;;;x
+EVTDESC19000094;With the loss of our New World holdings and consolidation of India, we have large deficits left to fill and yet we were unable to prevent the wealth we had left from spilling into Qing coffers. The growing demand for chinese goods in Europe has far outscaled any efforts to wrestle their monopoly away on tea and silk. However, the climate in India is suitable for poppy production, allowing us to exchange opium for tea at an unprecedented scale. Unfortunately, the Qing have begun to notice this activity and while undoubtedly clamp down on the trade.;;;;;;x
+EVTOPTA19000094;Utilise the Opium;;;;;;x
+EVTOPTB19000094;Administer Copium;;;;;;x
+EVTNAME19000095;Confrontation;;;;;;x
+EVTDESC19000095;After the Qing officials at the Canton port confiscated and destroyed a sizable reserve of opium, many demand compensation.;;;;;;x
+need_trade;Trade Deficit;;;;;;x
+need_trade_desc;Get some China/Africa on your cock;;;;;;;x
+EVTNAME99900009;Der Schleppen Dragun;;;;;;x
+EVTDESC99900009;China has always been one of the most powerful empires the world has ever seen. They are however weak and fragmented and failed to civilize properly.;;;;;;x
+EVTOPTA19000095;A new opportunity. . .;;;;;;;x
+addicts;Opium Addict;;;;;;x
+EVTNAME19000096;Opium Addiction;;;;;;;;x
+EVTDESC19000096;Opium addiction has spread to another tile. . .;;;;;;x
+EVTOPTA19000096;Lethal Doses of Copium;;;;;;x
+EVTNAME19000097;Opium Spreads;;;;;;;;x
+EVTDESC19000097;Opium spread from a neighboring tile;;;;;;;;x
+EVTOPTA19000097;WE NEED NARCAN!;;;;;;x
+EVTNAME19000098;Trade Confrontation;;;;;;x
+EVTDESC19000098;The Barbarian Westerners seek to trick us by shipping the poisonous poppy into the mandate's borders. Our skilled trade minister has confiscated and burnt a large shipment of opium in an attempt to send a message to the British, although they now sit on a small island named Hong Kong until we reimburse them for the expense.;;;;;;x
+zbankers;Shadow Government;;;;;;x
+open_the_mines_title;Open the Mines;;;;;;x
+open_the_mines_desc;We need to buy everything;;;;;;x
+mayan_miner;Mayan Miners;;;;;;x
+mayan_miner_desc;DIGGY DIGGY HOLE;;;;;;x
+pay_government_title;Pay the Shadow Government;;;;;;x
+pay_government_desc;They dont do it for free;;;;;;x
+need_more_trade;Need More;;;;;;;x
+need_more_trade_desc;Get some more colonies on your dick;;;;;;x
+need_even_more_trade;Need Even More;;;;;;x
+need_even_more_desc;Just a little more colonies bro, just one more i promise;;;;;;x
+century_humiliate;Century of Humiliation;;;;;;x
+century_humiliate_desc;It never even began. . .;;;;;;x
+EVTDESC19000086;The barbarian outsiders have laid waste to our mighty armies, and ruined our once rich ports.;;;;;;x
+EVTNAME19000099;Defeat of the Qing;;;;;;;x
 EVTDESC19000099;Despite the efforts of the Canton ministers and the emperor himself, the Qing were unable prevent free trade from spreading to the Heavenly Mandate. The peoples of Britain may now freely buy tea and silk as they wish.;;;;;;x
-EVTOPTA19000099;Talley-ho!;;;;;x
-EVTNAME19000100;African Colonies;;;;x
-EVTDESC19000100;Chachinga;;;;;x
-EVTOPTA19000100;SO MUCH WIN!;;;;;x
-EVTNAME19000101;YOU LOST;;;;;x
-EVTDESC19000101;How;;;;;x
-EVTOPTA19000101;Its so over;;;;;x
-african_colony;African Colony;;;;x
-african_colony_desc;you did it!;;;;x
-treaty_port_beijing;Port Arthur;;;x
-treaty_port_beijing_desc;We own Port Arthur;;;x
-treaty_port_shanghai;Shanghai;;;;x
-treaty_port_shanghai_desc;We own shanghai;;;;x
-treaty_port_ningbo;Ningbo;;;;x
-treaty_port_ningbo_desc;We own ningbo;;;;x
-treaty_port_qingdao;Qingdao;;;;x
-treaty_port_qingdao_desc;We own Qingdao;;;;x
-treaty_port_fuzhou;Fuzhou;;;;;x
-treaty_port_fuzhou_desc;We own fuzhou;;;;x
-treaty_port_hongkong;Hongkong;;;;x
-treaty_port_hongkong_desc;We own Hong Kong;;;;x
-treaty_port_macau;Macau;;;;;x
-treaty_port_macau_desc;We own Macau;;;;;x
-treaty_port_nanning;Nanning;;;;x
-treaty_port_nanning_desc;We own Nanning;;;;x
-PROV3250;Gaozhu;;;;x
-PROV1495;Zhangjiang;;;;x
-organize_colonial_armies_title;Organize Colonial Armies;;;;x
-organize_colonial_armies_desc;If you do this decision you can promote more soldier pops in colonies, sorry I don't remember what the percentage increase is but it is worth the meager payment, I know you got cash;;;;;x
-indiacountry;Raj Academics;;;;x
-minor_conquest;Tiny Conquest;;;;x
-minor_conquest_desc;4 foot 11 activities, or 149cm for Euros;;;;;x
-acquire_capital;Acquire Capital;;;;x
-acquire_capital_desc;Snatch der foams!;;;;;x
-EVTNAME19000125;Disaster at Annual;;;;x
-EVTDESC19000125;The overstretched Spanish military build-up in the Eastern Spanish Protectorate in Morocco crumbled. After the battle, the Rifians advanced eastward and overran more than 130 Spanish blockhouses. The Spanish garrisons were destroyed without mounting a coordinated response to the attacks. By the end of August, Spain had lost all the territories that it had gained in the area since 1909. General Silvestre disappeared and his remains were never found. According to one report, Spanish sergeant Francisco Basallo Becerra from the Kandussi garrison, an outpost east of Annual, identified the remains of Silvestre by his general's sash.[20] A Moorish courier from Kaddur Namar said that eight days after the battle, he saw the corpse of the general lying face down on the battlefield and still recognizable by his sash and epaulettes.;;;;;x
-EVTOPTA19000125;Chicken meat is cheap (war will be declared);;;;x
-EVTOPTB19000125;Its jover. . .(let em go);;;;x
-EVTNAME19000126;Prepare for War;;;;x
-EVTDESC19000126;Thug on em;;;x
-EVTOPTA19000126;WAAAAAHH;;;;;x
-EVTNAME19000127;War in Al-Rif;;;;x
-EVTDESC19000127;In July 1909, Spanish workers constructing a rail-bridge providing access to iron mines near Melilla were attacked by Rifian tribesmen. This incident led to the summoning of reinforcements from Spain itself. A series of skirmishes over the following weeks cost the Spanish over a thousand casualties. By September, the Spanish Army had 40,000 troops in northern Morocco and had occupied the tribal regions to the south and southeast of Melilla. The military operations in Jebala, in the Moroccan west, began in 1911 with the Larache landing. Spain worked to pacify a large part of the most violent areas until 1914, a slow process of consolidation of frontiers that lasted until 1919, due to World War I. The following year, after the signing of the Treaty of Fez, the northern Moroccan area was adjudicated to Spain as a protectorate. The Riffian populations strongly resisted the Spanish, unleashing a conflict that would last for several years.;;;;;x
-EVTOPTA19000127;Let them come;;;;x
-freedomfighters;Freedom Fighters;;;;x
-freedomfighters_desc;SONIC THE HEDGEHOG ANIMATED SHOW;;;;;x
-remove_him_title;Remove this Guy;;;;;x
-remove_him_desc;Ever since this guys been in charge, he has been totally floundering the game, get this guy outta here! Vivre la Troisieme Republique!;;;;;x
+EVTOPTA19000099;Talley-ho!;;;;;;;x
+EVTNAME19000100;African Colonies;;;;;;x
+EVTDESC19000100;Chachinga;;;;;;x
+EVTOPTA19000100;SO MUCH WIN!;;;;;;x
+EVTNAME19000101;YOU LOST;;;;;;x
+EVTDESC19000101;How;;;;;;x
+EVTOPTA19000101;Its so over;;;;;;x
+african_colony;African Colony;;;;;;;x
+african_colony_desc;you did it!;;;;;;;x
+treaty_port_beijing;Port Arthur;;;;;;;;x
+treaty_port_beijing_desc;We own Port Arthur;;;;;;;x
+treaty_port_shanghai;Shanghai;;;;;;;;x
+treaty_port_shanghai_desc;We own shanghai;;;;;;;x
+treaty_port_ningbo;Ningbo;;;;;;;;x
+treaty_port_ningbo_desc;We own ningbo;;;;;;;;x
+treaty_port_qingdao;Qingdao;;;;;;;;x
+treaty_port_qingdao_desc;We own Qingdao;;;;;;;;x
+treaty_port_fuzhou;Fuzhou;;;;;;;x
+treaty_port_fuzhou_desc;We own fuzhou;;;;;;x
+treaty_port_hongkong;Hongkong;;;;;;x
+treaty_port_hongkong_desc;We own Hong Kong;;;;;;x
+treaty_port_macau;Macau;;;;;;;x
+treaty_port_macau_desc;We own Macau;;;;;;;x
+treaty_port_nanning;Nanning;;;;;;;x
+treaty_port_nanning_desc;We own Nanning;;;;;;;x
+PROV3250;Gaozhu;;;;;;;x
+PROV1495;Zhangjiang;;;;;;;;x
+organize_colonial_armies_title;Organize Colonial Armies;;;;;;x
+organize_colonial_armies_desc;If you do this decision you can promote more soldier pops in colonies, sorry I don't remember what the percentage increase is but it is worth the meager payment, I know you got cash;;;;;;;x
+indiacountry;Raj Academics;;;;;;x
+minor_conquest;Tiny Conquest;;;;;;x
+minor_conquest_desc;4 foot 11 activities, or 149cm for Euros;;;;;;x
+acquire_capital;Acquire Capital;;;;;;x
+acquire_capital_desc;Snatch der foams!;;;;;;x
+EVTNAME19000125;Disaster at Annual;;;;;;x
+EVTDESC19000125;The overstretched Spanish military build-up in the Eastern Spanish Protectorate in Morocco crumbled. After the battle, the Rifians advanced eastward and overran more than 130 Spanish blockhouses. The Spanish garrisons were destroyed without mounting a coordinated response to the attacks. By the end of August, Spain had lost all the territories that it had gained in the area since 1909. General Silvestre disappeared and his remains were never found. According to one report, Spanish sergeant Francisco Basallo Becerra from the Kandussi garrison, an outpost east of Annual, identified the remains of Silvestre by his general's sash.[20] A Moorish courier from Kaddur Namar said that eight days after the battle, he saw the corpse of the general lying face down on the battlefield and still recognizable by his sash and epaulettes.;;;;;;x
+EVTOPTA19000125;Chicken meat is cheap (war will be declared);;;;;;;x
+EVTOPTB19000125;Its jover. . .(let em go);;;;;;x
+EVTNAME19000126;Prepare for War;;;;;;;x
+EVTDESC19000126;Thug on em;;;;;;x
+EVTOPTA19000126;WAAAAAHH;;;;;;x
+EVTNAME19000127;War in Al-Rif;;;;;;;;x
+EVTDESC19000127;In July 1909, Spanish workers constructing a rail-bridge providing access to iron mines near Melilla were attacked by Rifian tribesmen. This incident led to the summoning of reinforcements from Spain itself. A series of skirmishes over the following weeks cost the Spanish over a thousand casualties. By September, the Spanish Army had 40,000 troops in northern Morocco and had occupied the tribal regions to the south and southeast of Melilla. The military operations in Jebala, in the Moroccan west, began in 1911 with the Larache landing. Spain worked to pacify a large part of the most violent areas until 1914, a slow process of consolidation of frontiers that lasted until 1919, due to World War I. The following year, after the signing of the Treaty of Fez, the northern Moroccan area was adjudicated to Spain as a protectorate. The Riffian populations strongly resisted the Spanish, unleashing a conflict that would last for several years.;;;;;;;x
+EVTOPTA19000127;Let them come;;;;;;x
+freedomfighters;Freedom Fighters;;;;;;x
+freedomfighters_desc;SONIC THE HEDGEHOG ANIMATED SHOW;;;;;;;x
+remove_him_title;Remove this Guy;;;;;;;x
+remove_him_desc;Ever since this guys been in charge, he has been totally floundering the game, get this guy outta here! Vivre la Troisieme Republique!;;;;;;;x
+integrate_north_title;Integrate the North;;;;;;x
+integrate_north_desc;Begin the unification of Germany, with the defeat of the Scandinavians.;;;;;;x
+integrate_center_title;Integrate the Center;;;;;;x
+integrate_center_desc;The Austrians have been eclipsed and we may continue to form a unified Germany, on our terms.;;;;;;x
+integrate_south_title;Integrate the South;;;;;;x
+integrate_south_desc;The French were incapable of containing us; Germany is within our grasp.;;;;;;x
+integratebava_title;Integrate Bavaria;;;;;;x
+integratebava_desc;They were a little shy at first but we were able to convince them to join us finally.;;;;;;x
+integrate_bos_title;Annex Bosnia;;;;;;x
+integrate_bos_desc;Yummy snack;;;;;;x
+lubu_title;Lu Bu;;;;;;x
+lubu_desc;Lu Bu awakened;;;;;;x
+awakenhim_title;Awaken Him;;;;;;x
+awakenhim_desc;Start the Ceremony;;;;;;x
+EVTNAME19000128;Lubu Awakened;;;;;;x
+EVTDESC19000128;Resurrected by crackpipe opium users Lu Bu returns to China as a demigod no longer bound by Dong Zhuos patricidal oath of honor;;;;;;x
+EVTOPTA19000128;We March;;;;;;;x
+EVTNAME19000129;Success for the Mandate;;;;;;x
+EVTDESC19000129;The European kingdoms, caught off guard by the sudden appearance of a formidable Eastern force, scrambled to assess the situation. As news of Lu Bu's invasion spread, alliances were hastily formed among the European nations, as they recognized the need to unite against this unexpected threat.;;;;;;x
+EVTOPTA19000129;In the midst of the chaos, a charismatic European general emerged as a beacon of hope.;;;;;;x
+EVTNAME19000130;Lu Bu defeated;;;;;;x
+EVTDESC19000130;The defeat of Lu Bu sent shockwaves throughout the land;;;;;;x
+EVTOPTA19000130;Owari Da;;;;;;x

@@ -2097,7 +2097,13 @@
 		religion = catholic
 		size = 1700
 	}
-
+	
+	craftsmen = {
+        culture = spanish
+        religion = catholic
+        size = 6000
+    }
+	
 	clergymen = {
 		culture = spanish
 		religion = catholic

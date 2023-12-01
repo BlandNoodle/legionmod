@@ -499,13 +499,10 @@ political_decisions = {
 
 trash = {
 		potential = {
+			has_country_flag = { integrate_enabled }
 			OR = {
-				tag = ENG
-				tag = FRA
-				tag = BOL
-				tag = SAU
-				tag = SPA
-				tag = PBV
+			is_greater_power = yes
+			is_secondary_power = yes
 			}
 			NOT = { has_country_flag = haiintegrate }
 		}
@@ -528,17 +525,13 @@ trash = {
 	
 ybarra = {
 		potential = {
+			has_country_flag = { integrate_enabled }
 			OR = {
-				tag = ENG
-				tag = FRA
-				tag = BOL
-				tag = SAU
-				tag = SPA
-				tag = PBV
-				tag = IBE
+			is_greater_power = yes
+			is_secondary_power = yes
 			}
 			NOT = { has_country_flag = mexintegrate }
-			}
+		}
 		allow = {
 			AND = {
 				owns = 2172
@@ -568,7 +561,7 @@ ybarra = {
 		}
 		allow = {
 			NOT = {
-				OR {
+				OR = {
 					owns = 412
 					owns = 471
 				}
