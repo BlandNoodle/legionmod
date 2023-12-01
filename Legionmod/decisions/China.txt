@@ -8,7 +8,14 @@ political_decisions = {
 		allow = {
 			war = no
 			civilized = yes
-			CHI = {all_core = {owned_by = CHI}}
+			AND = {
+				NOT = {exists = MCK}
+				NOT = {exists = XIN}
+				NOT = {exists = XBI}
+				NOT = {exists = SXI}
+				NOT = {exists = YNN}
+				NOT = {exists = GXI}
+			}
 			money = 1000000
 		}
 		effect = {
@@ -19,6 +26,21 @@ political_decisions = {
 			}
 			remove_country_modifier = yatsen
 			set_country_flag = lubuawake
+			define_general = {
+					name = Lu-Bu
+					personality = defence_5.1
+					background = attack_5.1
+				}
+			define_general = {
+					name = Lu-Bu-Clone1
+					personality = defence_4.1
+					background = attack_4.1
+				}
+			define_general = {
+					name = Lu-Bu-Clone2
+					personality = defence_4.1
+					background = attack_4.1
+				}
 		}
 	}
 }

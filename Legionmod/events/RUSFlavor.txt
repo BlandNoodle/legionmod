@@ -702,7 +702,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA19000119"
-		remove_country_modifier = {
+		clr_country_modifier = {
 			name = persian_gulf
 		}
 		prestige = -10
@@ -760,7 +760,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA19000122"
-		remove_country_modifier = {
+		clr_country_modifier = {
 			name = mimosas
 		}
 		prestige = -10

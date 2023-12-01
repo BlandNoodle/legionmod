@@ -79,7 +79,7 @@ country_event = {
 			name = crimea
 		}
 		prestige = -10
-		remove_country_flag = crimea
+		clr_country_flag = crimea
 		ai_chance = {
 			factor = 100
 		}

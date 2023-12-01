@@ -932,12 +932,17 @@ century_humiliate = {
 }
 
 yatsen = {
+	supply_consumption = -0.25
 	administrative_efficiency_modifier = 0.25
 	education_efficiency_modifier = 0.50
-	commerce_tech_research_bonus = 0.35
-	industry_tech_research_bonus = 0.35
+	commerce_tech_research_bonus = 0.95
+	industry_tech_research_bonus = 0.9
+	army_tech_research_bonus = 0.75
+	navy_tech_research_bonus = 0.55
+	culture_tech_research_bonus = 0.95
 	social_reform_desire = 0.75
-	mobilisation_size = -0.1
+	mobilisation_size = -0.15
+	research_points = 2
 	icon = 17
 }
 
@@ -1549,11 +1554,29 @@ freedomfighters = {
 
 lubu = {
 	supply_consumption = -0.9
-	land_organisation = 0.5
-	land_unit_start_experience = 50
-	org_regain = 0.75
-	research_points_modifier = 1
-	army_tech_research_bonus = 0.75
-	navy_tech_research_bonus = 0.75
+	land_organisation = 0.75
+	land_unit_start_experience = 70
+	org_regain = 0.8
+	research_points_ = 4
+	army_tech_research_bonus = 0.95
+	navy_tech_research_bonus = 0.95
+	mobilisation_size = 0.10
 	icon = 17
 }
+
+devastation = {
+	assimilation_rate = 5
+	immigrant_push = 3
+	population_growth = -0.016
+	local_RGO_output = 2
+	icon = 20
+}
+
+chinadead = {
+	import_cost = 1
+	non_accepted_pop_militancy_modifier = 0.3
+	non_accepted_pop_consciousness_modifier = 0.3
+	mobilisation_size = -0.15
+	icon = 12
+}
+	

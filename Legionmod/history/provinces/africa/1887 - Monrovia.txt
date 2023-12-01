@@ -1,5 +1,3 @@
-owner = USA
-controller = USA
 
 trade_goods = tropical_wood
-life_rating = 15
+life_rating = 25

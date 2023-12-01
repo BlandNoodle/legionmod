@@ -342,7 +342,7 @@ country_event = {
 			fort = 4
 		}
 		ENG = {
-			remove_country_flag = prepared
+			clr_country_flag = prepared
 		}
 	}
 }

@@ -339,7 +339,7 @@ greater_germany = {
             owned_by = THIS
         }
     }
-    supply_consumption = 0.30
+    supply_consumption = 0.2
     tax_efficiency = -0.15
     administrative_efficiency_modifier = -0.2
     prestige = 0.03

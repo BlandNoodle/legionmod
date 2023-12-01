@@ -126,16 +126,19 @@ country_event = {
 	
 	
 	trigger = {
-		MOR = { exists = no }
+		OR = {
+			tag = SPA
+			tag = IBE
+		}
 		owns = 1680
 		owns = 1688
 		owns = 1690
-		year = 1918
+		year = 1914
 		NOT = {has_country_flag = alrif}
 	}
 	
 	mean_time_to_happen = {
-		months = 2
+		months = 1
 	}
 		
 		option = {

@@ -11,6 +11,8 @@ political_decisions = {
 			civilized = no
 		}
 		effect = {
+			money = 2000000
+			money = 2000000
 			add_accepted_culture = asian_minor
 			government = democracy
 			political_reform = wealth_voting
@@ -29,7 +31,8 @@ political_decisions = {
 				name = yatsen
 				duration = 3650
 			}
-			release_vassal = MCK
+			release = MCK
+			neutrality = yes
 			remove_country_modifier = century_humiliate
 		}
 	}

@@ -90,7 +90,7 @@ political_decisions = {
 				exists = GER
 				exists = NGF
 			}
-			has_country_flag = integratedcenter
+			has_country_flag = intecenter
 		}	
 		allow = {
 			war = no

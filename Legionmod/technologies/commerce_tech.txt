@@ -98,7 +98,7 @@ investment_banks = {
 	year = 1870
 	cost = 14400
 
-	tax_eff = 10
+	tax_eff = 5
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -128,7 +128,7 @@ bank_inspection_board = {
 	year = 1900
 	cost = 18000
 
-	tax_eff = 15
+	tax_eff = 5
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -158,7 +158,7 @@ mutual_funds = {
 	year = 1919
 	cost = 21600
 
-	tax_eff = 20
+	tax_eff = 10
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -356,7 +356,7 @@ late_classical_theory = {
 	year = 1836
 	cost = 7200
 	
-	
+	factory_cost = 0.05
 	factory_input = -0.02
 	ai_chance = {
 		factor = 1.01
@@ -387,7 +387,7 @@ collectivist_theory = {
 	year = 1836
 	cost = 10800
 
-	
+	factory_cost = 0.05
 	factory_input = -0.02
 	ai_chance = {
 		factor = 1.01
@@ -418,7 +418,7 @@ the_historical_theory = {
 	year = 1850
 	cost = 14400
 
-	
+	factory_cost = 0.05
 	factory_input = -0.02
 	ai_chance = {
 		factor = 1.01
@@ -449,7 +449,7 @@ neoclassical_theory = {
 	year = 1870
 	cost = 18000
 
-	
+	factory_cost = 0.1
 	factory_input = -0.02
 	ai_chance = {
 		factor = 1
@@ -480,7 +480,7 @@ keynesian_economics = {
 	year = 1900
 	cost = 21600
 
-	
+	factory_cost = 0.1
 	factory_input = -0.02
 	ai_chance = {
 		factor = 1.01
@@ -731,7 +731,7 @@ organized_factories = {
 	year = 1836
 	cost = 7200
 
-	
+	factory_cost = 0.05
 	factory_output = 0.01
 		ai_chance = {
 		factor = 1.05
@@ -770,7 +770,7 @@ scientific_management = {
 	year = 1836
 	cost = 10800
 
-	
+	factory_cost = 0.05
 	factory_output = 0.01
 	ai_chance = {
 		factor = 1.05
@@ -809,7 +809,7 @@ time_saving_measures = {
 	year = 1850
 	cost = 14400
 
-	
+	factory_cost = 0.05
 	factory_output = 0.01
 	ai_chance = {
 		factor = 1.05
@@ -836,7 +836,7 @@ management_strategy = {
 	year = 1870
 	cost = 18000
 
-	
+	factory_cost = 0.1
 	factory_output = 0.01
 	ai_chance = {
 		factor = 1.05
