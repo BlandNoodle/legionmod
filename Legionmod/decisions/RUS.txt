@@ -68,6 +68,7 @@ political_decisions = {
 				has_country_flag = the_manifesto
 				has_country_flag = alexander_ii
 			}
+			year = 1860
 		}
 		
 		allow = {

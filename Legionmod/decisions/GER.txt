@@ -130,17 +130,20 @@ political_decisions = {
 		potential = {
 			tag = NGF
 			tag = SGF
-			owns = 590
-			OR = {
-				owns = 412
-				owns = 619
-			}
 			NOT = { exists = GER }
 		}
 		
 		allow = {
 			is_greater_power = yes
 			war = no
+			AND = {
+				owns = 549
+				owns = 601
+			}
+			OR = {
+				owns = 412
+				owns = 619
+			}
 			has_country_modifier = {otto_von_bismarck}
 		}
 		

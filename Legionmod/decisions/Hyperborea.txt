@@ -109,31 +109,31 @@ political_decisions = {
 	}
 integrateenabled = {
 	potential = {
-		NOT = { has_country_flag = integrate_enabled }
+		NOT = { has_country_flag = inteyes }
 		ai = no
 	}
 	allow = {
 		ai = no
 	}
 	effect = {
-		set_country_flag = integrate_enabled
+		set_country_flag = inteyes
 	}
 }
 integratedisabled = {
 	potential = {
-	has_country_flag = integrate_enabled
+		has_country_flag = inteyes
 		ai = no
 	}
 	allow = {
 		ai = no
 	}
 	effect = {
-		remove_country_flag = integrate_enabled
+		clr_country_flag = inteyes
 	}
 }
 integrate_poles = {
 	potential = {
-		has_country_flag = { integrate_enabled }
+		has_country_flag = inteyes
 		nationalism_n_imperialism = 1
 		OR = {
 			is_greater_power = yes
@@ -178,7 +178,7 @@ integrate_poles = {
 
 integrate_walloons = {
 	potential = {
-		has_country_flag = { integrate_enabled }
+		has_country_flag = inteyes
 		nationalism_n_imperialism = 1
 		OR = {
 			tag = FRA
@@ -218,7 +218,7 @@ integrate_walloons = {
 	}
 integrate_flems = {
 	potential = {
-		has_country_flag = { integrate_enabled }
+		has_country_flag = inteyes
 		nationalism_n_imperialism = 1
 		OR = {
 			tag = FRA
@@ -261,7 +261,7 @@ integrate_flems = {
 	
 integrate_dutch = {
 	potential = {
-		has_country_flag = { integrate_enabled }
+		has_country_flag = inteyes
 		nationalism_n_imperialism = 1
 		NET = { NOT = {owns = 1413 owns = 1403} }
 		BNX = { exists = no }
@@ -294,7 +294,7 @@ integrate_dutch = {
 
 integrate_nitaly = {
 	potential = {
-		has_country_flag = { integrate_enabled }
+		has_country_flag = inteyes
 		nationalism_n_imperialism = 1
 		OR = {
 			is_greater_power = yes
@@ -337,7 +337,7 @@ integrate_nitaly = {
 	
 integrate_shitaly = {
 	potential = {
-		has_country_flag = { integrate_enabled }
+		has_country_flag = inteyes
 		nationalism_n_imperialism = 1
 		OR = {
 			is_greater_power = yes
@@ -374,7 +374,7 @@ integrate_shitaly = {
 	
 integrate_rom = {
 	potential = {
-		has_country_flag = { integrate_enabled }
+		has_country_flag = inteyes
 		nationalism_n_imperialism = 1
 		OR = {
 			is_greater_power = yes
@@ -405,7 +405,7 @@ integrate_rom = {
 	
 integrate_greek = {
 	potential = {
-		has_country_flag = { integrate_enabled }
+		has_country_flag = inteyes
 		nationalism_n_imperialism = 1
 		OR = {
 			is_greater_power = yes
@@ -435,7 +435,7 @@ integrate_greek = {
 	}
 integrate_bul = {
 	potential = {
-		has_country_flag = { integrate_enabled }
+		has_country_flag = inteyes
 		nationalism_n_imperialism = 1
 		OR = {
 			is_greater_power = yes
@@ -465,6 +465,7 @@ integrate_bul = {
 	effect = {
 			add_accepted_culture = bulgarian
 			BUL = { all_core = { add_core = THIS } }
+			inherit = BUL
 			set_global_flag = bintegrate
 		}
 	}
@@ -472,7 +473,7 @@ integrate_central_america = {
 		picture = claim_central_america
 		
 		potential = {
-			has_country_flag = { integrate_enabled }
+			has_country_flag = inteyes
 			OR = {
 			is_greater_power = yes
 			is_secondary_power = yes
