@@ -79,7 +79,6 @@ political_decisions = {
 			}
 			state_n_government = 1
 			early_railroad = 1
-			breech_loaded_rifles = 1
 		}
 		effect = {
 			set_country_flag = intecenter
@@ -117,7 +116,6 @@ political_decisions = {
 			}
 			nationalism_n_imperialism = 1
 			iron_railroad = 1
-			empiricism = 1
 		}
 		effect = {
 			set_country_flag = intesouth
@@ -138,13 +136,13 @@ political_decisions = {
 			war = no
 			AND = {
 				owns = 549
-				owns = 601
+				owns = 586
 			}
 			OR = {
 				owns = 412
 				owns = 619
 			}
-			has_country_modifier = {otto_von_bismarck}
+			has_country_modifier = otto_von_bismarck
 		}
 		
 		effect = {
@@ -158,6 +156,12 @@ political_decisions = {
 					NOT = BAV
 				}
 				country_event = { id=11101 days=0 }
+			}
+			BAV = {
+				571 = {
+					secede_province = GER
+					remove_core = BAV
+				}
 			}
 		}
 	}

@@ -1,6 +1,6 @@
-#Bolivian Events (Shit gets REAL JUICY)
+##Bolivian Events (Shit gets REAL JUICY)
 
-#780000 Evo Morales gets ascended to throne
+##780000 Evo Morales gets ascended to throne
 country_event = {
 	id = 780000
 	

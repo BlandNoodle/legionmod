@@ -215,9 +215,34 @@ political_decisions = {
 
 		}
 	}
-
 	
-
-
-
+	conquer_armenia = {
+		potential = {
+			OR = {
+				tag = TUR
+				tag = OTC
+			}
+			NOT = {has_country_flag = armenian_genocide}
+		}
+		allow = {
+			owns = 1098
+		}
+		effect = {
+			any_owned = {
+				limit = {
+					culture = armenian
+				}
+			}
+			add_province_modifier = {
+				name = armsdead
+				duration = 4563
+			}
+			casus_belli = {
+				target = AZB
+				type = conquest
+				months = 48
+			}
+		set_country_flag = armenian_genocide
+		}
+	}
 }

@@ -694,7 +694,6 @@ woolfabric_factory = {
 	template = factory_template
 	input_goods = {     
 		wool = 18		
-		dye = 1.6			
 	}
 	output_goods = fabric 
 	value = 45			#81

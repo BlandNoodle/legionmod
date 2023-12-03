@@ -1,3 +1,4 @@
+;;;;;;;;;;x
 EVTNAME19000108;Peking Convention;;;;;;x
 EVTDESC19000108;Russia is getting the slop in China without us!;;;;;;x
 EVTOPTA19000108;We gotta get some too!;;;;;;x
@@ -48,7 +49,7 @@ develop_moscow_desc;Put some dollars on that city;;;;;;;x
 moscow_big;Moscow Developed;;;;;;x
 moscow_big_desc;Make Money;;;;;;x
 modernize_russia_title;Modernize Russia;;;;;;x
-modernize_russia_desc;When Alexander II ascended the throne in 1855, the largely peasant conscripted army in the Crimean war was a national disgrace, and clearly demonstrated that despite its large size, the Russian army was no longer competitive to smaller industrial powers such as Britain and France. The demand for reform was widespread, but unorganized. There had been little consideration of how the complex economic, social, political, and legal roles of the service would be ended. The Tsar decided to abolish serfdom from above, setting up a new system whereby the state would be able to purchase farmland from the landowners and sell it to the freed serfs. The Tsar told Moscow nobles: ‚ÄúBetter that the reform should come from above than wait until serfdom is abolished from below.‚Äù Historians have debated Alexander's role. Soviet era historians downplayed him, as they believed social forces caused history not individuals. Non-Marxist critics say he did not go far enough, especially since he rejected any parliament or duma.;;;;;;;;x
+modernize_russia_desc;When Alexander II ascended the throne in 1855, the largely peasant conscripted army in the Crimean war was a national disgrace, and clearly demonstrated that despite its large size, the Russian army was no longer competitive to smaller industrial powers such as Britain and France. The demand for reform was widespread, but unorganized. There had been little consideration of how the complex economic, social, political, and legal roles of the service would be ended. The Tsar decided to abolish serfdom from above, setting up a new system whereby the state would be able to purchase farmland from the landowners and sell it to the freed serfs. The Tsar told Moscow nobles: °ßBetter that the reform should come from above than wait until serfdom is abolished from below.°® Historians have debated Alexander's role. Soviet era historians downplayed him, as they believed social forces caused history not individuals. Non-Marxist critics say he did not go far enough, especially since he rejected any parliament or duma.;;;;;;;;x
 drain1;Drain 1;;;;;;x
 drain1_desc;First level;;;;;;;;x
 drain2;Drain 2;;;;;;x
@@ -75,3 +76,8 @@ dnd_burgundy_title;DND Burgundy;;;;;;;x
 dnd_burgundy_desc;How;;;;;;;x
 william_and_mary_title;Personal Union The British;;;;;;;x
 william_and_mary_desc;This will release their colonies that weren't dutch, fair warning.;;;;;;;;x
+EVTNAME19000134;Circassian Unrest;;;;;;;;;;;x
+EVTDESC19000134;And they keep on risin;;;;;;;;;;x
+EVTOPTA19000134;Our response shall be swift and ruthless. . .;;;;;;;;;x
+pacifycircassiam_title;Pacify the Circassians;;;;;;;;;;x
+pacifycircassiam_desc;They dont appreciate our colonists;;;;;;;;;x

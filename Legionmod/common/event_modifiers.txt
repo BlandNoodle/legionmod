@@ -1579,4 +1579,26 @@ chinadead = {
 	mobilisation_size = -0.15
 	icon = 12
 }
+
+circs = {
+	non_accepted_pop_militancy_modifier = 0.2
+	assimilation_rate = -1
+	immigrant_push = 0.5
+	icon = 12
+}
+
+circsdead = {
+	local_RGO_output = 0.30
+	assimilation_rate = 0.75
+	immigrant_attract = 0.5
+	life_rating = 0.1
+	icon = 14
+}
+
+armsdead = {
+	local_RGO_output = 0.2
+	assimilation_rate = 1
+	immigrant_attract = 0.5
+	icon = 14
+}
 	

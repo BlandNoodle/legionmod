@@ -770,4 +770,36 @@ country_event = {
 		}
 	}
 }
-			
+
+country_event = {
+	id = 19000134
+	title = "EVTNAME19000134"
+	desc = "EVTDESC19000134"
+	picture = "circassiam"
+	
+	trigger = {
+		tag = RUS
+		NOT = { has_country_flag = circassianattack }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA19000134"
+		set_country_flag = circassianattack
+		any_owned = {
+				limit = {
+					culture = north_caucasian
+				}
+				add_province_modifier = {
+				name = circs
+				duration = 3650 
+				}
+			}
+		ai_chance = {
+			factor = 100
+		}
+	}
+}

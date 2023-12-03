@@ -1,6 +1,6 @@
 province_event = {
 	title = "Revolution in dye production"
-	desc = "New synthetic ways to produce dye has created millions of unemployed. We must adapt to this new reality."
+	desc = "New synthetic ways to produce dye has created millions of unemployed."
 	id = 9990005
 	
 	trigger = {

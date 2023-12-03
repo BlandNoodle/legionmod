@@ -492,7 +492,7 @@ luderitz_expedition = {
 		
 		allow = {
 			war = no
-			year = 1870
+			year = 1860
 			OR = {
 				ruling_party_ideology = liberal
 				ruling_party_ideology = conservative
@@ -535,7 +535,8 @@ luderitz_expedition = {
 		}
 		
 		allow = {
-			experimental_railroad = 1
+			iron_railroad = 1
+			clean_coal = 1
 		}
 		
 		effect = {

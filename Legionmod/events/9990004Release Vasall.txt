@@ -6,7 +6,7 @@ country_event = {
 	
 
 	title = "Our homeland wants to set us free"
-	desc = "After a long history together, our homeland has decided we have matured enough to set us free"
+	desc = "we free"
 	picture = "cityfire"
 
 	option = {

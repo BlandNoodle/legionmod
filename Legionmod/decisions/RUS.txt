@@ -93,6 +93,69 @@ political_decisions = {
 		}
 	}
 	
+	pacifycircassiam = {
+		potential = {
+			tag = RUS
+			has_country_flag = circassianattack
+			NOT = {has_country_flag = ripcircassia}
+		}
+		allow = {
+				1049 = {
+					country_units_in_province = RUS
+				}
+				1056 = {
+					country_units_in_province = RUS
+				}
+				1051 = {
+					country_units_in_province = RUS
+				}
+		}
+		effect = {
+			set_country_flag = ripcircassia
+			any_owned = {
+				limit = {
+					culture = north_caucasian
+				}
+				remove_province_modifier = circs
+				add_province_modifier = {
+				name = circsdead
+				duration = 3650 
+				}
+			}
+			casus_belli = {
+				target = GEO
+				type = conquest
+				months = 48
+			}
+		}
+	}
+	
+	welcomegeorgiam = {
+		potential = {
+			tag = RUS
+			has_country_flag = ripcircassia
+			NOT = {has_country_flag = higeorgia}
+		}
+		allow = {
+			1090 = {
+				owned_by = THIS
+			}
+		}
+		effect = {
+			set_country_flag = higeorgia
+				GEO = {
+					all_core = {
+						add_core = THIS
+					}
+				}
+			add_accepted_culture = georgian
+			casus_belli = {
+					target = AZB
+					type = conquest
+					months = 48
+				}
+			}
+		}
 	promulgate_the_ems_ukaz = {
 		potential = {
 			tag = RUS
@@ -521,7 +584,7 @@ political_decisions = {
 			political_reform = free_press
 			social_reform = trinket_subsidies
 			activate_technology = steamers
-			years_of_research = 1
+			years_of_research = 2
 			set_country_flag = modernized_rus
 		}
 	}
