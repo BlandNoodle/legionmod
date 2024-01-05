@@ -7,6 +7,7 @@ political_decisions = {
 				exists = SGF
 				tag = KUK
 			}
+			NOT = {has_country_flag = germanwinner}
 		}	
 		allow = {
 			state_n_government = 1
@@ -79,13 +80,97 @@ political_decisions = {
 				remove_core = THIS
 			}
 			add_accepted_culture = czech
-			change_tag = SGF
 			release_vassal = HUN
+			change_tag = SGF
 		}
 		ai_will_do = {
 			factor = 1
 		}
 	}
+	
+	form_south_german_confederation_real = {
+		picture = "form_south_german_confederation"
+		potential = {
+			is_greater_power = yes
+			primary_culture = south_german
+			NOT = {
+				exists = SGF
+				tag = KUK
+			}
+			has_country_flag = germanwinner
+		}	
+		allow = {
+			state_n_government = 1
+			war = no
+			587 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+			594 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+			599 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+			589 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 10
+			any_country = {
+				limit = {
+					primary_culture = south_german
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			any_owned = {
+				limit = {
+					OR = {
+						is_core = GER
+						is_core = AUS
+					}
+				}
+				add_core = SGF
+			}
+			any_owned = {
+				limit = {
+					is_core = AUS
+				}
+				remove_core = AUS
+			}
+			add_accepted_culture = czech
+			change_tag = SGF
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	
 	form_north_german_confederation = {
 		potential = {
@@ -106,6 +191,12 @@ political_decisions = {
 			prestige = 25	
 			PRU = { all_core = { remove_core = PRU } }		
 			change_tag = NGF
+			any_owned = {
+				limit = {
+					is_core = GER
+				}
+				add_core = NGF
+			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -151,6 +242,7 @@ political_decisions = {
 				limit = {
 					is_culture_group = germanic
 					in_sphere = THIS
+					NOT = AUS
 				}
 				country_event = { id=11101 days=0 }
 			}

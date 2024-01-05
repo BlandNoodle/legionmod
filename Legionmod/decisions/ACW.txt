@@ -897,4 +897,71 @@ political_decisions = {
 		}
 	
 	}
+	
+	monroecanada = {
+		picture = "monroe"
+		potential = {
+			tag = USA
+			state_n_government = 1
+			NOT = {exists = CAN}
+		}
+		allow = {
+			war = no
+			badboy = 0
+		}
+		effect = {
+			badboy = 8
+			diplomatic_influence = {
+				target = MEX
+				value = 300
+			}
+			relation = {
+				target = MEX
+				value = 100
+			}
+			war = {
+				target = ENG
+				attacker_goal = {
+					casus_belli = liberate_country
+					country = CAN
+				}
+				defender_goal = { casus_belli = humiliate }
+				call_ally = yes
+			}
+		}
+	}
+	
+	monroenorthamerica = {
+		picture = "monroe"
+		potential = {
+			tag = USA
+			state_n_government = 1
+		}
+		allow = {
+			AND = {
+				MEX = {
+					exists = yes
+					is_independant = yes
+					all_core = {owned_by = MEX}
+				}
+				CAN = {
+					exists = yes
+					is_independant = yes
+					all_core = {owned_by = CAN}
+				}
+				USA = {
+					all_core = { owned_by = USA }
+					owns = 1
+				}
+			}
+		}
+		effect = {
+			prestige = 20
+			add_country_modifier = {
+				name = monroena
+				duration = -1
+			}
+			set_country_flag = monroe_na
+		}
+	}
 }

@@ -1,7 +1,7 @@
 owner = FZH
 controller = FZH
 add_core = FZH
-trade_goods = tea
+trade_goods = fish
 life_rating = 32
 
 add_core = CHI

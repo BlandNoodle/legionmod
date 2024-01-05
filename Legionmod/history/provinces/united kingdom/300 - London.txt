@@ -4,6 +4,7 @@ add_core = ENG
 trade_goods = grain
 life_rating = 45
 fort = 1
+terrain = urban
 #party_loyalty = {
 #	ideology = liberal
 #	loyalty_value = 10.5 # loyalty test

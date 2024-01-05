@@ -4,6 +4,7 @@ add_core = AUS
 trade_goods = grain
 life_rating = 40
 fort = 2
+terrain = urban
 #state_building = {
 #	level = 1
 #	building = regular_clothes_factory

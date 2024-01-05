@@ -896,7 +896,7 @@ sheep_ranch = {
 silkworm_ranch = {
 	template = RGO_template_farmers
 	output_goods = silk 
-	value = 0.25
+	value = 0.75
 	farm = yes
 }
 
@@ -910,7 +910,7 @@ sulphur_mine = {
 tea_plantation = {
 	template = RGO_template_farmers
 	output_goods = tea 
-	value = 1.75
+	value = 2.5
 	farm = yes
 }
 

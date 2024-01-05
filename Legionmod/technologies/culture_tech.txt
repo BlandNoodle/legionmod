@@ -340,7 +340,7 @@ malthusian_thought = {
 	cost = 3600
 
 	colonial_migration = 0.05
-	education_efficiency = 0.15
+	education_efficiency = 0.05
 	
 	ai_chance = {
 		factor = 1.01
@@ -363,7 +363,7 @@ positivism = {
 	year = 1836
 	cost = 7200
 	colonial_migration = 0.05
-	education_efficiency = 0.15
+	education_efficiency = 0.1
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -422,7 +422,7 @@ social_science = {
 	year = 1870
 	cost = 18000
 
-	colonial_migration = 0.15
+	colonial_migration = 0.1
 	education_efficiency = 0.25
 	ai_chance = {
 		factor = 1.01

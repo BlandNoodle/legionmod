@@ -4,4 +4,5 @@ add_core = FRA
 trade_goods = iron
 life_rating = 32
 fort = 1
+terrain = urban
 1861.1.1 = { railroad = 3 }

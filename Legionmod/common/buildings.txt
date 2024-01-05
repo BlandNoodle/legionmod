@@ -684,6 +684,7 @@ fort = {
 	time = 1080 
 	visibility = yes
 	onmap = yes
+	one_per_state = yes
 	max_level = 6
 	province = yes
 	fort_level = 1

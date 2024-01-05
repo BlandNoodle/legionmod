@@ -106,4 +106,59 @@ political_decisions = {
 			}
 		}
 	}
+	
+	flood_the_lowlands = {
+		picture = rsz_mapofdutch
+		potential = {
+			ai = no
+			OR = {
+				tag = NET
+				tag = BNX
+			}
+			NOT = {has_country_modifier = dutch_flood_cooldown}
+		}
+		allow = {
+			385 = { controlled_by = THIS }
+			375 = { controlled_by = THIS }
+			NOT = {
+				THIS = { has_country_modifier = dutch_flood_cooldown }
+			}
+		}		
+		effect = {
+			NET_385 = {
+				add_province_modifier = {
+					name = devastating_flood
+					duration = 750
+				}
+			}
+			NET_375 = {
+				add_province_modifier = {
+					name = devastating_flood
+					duration = 750
+				}
+			}
+			any_country = {
+				limit = {
+					OR = {
+						alliance_with = THIS
+						relation = { who = BRG value = 50 }
+					}
+				}
+				leave_alliance = THIS
+				relation = { who = THIS value = -200 }
+				casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 60
+				}
+			}
+			badboy = 12.5
+			THIS = {
+				add_country_modifier = {
+					name = dutch_flood_cooldown
+					duration = 1000
+				}
+			}
+		}
+	}
 }

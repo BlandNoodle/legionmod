@@ -304,13 +304,12 @@ political_reforms = {
 		next_step_only = yes
 		state_press = {
 			literacy_con_impact = -0.25
-			suppression_points_modifier = 0.25
-			ruling_party_support = 0.05
+			suppression_points_modifier = 0.50
 		}
 		censored_press = {
 			issue_change_speed = 0.25
+			suppression_points_modifier = 0.25
 			global_immigrant_attract = 0.05
-			ruling_party_support = 0.05
 		}
 		free_press = {
 			literacy_con_impact = 0.25

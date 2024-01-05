@@ -446,20 +446,16 @@ integrate_bul = {
 	allow = {
 		nationalism_n_imperialism = 1
 		is_greater_power = yes
-		BUL = {
-			all_core = {
-				OR = {
+		OR = {
+			BUL = {
+				all_core = {
 					AND = {
 						owned_by = THIS
-							NOT = { culture = bulgarian }
-									
+						NOT = { culture = bulgarian }	
 						}
-					AND = {
-						THIS = {is_our_vassal = BUL}
-						THIS = {is_sphere_leader_of = BUL}
 					}
 				}
-			}
+			THIS = {is_our_vassal = BUL}
 		}
 	}
 	effect = {

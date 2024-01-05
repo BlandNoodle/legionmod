@@ -6,7 +6,8 @@ post_nelsonian_thought = {
 	unciv_military = yes
 	activate_building = naval_base
 	colonial_points = 100
-
+	navy_base = { supply_consumption = -0.1} 
+	
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -622,13 +623,11 @@ iron_steamers = {
 	year = 1860
 	cost = 10800
 	unciv_military = yes
-	navy_base = { maximum_speed = 2 }
-	clipper_transport = { maximum_speed = -2
-						  supply_consumption = 0.2 }
+	navy_base = { maximum_speed = 2 supply_consumption = 0.2}
+	clipper_transport = { maximum_speed = -2}
 	frigate = { maximum_speed = -2 }
 	manowar = { maximum_speed = -2 }
-	steam_transport = { maximum_speed = 1
-						supply_consumption = 0.2 }
+	steam_transport = { maximum_speed = 1}
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -704,13 +703,11 @@ steel_steamers = {
 	year = 1880
 	cost = 14400
 	unciv_military = yes
-	navy_base = { maximum_speed = 2 } 
-	clipper_transport = { maximum_speed = -2
-						supply_consumption = 0.2 }
+	navy_base = { maximum_speed = 2 supply_consumption = 0.2} 
+	clipper_transport = { maximum_speed = -2}
 	frigate = { maximum_speed = -2 }
 	manowar = { maximum_speed = -2 }
-	steam_transport = { maximum_speed = 1
-						supply_consumption = 0.2 }
+	steam_transport = { maximum_speed = 1}
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -786,13 +783,11 @@ steam_turbine_ships = {
 	year = 1900
 	cost = 18000
 	unciv_military = yes
-	navy_base = { maximum_speed = 2 } 
-	clipper_transport = { maximum_speed = -2 
-						  supply_consumption = 0.2 }
+	navy_base = { maximum_speed = 2 supply_consumption = 0.2} 
+	clipper_transport = { maximum_speed = -2}
 	frigate = { maximum_speed = -2 }
 	manowar = { maximum_speed = -2 }
-	steam_transport = { maximum_speed = 1
-						supply_consumption = 0.2 }
+	steam_transport = { maximum_speed = 1}
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -868,13 +863,11 @@ oil_driven_ships = {
 	year = 1919
 	cost = 21600
 	unciv_military = yes
-	navy_base = { maximum_speed = 2 } 
-	clipper_transport = { maximum_speed = -2
-						  supply_consumption = 0.2 }
+	navy_base = { maximum_speed = 2 supply_consumption = 0.2} 
+	clipper_transport = { maximum_speed = -2}
 	frigate = { maximum_speed = -2 }
 	manowar = { maximum_speed = -2 }
-	steam_transport = { maximum_speed = 1
-						supply_consumption = 0.2 }
+	steam_transport = { maximum_speed = 1}
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -1471,9 +1464,6 @@ alphabetic_flag_signaling = {
 	year = 1836
 	cost = 3600
 	unciv_military = yes
-	navy_base = {
-		supply_consumption = -0.20
-	}
 	supply_range = 0.10
 	
 	ai_chance = {
@@ -1517,9 +1507,6 @@ naval_plans = {
 	year = 1836
 	cost = 7200
 	unciv_military = yes
-	navy_base = {
-		supply_consumption = -0.10
-	}
 	supply_range = 0.10
 	
 	ai_chance = {
@@ -1563,9 +1550,6 @@ naval_statistics = {
 	year = 1850
 	cost = 10800
 	unciv_military = yes
-	navy_base = {
-		supply_consumption = 0.10
-	}
 	supply_range = 0.10
 		ai_chance = {
 		factor = 1.01
@@ -1608,9 +1592,6 @@ naval_logistics = {
 	year = 1870
 	cost = 14400
 	unciv_military = yes
-	navy_base = {
-		supply_consumption = 0.20
-	}
 	supply_range = 0.10
 		ai_chance = {
 		factor = 1.01
@@ -1653,9 +1634,6 @@ naval_directionism = {
 	year = 1900
 	cost = 18000
 	unciv_military = yes
-	navy_base = {
-		supply_consumption = 0.20
-	}
 	supply_range = 0.10
 		ai_chance = {
 		factor = 1.01
@@ -1698,9 +1676,6 @@ naval_integration = {
 	year = 1919
 	cost = 21600
 	unciv_military = yes
-	navy_base = {
-		supply_consumption = 0.20
-	}
 	supply_range = 0.10
 		ai_chance = {
 		factor = 1.01

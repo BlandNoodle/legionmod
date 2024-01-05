@@ -1,5 +1,48 @@
 political_decisions = {
-		
+
+campsystem = {
+		picture = "startgulags"
+		potential = {
+			tag = RUS
+			year = 1903
+			ruling_party_ideology = communist
+			NOT = {has_country_flag = gulagcamp}
+		}
+		allow = {
+			money = 2000000
+			owns = 983
+			owns = 1064
+		}
+		effect = {
+			money = -2000000
+			1062 = {
+				add_province_modifier = {
+					name = gulag
+					value = -1
+				}
+			}
+			1064 = {
+				add_province_modifier = {
+					name = gulag
+					value = -1
+				}
+			}
+			2655 = {
+				add_province_modifier = {
+					name = gulag
+					value = -1
+				}
+			}
+			983 = {
+				add_province_modifier = {
+					name = gulag
+					value = -1
+				}
+			}
+			set_country_flag = gulagcamp
+		}
+	}
+
 the_totalitarian_regime = {
 		picture = the_totalitarian_regime
 		potential = {

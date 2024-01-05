@@ -3,8 +3,9 @@ controller = RUS
 
 add_core = POL
 trade_goods = cattle
-life_rating = 35
+life_rating = 36
 fort = 2
+terrain = urban
 #state_building = {
 #	level = 1
 #	building = fabric_factory

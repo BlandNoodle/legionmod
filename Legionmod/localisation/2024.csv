@@ -1,0 +1,86 @@
+EVTNAME443034;Peace-Time Mobilization;;;;;;x
+EVTDESC443034;Stop having fun;;;;;;x
+EVTOPTA443034;Shitty Mod allegations +1;;;;;;;x
+flood_the_lowlands_title;Flood the Lowlands;;;;;;x
+flood_the_lowlands_desc;Invaders are threatening the heartland of our nation, we have one last desperate measure to defend the capital.;;;;;;;x
+devastating_flood;Devastating Flood;;;;;;x
+devastating_flood_desc;Opening the floodgates has destroyed much of our developed land and left thousands homeless;;;;;;x
+dutch_flood_cooldown;Flood Cooldown;;;;;x
+dutch_flood_cooldown_desc;Gotta let the water build up again before you can bust;;;;;x
+EVTNAME60168004;Fort Destroyed;;;;;;;x
+EVTDESC60168004;Combat in §Y$PROVINCE$§W has destroyed the fort!;;;;;;x
+EVTOPTA60168004;Who cares;;;;;;x
+EVTNAME60168005;Railway Destroyed;;;;;;x
+EVTDESC60168005;Combat in §Y$PROVINCE$W has destroyed the local rail line!;;;;;;x
+EVTOPTA60168005;No shot;;;;;;x
+peacetime_mobilization;Peacetime Mobilization;;;;;;x
+peacetime_mobilization_desc;womp womp;;;;;;;x
+campsystem_title;Begin Correctional Program;;;;;;x
+campsystem_desc;The many counterrevolutionaries born from our liberation of Russia need to be contained somewhere far, so that their poisonous ideas do not sap our nations newfound strength.;;;;;;;x
+gulag;Gulag Camp;;;;;;x
+gulag_desc;Correctional facility is located here;;;;;x
+ukrainepacify_title;Pacify Ukraine;;;;;;x
+ukrainepacify_desc;The Ukrainian people are upset at recent economic decisions, we must show them the error of their ways.;;;;;;x
+form_german_federation_title;Form German Nation;;;;;;;x
+form_german_federation_desc;You survived to this point, time to be broken;;;;;;x
+PROV963;Lubensk;;;;;;;;x
+PROV3251;Poltava;;;;;;;;x
+BRG;Burgundy;Bourgogne;Burgund;;;;;;;;;;;;;;x
+BRG_ADJ;Burgundian;Bourguinion;Burgundisch;;;;;;;;;;;;;;x
+BRG_absolute_monarchy;The Kingdom of Burgundy;;;;;;;;;;;;;x
+BRG_prussian_constitutionalism;The Kingdom of Burgundy;;;;;;;;;;;;;x
+BRG_hms_government;The Kingdom of Burgundy;;;;;;;;;;;;;x
+BRG_fascist_dictatorship;L’Empire de Bourgogne;;;;;;;;;;;;;x
+BRG_reactionary_1;Les Gardiens du Rhin;;;;;;;;;;;x
+BRG_conservative_1;Parti Unioniste;;;;;;;;;;;;;x
+BRG_liberal_1;Parti Réformiste;;;;;;;;;;;;x 
+BRG_liberal_2;Faction Parlementaire Libérale;;;;;;;;;;;;x 
+BRG_liberal_3;Parti Libéral Classique;;;;;;;;;;;;x 
+BRG_anarcho_liberal_1;Parti Réformiste Radical;;;;;;;;;;;;;;x 
+BRG_anarcho_liberal_2;Faction Parlementaire Radical;;;;;;;;;;;;;;x
+BRG_reactionary_2;Parti Jeaniste;;;;;;;;;;;;;;x
+BRG_conservative_2;Parti Royaliste;;;;;;;;;;;;;;;x 
+BRG_socialist_1;Socialisten;;;;;;;;;;;;;x 
+BRG_communist_1;Communistische Partij;;;;;;;;;;;x
+BRG_reactionary_3;Parti Bouillonniste;;;;;;;;;;;x
+BRG_conservative_3;Parti de l'Ordre;;;;;;;;;;;;;x
+BRG_anarcho_liberal_3;Indépendants;;;;;;;;;;;;;x
+BRG_socialist_2;Parti fédéral-socialiste;;;;;;;;;x
+BRG_communist_2;Front uni communiste;;;;;;;;;;x 
+BRG_fascist;Parti du pays réel;;;;;;;;;;;;;x
+newparis;Paris Renovated;;;;;;;x
+newparis_desc;This place is finally habitable;;;;;;x
+EVTNAME19000140;The German Question;;;;;;;x
+EVTDESC19000140;Germany has been without a centralized government, will we seek to fill this role or stomp it out? With revolution over the horizon, the populace will be impatient and quick to change sides. §GHold onto your German holdings/spheres to be rewarded.§W;;;;;;x
+EVTOPTA19000140;Let the games begin;;;;;;x
+EVTNAME19000141;We Lost;;;;;;;x
+EVTDESC19000141;Our competitor's have managed to outmanuever us in Germany, we no longer have any say in their formation;;;;;;x
+EVTOPTA19000141;Bummer;;;;;;x
+monroena;North America Safe;;;;;;;x
+monroena_desc;North America is safe from outside imperialists;;;;;;x
+monroesa;South America Safe;;;;;;;x
+monroesa_desc;South America is safe from outside imperialists;;;;;;x
+max_title;Import Maximilian;;;;;;;x
+max_desc;A member of the House of Habsburg-Lorraine, Maximilian was the younger brother of Emperor Franz Joseph I of Austria. Prior to his becoming Emperor of Mexico, he was commander-in-chief of the small Imperial Austrian Navy and briefly the Austrian viceroy of Lombardy-Venetia, but was removed by the emperor. Two years before his dismissal, he briefly met with French emperor Napoleon III in Paris, where he was approached by conservative Mexican monarchists seeking a European royal to rule Mexico. Initially Maximilian was not interested, but following his dismissal as viceroy, the Mexican monarchists' plan was far more appealing to him.;;;;;;;;x
+EVTNAME19000142;Foreign Policy Pays Dividends;;;;;;;x
+EVTDESC19000142;The southern Germans within our sphere are becoming increasingly cooperative;;;;;;x
+EVTOPTA19000142;Splendid;;;;;;x
+EVTNAME19000143;Foreign Policy Pays Dividends 2;;;;;;;x
+EVTDESC19000143;We have convinced the South Germans that France is a valid protector of the region;;;;;;x
+EVTOPTA19000143;Magnificient;;;;;;x
+legitimacy;Legitimate;;;;;;x
+legitimacy_desc;We have a strong position in the German Confederation;;;;;x
+form_south_german_confederation_real_title;Form Strong South Germany;;;;;;x
+form_south_german_confederation_real_desc;Our position in teh German Confederation allows us to integrate the rest of the south germans without sacrificing our own imperial holdings, and we can avoid direct war with the Prussians;;;;;;x
+EVTNAME19000144;Foreign Policy Pays Dividends;;;;;;;x
+EVTDESC19000144;The southern Germans within our sphere are becoming increasingly cooperative;;;;;;x
+EVTOPTA19000144;Splendid;;;;;;x
+EVTNAME19000145;Foreign Policy Pays Dividends 2;;;;;;;x
+EVTDESC19000145;We have convinced the South Germans that Austria is the one to unify Germany!§RForming South Germany will now be easier and have less downsides§W;;;;;;x
+EVTOPTA19000145;Magnificient;;;;;;x
+monroecanada_title;Free Canada;;;;;;x
+monroecanada_desc;Our brethren in Canada must be freed!;;;;;;x
+monroenorthamerica_title;Monroe Doctrine in North America;;;;;;x
+monroenorthamerica_desc;The only way American ideals can be realised is when the Hemisphere is secured against imperialism;;;;;;;x 
+germancoops;German Cooperation;;;;;x
+germancoops_desc;Germans are cooperating with us;;;;;;;x

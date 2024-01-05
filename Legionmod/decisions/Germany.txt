@@ -3,6 +3,7 @@ political_decisions = {
 		potential = {
 			tag = PRU
 			NOT = { has_country_flag = prussia_mobilizes }
+			NOT = { year = 1845 }
 		}
 		allow = {          
 			tag = PRU
@@ -101,7 +102,7 @@ luderitz_expedition = {
         	}
     	}
 
-		ems_dispatch = {
+	ems_dispatch = {
 		potential = {
 			NOT = {
 				has_country_flag = ems_dispatch_sent
@@ -157,13 +158,14 @@ luderitz_expedition = {
 		
 		allow = {
 			steel_steamers = 1
-			money = 1000001
+			money = 4000001
 		}
 		
 		effect = {
 			set_global_flag = germania_werft_has_been_built
 			prestige = 15
-			treasury = -1000000
+			treasury = -2000000
+			treasury = -2000000
 			369 = {
 				naval_base = 6
 				add_province_modifier = { name = germania_werft duration = -1 }
@@ -377,10 +379,12 @@ luderitz_expedition = {
 				is_greater_power = yes
 				invention = national_fraternity
 			}
+			money = 4000001
 		}
 		
 		effect = {
-			treasury = -50000
+			treasury = -2000000
+			treasury = -2000000
 			533 = {
 				naval_base = 6
 				add_province_modifier = { name = germania_werft duration = -1 }
@@ -480,24 +484,16 @@ luderitz_expedition = {
 				tag = GER
 				tag = HYP
 			}
-			OR = {
-				government = prussian_constitutionalism
-				government = absolute_monarchy
-			}
 			NOT = {
-				year = 1875
+				year = 1890
 				has_country_flag = von_bismarck_appointed
 			}
 		}
 		
 		allow = {
+			NOT = {government = proletarian_dictatorship}
 			war = no
 			year = 1860
-			OR = {
-				ruling_party_ideology = liberal
-				ruling_party_ideology = conservative
-				ruling_party_ideology = reactionary
-			}
 		}
 		
 		effect = {
@@ -516,12 +512,90 @@ luderitz_expedition = {
 			}
 		}
 	}
+	
+	Lasalle = {
+		potential = {
+			OR = {
+				tag = PRU
+				tag = NGF
+				tag = GER
+				tag = HYP
+			}
+			NOT = {
+				year = 1890
+				has_country_flag = lasalle_meetup
+			}
+			is_ideology_enabled = socialist
+			has_country_flag = von_bismarck_appointed
+		}
+		
+		allow = {
+			THIS = {ruling_party_ideology = conservative}
+			war = no
+			year = 1862
+			money = 1000000
+		}
+		
+		effect = {
+			set_country_flag = lasalle_meetup
+			money = -1000000
+			any_pop = {
+				limit = { ideology = liberal }
+				consciousness = -3
+				ideology = {
+					factor = 0.7
+					value = socialist
+				}
+			}
+			political_reform = universal_voting
+			political_reform = all_trade_unions
+			political_reform = censored_press
+		}
+	}
+	
+	firsttowelfare = {
+		potential = {
+			OR = {
+				tag = PRU
+				tag = NGF
+				tag = GER
+				tag = HYP
+			}
+			NOT = {
+				year = 1890
+				has_country_flag = welfareuphere
+			}
+			has_country_flag = lasalle_meetup
+		}
+		
+		allow = {
+			THIS = {ruling_party_ideology = conservative}
+			war = no
+			year = 1864
+			money = 1000000
+		}
+		
+		effect = {
+			set_country_flag = welfareuphere
+			money = -1000000
+			any_pop = {
+				limit = { ideology = socialist }
+				militancy = -3
+				ideology = {
+					factor = 0.9
+					value = conservative
+				}
+			}
+			social_reform = low_subsidies
+			social_reform = acceptable_health_care
+			social_reform = acceptable_pensions
+		}
+	}
 
 	
 	the_ruhr_boom = {
 	potential = {
 			OR = {
-				tag = PRU
 				tag = GER
 				tag = NGF
 				tag = HYP
@@ -537,99 +611,87 @@ luderitz_expedition = {
 		allow = {
 			iron_railroad = 1
 			clean_coal = 1
+			money = 1000000
 		}
 		
 		effect = {
-575 = {
-infrastructure  = 5
+			money = -1000000
+			575 = {
+				infrastructure  = 5
+				add_province_modifier = {
+					name = ruhr_boom
+					duration = 3650
+				}
+			}
+			578 = {
+				infrastructure  = 5
+				add_province_modifier = {
+					name = ruhr_boom
+					duration = 3650
+				}
+			}
+			2561 = {
+				infrastructure = 5
+				add_province_modifier = {
+					name = ruhr_boom
+					duration = 3650
+				}
+			}
+			577 = {
+				infrastructure = 5
+				add_province_modifier = {
+					name = ruhr_boom
+					duration = 3650
+				}
+			}
+			576 = {
+				infrastructure  = 5
+				add_province_modifier = {
+					name = ruhr_boom
+					duration = 3650
+				}
+			}
+			572 = {
+				infrastructure  = 5
 				add_province_modifier = {
 
 					name = ruhr_boom
 					duration = 3650
-}
-}
-578 = {
-infrastructure  = 5
+				}
+			}
+			573 = {
+				infrastructure = 5
 				add_province_modifier = {
 
 					name = ruhr_boom
 					duration = 3650
-}
-}
-2561 = {
-infrastructure = 5
+				}
+			}
+			574 = {
+				infrastructure  = 5
 				add_province_modifier = {
 
 					name = ruhr_boom
 					duration = 3650
-}
-}
-577 = {
-infrastructure = 5
+				}
+			}
+			570 = {
+				infrastructure  = 5
 				add_province_modifier = {
 
 					name = ruhr_boom
 					duration = 3650
-}
-}
-576 = {
-infrastructure  = 5
+				}
+			}
+			579 = {
+				infrastructure  = 5
 				add_province_modifier = {
-
 					name = ruhr_boom
 					duration = 3650
-}
-}
-572 = {
-infrastructure  = 5
-				add_province_modifier = {
-
-					name = ruhr_boom
-					duration = 3650
-}
-}
-573 = {
-infrastructure = 5
-				add_province_modifier = {
-
-					name = ruhr_boom
-					duration = 3650
-}
-}
-574 = {
-infrastructure  = 5
-				add_province_modifier = {
-
-					name = ruhr_boom
-					duration = 3650
-}
-}
-570 = {
-infrastructure  = 5
-				add_province_modifier = {
-
-					name = ruhr_boom
-					duration = 3650
-}
-}
-579 = {
-infrastructure  = 5
-				add_province_modifier = {
-
-					name = ruhr_boom
-					duration = 3650
-}
-}
+				}
+			}
 			set_global_flag = ruhr_boom_has_happened
-												}
-											}
-										}
-									
-								
-							
-					
-					
-				
-			
-		
-	
+		}
+	}
+}
+

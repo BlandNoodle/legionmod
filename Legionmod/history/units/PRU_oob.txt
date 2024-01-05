@@ -1,3 +1,5 @@
+FRA = { truce_until = 1838.1.1 }
+
 NET = {
 	value = 50
 		#relation
@@ -204,11 +206,9 @@ SAX = {
 
 	value = 50
 
-	level = 3
+	level = 2
 
-	influence_value = 25
-
-	military_access = yes
+	influence_value = 50
 }
 
 WEI = {
@@ -227,10 +227,9 @@ WEI = {
 BAV = {
 
 	value = 75
-	level = 3
+	level = 2
 	influence_value = 25
 
-	military_access = yes
 }
 
 
@@ -238,20 +237,19 @@ BAD = {
 
 	value = 100
 
-	level = 3
+	level = 2
 
 	influence_value = 20
 
-	military_access = yes
 
 }
 
 
 WUR = {
 	value = 100
-	level = 3
+	level = 2
 	influence_value = 20
-	military_access = yes
+
 }
 
 AUS = {

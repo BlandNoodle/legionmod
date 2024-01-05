@@ -961,7 +961,7 @@ province;red;green;blue;x;x
 960;240;97;160;Zhitomir;x
 961;114;98;145;Cherkassy;x
 962;224;128;97;Chernigov;x
-963;113;65;224;Poltava;x
+963;113;65;224;Lubensk;x
 964;49;224;224;Simferopol;x
 965;239;96;32;Cherson;x
 966;112;96;96;Kerch;x
@@ -3249,6 +3249,7 @@ province;red;green;blue;x;x
 3248;53;14;240;West Magellan Strait;x 
 3249;255;116;30;Cuneo;x
 3250;240;176;97;Gauzhou;x
+3251;180;16;0;Poltava;x
 ;54;14;244;x;
 ;55;14;248;x;
 ;56;14;232;x;

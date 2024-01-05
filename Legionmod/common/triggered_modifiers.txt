@@ -264,42 +264,6 @@ need_trade = {
 		ai = no
 		AND = {
 			NOT = {
-				year = 1855
-			}
-			OR = {
-				is_greater_power = yes
-				is_secondary_power = yes
-			}
-		}
-	}
-		icon = 10
-		tariff_efficiency_modifier = -0.1
-	}
-	
-need_more_trade = {
-	trigger = {
-		ai = no
-		year = 1855
-		AND = {
-			NOT = {
-				year = 1865
-			}
-			OR = {
-				is_greater_power = yes
-				is_secondary_power = yes
-			}
-		}
-	}
-		icon = 10
-		tariff_efficiency_modifier = -0.15
-	}
-	
-need_even_more_trade = {
-	trigger = {
-		year = 1865
-		ai = no
-		AND = {
-			NOT = {
 				year = 1900
 			}
 			OR = {
@@ -309,9 +273,8 @@ need_even_more_trade = {
 		}
 	}
 		icon = 10
-		tariff_efficiency_modifier = -0.25
+		tariff_efficiency_modifier = -0.2
 	}
-	
 vassal_nation = {
     trigger = {
         exists = yes
@@ -390,7 +353,6 @@ the_british_raj = {
     research_points = 0.5
     core_pop_militancy_modifier = -0.05
     supply_consumption = 0.15
-    influence_modifier = 0.05
     administrative_efficiency_modifier = -0.2
 	mobilisation_size = 0.01
 	land_organisation = 0.1
@@ -405,7 +367,7 @@ money_hoarder_1 = {
 		NOT = { money = 20000000 }
 	}
 	tax_efficiency = -0.05
-	tariff_efficiency_modifier = -0.20
+	max_tariff = -0.05
 	min_social_spending = 1
 	min_military_spending = 1
 	icon = 1
@@ -417,7 +379,7 @@ money_hoarder_2 = {
 		NOT = { money = 30000000 }
 	}
 	tax_efficiency = -0.10
-	tariff_efficiency_modifier = -0.40
+	max_tariff = -0.10
 	min_social_spending = 1
 	min_military_spending = 1
 	icon = 1
@@ -429,7 +391,7 @@ money_hoarder_3 = {
 		NOT = { money = 40000000 }
 	}
 	tax_efficiency = -0.20
-	tariff_efficiency_modifier = -0.60
+	max_tariff = -0.20
 	min_social_spending = 1
 	min_military_spending = 1
 	icon = 1
@@ -441,7 +403,7 @@ money_hoarder_4 = {
 		NOT = { money = 50000000 }
 	}
 	tax_efficiency = -0.25
-	tariff_efficiency_modifier = -0.80
+	max_tariff = -0.25
 	min_social_spending = 1
 	min_military_spending = 1
 	icon = 1
@@ -453,7 +415,7 @@ money_hoarder_5 = {
 		NOT = { money = 60000000 }
 	}
 	tax_efficiency = -0.40
-	tariff_efficiency_modifier = -1.0
+	max_tariff = -0.40
 	min_social_spending = 1
 	min_military_spending = 1
 	icon = 1
@@ -465,7 +427,7 @@ money_hoarder_6 = {
 		NOT = { money = 100000000 }
 	}
 	tax_efficiency = -0.75
-	tariff_efficiency_modifier = -1.25
+	max_tariff = -0.75
 	min_social_spending = 1
 	min_military_spending = 1
 	icon = 1
@@ -478,7 +440,6 @@ money_hoarder_7 = {
 	max_tariff = -1
 	max_tax = -1
 	tax_efficiency = -1
-	tariff_efficiency_modifier = -1.5
 	min_social_spending = 1
 	min_military_spending = 1
 	icon = 1

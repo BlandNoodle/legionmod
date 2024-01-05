@@ -436,34 +436,6 @@ country_event = {
 		1481 = {
 			secede_province = RUS
 		}
-		FRA = { country_event = {id=19000108 days=10}
-		}
-		ENG = { country_event = {id=19000109 days=15}
-		}
-		749 = { owner = {country_event = {id=19000112 days=20}
-			}
-		}
-		1498 = { owner = {
-			country_event = {id=19000111 days=20}
-			}
-		}
-		549 = { owner = {
-			country_event = {id=19000110 days=25}
-			}
-		}
-		619 = { owner = {
-			country_event = {id=19000113 days=25}
-			}
-		}
-		USA = {
-			country_event = {id=19000115 days=25}
-		}
-		any_country = {
-			limit = {
-				is_greater_power = yes
-				}
-			country_event = {id=19000114 days=60}
-		}
 		ai_chance = {
 			factor = 100
 		}
@@ -597,6 +569,7 @@ country_event = {
 	trigger = {
 		tag = RUS
 		year = 1880
+		NOT = {year = 1903}
 		AND = {
 			has_country_flag = alexander_ii
 			has_country_flag = modernized_rus
@@ -630,8 +603,11 @@ country_event = {
 	trigger = {
 		tag = RUS
 		year = 1854
-		NOT = { OR = { has_country_flag = alexander_ii 
-						year = 1870 }
+		NOT = {
+			OR = {
+				has_country_flag = alexander_ii 
+				year = 1870 
+			}
 		}
 	}
 	mean_time_to_happen = {
@@ -664,6 +640,11 @@ country_event = {
 	trigger = {
 		NOT = { has_country_flag = persiangulf }
 		owns = 1132
+		OR = {
+			tag = OTC
+			has_country_flag = ruspersia
+			has_country_flag = engpersia
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -800,6 +781,210 @@ country_event = {
 			}
 		ai_chance = {
 			factor = 100
+		}
+	}
+}
+
+country_event = {
+	id = 19000135
+	title = "EVTNAME19000135"
+	desc = "EVTDESC19000135"
+	picture = "russiancivilwar"
+	
+	trigger = {
+		tag = RUS
+		government = proletarian_dictatorship
+		ruling_party_ideology = communist
+		has_country_flag = polandfight	
+		NOT = {has_country_flag = ukrainerise}
+	}
+	
+	mean_time_to_happen = {
+		months = 5
+	}
+	
+	option = {
+		name = "EVTOPTA19000135"
+		any_pop = {
+			limit = {
+				has_pop_culture = ukrainian
+			}
+			militancy = 7
+		}
+		set_country_flag = ukrainerise
+		ai_chance = {
+			factor = 55
+		}
+	}
+}
+
+country_event = {
+	id = 19000136
+	title = "EVTNAME19000136"
+	desc = "EVTDESC19000136"
+	picture = "russiancivilwar"
+	
+	trigger = {
+		tag = RUS
+		ruling_party_ideology = communist
+		government = proletarian_dictatorship
+		has_country_flag = redoctober
+		NOT = { exists = POL }
+		NOT = {has_country_flag = polandfight}
+	}
+	
+	mean_time_to_happen = {
+		months = 5
+	}
+	
+	option = {
+		name = "EVTOPTA19000136"
+		prestige = -10
+		release = POL
+		remove_accepted_culture = polish
+		POL = { 
+			any_owned = {
+				limit = {
+					is_core = POL
+				}
+				remove_core = RUS
+			}
+		}
+		set_country_flag = polandfight
+		ai_chance = {
+			factor = 55
+		}
+	}
+}
+
+country_event = {
+	id = 19000137
+	title = "EVTNAME19000137"
+	desc = "EVTDESC19000137"
+	picture = "russiancivilwar"
+	
+	trigger = {
+		tag = RUS
+		ruling_party_ideology = communist
+		government = proletarian_dictatorship
+		has_country_flag = redoctober
+		NOT = { exists = EST }
+		NOT = { exists = LAT }
+		NOT = { exists = LIT }
+		NOT = {has_country_flag = balticfight}
+	}
+	
+	mean_time_to_happen = {
+		months = 5
+	}
+	
+	option = {
+		name = "EVTOPTA19000137"
+		prestige = -10
+		release = LAT
+		release = EST
+		release = LIT
+		LAT = {
+			any_owned = {
+				limit = {
+					is_core = UBD
+				}
+				remove_core = RUS
+			}
+		}
+		EST = {
+			any_owned = {
+				limit = {
+					is_core = UBD
+				}
+				remove_core = RUS
+			}
+		}
+		LIT = {
+			any_owned = {
+				limit = {
+					is_core = LIT
+				}
+				remove_core = RUS
+			}
+		}
+		set_country_flag = balticfight
+		ai_chance = {
+			factor = 55
+		}
+	}
+}
+
+country_event = {
+	id = 19000138
+	title = "EVTNAME19000138"
+	desc = "EVTDESC19000138"
+	picture = "russiancivilwar"
+	
+	trigger = {
+		tag = RUS
+		government = proletarian_dictatorship
+		has_country_flag = redoctober
+		NOT = { exists = FIN }
+		NOT = {has_country_flag = finnishfight}
+	}
+	
+	mean_time_to_happen = {
+		months = 5
+	}
+	
+	option = {
+		name = "EVTOPTA19000138"
+		prestige = -10
+		release = FIN
+		FIN = {
+			any_owned = {
+				limit = {
+					is_core = FIN
+				}
+				remove_core = RUS
+			}
+		}
+		set_country_flag = finnishfight
+		ai_chance = {
+			factor = 55
+		}
+	}
+}
+
+country_event = {
+	id = 19000139
+	title = "EVTNAME19000139"
+	desc = "EVTDESC19000139"
+	picture = "polishuprising"
+	
+	trigger = {
+		any_neighbor_country = { tag = POL }
+		NOT = {tag = RUS}
+		RUS = {
+			government = proletarian_dictatorship
+			ruling_party_ideology = communist
+			has_country_flag = polandfight
+		}	
+		NOT = {has_country_flag = polishuprising}
+	}
+	
+	mean_time_to_happen = {
+		months = 2
+	}
+	
+	option = {
+		name = "EVTOPTA19000139"
+		any_pop = {
+			limit = {
+				has_pop_culture = polish
+			}
+			militancy = 7
+		}
+		remove_accepted_culture = polish
+		set_country_flag = polishuprising
+		ai_chance = {
+			factor = 55
 		}
 	}
 }

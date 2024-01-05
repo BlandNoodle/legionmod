@@ -2,6 +2,19 @@ terrain = 64
 
 
 categories =  {
+
+	urban = {
+		movement_cost = 0.6
+		color = { 81 81 81 }
+		farm_rgo_size = 0.5
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.5
+		mine_rgo_eff = 0.0
+		supply_limit = 10
+		defence = 3
+		combat_width = -0.66
+	}
+	
 	ocean = {
 		movement_cost = 1.0
 		is_water = yes

@@ -5,6 +5,7 @@ trade_goods = fruit
 life_rating = 40
 naval_base = 2
 fort = 2
+terrain = urban
 state_building = {
 	level = 1
 	building = winery

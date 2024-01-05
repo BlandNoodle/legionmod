@@ -6,7 +6,6 @@ private_banks = {
 
 	activate_building = cement_factory 
 	tax_eff = 5
-	
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -37,7 +36,6 @@ stock_exchange = {
 	cost = 7200
 
 	tax_eff = 5
-	
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -68,7 +66,6 @@ business_banks = {
 	cost = 10800
 
 	tax_eff = 5
-	
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -129,6 +126,7 @@ bank_inspection_board = {
 	cost = 18000
 
 	tax_eff = 5
+	factory_cost = -0.05
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -158,7 +156,8 @@ mutual_funds = {
 	year = 1919
 	cost = 21600
 
-	tax_eff = 10
+	tax_eff = 5
+	factory_cost = -0.05
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -184,7 +183,6 @@ no_standard = {
 	cost = 3600
 	
 	activate_building = luxury_clothes_factory 
-
 	administrative_efficiency = 0.05
 	ai_chance = {
 		factor = 1.1
@@ -232,7 +230,7 @@ private_bank_money_bill_printing = {
 	area = monetary_system
 	year = 1836
 	cost = 10800
-
+	
 	administrative_efficiency = 0.05
 	ai_chance = {
 		factor = 1.1
@@ -255,7 +253,7 @@ central_bank_money_bill_printing = {
 	year = 1850
 	cost = 14400
 
-	administrative_efficiency = 0.1
+	administrative_efficiency = 0.05
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -277,7 +275,8 @@ modern_central_bank_system = {
 	year = 1870
 	cost = 18000
 
-	administrative_efficiency = 0.15
+	factory_cost = -0.05
+	administrative_efficiency = 0.1
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -307,7 +306,7 @@ market_determined_exchange_rates = {
 	year = 1900
 	cost = 21600
 
-
+	factory_cost = -0.05
 	administrative_efficiency = 0.2
 	ai_chance = {
 		factor = 1.1
@@ -356,7 +355,7 @@ late_classical_theory = {
 	year = 1836
 	cost = 7200
 	
-	factory_cost = 0.05
+	factory_cost = 0.1
 	factory_input = -0.02
 	ai_chance = {
 		factor = 1.01
@@ -387,8 +386,8 @@ collectivist_theory = {
 	year = 1836
 	cost = 10800
 
-	factory_cost = 0.05
-	factory_input = -0.02
+	factory_cost = 0.1
+	factory_input = -0.03
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -418,8 +417,8 @@ the_historical_theory = {
 	year = 1850
 	cost = 14400
 
-	factory_cost = 0.05
-	factory_input = -0.02
+	factory_cost = 0.1
+	factory_input = -0.03
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -450,7 +449,7 @@ neoclassical_theory = {
 	cost = 18000
 
 	factory_cost = 0.1
-	factory_input = -0.02
+	factory_input = -0.03
 	ai_chance = {
 		factor = 1
 		modifier = {
@@ -480,8 +479,8 @@ keynesian_economics = {
 	year = 1900
 	cost = 21600
 
-	factory_cost = 0.1
-	factory_input = -0.02
+	factory_cost = 0.2
+	factory_input = -0.05
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -608,8 +607,8 @@ market_regulations = {
 	cost = 14400
 
 	influence = 0.2
-	farm_rgo_eff = 0.05
-	mine_rgo_eff = 0.05
+	farm_rgo_eff = 0.1
+	mine_rgo_eff = 0.1
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -637,8 +636,8 @@ economic_responsibility = {
 	cost = 18000
 
 	influence = 0.2
-	farm_rgo_eff = 0.05
-	mine_rgo_eff = 0.05
+	farm_rgo_eff = 0.20
+	mine_rgo_eff = 0.20
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -665,9 +664,9 @@ government_interventionism = {
 	year = 1900
 	cost = 21600
 
-	influence = 0.2
-	farm_rgo_eff = 0.05
-	mine_rgo_eff = 0.05
+	influence = 0.25
+	farm_rgo_eff = 0.25
+	mine_rgo_eff = 0.25
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -731,7 +730,7 @@ organized_factories = {
 	year = 1836
 	cost = 7200
 
-	factory_cost = 0.05
+	factory_cost = 0.1
 	factory_output = 0.01
 		ai_chance = {
 		factor = 1.05
@@ -770,8 +769,8 @@ scientific_management = {
 	year = 1836
 	cost = 10800
 
-	factory_cost = 0.05
-	factory_output = 0.01
+	factory_cost = 0.1
+	factory_output = 0.02
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -809,8 +808,8 @@ time_saving_measures = {
 	year = 1850
 	cost = 14400
 
-	factory_cost = 0.05
-	factory_output = 0.01
+	factory_cost = 0.1
+	factory_output = 0.02
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -837,7 +836,7 @@ management_strategy = {
 	cost = 18000
 
 	factory_cost = 0.1
-	factory_output = 0.01
+	factory_output = 0.02
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -863,8 +862,8 @@ organizational_development = {
 	year = 1900
 	cost = 21600
 
-	factory_cost = 0.1
-	factory_output = 0.01
+	factory_cost = 0.2
+	factory_output = 0.03
 	ai_chance = {
 		factor = 1.05
 		modifier = {

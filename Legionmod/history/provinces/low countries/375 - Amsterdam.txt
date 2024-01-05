@@ -4,6 +4,7 @@ add_core = NET
 trade_goods = cattle
 life_rating = 40
 fort = 1
+terrain = urban
 #state_building = {
 #	level = 1
 #	building = fabric_factory

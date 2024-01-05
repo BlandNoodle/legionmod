@@ -9,8 +9,8 @@ country_event = {
 			NOT = {    OR = {
 				government = fascist_dictatorship
 				government = proletarian_dictatorship
-			}		}
-
+			}		
+		}
 	}
 
 	mean_time_to_happen =  {

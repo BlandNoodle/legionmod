@@ -38,7 +38,10 @@ political_decisions = {
 
 		allow = {
 			state_n_government = 1
-			is_greater_power = yes
+			OR = {
+				is_greater_power = yes
+				is_seconday_power = yes
+			}
 			war = no
 			total_amount_of_ships = 4
 			JAP = {
@@ -67,7 +70,7 @@ political_decisions = {
 			badboy = 5
 			prestige = 10
 			money = 100000
-			years_of_research = 0.6
+			years_of_research = 1
 		}
 		
 		ai_will_do = {

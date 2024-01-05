@@ -7,9 +7,14 @@ political_decisions = {
 		
 		allow = {
 			war = no
-			EGY = {
-				all_core = {
-					owned_by = THIS
+			OR = {
+				EGY = {
+					all_core = {
+						owned_by = OTC
+					}
+				}
+				OTC = {
+					is_our_vassal = EGY
 				}
 			}
 		}

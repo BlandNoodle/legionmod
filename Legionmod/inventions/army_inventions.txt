@@ -1377,6 +1377,7 @@ combat_loss_evaluation_schemata = {
 		army_base = {
 			default_organisation = 2.5
 			supply_consumption = 0.05
+			soldier_to_pop_loss = 0.01
 		} 
 	}
 }
@@ -1399,6 +1400,7 @@ pre_planned_depot_systems = {
 		army_base = {
 			default_organisation = 2.5
 			supply_consumption = -0.05
+			soldier_to_pop_loss = 0.01
 		} 
 	}
 }
@@ -1441,6 +1443,7 @@ replenishment_transport_organisation = {
 		army_base = {
 			default_organisation = 2.5
 			supply_consumption = 0.05
+			soldier_to_pop_loss = 0.01
 		} 
 	}
 }
@@ -1882,6 +1885,7 @@ army_wargames = {
 	effect = {
 		army_base = {
 			default_organisation = 2.5
+			soldier_to_pop_loss = 0.01
 		}
 	}
 }

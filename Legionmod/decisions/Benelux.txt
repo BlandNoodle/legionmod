@@ -276,28 +276,48 @@ political_decisions = {
 	
 	dnd_burgundy = {
 		potential = {
-			tag = BNX
+			OR = {
+				tag = BNX
+				tag = FRA
+			}
 			ai = no
 			NOT = {has_country_flag = burgundy}
 			NOT = {has_country_flag = willmary}
+			owns = 390
 		}
 		allow = {
 			nationalism_n_imperialism = 1
-			owns = 576
-			owns = 572
-			owns = 412
-			owns = 414
-			owns = 408
+			AND = {
+				owns = 390
+				owns = 392
+				owns = 400
+				owns = 413
+				owns = 433
+				owns = 403
+				owns = 375
+			}
 		}
 		effect = {
 			set_country_flag = burgundy
+			change_tag = BRG
 			prestige = 100
 			add_accepted_culture = french
-			add_accepted_culture = north_german
-			add_accepted_culture = south_german
-			add_accepted_culture = swiss
-			GER = { all_core = {add_core = THIS} }
-			FRA = { all_core = {add_core = THIS} }
+			add_accepted_culture = dutch
+			add_accepted_culture = flemish
+			add_accepted_culture = walloonian
+			any_owned = {
+				limit = {
+					OR = {
+						is_core = FRA
+						is_core = NET
+						is_core = BEL
+						is_core = BNX
+					}
+				}
+				add_core = THIS
+			}
+			PRU_572 = {add_core = THIS}
+			PRU_575 = {add_core = THIS}
 		}
 	}
 	

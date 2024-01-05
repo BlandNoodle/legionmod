@@ -3,8 +3,9 @@ controller = PAP
 add_core = PAP
 add_core = ITA
 trade_goods = fruit
-life_rating = 39
+life_rating = 36
 fort = 1
+terrain = urban
 1861.1.1 = {
 	add_core = ITA
 }

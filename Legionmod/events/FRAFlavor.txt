@@ -3,7 +3,10 @@ country_event = {
 	id = 37200
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = BRG
+		}
 		year = 1837
 		NOT = {
 			year = 1840
@@ -83,7 +86,10 @@ country_event = {
 	news_desc_short = "EVTDESC37201_NEWS_SHORT"
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = BRG
+		}
 		year = 1836
 		war = no
 		NOT = {
@@ -130,7 +136,10 @@ country_event = {
 	id = 37202
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = BRG
+		}
 		year = 1840
 		war = no
 		NOT = {
@@ -171,7 +180,10 @@ country_event = {
 	id = 37203
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = BRG
+		}
 		year = 1840
 		war = no
 		government = hms_government
@@ -230,7 +242,10 @@ country_event = {
 	news_desc_short = "EVTDESC37204_NEWS_SHORT"
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = BRG
+		}
 		year = 1840
 		war = no
 		NOT = {
@@ -272,7 +287,10 @@ country_event = {
 	id = 37205
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = BRG
+		}
 		year = 1842
 		war = no
 		NOT = {
@@ -313,7 +331,10 @@ country_event = {
 	id = 37206
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = BRG
+		}
 		year = 1846
 		war = no
 		NOT = {
@@ -354,7 +375,10 @@ country_event = {
 	id = 37207
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = BRG
+		}
 		year = 1846
 		war = no
 		NOT = {
@@ -401,7 +425,10 @@ country_event = {
 	id = 37208
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = BRG
+		}
 		year = 1840
 		government = democracy
 		war = no
@@ -453,7 +480,10 @@ country_event = {
 	id = 37209
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = BRG
+		}
 		year = 1845
 		war = no
 		NOT = {
@@ -494,7 +524,10 @@ country_event = {
 	id = 37210
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = BRG
+		}
 		year = 1851
 		war = no
 		NOT = {
@@ -533,7 +566,10 @@ country_event = {
 	id = 37211
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = BRG
+		}
 		year = 1852
 		war = no
 		NOT = {
@@ -576,7 +612,10 @@ country_event = {
 	id = 37212
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = BRG
+		}
 		year = 1854
 		has_global_flag = PlanWorldFair
 		war = no
@@ -625,7 +664,10 @@ country_event = {
 	news_desc_short = "EVTDESC37213_NEWS_SHORT"
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = BRG
+		}
 		year = 1836
 		NOT = {
 			year = 1840
@@ -672,7 +714,10 @@ country_event = {
 	id = 37215
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = BRG
+		}
 		year = 1857
 		NOT = {
 			year = 1860
@@ -717,7 +762,10 @@ country_event = {
 	news_desc_short = "EVTDESC37216_NEWS_SHORT"
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = BRG
+		}
 		exists = GER
 		year = 1894
 		NOT = {
@@ -781,7 +829,10 @@ country_event = {
 	news_desc_short = "EVTDESC37217_NEWS_SHORT"
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = BRG
+		}
 		exists = GER
 		year = 1898
 		has_country_flag = DreyfusTrial
@@ -846,7 +897,10 @@ country_event = {
 	news_desc_short = "EVTDESC37218_NEWS_SHORT"
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = BRG
+		}
 		exists = GER
 		year = 1899
 		has_country_flag = DreyfusGuilty
@@ -900,7 +954,10 @@ country_event = {
 	news_desc_short = "EVTDESC37220_NEWS_SHORT"
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = BRG
+		}
 		year = 1858
 		NOT = {
 			year = 1861
@@ -940,7 +997,10 @@ country_event = {
 	id = 37221
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = BRG
+		}
 		year = 1892
 		NOT = {
 			year = 1895
@@ -981,7 +1041,10 @@ country_event = {
 	id = 37222
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = BRG
+		}
 		year = 1908
 		invention = wright_n_langleys_aeroplanes
 		NOT = {
@@ -1023,7 +1086,10 @@ country_event = {
 	id = 37223
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = BRG
+		}
 		year = 1898
 		invention = daimlers_automobile
 		NOT = {
@@ -1064,7 +1130,10 @@ country_event = {
 	id = 37224
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = BRG
+		}
 		invention = expressionist_art
 		invention = expressionist_music
 		year = 1909
@@ -1105,7 +1174,10 @@ country_event = {
 	id = 37225
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = BRG
+		}
 		invention = impressionist_art
 		year = 1863
 		NOT = {
@@ -1150,4 +1222,210 @@ country_event = {
 			consciousness = 1 
 			}
 		}
+}
+
+country_event = {
+	
+	title = "EVTNAME19000140"
+	desc = "EVTDESC19000140"
+	picture = "germandominion"
+	id = 19000140
+
+	trigger = {
+		OR = {
+			tag = FRA
+			tag = PRU
+			tag = AUS
+		}
+		year = 1836
+		NOT = {year = 1838}
+		NOT = {has_country_flag = germancontest}
+	}
+			
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	option = {
+		name = "EVTOPTA19000140" 
+		set_country_flag = germancontest
+		prestige = 2
+	}
+}
+
+country_event = {
+	
+	title = "EVTNAME19000141"
+	desc = "EVTDESC19000141"
+	picture = "germandominion"
+	id = 19000141
+
+	trigger = {
+		OR = {
+			tag = FRA
+			tag = PRU
+			tag = AUS
+		}
+		has_country_flag = germancontest
+		NOT = {has_country_flag = germanwinner}
+		year = 1838
+		OR = {	NOT = {
+				GER = {
+					any_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS}
+						}
+					}
+				}
+			}
+			tag = KUK
+		}
+	}
+			
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	option = {
+		name = "EVTOPTA19000141" 
+		clr_country_flag = germancontest
+		prestige = -15
+	}
+}
+
+country_event = {
+	
+	title = "EVTNAME19000142"
+	desc = "EVTDESC19000142"
+	picture = "germandominion"
+	id = 19000142
+
+	trigger = {
+		tag = FRA
+		has_country_flag = germancontest
+		year = 1848
+		NOT = {has_country_flag = firstcheckup}
+	}
+			
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	option = {
+		name = "EVTOPTA19000142"
+		prestige = 10
+		set_country_flag = firstcheckup
+		412 = {
+			fort = 2
+			add_province_modifier = {
+				name = germancoops
+				duration = -1
+			}
+		}
+		409 = {
+			fort = 2
+			add_province_modifier = {
+				name = germancoops
+				duration = -1
+			}
+		}
+		410 = {
+			fort = 2
+			add_province_modifier = {
+				name = germancoops
+				duration = -1
+			}
+		}
+	}
+}
+
+country_event = {
+	
+	title = "EVTNAME19000143"
+	desc = "EVTDESC19000143"
+	picture = "germandominion"
+	id = 19000143
+
+	trigger = {
+		tag = FRA
+		has_country_flag = germancontest
+		year = 1875
+		NOT = {GER = exists}
+		NOT = {SGF = exists}
+	}
+			
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	option = {
+		name = "EVTOPTA19000143" 
+		clr_country_flag = germancontest
+		prestige = 50
+		add_accepted_culture = south_german
+		set_country_flag = germanwinner
+	}
+}
+
+country_event = {
+	
+	title = "EVTNAME19000144"
+	desc = "EVTDESC19000144"
+	picture = "germandominion"
+	id = 19000144
+
+	trigger = {
+		tag = AUS
+		has_country_flag = germancontest
+		year = 1848
+		NOT = {has_country_flag = firstcheckup}
+	}
+			
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	option = {
+		name = "EVTOPTA19000144"
+		prestige = 10
+		set_country_flag = firstcheckup
+		add_country_modifier = {
+			name = legitimacy
+			duration = 3650
+		}
+	}
+}
+
+country_event = {
+	
+	title = "EVTNAME19000145"
+	desc = "EVTDESC19000145"
+	picture = "germandominion"
+	id = 19000145
+
+	trigger = {
+		tag = AUS
+		has_country_flag = germancontest
+		year = 1875
+		NOT = {has_country_flag = germanwinner}
+		NOT = {exists = GER}
+		BAD = {in_sphere = THIS}
+		WUR = {in_sphere = THIS}
+	}
+			
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	option = {
+		name = "EVTOPTA19000145"
+		prestige = 50
+		set_country_flag = germanwinner
+		594 = {owner = {594 = {secede_province = AUS} } }
+		add_country_modifer = {
+			name = legitimacy
+			duration = -1
+		}
+	}
 }

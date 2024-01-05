@@ -39930,25 +39930,35 @@
 } # Poltava
 
 963 = {
-    unit = {
-        x = 3334.000000
-        y = 1632.000000
-    }
-
     text_position = {
-        x = 3334.000000
-        y = 1622.000000
+        x = 3323.333333
+        y = 1630.320000
     }
 
     text_scale = 3.899998
-    building_construction = {
-        x = 3353.000000
-        y = 1615.000000
+    unit = {
+        x = 3324.640000
+        y = 1633.493333
+    }
+
+    city = {
+        x = 3317.266667
+        y = 1633.400000
     }
 
     factory = {
-        x = 3319.000000
-        y = 1633.000000
+        x = 3319.693333
+        y = 1633.213333
+    }
+
+    building_construction = {
+        x = 3317.266667
+        y = 1632.746667
+    }
+
+    military_construction = {
+        x = 3321.466667
+        y = 1631.533333
     }
 
 } # Simferopol
@@ -119325,6 +119335,63 @@
         railroad = {
             x = 2916.700000
             y = 1518.100000
+        }
+
+        naval_base = {
+            x = 683.299988
+            y = 1989.400024
+        }
+
+    }
+
+    building_rotation = {
+        naval_base = 5.672319
+    }
+
+}
+
+# Poltava
+3251 = {
+    text_position = {
+        x = 3351.900000
+        y = 1620.700000
+    }
+
+    text_scale = 4
+    unit = {
+        x = 3352.450000
+        y = 1623.560000
+    }
+
+    city = {
+        x = 3346.620000
+        y = 1608.600000
+    }
+
+    factory = {
+        x = 3343.210000
+        y = 1605.960000
+    }
+
+    building_construction = {
+        x = 3347.610000
+        y = 1607.940000
+    }
+
+    military_construction = {
+        x = 3343.540000
+        y = 1610.580000
+    }
+
+    building_position = {
+        fort = {
+            x = 732.000000
+            y = 1944.000000
+        }
+
+        railroad = {
+            x = 727.000000
+            y = 1975.000000
         }
 
         naval_base = {

@@ -10,8 +10,8 @@ province_event = {
 		or = {
 			province_id = 1				# Sitka
 			province_id = 2				# Yakutat
-			province_id = 1387			# Kuala Lumpur
-			province_id = 1390			# Kuantan
+			province_id = 1384			# Singapore
+			province_id = 1453			# West Guinea
 			province_id = 1422			# Muraleve
 			province_id = 1440			# Sumbawa	
 			province_id = 2153			# Durango
@@ -21,7 +21,7 @@ province_event = {
 			province_id = 2323			# La Serena
 			province_id = 2500			# Kalgoorlie
 			province_id = 2503			# Wiluna
-			province_id = 2575			# Ipoh
+			province_id = 2205			# Panama City
 			province_id = 2601			# Sandy Desert
 			province_id = 2605			# Gibson's Desert
 			province_id = 2142			# Chihuahua
@@ -59,7 +59,7 @@ province_event = {
 		year = 1848
 		or = {
 			province_id = 88			# Mariposa
-			province_id = 695			# Königsberg
+			province_id = 1783			# Africa
 		}
 		not = { trade_goods = precious_metal }
 	}
@@ -312,7 +312,7 @@ province_event = {
 			province_id = 1364
 			province_id = 1367
 			province_id = 1382
-			province_id = 1384
+			province_id = 1390
 			province_id = 1385
 			province_id = 1386
 			province_id = 1389

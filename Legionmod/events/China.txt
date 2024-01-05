@@ -383,6 +383,9 @@ country_event = {
 				NOT = {is_capital = yes}
 			}
 		}
+		CHI = {
+			has_country_flag = heavenwar 
+		}
 	}
 	mean_time_to_happen = {
 		months = 1

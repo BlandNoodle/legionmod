@@ -4,10 +4,10 @@
 
 ##### CHINESE EVENTS ######
 unequal_treaty = {
-	rgo_output = -0.1
 	research_points_modifier = -0.33
 	global_pop_militancy_modifier = 0.01
 	tax_efficiency = -0.1
+	icon = 9
 }
 
 treaty_port_nanning = {
@@ -744,34 +744,6 @@ witwatersrand_gold_rush = {
 	icon = 11
 }
 
-##### RGO Spread Events #####
-local_tractors = {
-	farm_RGO_eff = 0.5
-	icon = 13
-}
-
-local_electricity = {
-	mine_RGO_eff = 0.5
-	local_factory_throughput = 0.05
-	icon = 13
-}
-
-local_nitroglycerin = {
-	mine_RGO_eff = 0.5
-	icon = 13
-}
-
-local_distribution_channels = {
-	farm_RGO_eff = 0.5
-	icon = 11
-}
-
-local_machine_tools = {
-	mine_RGO_eff = 0.5
-	local_factory_throughput = 0.05
-	icon = 13
-}
-
 ##### Diseases & Famines #####
 pandemic_influenza = {
 	global_population_growth = -0.01
@@ -864,14 +836,13 @@ la_guardia_civil = {
 low_opium = {
 	icon = 9
 	tariff_efficiency_modifier = 0.05
-	max_tariff = -0.1
 }
 
 strict_china_trade = {
 	icon = 6
 	import_cost = 0.1
 	badboy = -0.1
-	tariff_efficiency_modifier = -0.2
+	tariff_efficiency_modifier = -0.3
 }
 
 opium_market_low = {
@@ -898,7 +869,6 @@ mild_china_trade = {
 med_opium = {
 	icon = 9
 	tariff_efficiency_modifier = 0.05
-	max_tariff = -0.15
 }
 
 opium_market_lar = {
@@ -911,15 +881,14 @@ opium_market_lar = {
 free_china_trade = {
 	icon = 6
 	import_cost = -0.2
-	badboy = 0.05
 	prestige = 0.002
-	tariff_efficiency_modifier = -0.25
+	tariff_efficiency_modifier = -0.1
 }
 
 large_opium = {
 	icon = 9
 	tariff_efficiency_modifier = 0.1
-	max_tariff = -0.2
+	badboy = 0.05
 }
 
 century_humiliate = {
@@ -978,14 +947,14 @@ the_eiffel_tower = {
 signed_the_geneva_convention = {
 	war_exhaustion = -0.02
 	org_regain = 0.15
-	badboy = -0.05
+	badboy = 0.05
 	icon = 7
 }
 
 #### SWE - Sweden ####
 folkis_educates = {
 	research_points_modifier = 0.15
-	global_population_growth = 0.03
+	global_population_growth = 0.009
 	core_pop_militancy_modifier = -0.01
 	icon = 5
 }
@@ -1042,8 +1011,8 @@ the_walhalla = {
  
  ##
  meiji_restoration_boost = {
-	research_points_modifier = 1
-	global_pop_militancy_modifier = 0.015
+	research_points_modifier = 0.8
+	global_pop_militancy_modifier = 0.01
 	icon = 5
 }
 
@@ -1075,7 +1044,7 @@ liberian_research_boost = {
 }
 
 reform_our_empire = {
-	education_efficiency_modifier = 0.25
+	education_efficiency_modifier = 0.15
 	research_points_modifier = 0.15
 	tax_efficiency = 0.05
 	administrative_efficiency_modifier = 0.05
@@ -1105,11 +1074,11 @@ algeria_boom= {
 	icon = 5
 }
 An_mein_Volk = {
-	mobilisation_size = 0.04
+	mobilisation_size = 0.03
 	core_pop_militancy_modifier = -0.02
 	land_unit_start_experience = 10.0
 	org_regain = 0.2
-	supply_consumption = -0.25
+	supply_consumption = -0.2
 	badboy = 0.1
 	icon = 15
 }
@@ -1148,10 +1117,9 @@ fakemodifier = {
 levee_en_masse = {
 	land_organisation = 0.1
 	org_regain = 0.15
-	supply_consumption = -0.2
+	supply_consumption = -0.1
 	core_pop_militancy_modifier = -0.01
-	mobilisation_size = 0.01
-	badboy = 0.1
+	badboy = 0.05
 	icon = 15
 }
 
@@ -1160,8 +1128,8 @@ otto_von_bismarck = {
 	core_pop_militancy_modifier = -0.01
 	core_pop_consciousness_modifier = -0.01
 	diplomatic_points_modifier = 0.25
+	influence_modifier = 0.25
 	ruling_party_support = 0.5
-	badboy = 0.05
 	tax_efficiency = 0.05
 	administrative_efficiency_modifier = 0.15
 	icon = 17
@@ -1208,11 +1176,6 @@ bigger_Navy = {
 	icon = 7
 }
 
-fakemodifier = {
-	prestige = 1
-	icon = 3
-}
-
 totalitarian_system = {
 	suppression_points_modifier = 2
 	ruling_party_support = 2
@@ -1228,7 +1191,7 @@ swiss_boni = {
 	supply_consumption = -1
 	tax_efficiency = 0.1
 	administrative_efficiency_modifier = 0.1
-	army_tech_research_bonus = 0.5
+	army_tech_research_bonus = 0.25
 	import_cost = -1
 	icon = 15
 }
@@ -1285,7 +1248,6 @@ bad_badboy = {
 }
 
 fredbear = {
-	icon = 18
 	non_accepted_pop_militancy_modifier = 0.33
 	non_accepted_pop_consciousness_modifier = 0.33
 	mobilisation_size = 0.3
@@ -1294,6 +1256,7 @@ fredbear = {
 	education_efficiency_modifier = 3.00
 	soldiers = 0.06
 	tax_efficiency = 1.0
+	icon = 18
 }
 
 mayan_miner = {
@@ -1305,7 +1268,7 @@ mayan_miner = {
 ###Kramer Section
 atacama_boom = {
 	mine_rgo_eff = 2
-	population_growth = 0.015
+	population_growth = 0.014
 	life_rating = 0.2
 	icon = 11
 }
@@ -1319,7 +1282,7 @@ bolivian_port_of_the_new_world = {
 }
 
 ten_years_siesta = {
-	population_growth = 0.005
+	population_growth = 0.006
 	mine_rgo_eff = -0.25
 	farm_rgo_eff = -0.25
 	icon = 16
@@ -1334,7 +1297,7 @@ kings_men_spain = {
 }
 
 assimilate_morocco = {
-	population_growth = 0.005
+	population_growth = 0.006
 	assimilation_rate = 1
 	icon = 17
 }
@@ -1354,37 +1317,10 @@ reformed_ottoman_administration = {
 	tax_efficiency = 0.05
 	political_reform_desire = 0.15
 	social_reform_desire = 0.1
-	badboy = -0.1
+	education_efficiency_modifier = 0.15
 	icon = 17
 }
 
-##### RGO Spread Events (modified to become national modifiers) #####
-country_tractors = {
-	rgo_output = 0.3
-	icon = 11
-}
-
-country_electricity = {
-	rgo_output = 0.3
-	factory_throughput = 0.05
-	icon = 11
-}
-
-country_nitroglycerin = {
-	rgo_output = 0.3
-	icon = 11
-}
-
-country_distribution_channels = {
-	rgo_output = 0.3
-	icon = 11
-}
-
-country_machine_tools = {
-	rgo_output = 0.3
-	factory_throughput = 0.05
-	icon = 11
-}
 
 baldieffect = {
 	war_exhaustion = 3
@@ -1394,7 +1330,6 @@ baldieffect = {
 }
 
 sweep = {
-	global_population_growth = 0.03
 	core_pop_consciousness_modifier = 0.01
 	core_pop_militancy_modifier = -0.01
 	badboy = -0.25
@@ -1407,48 +1342,35 @@ crimea = {
 	navy_tech_research_bonus = 0.1
 	tariff_efficiency_modifier = 0.1
 	navy_base = {
-		supply_consumption = -0.2
+		supply_consumption = -0.1
 		}
 	icon = 7
 }
 
-fakemodifier = {
-	prestige = 1
-	icon = 3
-}
 
 persian_gulf = {
 	naval_organisation = 0.1
 	naval_unit_start_experience = 10
 	navy_tech_research_bonus = 0.1
 	navy_base = {
-		supply_consumption = -0.15
+		supply_consumption = -0.2
 		}
 	icon = 7
 }
 
-fakemodifier = {
-	prestige = 1
-	icon = 3
-}
 
 mimosas = {
 	naval_organisation = 0.1
 	naval_unit_start_experience = 10
 	navy_tech_research_bonus = 0.1
 	navy_base = {
-		supply_consumption = -0.15
+		supply_consumption = -0.2
 		}
 	icon = 7
 }
 
-fakemodifier = {
-	prestige = 1
-	icon = 3
-}
 
 moscow_big = {
-	life_rating = 0.33
 	local_factory_throughput = 0.1
 	mine_rgo_eff = 0.5
 	immigrant_attract = 0.5
@@ -1456,14 +1378,12 @@ moscow_big = {
 }
 
 drain1 = {
-	life_rating = 0.15
 	local_factory_throughput = 0.05
 	farm_rgo_eff = 0.15
 	icon = 11
 }
 
 drain2 = {
-	life_rating = 0.5
 	local_factory_throughput = 0.15
 	farm_rgo_eff = 0.5
 	farm_rgo_size = 0.5
@@ -1473,12 +1393,11 @@ drain2 = {
 }
 
 drain3 = {
-	life_rating = 1
 	local_factory_throughput = 0.25
 	farm_rgo_eff = 2
 	farm_rgo_size = 2
 	immigrant_attract = 0.5
-	local_ship_build = -0.5
+	local_ship_build = -0.4
 	icon = 11
 }
 
@@ -1514,8 +1433,7 @@ kwantung_occupation = {
 }
 
 hideki_tojo = {
-	badboy = -0.05
-	prestige = 0.1
+	badboy = -0.1
 	core_pop_militancy_modifier = -0.02
 	core_pop_consciousness_modifier = -0.01
 	diplomatic_points_modifier = 0.25
@@ -1530,7 +1448,8 @@ kwantunghq = {
 	assimilation_rate = 0.5
 	pop_consciousness_modifier = -0.02
 	pop_militancy_modifier = -0.05
-	local_ship_build = -0.5
+	local_ship_build = 0.4
+	fort_level = 4
 	icon = 13
 }
 
@@ -1601,4 +1520,107 @@ armsdead = {
 	immigrant_attract = 0.5
 	icon = 14
 }
-	
+
+donbass = {
+	local_factory_throughput = 0.1
+	mine_rgo_eff = 0.5
+	immigrant_attract = 0.5
+	icon = 11
+}
+
+politiburo = {
+	issue_change_speed = -1
+	social_reform_desire = 0.33
+	political_reform_desire = -0.5
+	core_pop_militancy_modifier = -0.02
+	ruling_party_support = 0.5
+	cb_generation_speed_modifier = 0.25
+	icon = 17
+}
+
+sovietization = {
+	local_RGO_throughput = 0.2
+	local_factory_throughput = 0.2
+	pop_militancy_modifier = -0.05
+	assimilation_rate = 1
+	local_artisan_output = -1
+	icon = 17
+}
+
+peacetime_mobilization = {
+	ruling_party_support = -0.40
+	loan_interest = 1
+	cb_generation_speed_modifier = -0.2
+	war_exhaustion = 0.05
+	prestige = -0.05
+	icon = 6
+}
+
+devastating_flood = { 
+	population_growth = -0.001
+	rgo_output = -0.1
+	immigrant_push = 5
+	farm_rgo_size = -0.2
+	mine_rgo_size = -0.2
+	supply_limit = -10
+	movement_cost = 5
+	attrition = 20
+	combat_width = -16
+	fort_level = 8
+	reinforce_speed = -0.25
+	icon = 9
+}
+
+dutch_flood_cooldown = {
+	icon = 12
+}
+
+gulag = {
+	local_factory_throughput = 0.1
+	pop_militancy_modifier = -0.1
+	immigrant_push = -2
+	RGO_throughput = 0.2
+	mine_rgo_size = 1
+	population_growth = -0.001
+	icon = 20
+}
+
+newparis = {
+	local_factory_throughput = 0.15
+	farm_rgo_eff = 0.2
+	immigrant_attract = 0.5
+	icon = 11
+}
+
+monroena = {
+	badboy = -0.05
+	global_immigrant_attract = 0.25
+	factory_cost = -0.15
+	factory_throughput = 0.1
+	influence_modifier = 0.25
+	icon = 5
+}
+
+monroesa = {
+	badboy = -0.05
+	global_immigrant_attract = 0.25
+	mobilisation_economy_impact = -0.25
+	mobilisation_size = 0.02
+	icon = 5
+}
+
+germancoops = {
+	assimilation_rate = 0.5
+	pop_militancy_modifier = -0.1
+	local_RGO_output = 0.15
+	icon = 11
+}
+
+legitimacy = {
+	non_accepted_pop_consciousness_modifier = -0.1
+	non_accepted_pop_militancy_modifier = -0.1
+	assimilation_rate = 0.5
+	factory_cost = -0.10
+	factory_throughput = 0.05
+	icon = 17
+}

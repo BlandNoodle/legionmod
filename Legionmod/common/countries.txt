@@ -36,6 +36,7 @@ SPA		= "countries/Spain.txt"
 WLL		= "countries/Wallonia.txt"
 IBE		= "countries/Iberia.txt"
 BNX		= "countries/Benelux.txt"
+BRG		= "countries/Burgundy.txt"
 
 # Germany
 ANH		= "countries/Anhalt.txt"

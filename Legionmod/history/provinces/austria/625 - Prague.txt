@@ -6,6 +6,7 @@ add_core = CZH
 trade_goods = iron
 life_rating = 40
 fort = 2
+terrain = urban
 state_building = {
 	level = 2
 	building = steel_factory

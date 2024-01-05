@@ -44,7 +44,7 @@ political_decisions = {
 			government = proletarian_dictatorship
 		}
 		allow = {
-			mass_politics = 1
+			revolution_n_counterrevolution = 1
 		}
 		
 		effect = {
@@ -53,7 +53,7 @@ political_decisions = {
 				consciousness = -1
 				ideology = {
 					value = communist
-					factor = 0.2
+					factor = 0.25
 				}
 			}
 			prestige = 5
@@ -69,6 +69,7 @@ political_decisions = {
 				has_country_flag = alexander_ii
 			}
 			year = 1860
+			government = absolute_monarchy
 		}
 		
 		allow = {
@@ -100,17 +101,10 @@ political_decisions = {
 			NOT = {has_country_flag = ripcircassia}
 		}
 		allow = {
-				1049 = {
-					country_units_in_province = RUS
-				}
-				1056 = {
-					country_units_in_province = RUS
-				}
-				1051 = {
-					country_units_in_province = RUS
-				}
+			badboy = 0
 		}
 		effect = {
+			badboy = 5
 			set_country_flag = ripcircassia
 			any_owned = {
 				limit = {
@@ -142,20 +136,24 @@ political_decisions = {
 			}
 		}
 		effect = {
+			badboy = 5
 			set_country_flag = higeorgia
-				GEO = {
-					all_core = {
-						add_core = THIS
-					}
+			RUS_1090 = {
+				add_core = THIS
+			}
+			GEO = {
+				all_core = {
+					remove_core = GEO
 				}
+			}
 			add_accepted_culture = georgian
 			casus_belli = {
 					target = AZB
 					type = conquest
 					months = 48
-				}
 			}
 		}
+	}
 	promulgate_the_ems_ukaz = {
 		potential = {
 			tag = RUS
@@ -200,7 +198,9 @@ political_decisions = {
 				has_country_flag = eastern_christians_up_in_here_yall
 			}
 			exists = TUR
-			year = 1845
+			TUR = {
+				has_country_flag = armenian_genocide
+			}
 		}
 		
 		allow = {
@@ -244,6 +244,12 @@ political_decisions = {
 		effect = {
 			CHI_1082 = {
 				add_core = RUS
+				remove_core = MCK
+				remove_core = CHI
+			}
+			1481 = {
+				remove_core  = MCK
+				remove_core  = CHI
 			}
 			set_country_flag = peking_convention			
 			MCK = {
@@ -304,7 +310,6 @@ political_decisions = {
 		
 		allow = {
 			owns = 1008 # Moscow
-			war = yes
 		}
 		
 		effect = {
@@ -405,6 +410,7 @@ political_decisions = {
 				owns = 953
 				owns = 702
 			}
+			owns = 955
 			NOT = { has_global_flag = poles_expelled }
 			NOT = { has_country_flag = pintegrate }
 		}
@@ -416,8 +422,6 @@ political_decisions = {
 			owns = 953
 			owns = 702
 			mass_politics = 1
-			NOT = { citizenship_policy = full_citizenship }
-			NOT = { citizens_rights = all_voting_pops }
 			OR = {
 				government = fascist_dictatorship
 				government = proletarian_dictatorship
@@ -431,18 +435,16 @@ political_decisions = {
 			702 = { change_province_name = "Lviv" }
 			
 			702 = { remove_core = POL }
-			702 = { remove_core = GLM }
 			
 			951 = { remove_core = POL }
-			951 = { remove_core = GLM }
 			
 			952 = { remove_core = POL }
-			952 = { remove_core = GLM }
 			
 			953 = { remove_core = POL }
-			953 = { remove_core = RUT }
-			953 = { remove_core = GLM }
 			
+			955 = { remove_core = POL }
+			
+			955 = { any_pop = { limit = { has_pop_culture = polish } move_pop = 715 } }
 			702 = { any_pop = { limit = { has_pop_culture = polish } move_pop = 715 } }
 			952 = { any_pop = { limit = { has_pop_culture = polish } move_pop = 706 } }
 			953 = { any_pop = { limit = { has_pop_culture = polish } move_pop = 716 } }
@@ -511,7 +513,7 @@ political_decisions = {
 							owns = 935
 						}
 						year = 1880
-						owns = 1168
+						owns = 860
 						PER = { in_sphere = THIS }
 					}
 				}
@@ -544,6 +546,7 @@ political_decisions = {
 			year = 1850
 			owns = 1008
 			NOT = {has_country_flag = bigmoscow}
+			has_country_flag = modernized_rus
 		}
 		allow = {
 			interchangeable_parts = 1
@@ -557,10 +560,11 @@ political_decisions = {
 					name = moscow_big
 					duration = -1
 				}
+				life_rating = 5
 				fort = 3
-				money = -1000000
 				trade_goods = iron
 			}
+			money = -1000000
 			set_country_flag = bigmoscow
 		}
 	}
@@ -569,6 +573,7 @@ political_decisions = {
 		potential = {
 			tag = RUS
 			has_country_flag = alexander_ii
+			has_country_modifier = alexanderii
 			NOT = { has_country_flag = modernized_rus }
 		}
 		allow = {
@@ -579,13 +584,41 @@ political_decisions = {
 		}
 		effect = {
 			money = -2000000
-			political_reform = wealth_weighted_voting
+			political_reform = universal_weighted_voting
 			political_reform = gerrymandering
 			political_reform = free_press
 			social_reform = trinket_subsidies
-			activate_technology = steamers
-			years_of_research = 2
+			social_reform = trinket_health_care
+			years_of_research = 0.5
 			set_country_flag = modernized_rus
+		}
+	}
+	
+	developdonbass = {
+		potential = {
+			owns = 980
+			NOT = {has_country_flag = donbassed}
+			has_country_flag = modernized_rus
+		}
+		allow = {
+			steel_railroad = 1
+			advanced_metallurgy = 1
+			money = 2000000
+		}
+		effect = {
+			980 = {
+				infrastructure = 4
+				add_province_modifier = {
+					name = donbass
+					duration = -1
+				}
+				trade_goods = coal
+				fort = 4
+				life_rating = 5
+				remove_province_modifier = bread_basketm
+			}
+			money = -2000000
+			set_country_flag = donbassed
 		}
 	}
 }

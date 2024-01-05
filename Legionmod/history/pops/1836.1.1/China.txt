@@ -1029,49 +1029,49 @@
     aristocrats = {
         culture = asian_minor
         religion = mahayana
-        size = 4840
+        size = 840
     }
 
     bureaucrats = {
         culture = asian_minor
         religion = mahayana
-        size = 3142
+        size = 142
     }
 
     officers = {
         culture = asian_minor
         religion = mahayana
-        size = 2890
+        size = 890
     }
 
     clergymen = {
         culture = asian_minor
         religion = mahayana
-        size = 2437
+        size = 437
     }
 
     artisans = {
         culture = asian_minor
         religion = mahayana
-        size = 7225
+        size = 225
     }
 
     artisans = {
         culture = asian_minor
         religion = mahayana
-        size = 4948
+        size = 948
     }
 
     soldiers = {
         culture = asian_minor
         religion = mahayana
-        size = 2698
+        size = 698
     }
 
     farmers = {
         culture = asian_minor
         religion = mahayana
-        size = 215377
+        size = 15377
     }
 
     aristocrats = {
@@ -1101,55 +1101,55 @@
     farmers = {
         culture = asian_minor
         religion = mahayana
-        size = 19724
+        size = 9724
     }
 
     aristocrats = {
         culture = asian_minor
         religion = mahayana
-        size = 9753
+        size = 753
     }
 
     clergymen = {
         culture = asian_minor
         religion = mahayana
-        size = 4913
+        size = 913
     }
 
     artisans = {
         culture = asian_minor
         religion = mahayana
-        size = 7225
+        size = 225
     }
 
     artisans = {
         culture = asian_minor
         religion = mahayana
-        size = 7225
+        size = 225
     }
 
     artisans = {
         culture = asian_minor
         religion = mahayana
-        size = 7225
+        size = 225
     }
 
     artisans = {
         culture = asian_minor
         religion = mahayana
-        size = 2853
+        size = 853
     }
 
     soldiers = {
         culture = asian_minor
         religion = mahayana
-        size = 5525
+        size = 525
     }
 
     farmers = {
         culture = asian_minor
         religion = mahayana
-        size = 425010
+        size = 2010
     }
 
     aristocrats = {
@@ -1179,7 +1179,7 @@
     farmers = {
         culture = asian_minor
         religion = mahayana
-        size = 23715
+        size = 2715
     }
 
     bureaucrats = {
@@ -1229,7 +1229,7 @@
     farmers = {
         culture = asian_minor
         religion = mahayana
-        size = 127593
+        size = 157593
     }
 
     aristocrats = {
@@ -1253,13 +1253,13 @@
     soldiers = {
         culture = asian_minor
         religion = mahayana
-        size = 212
+        size = 2212
     }
 
     farmers = {
         culture = asian_minor
         religion = mahayana
-        size = 16436
+        size = 18436
     }
 
     aristocrats = {
@@ -1315,31 +1315,31 @@
     clergymen = {
         culture = asian_minor
         religion = mahayana
-        size = 1715
+        size = 1915
     }
 
     artisans = {
         culture = asian_minor
         religion = mahayana
-        size = 7225
+        size = 9225
     }
 
     artisans = {
         culture = asian_minor
         religion = mahayana
-        size = 1372
+        size = 2372
     }
 
     soldiers = {
         culture = asian_minor
         religion = mahayana
-        size = 2040
+        size = 4040
     }
 
     farmers = {
         culture = asian_minor
         religion = mahayana
-        size = 156511
+        size = 186511
     }
 
     aristocrats = {
@@ -1381,7 +1381,7 @@
     farmers = {
         culture = asian_minor
         religion = mahayana
-        size = 286633
+        size = 336633
     }
 }
 #Tingzhou (6064000/1516000 POPS)
@@ -11882,19 +11882,19 @@
     aristocrats = {
         culture = asian_minor
         religion = mahayana
-        size = 6032
+        size = 7032
     }
 
     clergymen = {
         culture = asian_minor
         religion = mahayana
-        size = 3052
+        size = 4052
     }
 
     artisans = {
         culture = asian_minor
         religion = mahayana
-        size = 7225
+        size = 9225
     }
 
     artisans = {
@@ -11912,13 +11912,13 @@
     soldiers = {
         culture = asian_minor
         religion = mahayana
-        size = 3570
+        size = 5570
     }
 
     farmers = {
         culture = asian_minor
         religion = mahayana
-        size = 276157
+        size = 296157
     }
 
     aristocrats = {
@@ -11936,19 +11936,19 @@
     artisans = {
         culture = asian_minor
         religion = mahayana
-        size = 758
+        size = 958
     }
 
     soldiers = {
         culture = asian_minor
         religion = mahayana
-        size = 191
+        size = 991
     }
 
     farmers = {
         culture = asian_minor
         religion = mahayana
-        size = 13817
+        size = 35817
     }
 }
 #Zhili Region (34868000)
