@@ -1,9 +1,9 @@
 #############################################;;;;;;;;;;;;;;x
-EVTNAME500059;Economic Sanctions;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-EVTDESC500059;"We do not seek the destruction of any government, nor do we covet a foot of any territory. We do not want an expanding struggle with consequences that no one can perceive, nor will we bluster or bully or flaunt our power, but we will not surrender."\n\nFinishing his speech, the ambassador of one of the Great Powers that gathered to discuss the situation of our country finished convincing the other great powers to sign a round of economical and diplomatic sanctions against our country. The Great Power conference sent us a warning against any more aggression from our part and said they are ready to escalate if we don't cease and change our behavior.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-EVTOPT500059A;Fools!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-kinda_bad_badboy;International Sanctions;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-kinda_bad_badboy_desc;We have been declared a threat to global safety and international balance of power. Sanctions have been applied to our country and citizens and we have been warned that the great powers will worsen these sanctions in case we continue our aggressiveness.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME500059;Economic Sanctions;;;;;;;;;;;;x
+EVTDESC500059;"We do not seek the destruction of any government, nor do we covet a foot of any territory. We do not want an expanding struggle with consequences that no one can perceive, nor will we bluster or bully or flaunt our power, but we will not surrender."\n\nFinishing his speech, the ambassador of one of the Great Powers that gathered to discuss the situation of our country finished convincing the other great powers to sign a round of economical and diplomatic sanctions against our country. The Great Power conference sent us a warning against any more aggression from our part and said they are ready to escalate if we don't cease and change our behavior.;;;;;;;;;;;;x
+EVTOPT500059A;Fools!;;;;;;;;;;;;x
+kinda_bad_badboy;International Sanctions;;;;;;;;;;;;;x
+kinda_bad_badboy_desc;We have been declared a threat to global safety and international balance of power. Sanctions have been applied to our country and citizens and we have been warned that the great powers will worsen these sanctions in case we continue our aggressiveness.;;;;;;;;;;;;;x
 dismantle_cb;TOTAL LEGION DEATH;;;;;;;x
 dismantle_cb_desc;rip bozo;;;;;;;x
 acquire_all_cores_usa;Manifest Destiny;;;;;;;;;;x
@@ -34,11 +34,12 @@ conquer_germany;Conquer Germany;;;;;;;x
 conquer_germany_short;Unify with $RECIPIENT$;;;;;x
 conquer_germany_setup;Force $RECIPIENT$ to awknowledge our hegemony;;;;;x
 conquer_germany_desc;Do it by Blood and Iron, like the old head said.;;;;;;;x
-acquire_all_cores;Acquire All Cores;;;;;;;;;;;;;
-acquire_all_cores_short;Acquire all cores from $RECIPIENT$;;;;;;;;;;;;;
-acquire_all_cores_desc;Aquire all enemy 即states劬 where we have 即core provinces劬;;;;;;;;;;;;;
-acquire_all_cores_setup;Acquire all core provinces from $RECIPIENT$;;;;;;;;;;;;;
-AGRESSION_WAR_ALL_CORES_NAME;$ORDER$War of $FIRST$ Liberation;;;;;;;;;;;;;
-AGRESSION_WAR_ALL_CORES_NAME_USA_MEX;$ORDER$Mexican-American War;;;;;;;;;;;;;
-NORMAL_WAR_ALL_CORES_NAME;$ORDER$War of $FIRST$ Liberation;;;;;;;;;;;;;
-NORMAL_WAR_ALL_CORES_NAME_USA_MEX;$ORDER$Mexican-American War;;;;;;;;;;;;;
+acquire_all_cores;Acquire All Cores;;;;;;;;;;;;;x
+acquire_all_cores_short;Acquire all cores from $RECIPIENT$;;;;;;;;;;;;;x
+acquire_all_cores_desc;Aquire all enemy 即states劬 where we have 即core provinces劬;;;;;;;;;;;;;x
+acquire_all_cores_setup;Acquire all core provinces from $RECIPIENT$;;;;;;;;;;;;;x
+AGRESSION_WAR_ALL_CORES_NAME;$ORDER$War of $FIRST$ Liberation;;;;;;;;;;;;;x
+AGRESSION_WAR_ALL_CORES_NAME_USA_MEX;$ORDER$Mexican-American War;;;;;;;;;;;;;x
+NORMAL_WAR_ALL_CORES_NAME;$ORDER$War of $FIRST$ Liberation;;;;;;;;;;;;;x
+NORMAL_WAR_ALL_CORES_NAME_USA_MEX;$ORDER$Mexican-American War;;;;;;;;;;;;;x
+AGRESSION_WAR_PUPPET_NAME_TUR_EGY;Oriental Crisis;;;;;;;;;;;;x
