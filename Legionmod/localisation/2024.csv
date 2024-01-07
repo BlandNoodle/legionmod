@@ -5,7 +5,7 @@ flood_the_lowlands_title;Flood the Lowlands;;;;;;x
 flood_the_lowlands_desc;Invaders are threatening the heartland of our nation, we have one last desperate measure to defend the capital.;;;;;;;x
 devastating_flood;Devastating Flood;;;;;;x
 devastating_flood_desc;Opening the floodgates has destroyed much of our developed land and left thousands homeless;;;;;;x
-dutch_flood_cooldown;Flood Cooldown;;;;;x
+dutch_flood_cooldown;Flood Cooldown;;;;;;;x
 dutch_flood_cooldown_desc;Gotta let the water build up again before you can bust;;;;;x
 EVTNAME60168004;Fort Destroyed;;;;;;;x
 EVTDESC60168004;Combat in §Y$PROVINCE$§W has destroyed the fort!;;;;;;x
@@ -13,7 +13,7 @@ EVTOPTA60168004;Who cares;;;;;;x
 EVTNAME60168005;Railway Destroyed;;;;;;x
 EVTDESC60168005;Combat in §Y$PROVINCE$W has destroyed the local rail line!;;;;;;x
 EVTOPTA60168005;No shot;;;;;;x
-peacetime_mobilization;Peacetime Mobilization;;;;;;x
+peacetime_mobilization;Peacetime Mobilization;;;;;;;x
 peacetime_mobilization_desc;womp womp;;;;;;;x
 campsystem_title;Begin Correctional Program;;;;;;x
 campsystem_desc;The many counterrevolutionaries born from our liberation of Russia need to be contained somewhere far, so that their poisonous ideas do not sap our nations newfound strength.;;;;;;;x
@@ -84,3 +84,16 @@ monroenorthamerica_title;Monroe Doctrine in North America;;;;;;x
 monroenorthamerica_desc;The only way American ideals can be realised is when the Hemisphere is secured against imperialism;;;;;;;x 
 germancoops;German Cooperation;;;;;x
 germancoops_desc;Germans are cooperating with us;;;;;;;x
+newvienna;Vienna Renovated;;;;;;;x
+newvienna_desc;Almost as good as Paris. . .;;;;;;x
+restore_order_hun_title;Restore Order to Hungary;;;;;;;x
+restore_order_hun_desc;Send them a letter with a heart sticker saying sorry, maybe they forgive and forget?;;;;;;;x
+EVTNAME19000146;Hungarian Chimp Event;;;;;;;x
+EVTDESC19000146;We look weak after throwing in Saxony, they think they can run us down, uhm, can they?;;;;;;x
+EVTOPTA19000146;I want the hedgehog obl-iter-ated!;;;;;;x
+EVTOPTB19000146;Forgive and Forget;;;;;;x
+EVTNAME19000147;Saxony has Fallen;;;;;;;x
+EVTDESC19000147;We gave up Saxony a little easy, our subordinates will think they can get away just as easy, maybe we wait till 1840 next time;;;;;;x
+EVTOPTA19000147;Shitty Mod Dev +1;;;;;;x
+dominatepersia_title;Dominate Persia;;;;;;;x
+dominatepersia_desc;Imma stop yapping, only kramer diplo getting you this far;;;;;;;x

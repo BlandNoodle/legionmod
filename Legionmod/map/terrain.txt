@@ -10,7 +10,7 @@ categories =  {
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.5
 		mine_rgo_eff = 0.0
-		supply_limit = 10
+		supply_limit = 30
 		defence = 3
 		combat_width = -0.66
 	}

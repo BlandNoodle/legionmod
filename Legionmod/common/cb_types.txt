@@ -146,14 +146,6 @@ status_quo = {
 	peace_cost_factor = 1
 	penalty_factor = 1
 	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
-	
 	po_status_quo = yes
 	
 	war_name = WAR_NAME
@@ -225,14 +217,6 @@ conquest = {
 	good_relation_militancy_factor = 1
 	
 	construction_speed = 0.5
-	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
 	
 	po_annex = yes
 	
@@ -370,13 +354,7 @@ civil_war = {
 	
 	war_name = CIVIL_WAR_NAME
 	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
+	
 }
 
 # Sphere of Influence Gain
@@ -603,13 +581,6 @@ acquire_substate_region = {
 	
 	war_name = WAR_TAKE_NAME
 	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
 }
 
 acquire_treaty_port = {
@@ -763,13 +734,7 @@ acquire_state = {
 	
 	war_name = WAR_TAKE_NAME
 	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
+
 }
 
 #Conquer Egypt
@@ -897,13 +862,7 @@ acquire_capital = {
 	
 	war_name = WAR_TAKE_NAME
 	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
+
 }
 
 # Place in the Sun
@@ -1119,13 +1078,7 @@ cut_down_to_size = {
 		is_disarmed = no
 	}
 	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
+
 }
 
 	
@@ -1374,13 +1327,7 @@ dismantle_forts = {
 
 	war_name = WAR_NAME
 	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
+	
 }
 
 
@@ -1422,13 +1369,7 @@ release_puppet = {
 
 	war_name = WAR_NAME
 	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
+	
 }
 
 # Make Puppet
@@ -1474,13 +1415,7 @@ make_puppet = {
 
 	war_name = WAR_PUPPET_NAME
 	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
+	
 }
 
 # Become Independent
@@ -1526,11 +1461,6 @@ become_independent = {
 	war_name = WAR_INDEPENDENCE_NAME
 	
 	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
 		add_war_goal = {
 			casus_belli = make_puppet
 		}
@@ -1572,13 +1502,6 @@ humiliate = {
 		}
 		NOT = { is_our_vassal = THIS }
 		has_recently_lost_war = no
-	}	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
 	}
 }
 
@@ -1756,13 +1679,7 @@ unification_humiliate_cb = {
 	
 	war_name = UNIFICATION_HUMILIATE_NAME
 	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.1
-		}
-	}
+
 }
 
 # Release Puppet
@@ -1815,13 +1732,7 @@ unification_release_puppet_cb = {
 
 	war_name = WAR_NAME
 	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
+	
 }
 
 # Unification Demand State
@@ -2033,13 +1944,6 @@ install_communist_gov_cb = {
 
 	war_name = WAR_NAME
 	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
 	
 	on_po_accepted = {
 		political_reform = none_voting
@@ -2092,13 +1996,7 @@ uninstall_communist_gov_cb = {
 
 	war_name = WAR_NAME
 	
-	on_add = {
-		move_issue_percentage = {
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
+	
 }
 
 
@@ -2187,13 +2085,6 @@ negotiated_transfer = {
 	
 	war_name = WAR_NEGOTIATE_NAME
 	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.00
-		}
-	}
 }
 # Cut Down to size (Reperations)
 demand_reperations = {
@@ -2226,13 +2117,7 @@ demand_reperations = {
 
 	war_name = WAR_NAME
 
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
+	
 }
 
 conquest_low = {

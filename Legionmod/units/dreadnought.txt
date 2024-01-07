@@ -41,7 +41,7 @@ dreadnought = {
 		canned_food = 1.6
 		telephones = 0.2
 		fuel = 3.1
-		ammunition = 0.1
+		ammunition = 0.16
 	}
 	
 	#Naval Abilties

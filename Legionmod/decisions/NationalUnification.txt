@@ -164,6 +164,12 @@ political_decisions = {
 				remove_core = AUS
 			}
 			add_accepted_culture = czech
+			any_owned = {
+				limit = {
+					is_core = HUN
+				}
+				add_core = THIS
+			}
 			change_tag = SGF
 		}
 		ai_will_do = {

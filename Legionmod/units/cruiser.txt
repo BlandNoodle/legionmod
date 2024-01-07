@@ -38,6 +38,7 @@ cruiser = {
 		artillery = 0.2
 		canned_food = 0.4
 		fuel = 2.0
+		ammunition = 0.1
 	}
 	
 	#Naval Abilties

@@ -105,7 +105,7 @@ political_decisions = {
 		
 		allow = {
 			war = no
-			nationalism_n_imperialism = 1
+			year = 1850
 			OR = {
 				ruling_party_ideology = liberal
 				ruling_party_ideology = conservative
@@ -650,7 +650,7 @@ ybarra = {
 			}
 			year = 1838
 			NOT = { has_country_flag = maxmil }
-			has_country_flag = germancontest
+			has_country_modifier = louis_napoleon_iii
 		}
 		allow = {
 			alliance_with = AUS
@@ -660,7 +660,7 @@ ybarra = {
 		effect = {
 			set_country_flag = maxmil
 			treasury = -200000
-			casus_belli = { 
+			casus_belli = {
 				target = MEX
 				type = conquest
 				months = 36

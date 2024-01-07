@@ -101,7 +101,8 @@ political_decisions = {
 			NOT = {has_country_flag = ripcircassia}
 		}
 		allow = {
-			badboy = 0
+			war = no
+			NOT = {constructing_cb_progress = 0.1}
 		}
 		effect = {
 			badboy = 5
@@ -113,8 +114,15 @@ political_decisions = {
 				remove_province_modifier = circs
 				add_province_modifier = {
 				name = circsdead
-				duration = 3650 
+				duration = 4563 
 				}
+				life_rating = 3
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = north_caucasian
+				}
+				reduce_pop = 0.33
 			}
 			casus_belli = {
 				target = GEO

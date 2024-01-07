@@ -1269,7 +1269,8 @@ country_event = {
 		has_country_flag = germancontest
 		NOT = {has_country_flag = germanwinner}
 		year = 1838
-		OR = {	NOT = {
+		OR = {
+			NOT = {
 				GER = {
 					any_core = {
 						OR = {
@@ -1279,6 +1280,16 @@ country_event = {
 					}
 				}
 			}
+			AND = {
+				tag = FRA
+				NOT = {
+					OR = {
+						BAD = {in_sphere = THIS}
+						WUR = {in_sphere = THIS}
+						owns = 412
+					}
+				}
+			}			
 			tag = KUK
 		}
 	}

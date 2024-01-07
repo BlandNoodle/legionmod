@@ -4,3 +4,11 @@ POR = {
 BUR = {
 	value = -150		#relation
 }
+
+HKG = { truce_until = 1840.1.1 }
+NAN = { truce_until = 1840.1.1 }
+MAC = { truce_until = 1840.1.1 }
+NGB = { truce_until = 1840.1.1 }
+FZH = { truce_until = 1840.1.1 }
+QNG = { truce_until = 1840.1.1 }
+SHA = { truce_until = 1840.1.1 }

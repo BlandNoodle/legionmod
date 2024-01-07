@@ -18,36 +18,16 @@ country_event = {
 		months = 5000
 		
 		modifier = {
-			factor = 0.9
-			tag = FRA
+			factor = 0.6
+			average_militancy = 8
 		}
 		modifier = {
-			factor = 0.8
-			tag = USA
-		}
-		modifier = {
-			factor = 0.7
-			tag = GER
-		}
-		modifier = {
-			factor = 0.90
-			average_militancy = 4
-		}
-		modifier = {
-			factor = 0.80
-			average_militancy = 5
-		}
-		modifier = {
-			factor = 0.70
-			average_militancy = 6
-		}
-		modifier = {
-			factor = 0.50
+			factor = 0.55
 			average_militancy = 7
 		}
 		modifier = {
-			factor = 0.01
-			average_militancy = 8
+			factor = 0.5
+			average_militancy = 6
 		}
 	}
 		
@@ -55,7 +35,7 @@ country_event = {
 			name = "EVTOPTA19000087"
 			add_country_modifier = {
 				name = fredbear
-				duration = 480
+				duration = 420
 			}
 			set_country_flag = fredbear
 		}

@@ -145,6 +145,13 @@ campsystem = {
 				}
 				move_pop = { 983 }
 			}
+			any_pop = {
+				limit = {
+					has_pop_culture = polish
+					pop_majority_ideology = liberal
+				}
+				reduce_pop = 0.33
+			}
 			any_owned = {
 				limit = {
 					is_core = POL
@@ -222,7 +229,7 @@ campsystem = {
 					}
 					pop_majority_ideology = liberal
 				}
-				reduce_pop = { 0.33 }
+				reduce_pop = 0.33
 			}
 			any_owned = {
 				limit = {
@@ -286,7 +293,7 @@ campsystem = {
 					has_pop_culture = finnish
 					pop_majority_ideology = liberal
 				}
-				reduce_pop = { 0.33 }
+				reduce_pop = 0.33
 			}
 			any_owned = {
 				limit = {
@@ -348,7 +355,7 @@ campsystem = {
 					has_pop_culture = ukrainian
 					pop_majority_ideology = liberal
 				}
-				reduce_pop = { 0.5 }
+				reduce_pop = 0.5
 			}
 			set_country_flag = sovukraine
 		}

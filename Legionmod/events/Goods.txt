@@ -1048,7 +1048,7 @@ province_event = {
 		or = {
 			province_id = 1335		# Kyaukse
 			province_id = 134		# Dallas
-			province_id = 705		# Przemysl
+			
 			province_id = 309
 			province_id = 307
 			province_id = 982
@@ -1290,6 +1290,7 @@ province_event = {
 			province_id = 1914
 			province_id = 1919
 			province_id = 1923
+			province_id = 705		# Przemysl
 		}
 		not = { trade_goods = oil }
 		OR = {

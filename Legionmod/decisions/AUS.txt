@@ -32,6 +32,11 @@ political_decisions = {
 			all_core = {
 				add_core = KUK
 			}
+			HUN = {
+				all_core = {
+					add_core = THIS
+				}
+			}
 			all_core = {
 				limit = {
 					NOT = {
@@ -80,10 +85,12 @@ political_decisions = {
 			}
 		}
 		allow = {
+			money = 1000000
 			iron_railroad = 1
 			cheap_iron = 1
 		}
 		effect = {
+			money = -1000000
 			619 = {
 				any_pop = {
 					ideology = {
@@ -92,6 +99,10 @@ political_decisions = {
 					}
 				}
 				life_rating = 5
+				add_province_modifier = {
+					name = newvienna
+					duration = -1
+				}
 			}
 			prestige = 10
 			set_country_flag = grunderzeit_we_have_done
@@ -127,4 +138,32 @@ political_decisions = {
 		}
 	}
 }
+
+	restore_order_hun = {
+		potential = {
+			OR = {
+				tag = AUS
+				tag = SGF
+			}
+			has_country_flag = hunrevolt
+			exists = HUN
+			NOT = {has_country_flag = hunrestored}
+		}
+		allow = {
+			war = no
+			HUN = {in_sphere = THIS}
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			inherit = HUN
+			add_accepted_culture = hungarian
+			prestige = 10
+			HUN = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			set_country_flag = hunrestored
+		}
+	}
 }

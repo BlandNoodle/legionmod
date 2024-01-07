@@ -330,10 +330,10 @@ precision_work = {
 	}
 	effect = {
 		factory_goods_output = {
-			glass = 0.1
+			glass = 0.15
 		} 
 		factory_goods_output = {
-			ammunition = 0.1
+			ammunition = 0.15
 		} 
 		activate_building = machine_parts_factory 
 	}
@@ -393,7 +393,7 @@ food_packing_system = {
 	}
 	effect = {
 		factory_goods_output = {
-			canned_food = 0.05
+			canned_food = 0.1
 		}
 	}
 }
@@ -412,7 +412,7 @@ integral_distillery_process = {
 	}
 	effect = {
 		factory_goods_output = {
-			liquor = 0.02
+			liquor = 0.05
 		}
 	}
 }
@@ -431,10 +431,10 @@ jiggs = {
 	}
 	effect = {
 		factory_goods_output = {
-			furniture = 0.02 
+			furniture = 0.05
 		}
 		factory_goods_output = {
-			luxury_furniture = 0.02
+			luxury_furniture = 0.05
 		}
 	}
 }
@@ -559,16 +559,16 @@ industrialized_armament_industry = {
 	}
 	effect = {
 		factory_goods_output = {
-			small_arms = 0.05
+			small_arms = 0.1
 		}
 		factory_goods_output = {
-			ammunition = 0.05
+			ammunition = 0.15
 		}
 		factory_goods_output = {
-			artillery = 0.05
+			artillery = 0.1
 		}
 		factory_goods_output = {
-			explosives = 0.05
+			explosives = 0.1
 		}
 	}
 }
